@@ -1,0 +1,22 @@
+{
+  "modes": {
+    "month": "Ay",
+    "week": "Hafta",
+    "agendaWeek": "Hafta",
+    "day": "Gün",
+    "agendaDay": "Gün",
+    "timeline": "Zaman Çizelgesi"
+  },
+  "labels": {
+    "Today": "Bugün",
+    "Create": "Oluştur",
+    "Shared": "Paylaşım",
+    "Add User": "Kullanıcı Ekle",
+    "current": "Mevcut",
+    "time": "saat",
+    "User List": "Kullanıcı Listesi",
+    "Manage Users": "Kullanıcıları yönet",
+    "View Calendar": "Takvimi Göster",
+    "Create Shared View": "Paylaşılan Görünüm Oluştur"
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "entity": true,
+    "layouts": false,
+    "tab": false,
+    "aclLevelList": [
+        "all",
+        "team",
+        "no"
+    ],
+    "aclPortalLevelList": [
+        "all",
+        "no"
+    ],
+    "acl": true,
+    "aclPortal": true,
+    "aclPortalActionList": ["read"],
+    "module": "Crm",
+    "customizable": false,
+    "importable": false,
+    "type": "CategoryTree",
+    "stream": false,
+    "notifications": false,
+    "categoryParentEntityType": "Document",
+    "categoryField": "folder"
+}

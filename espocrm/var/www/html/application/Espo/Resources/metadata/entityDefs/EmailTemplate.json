@@ -1,0 +1,113 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "audited": true
+        },
+        "subject": {
+            "type": "varchar",
+            "audited": true
+        },
+        "body": {
+            "type": "wysiwyg",
+            "view": "views/email-template/fields/body",
+            "useIframe": true,
+            "attachmentField": "attachments",
+            "audited": true
+        },
+        "isHtml": {
+            "type": "bool",
+            "default": true,
+            "inlineEditDisabled": true,
+            "audited": true
+        },
+        "status": {
+            "type": "enum",
+            "options": [
+                "Active",
+                "Inactive"
+            ],
+            "default": "Active",
+            "style": {
+                "Inactive": "info"
+            },
+            "maxLength": 8,
+            "audited": true
+        },
+        "oneOff": {
+            "type": "bool",
+            "default": false,
+            "tooltip": true
+        },
+        "attachments": {
+            "type": "attachmentMultiple",
+            "audited": true
+        },
+        "category": {
+            "type": "link",
+            "view": "views/fields/link-category-tree"
+        },
+        "assignedUser": {
+            "type": "link",
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "audited": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        }
+    },
+    "links": {
+        "attachments": {
+            "type": "hasChildren",
+            "entity": "Attachment",
+            "foreign": "parent"
+        },
+        "category": {
+            "type": "belongsTo",
+            "foreign": "emailTemplates",
+            "entity": "EmailTemplateCategory"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "entityTeam"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        }
+    },
+    "collection": {
+        "orderBy": "name",
+        "order": "asc",
+        "textFilterFields": ["name"]
+    },
+    "optimisticConcurrencyControl": true
+}

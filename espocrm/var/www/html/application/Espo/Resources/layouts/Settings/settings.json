@@ -1,0 +1,99 @@
+[
+    {
+        "tabBreak": true,
+        "tabLabel": "$label:System",
+        "rows": [
+            [{"name": "siteUrl"}, false]
+        ]
+    },
+    {
+        "rows": [
+            [{"name": "useCache"}, {"name": "useWebSocket"}],
+            [{"name": "maintenanceMode"}, {"name": "cronDisabled"}]
+        ]
+    },
+    {
+        "tabBreak": true,
+        "tabLabel": "$label:Locale",
+        "rows": [
+            [{"name": "language"}, false]
+        ]
+    },
+    {
+        "rows": [
+            [{"name": "timeZone"}, {"name": "weekStart"}],
+            [{"name": "dateFormat"}, {"name": "fiscalYearShift"}],
+            [{"name": "timeFormat"}, false]
+        ]
+    },
+    {
+        "rows": [
+            [{"name": "thousandSeparator"}, {"name": "decimalMark"}]
+        ]
+    },
+    {
+        "rows": [
+            [{"name": "personNameFormat"}, false]
+        ]
+    },
+    {
+        "rows": [
+            [{"name": "addressFormat"}, {"name": "addressPreview"}],
+            [{"name": "addressCityList"}, {"name": "addressStateList"}]
+        ]
+    },
+    {
+        "tabBreak": true,
+        "tabLabel": "$label:General",
+        "rows": [
+            [{"name": "cleanupDeletedRecords"}, false],
+            [{"name": "b2cMode"}, false],
+            [{"name": "emailAddressIsOptedOutByDefault"}, false],
+            [{"name": "pdfEngine"}, false]
+        ]
+    },
+    {
+        "label": "Search",
+        "rows": [
+            [{"name": "textFilterUseContainsForVarchar"}, {"name": "globalSearchEntityList"}],
+            [{"name": "quickSearchFullTextAppendWildcard"}, false]
+        ]
+    },
+    {
+        "label": "Phone Numbers",
+        "rows": [
+            [{"name": "phoneNumberInternational"}, {"name": "phoneNumberPreferredCountryList"}],
+            [{"name": "phoneNumberNumericSearch"}, {"name": "phoneNumberExtensions"}]
+        ]
+    },
+    {
+        "label": "Activities",
+        "rows": [
+            [{"name": "calendarEntityList"}, {"name": "activitiesEntityList"}],
+            [{"name": "busyRangesEntityList"}, {"name": "historyEntityList"}],
+            [{"name": "workingTimeCalendar"}, false]
+        ]
+    },
+    {
+        "label": "Attachments",
+        "rows": [
+            [{"name": "attachmentUploadMaxSize"}, {"name": "attachmentUploadChunkSize"}]
+        ]
+    },
+    {
+        "label": "Stream",
+        "rows": [
+            [{"name": "availableReactions"}, {"name": "followCreatedEntities"}],
+            [{"name": "streamEmailWithContentEntityTypeList"}, false]
+        ]
+    },
+    {
+        "tabBreak": true,
+        "tabLabel": "$label:Access",
+        "rows": [
+            [{"name": "baselineRole"}, false],
+            [{"name": "aclAllowDeleteCreated"}, {"name": "exportDisabled"}]
+        ]
+
+    }
+]

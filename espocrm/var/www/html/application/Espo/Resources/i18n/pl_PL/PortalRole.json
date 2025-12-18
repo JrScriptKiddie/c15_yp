@@ -1,0 +1,12 @@
+{
+  "links": {
+    "users": "Użytkownicy"
+  },
+  "labels": {
+    "Access": "Dostęp"
+  },
+  "fields": {
+    "exportPermission": "Eksportuj uprawnienia",
+    "massUpdatePermission": "Uprawnienie do masowej aktualizacji"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "name": "Nume",
+    "body": "Conținutul",
+    "subject": "Subiect",
+    "attachments": "Atașamente",
+    "oneOff": "Pornit-oprit"
+  },
+  "labels": {
+    "Create EmailTemplate": "Creează Șablon Email"
+  },
+  "tooltips": {
+    "oneOff": "Bifează dacă o să folosești acest șablon doar o dată. Ex. pentru Email-uri în masă."
+  }
+}

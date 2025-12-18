@@ -1,0 +1,46 @@
+[
+    {
+        "rows": [
+            [
+                {"name": "name"},
+                {"name": "status"}
+            ],
+            [
+                {"name": "campaign"},
+                {"name": "startAt"}
+            ]
+        ]
+    },
+    {
+        "rows": [
+            [
+                {"name": "targetLists"},
+                {"name": "excludingTargetLists"}
+            ],
+            [
+                {"name": "emailTemplate"},
+                false
+            ],
+            [
+                {"name": "storeSentEmails"},
+                {"name": "optOutEntirely"}
+            ]
+        ]
+    },
+    {
+        "rows": [
+            [
+                {"name": "smtpAccount"},
+                false
+            ],
+            [
+                {"name": "fromAddress"},
+                {"name": "fromName"}
+            ],
+            [
+                {"name": "replyToAddress"},
+                {"name": "replyToName"}
+            ]
+        ]
+    }
+]

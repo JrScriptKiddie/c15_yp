@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "name": "Nom",
+    "isInstalled": "Installé",
+    "checkVersionUrl": "Une URL pour vérifier les nouvelles versions"
+  },
+  "labels": {
+    "Uninstall": "Désinstaller",
+    "Install": "Installer"
+  },
+  "messages": {
+    "uninstalled": "L'extension {name} a bien été désinstallée",
+    "fileExceedsMaxUploadSize": "La taille du fichier dépasse la taille maximale de téléchargement {maxSize}. Envisagez d'augmenter `post_max_size` ou installez l'extension via CLI."
+  }
+}

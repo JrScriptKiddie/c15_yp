@@ -1,0 +1,41 @@
+{
+  "labels": {
+    "Create Document": "Belge Oluştur",
+    "Details": "Detaylar"
+  },
+  "fields": {
+    "name": "Ad",
+    "status": "Durum",
+    "file": "Dosya",
+    "type": "Tip",
+    "publishDate": "Yayım tarihi",
+    "expirationDate": "Bitiş Tarihi",
+    "description": "Tanım",
+    "accounts": "Hesaplar",
+    "folder": "Klasör"
+  },
+  "links": {
+    "accounts": "Hesaplar",
+    "opportunities": "Fırsatlar",
+    "folder": "Klasör",
+    "leads": "Potansiyeller",
+    "contacts": "Rehber"
+  },
+  "options": {
+    "status": {
+      "Active": "Etkin",
+      "Draft": "Taslak",
+      "Expired": "Süresi Dolan",
+      "Canceled": "İptal edildi"
+    },
+    "type": {
+      "": "Yok",
+      "Contract": "Kontrat",
+      "License Agreement": "Lisans Anlaşması"
+    }
+  },
+  "presetFilters": {
+    "active": "Etkin",
+    "draft": "Taslak"
+  }
+}

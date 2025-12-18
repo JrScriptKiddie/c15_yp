@@ -1,0 +1,62 @@
+{
+  "fields": {
+    "campaign": "Kampagne",
+    "isActive": "Ist aktiv",
+    "subscribeToTargetList": "Zielliste abonnieren",
+    "subscribeContactToTargetList": "Kontakt abonnieren, falls vorhanden",
+    "targetList": "Kontaktliste",
+    "fieldList": "Nutzlastfelder",
+    "optInConfirmation": "Doppel-Opt-In",
+    "optInConfirmationEmailTemplate": "E-Mail-Vorlage zur Opt-In-Bestätigung",
+    "optInConfirmationLifetime": "Opt-In-Bestätigung Lebensdauer (Stunden)",
+    "optInConfirmationSuccessMessage": "Text, der nach der Opt-In-Bestätigung angezeigt werden soll",
+    "leadSource": "Quelle",
+    "targetTeam": "Zielteam",
+    "exampleRequestMethod": "Methode",
+    "exampleRequestPayload": "Nutzlast",
+    "createLeadBeforeOptInConfirmation": "Lead vor Bestätigung erstellen",
+    "duplicateCheck": "Dublettenprüfung",
+    "skipOptInConfirmationIfSubscribed": "Bestätigung überspringen, wenn Lead bereits in der Zielliste ist",
+    "smtpAccount": "SMTP-Konto",
+    "inboundEmail": "Gruppen-E-Mail-Konto",
+    "exampleRequestHeaders": "Kopfzeilen",
+    "phoneNumberCountry": "Landesvorwahl",
+    "fieldParams": "Feld-Parameter",
+    "formId": "Formular-ID",
+    "formEnabled": "Webformular",
+    "formUrl": "Formular-URL",
+    "formSuccessText": "Text, der nach dem Absenden des Formulars angezeigt wird",
+    "formText": "Text, der im Formular angezeigt werden soll",
+    "formSuccessRedirectUrl": "URL, zu der nach dem Absenden des Formulars umgeleitet wird",
+    "formLanguage": "Verwendete Sprache im Formular",
+    "formFrameAncestors": "Erlaubte Hosts für die Formulareinbettung",
+    "formCaptcha": "Captcha verwenden",
+    "formTitle": "Formulartitel",
+    "formTheme": "Formular-Theme"
+  },
+  "links": {
+    "targetList": "Kontaktliste",
+    "campaign": "Kampagne",
+    "optInConfirmationEmailTemplate": "E-Mail-Vorlage zur Opt-In-Bestätigung",
+    "targetTeam": "Zielteam",
+    "logRecords": "Protokoll",
+    "inboundEmail": "Gruppen-E-Mail-Konto"
+  },
+  "labels": {
+    "Create LeadCapture": "Einstiegspunkt erstellen",
+    "Generate New API Key": "Eines neuen API Key generieren",
+    "Request": "Anforderung",
+    "Confirm Opt-In": "Opt-In bestätigen",
+    "Generate New Form ID": "Neue Formular-ID generieren",
+    "Web Form": "Webformular"
+  },
+  "messages": {
+    "generateApiKey": "Eines neuen API Key erstellen",
+    "optInConfirmationExpired": "Opt-in-Bestätigungslink ist abgelaufen.",
+    "optInIsConfirmed": "Die Bestätigung ist bestätigt."
+  },
+  "tooltips": {
+    "optInConfirmationSuccessMessage": "Markdown ist unterstützt.",
+    "formCaptcha": "Um Captcha verwenden zu können, müssen Sie es unter **Administration** > **Integrationen** konfigurieren."
+  }
+}

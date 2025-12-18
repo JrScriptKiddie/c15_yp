@@ -1,0 +1,54 @@
+{
+    "fields": {
+        "name": "Name",
+        "body": "Body",
+        "entityType": "Entity Type",
+        "header": "Header",
+        "footer": "Footer",
+        "leftMargin": "Left Margin",
+        "topMargin": "Top Margin",
+        "rightMargin": "Right Margin",
+        "bottomMargin": "Bottom Margin",
+        "printFooter": "Print Footer",
+        "printHeader": "Print Header",
+        "footerPosition": "Footer Position",
+        "headerPosition": "Header Position",
+        "variables": "Available Placeholders",
+        "pageOrientation": "Page Orientation",
+        "pageFormat": "Paper Format",
+        "pageWidth": "Page Width (mm)",
+        "pageHeight": "Page Height (mm)",
+        "fontFace": "Font",
+        "title": "Title",
+        "style": "Style",
+        "status": "Status"
+    },
+    "links": {
+    },
+    "labels": {
+        "Create Template": "Create Template"
+    },
+    "options": {
+        "status": {
+            "Active": "Active",
+            "Inactive": "Inactive"
+        },
+        "pageOrientation": {
+            "Portrait": "Portrait",
+            "Landscape": "Landscape"
+        },
+        "pageFormat": {
+            "Custom": "Custom"
+        },
+        "placeholders": {
+            "pagebreak": "Page break",
+            "today": "Today (date)",
+            "now": "Now (date-time)"
+        },
+        "fontFace": {}
+    },
+    "tooltips": {
+        "footer": "Use {pageNumber} to print page number.",
+        "variables": "Copy-paste needed placeholder to Header, Body or Footer."
+    }
+}

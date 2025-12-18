@@ -1,0 +1,357 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "pattern": "$noBadCharacters"
+        },
+        "status": {
+            "type": "enum",
+            "options": [
+                "Planning",
+                "Active",
+                "Inactive",
+                "Complete"
+            ],
+            "default": "Planning",
+            "style": {
+                "Active": "primary",
+                "Inactive": "info",
+                "Complete": "success"
+            },
+            "displayAsLabel": true,
+            "labelType": "state",
+            "customizationOptionsDisabled": true,
+            "customizationOptionsReferenceDisabled": true
+        },
+        "type": {
+            "type": "enum",
+            "options": [
+                "Email",
+                "Newsletter",
+                "Informational Email",
+                "Web",
+                "Television",
+                "Radio",
+                "Mail"
+            ],
+            "default": "Email",
+            "maxLength": 64,
+            "customizationOptionsDisabled": true,
+            "customizationOptionsReferenceDisabled": true
+        },
+        "startDate": {
+            "type": "date",
+            "validatorClassNameList": [
+                "Espo\\Modules\\Crm\\Classes\\FieldValidators\\Campaign\\StartDate\\BeforeEndDate"
+            ]
+        },
+        "endDate": {
+            "type": "date",
+            "validatorClassNameList": [
+                "Espo\\Modules\\Crm\\Classes\\FieldValidators\\Campaign\\EndDate\\AfterStartDate"
+            ]
+        },
+        "description": {
+            "type": "text"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true,
+            "fieldManagerParamList": [
+                "useNumericFormat"
+            ]
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true,
+            "fieldManagerParamList": [
+                "useNumericFormat"
+            ]
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user",
+            "fieldManagerParamList": []
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user",
+            "fieldManagerParamList": []
+        },
+        "assignedUser": {
+            "type": "link",
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        },
+        "targetLists": {
+            "type": "linkMultiple",
+            "tooltip": true
+        },
+        "excludingTargetLists": {
+            "type": "linkMultiple",
+            "tooltip": true
+        },
+        "sentCount": {
+            "type": "int",
+            "notStorable": true,
+            "orderDisabled": true,
+            "directAccessDisabled": true,
+            "directUpdateDisabled": true,
+            "readOnly": true,
+            "loaderClassName": "Espo\\Modules\\Crm\\Classes\\FieldProcessing\\Campaign\\StatsLoader"
+        },
+        "openedCount": {
+            "view": "crm:views/campaign/fields/int-with-percentage",
+            "type": "int",
+            "notStorable": true,
+            "orderDisabled": true,
+            "directAccessDisabled": true,
+            "directUpdateDisabled": true,
+            "readOnly": true,
+            "loaderClassName": "Espo\\Modules\\Crm\\Classes\\FieldProcessing\\Campaign\\StatsLoader"
+        },
+        "clickedCount": {
+            "view": "crm:views/campaign/fields/int-with-percentage",
+            "type": "int",
+            "notStorable": true,
+            "orderDisabled": true,
+            "directAccessDisabled": true,
+            "directUpdateDisabled": true,
+            "readOnly": true,
+            "loaderClassName": "Espo\\Modules\\Crm\\Classes\\FieldProcessing\\Campaign\\StatsLoader"
+        },
+        "optedInCount": {
+            "type": "int",
+            "notStorable": true,
+            "orderDisabled": true,
+            "directAccessDisabled": true,
+            "directUpdateDisabled": true,
+            "readOnly": true,
+            "loaderClassName": "Espo\\Modules\\Crm\\Classes\\FieldProcessing\\Campaign\\StatsLoader"
+        },
+        "optedOutCount": {
+            "view": "crm:views/campaign/fields/int-with-percentage",
+            "type": "int",
+            "notStorable": true,
+            "orderDisabled": true,
+            "directAccessDisabled": true,
+            "directUpdateDisabled": true,
+            "readOnly": true,
+            "loaderClassName": "Espo\\Modules\\Crm\\Classes\\FieldProcessing\\Campaign\\StatsLoader"
+        },
+        "bouncedCount": {
+            "view": "crm:views/campaign/fields/int-with-percentage",
+            "type": "int",
+            "notStorable": true,
+            "orderDisabled": true,
+            "directAccessDisabled": true,
+            "directUpdateDisabled": true,
+            "readOnly": true,
+            "loaderClassName": "Espo\\Modules\\Crm\\Classes\\FieldProcessing\\Campaign\\StatsLoader"
+        },
+        "hardBouncedCount": {
+            "type": "int",
+            "notStorable": true,
+            "orderDisabled": true,
+            "directAccessDisabled": true,
+            "directUpdateDisabled": true,
+            "readOnly": true,
+            "loaderClassName": "Espo\\Modules\\Crm\\Classes\\FieldProcessing\\Campaign\\StatsLoader"
+        },
+        "softBouncedCount": {
+            "type": "int",
+            "notStorable": true,
+            "orderDisabled": true,
+            "directAccessDisabled": true,
+            "directUpdateDisabled": true,
+            "readOnly": true,
+            "loaderClassName": "Espo\\Modules\\Crm\\Classes\\FieldProcessing\\Campaign\\StatsLoader"
+        },
+        "leadCreatedCount": {
+            "type": "int",
+            "notStorable": true,
+            "orderDisabled": true,
+            "directAccessDisabled": true,
+            "directUpdateDisabled": true,
+            "readOnly": true,
+            "loaderClassName": "Espo\\Modules\\Crm\\Classes\\FieldProcessing\\Campaign\\StatsLoader"
+        },
+        "openedPercentage": {
+            "type": "int",
+            "notStorable": true,
+            "orderDisabled": true,
+            "directAccessDisabled": true,
+            "directUpdateDisabled": true,
+            "readOnly": true,
+            "utility": true,
+            "loaderClassName": "Espo\\Modules\\Crm\\Classes\\FieldProcessing\\Campaign\\StatsLoader"
+        },
+        "clickedPercentage": {
+            "type": "int",
+            "notStorable": true,
+            "orderDisabled": true,
+            "directAccessDisabled": true,
+            "directUpdateDisabled": true,
+            "readOnly": true,
+            "utility": true,
+            "loaderClassName": "Espo\\Modules\\Crm\\Classes\\FieldProcessing\\Campaign\\StatsLoader"
+        },
+        "optedOutPercentage": {
+            "type": "int",
+            "notStorable": true,
+            "orderDisabled": true,
+            "directAccessDisabled": true,
+            "directUpdateDisabled": true,
+            "readOnly": true,
+            "utility": true,
+            "loaderClassName": "Espo\\Modules\\Crm\\Classes\\FieldProcessing\\Campaign\\StatsLoader"
+        },
+        "bouncedPercentage": {
+            "type": "int",
+            "notStorable": true,
+            "orderDisabled": true,
+            "directAccessDisabled": true,
+            "directUpdateDisabled": true,
+            "readOnly": true,
+            "utility": true,
+            "loaderClassName": "Espo\\Modules\\Crm\\Classes\\FieldProcessing\\Campaign\\StatsLoader"
+        },
+        "revenue": {
+            "type": "currency",
+            "notStorable": true,
+            "orderDisabled": true,
+            "directAccessDisabled": true,
+            "directUpdateDisabled": true,
+            "readOnly": true,
+            "loaderClassName": "Espo\\Modules\\Crm\\Classes\\FieldProcessing\\Campaign\\StatsLoader"
+        },
+        "budget": {
+            "type": "currency"
+        },
+        "contactsTemplate": {
+            "type": "link",
+            "view": "crm:views/campaign/fields/template",
+            "targetEntityType": "Contact"
+        },
+        "leadsTemplate": {
+            "type": "link",
+            "view": "crm:views/campaign/fields/template",
+            "targetEntityType": "Lead"
+        },
+        "accountsTemplate": {
+            "type": "link",
+            "view": "crm:views/campaign/fields/template",
+            "targetEntityType": "Account"
+        },
+        "usersTemplate": {
+            "type": "link",
+            "view": "crm:views/campaign/fields/template",
+            "targetEntityType": "User"
+        },
+        "mailMergeOnlyWithAddress": {
+            "type": "bool",
+            "default": true
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "entityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "targetLists": {
+            "type": "hasMany",
+            "entity": "TargetList",
+            "foreign": "campaigns"
+        },
+        "excludingTargetLists": {
+            "type": "hasMany",
+            "entity": "TargetList",
+            "foreign": "campaignsExcluding",
+            "relationName": "campaignTargetListExcluding"
+        },
+        "accounts": {
+            "type": "hasMany",
+            "entity": "Account",
+            "foreign": "campaign"
+        },
+        "contacts": {
+            "type": "hasMany",
+            "entity": "Contact",
+            "foreign": "campaign"
+        },
+        "leads": {
+            "type": "hasMany",
+            "entity": "Lead",
+            "foreign": "campaign"
+        },
+        "opportunities": {
+            "type": "hasMany",
+            "entity": "Opportunity",
+            "foreign": "campaign"
+        },
+        "campaignLogRecords": {
+            "type": "hasMany",
+            "entity": "CampaignLogRecord",
+            "foreign": "campaign"
+        },
+        "trackingUrls": {
+            "type": "hasMany",
+            "entity": "CampaignTrackingUrl",
+            "foreign": "campaign"
+        },
+        "massEmails": {
+            "type": "hasMany",
+            "entity": "MassEmail",
+            "foreign": "campaign"
+        },
+        "contactsTemplate": {
+            "type": "belongsTo",
+            "entity": "Template",
+            "noJoin": true
+        },
+        "leadsTemplate": {
+            "type": "belongsTo",
+            "entity": "Template",
+            "noJoin": true
+        },
+        "accountsTemplate": {
+            "type": "belongsTo",
+            "entity": "Template",
+            "noJoin": true
+        },
+        "usersTemplate": {
+            "type": "belongsTo",
+            "entity": "Template",
+            "noJoin": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc"
+    },
+    "indexes": {
+        "createdAt": {
+            "columns": ["createdAt", "deleted"]
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "labels": {
+    "Calendars": "Kalendāri",
+    "Create WorkingTimeRange": "Izņēmuma izveide"
+  },
+  "fields": {
+    "timeRanges": "Grafiks",
+    "dateStart": "Datums Sākums",
+    "dateEnd": "Datums Beigu datums",
+    "type": "Tips",
+    "calendars": "Kalendāri",
+    "users": "Lietotāji"
+  },
+  "links": {
+    "calendars": "Kalendāri",
+    "users": "Lietotāji"
+  },
+  "options": {
+    "type": {
+      "Non-working": "Nestrādājošs",
+      "Working": "Darbs"
+    }
+  },
+  "presetFilters": {
+    "actual": "Faktiskais"
+  },
+  "tooltips": {
+    "calendars": "Kalendāri, kuriem piemērot izņēmumu. Izņēmums tiks piemērots visiem atlasīto kalendāru lietotājiem.\n\nAtstājiet šo lauku tukšu, ja izņēmumu vēlaties piemērot tikai konkrētiem lietotājiem.",
+    "users": "Konkrēti lietotāji, kuriem jāpiemēro izņēmums."
+  }
+}

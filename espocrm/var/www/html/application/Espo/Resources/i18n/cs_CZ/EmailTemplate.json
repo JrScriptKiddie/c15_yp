@@ -1,0 +1,11 @@
+{
+  "fields": {
+    "name": "Jméno",
+    "body": "Tělo",
+    "subject": "Předmět",
+    "attachments": "Přílohy"
+  },
+  "labels": {
+    "Create EmailTemplate": "Vytvořit šablonu"
+  }
+}

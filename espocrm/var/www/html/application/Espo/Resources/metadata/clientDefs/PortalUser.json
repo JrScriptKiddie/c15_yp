@@ -1,0 +1,61 @@
+{
+    "controller": "controllers/portal-user",
+    "views": {
+        "detail": "views/user/detail",
+        "list": "views/portal-user/list"
+    },
+    "recordViews": {
+        "list": "views/user/record/list",
+        "detail": "views/user/record/detail",
+        "edit":"views/user/record/edit",
+        "detailSmall":"views/user/record/detail-quick",
+        "editSmall":"views/user/record/edit-quick"
+    },
+    "defaultSidePanelFieldLists": {
+        "detail": [
+            "avatar",
+            "createdAt",
+            "lastAccess"
+        ],
+        "detailSmall": [
+            "avatar",
+            "createdAt"
+        ],
+        "edit": [
+            "avatar"
+        ],
+        "editSmall": [
+            "avatar"
+        ]
+    },
+    "sidePanels": {
+        "detail": [
+            {
+                "name": "activities",
+                "reference": "activities"
+            },
+            {
+                "name": "history",
+                "reference": "history"
+            }
+        ],
+        "detailSmall": [
+            {
+                "name": "activities",
+                "reference": "activities"
+            },
+            {
+                "name": "history",
+                "reference": "history"
+            }
+        ]
+    },
+    "filterList": [
+        "activePortal"
+    ],
+    "boolFilterList": [],
+    "selectDefaultFilters": {
+        "filter": "activePortal"
+    },
+    "iconClass": "far fa-user-circle"
+}

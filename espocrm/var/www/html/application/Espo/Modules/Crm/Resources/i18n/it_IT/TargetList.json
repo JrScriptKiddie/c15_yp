@@ -1,0 +1,39 @@
+{
+  "fields": {
+    "name": "Nome",
+    "description": "Descrizione",
+    "entryCount": "Conteggio Ingressi",
+    "campaigns": "Campagne",
+    "endDate": "Data Fine",
+    "targetLists": "Lista di Destinazione",
+    "includingActionList": "Include",
+    "excludingActionList": "Esclude",
+    "optedOutCount": "Conteggio Cancellazioni",
+    "targetStatus": "Stato target",
+    "isOptedOut": "È Stato Cancellato",
+    "sourceCampaign": "Campagna di Provenienza",
+    "category": "Categoria"
+  },
+  "links": {
+    "accounts": "Account",
+    "contacts": "Contatti",
+    "campaigns": "Campagne",
+    "massEmails": "Mailing massivo",
+    "category": "Categoria"
+  },
+  "options": {
+    "type": {
+      "Television": "Televisione"
+    },
+    "targetStatus": {
+      "Opted Out": "Iscrizione Cancellata",
+      "Listed": "Elencato"
+    }
+  },
+  "labels": {
+    "Create TargetList": "Crea Lista di Destinazione",
+    "Opted Out": "Cancellazioni",
+    "Cancel Opt-Out": "Cancella Rinuncia",
+    "Opt-Out": "Rinuncia"
+  }
+}

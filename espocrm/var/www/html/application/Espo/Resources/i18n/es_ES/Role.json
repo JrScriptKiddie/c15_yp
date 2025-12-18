@@ -1,0 +1,70 @@
+{
+  "fields": {
+    "name": "Nombre",
+    "assignmentPermission": "Asignación de permisos",
+    "userPermission": "Permisos de Usuario",
+    "portalPermission": "Permisos del portal",
+    "groupEmailAccountPermission": "Permiso de la cuenta de correo grupal",
+    "exportPermission": "Permisos de exportación",
+    "dataPrivacyPermission": "Permiso de privacidad de datos",
+    "massUpdatePermission": "Permiso de actualización masiva",
+    "followerManagementPermission": "Permiso de gestión de seguidores",
+    "data": "Datos",
+    "fieldData": "Campo de datos",
+    "messagePermission": "Permiso de mensaje",
+    "auditPermission": "Permiso de auditoría",
+    "mentionPermission": "Permiso de mencionar",
+    "userCalendarPermission": "Permiso de calendario de usuario"
+  },
+  "links": {
+    "users": "Usuarios",
+    "teams": "Equipos"
+  },
+  "labels": {
+    "Access": "Acceso",
+    "Create Role": "Crear rol",
+    "Scope Level": "Nivel de acceso a entidades",
+    "Field Level": "Nivel de acceso a campos"
+  },
+  "options": {
+    "accessList": {
+      "not-set": "sin establecer",
+      "enabled": "activado",
+      "disabled": "desactivado"
+    },
+    "levelList": {
+      "all": "Todos",
+      "team": "Equipo",
+      "account": "Cuenta",
+      "contact": "Contacto",
+      "own": "Propio",
+      "no": "No",
+      "yes": "Si",
+      "not-set": "Sin establecer"
+    }
+  },
+  "actions": {
+    "read": "Leer",
+    "edit": "Editar",
+    "delete": "Borrar",
+    "stream": "Historia",
+    "create": "Crear"
+  },
+  "messages": {
+    "changesAfterClearCache": "Todos los cambios en el control de acceso serán aplicacados después de limpiar la caché"
+  },
+  "tooltips": {
+    "dataPrivacyPermission": "Permite ver y borrar datos personales.",
+    "followerManagementPermission": "Permite gestionar seguidores de registros específicos.",
+    "messagePermission": "Permite enviar mensajes a otros usuarios.\n\n* Todos: permite enviar mensajes a todos.\n* Equipo: permite enviar mensajes solo a compañeros.\n* No: no permite enviar mensajes.",
+    "assignmentPermission": "Permite asignar registros a otros usuarios.\n\n* Todos: sin restricciones\n* Equipo: solo se puede asignar a compañeros\n* No: solo se puede asignar a uno mismo",
+    "portalPermission": "Acceso a la información del portal, capacidad de publicar mensajes para los usuarios del portal.",
+    "groupEmailAccountPermission": "Acceso a cuentas de correo grupales, capacidad de enviar correos desde el SMTP grupal.",
+    "exportPermission": "Permite exportar registros.",
+    "massUpdatePermission": "La capacidad de realizar actualizaciones masivas de registros.",
+    "auditPermission": "Permite ver el registro de auditoría.",
+    "mentionPermission": "Permite mencionar a otros usuarios en la historia.\n\n* Todos: se pueden mencionar a todos\n* Equipo: solo se pueden mencionar a compañeros de equipo\n* No: no se pueden mencionar",
+    "userPermission": "Permite ver el historial de otros usuarios. Permite a los usuarios ver los niveles de acceso que tienen otros usuarios para registros específicos.",
+    "userCalendarPermission": "Permite ver calendarios de otros usuarios."
+  }
+}

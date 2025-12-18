@@ -1,0 +1,55 @@
+{
+  "fields": {
+    "name": "Nome",
+    "roles": "Perfis",
+    "assignmentPermission": "Permissão de atribuição",
+    "userPermission": "Permissão de utilizador",
+    "portalPermission": "Permissões de Portal",
+    "groupEmailAccountPermission": "Permissão de conta de email em grupo",
+    "exportPermission": "Permissão de Exportação",
+    "dataPrivacyPermission": "Permissão de privacidade de dados",
+    "massUpdatePermission": "Permissão de atualização em massa",
+    "followerManagementPermission": "Permissões de gerenciador de seguidores"
+  },
+  "links": {
+    "users": "Utilizadores",
+    "teams": "Equipas"
+  },
+  "labels": {
+    "Access": "Acesso",
+    "Create Role": "Criar função",
+    "Scope Level": "Nível de alcance",
+    "Field Level": "Nível de campo"
+  },
+  "options": {
+    "accessList": {
+      "not-set": "não definido",
+      "enabled": "ativo",
+      "disabled": "desativado"
+    },
+    "levelList": {
+      "all": "todos",
+      "team": "equipa",
+      "account": "conta",
+      "contact": "contato",
+      "own": "próprio",
+      "no": "não",
+      "yes": "sim",
+      "not-set": "não definido"
+    }
+  },
+  "actions": {
+    "read": "Ler",
+    "edit": "Editar",
+    "delete": "Apagar",
+    "stream": "Fluxo",
+    "create": "Criar"
+  },
+  "messages": {
+    "changesAfterClearCache": "Todas as alterações de um controlo de acesso serão aplicadas após o cache ser limpo."
+  },
+  "tooltips": {
+    "dataPrivacyPermission": "Permite visualizar e apagar dados pessoais.",
+    "followerManagementPermission": "Permite gerenciar seguidores de registos específicos"
+  }
+}

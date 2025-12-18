@@ -1,0 +1,6 @@
+[
+    {"name":"name", "link":true},
+    {"name":"file", "width": 10, "notSortable": true},
+    {"name":"status", "width": 15},
+    {"name":"createdAt", "width": 18}
+]

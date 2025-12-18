@@ -1,0 +1,82 @@
+{
+  "fields": {
+    "name": "Nome",
+    "description": "Descrizione",
+    "status": "Stato",
+    "type": "Tipo",
+    "startDate": "Data inizio",
+    "endDate": "Data Fine",
+    "targetLists": "Liste di Destinazione",
+    "excludingTargetLists": "Liste di Destinazione Escluse",
+    "sentCount": "Inviato",
+    "openedCount": "Aperto",
+    "clickedCount": "Cliccato",
+    "optedOutCount": "Cancellato",
+    "bouncedCount": "Respinto",
+    "hardBouncedCount": "Respinto Pesante",
+    "softBouncedCount": "Respinto Leggero",
+    "leadCreatedCount": "Lead Creati",
+    "revenue": "Entrate",
+    "revenueConverted": "Entrate (convertito)",
+    "budgetConverted": "Budget (convertito)",
+    "contactsTemplate": "Modello Contatti",
+    "leadsTemplate": "Modello Leads",
+    "accountsTemplate": "Modello Account",
+    "usersTemplate": "Modello Utenti",
+    "mailMergeOnlyWithAddress": "Salta record senza indirizzo",
+    "optedInCount": "Iscritto",
+    "budgetCurrency": "Valuta Budget"
+  },
+  "links": {
+    "targetLists": "Liste di Destinazione",
+    "excludingTargetLists": "Liste di Destinazione Escluse",
+    "accounts": "Account",
+    "contacts": "Contatti",
+    "opportunities": "Opportunità",
+    "massEmails": "Email Massive",
+    "trackingUrls": "URL di Tracciamento",
+    "contactsTemplate": "Modello Contatti",
+    "leadsTemplate": "Modello Lead",
+    "accountsTemplate": "Modello Account",
+    "usersTemplate": "Modello Utenti"
+  },
+  "options": {
+    "type": {
+      "Television": "Televisione",
+      "Informational Email": "Email informativa"
+    },
+    "status": {
+      "Planning": "Pianificazione",
+      "Active": "Attiva",
+      "Inactive": "Inattiva",
+      "Complete": "Completa"
+    }
+  },
+  "labels": {
+    "Create Campaign": "Crea Campagna",
+    "Target Lists": "Liste di Destinazione",
+    "Statistics": "Statistiche",
+    "hard": "Pesante",
+    "soft": "Leggero",
+    "Unsubscribe": "Annulla l'iscrizione",
+    "Mass Emails": "Email Massive",
+    "Email Templates": "Modelli Email",
+    "Unsubscribe again": "Disiscrivi di nuovo",
+    "Subscribe again": "Iscriviti di nuovo",
+    "Create Target List": "Crea Lista di Destinazione",
+    "Mail Merge": "Unione Mail",
+    "Generate Mail Merge PDF": "Genera Stampa unione pdf"
+  },
+  "presetFilters": {
+    "active": "Attiva"
+  },
+  "messages": {
+    "unsubscribed": "Sei stato rimosso dalla nostra mailing list.",
+    "subscribedAgain": "Sei di nuovo iscritto.",
+    "cannotChangeType": "Non è possibile modificare il tipo."
+  },
+  "tooltips": {
+    "targetLists": "Obiettivi che devono ricevere messaggi.",
+    "excludingTargetLists": "Obiettivi che non devono ricevere messaggi."
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "massActions": {
+        "update": {
+            "allowed": true
+        },
+        "delete": {
+            "allowed": true
+        }
+    },
+    "forceSelectAllAttributes": true
+}

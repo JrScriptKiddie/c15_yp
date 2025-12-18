@@ -1,0 +1,69 @@
+{
+  "fields": {
+    "roles": "Rollen",
+    "assignmentPermission": "Berechtigung: Zuweisung",
+    "userPermission": "Berechtigung: Benutzer",
+    "portalPermission": "Berechtigung: Portal",
+    "groupEmailAccountPermission": "Berechtigung: Gruppen E-Mail Konto",
+    "exportPermission": "Berechtigung: Export",
+    "dataPrivacyPermission": "Berechtigung: Datenschutz",
+    "massUpdatePermission": "Berechtigung: Massenänderungen",
+    "followerManagementPermission": "Berechtigung: Abonnentenverwaltung",
+    "data": "Daten",
+    "fieldData": "Felddaten",
+    "messagePermission": "Berechtigung: Nachrichten",
+    "auditPermission": "Berechtigung: Audit",
+    "mentionPermission": "Berechtigung: Erwähnungen",
+    "userCalendarPermission": "Berechtigung: Benutzerkalender"
+  },
+  "links": {
+    "users": "Benutzer"
+  },
+  "labels": {
+    "Access": "Berechtigungen",
+    "Create Role": "Rolle erstellen",
+    "Scope Level": "Berechtigungsumfang",
+    "Field Level": "Feldebene"
+  },
+  "options": {
+    "accessList": {
+      "not-set": "nicht gesetzt",
+      "enabled": "Aktiv",
+      "disabled": "Inaktiv"
+    },
+    "levelList": {
+      "all": "Alle",
+      "team": "Team",
+      "account": "Firma",
+      "contact": "Kontakt",
+      "own": "Eigene",
+      "no": "Nein",
+      "yes": "Ja",
+      "not-set": "nicht gesetzt"
+    }
+  },
+  "actions": {
+    "read": "Lesen",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "stream": "Ereignisse",
+    "create": "Erstellen"
+  },
+  "messages": {
+    "changesAfterClearCache": "Alle Änderungen werden erst nach Leeren des Caches wirksam."
+  },
+  "tooltips": {
+    "dataPrivacyPermission": "Ermöglicht die Anzeige und Löschung von personenbezogenen Daten.",
+    "followerManagementPermission": "Ermöglicht die Verwaltung von Abonnenten bestimmter Datensätze.",
+    "messagePermission": "Erlaubt das Senden von Nachrichten an andere Benutzer.\n\n* Alle - kann an alle senden\n* Team - kann nur an Teammitglieder senden\n* Nein - kann nicht senden",
+    "assignmentPermission": "Erlaubt die Zuweisung von Datensätzen an andere Benutzer.\n\n* Alle - keine Einschränkung\n* Team - kann nur Teammitgliedern zuweisen\n* Nein - kann nur sich selbst zuweisen",
+    "portalPermission": "Zugang zu Portalinformationen, die Möglichkeit, Nachrichten an Portalnutzer zu senden.",
+    "groupEmailAccountPermission": "Zugang zu Gruppen-E-Mail-Konten und die Möglichkeit, E-Mails über Gruppen-SMTP zu versenden.",
+    "exportPermission": "Erlaubt den Export von Datensätzen.",
+    "massUpdatePermission": "Die Berechtigung, Massenaktualisierungen von Datensätzen durchzuführen.",
+    "auditPermission": "Gewährt die Ansicht des Audit-Protokolls.",
+    "mentionPermission": "Ermöglicht die Erwähnung anderer Benutzer in Ereignissen.\n\n* Alle - kann alle erwähnen\n* Team - kann nur Teammitglieder erwähnen\n* Nein - kann nicht erwähnen",
+    "userPermission": "Ermöglicht die Ansicht der Ereignisse anderer Benutzer. Ermöglicht es Benutzern, die Zugriffsberechtigungen anderer Benutzer für bestimmte Datensätze zu sehen.",
+    "userCalendarPermission": "Ermöglicht die Anzeige der Kalender anderer Benutzer."
+  }
+}

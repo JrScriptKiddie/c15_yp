@@ -1,0 +1,11 @@
+{
+  "labels": {
+    "Connect": "Connecter",
+    "Connected": "Connecté",
+    "Disconnect": "Déconnecter",
+    "Disconnected": "Déconnecté"
+  },
+  "messages": {
+    "externalAccountNoConnectDisabled": "Le compte externe de l'intégration '{integration}' a été désactivé en raison de l'impossibilité de se connecter."
+  }
+}

@@ -1,0 +1,6 @@
+[
+    {"name":"createdAt", "link": true},
+    {"name":"status", "width": 20},
+    {"name":"entityType", "width": 20},
+    {"name":"createdBy", "width": 20}
+]

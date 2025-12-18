@@ -1,0 +1,63 @@
+{
+    "fields": {
+        "number": {
+            "type": "autoincrement",
+            "dbType": "bigint"
+        },
+        "event": {
+            "type": "varchar",
+            "maxLength": 100,
+            "required": true,
+            "view": "views/webhook/fields/event"
+        },
+        "webhook": {
+            "type": "link"
+        },
+        "target": {
+            "type": "linkParent"
+        },
+        "data": {
+            "type": "jsonObject"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "hasSeconds": true
+        },
+        "status": {
+            "type": "enum",
+            "options": ["Pending", "Success", "Failed"],
+            "default": "Pending",
+            "maxLength": 7,
+            "style": {
+                "Success": "success",
+                "Failed": "danger"
+            }
+        },
+        "processedAt": {
+            "type": "datetime",
+            "hasSeconds": true
+        },
+        "attempts": {
+            "type": "int",
+            "default": 0
+        },
+        "processAt": {
+            "type": "datetime"
+        }
+    },
+    "links": {
+        "target": {
+            "type": "belongsToParent"
+        },
+        "webhook": {
+            "type": "belongsTo",
+            "entity": "Webhook",
+            "foreignName": "id",
+            "foreign": "queueItems"
+        }
+    },
+    "collection": {
+        "orderBy": "number",
+        "order": "desc"
+    }
+}

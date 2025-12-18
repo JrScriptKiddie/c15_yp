@@ -1,0 +1,16 @@
+{
+    "massActions": {
+        "update": {
+            "allowed": true
+        },
+        "delete": {
+            "allowed": true
+        }
+    },
+    "mandatoryAttributeList": [
+        "campaignId"
+    ],
+    "beforeCreateHookClassNameList": [
+        "Espo\\Modules\\Crm\\Classes\\RecordHooks\\MassEmail\\BeforeCreate"
+    ]
+}

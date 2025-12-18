@@ -1,0 +1,38 @@
+{
+    "acl": "acl/team",
+    "defaultSidePanel": {
+        "edit": false,
+        "editSmall": false
+    },
+    "mergeDisabled": true,
+    "massUpdateDisabled": true,
+    "defaultSidePanelFieldLists": {
+        "detail": ["createdAt"]
+    },
+    "relationshipPanels": {
+        "users": {
+            "createDisabled": true,
+            "editDisabled": true,
+            "removeDisabled": true,
+            "layout": "listForTeam",
+            "selectPrimaryFilterName": "active",
+            "filterList": ["all", "active"],
+            "rowActionList": [
+                "changeTeamPosition"
+            ],
+            "selectMandatoryAttributeList": [
+                "teamRole"
+            ]
+        }
+    },
+    "recordViews": {
+        "detail": "views/team/record/detail",
+        "edit": "views/team/record/edit",
+        "list": "views/team/record/list"
+    },
+    "modalViews": {
+        "detail": "views/team/modals/detail"
+    },
+    "boolFilterList": ["onlyMy"],
+    "iconClass": "fas fa-users"
+}

@@ -1,0 +1,54 @@
+{
+  "fields": {
+    "name": "Ad",
+    "emailAddress": "Eposta",
+    "accountRole": "Başlık",
+    "account": "Hesap",
+    "accounts": "Hesaplar",
+    "phoneNumber": "Telefon",
+    "accountType": "Hesap Türü",
+    "doNotCall": "Arama Yapma",
+    "address": "Adres",
+    "opportunityRole": "Fırsat Rolü",
+    "description": "Açıklama",
+    "campaign": "Kampanya",
+    "targetLists": "Hedef Listeler",
+    "targetList": "Hedef Liste",
+    "portalUser": "Portal Kullanıcısı",
+    "originalLead": "Orijinal Potansiyel",
+    "acceptanceStatus": "Kabul Durumu",
+    "accountIsInactive": "Pasif Hesap",
+    "acceptanceStatusMeetings": "Kabul Durumu (Toplantılar)",
+    "acceptanceStatusCalls": "Kabul Durumu (Aramalar)"
+  },
+  "links": {
+    "opportunities": "Fırsatlar",
+    "cases": "Olaylar",
+    "targetLists": "Hedef Listeler",
+    "campaignLogRecords": "Kampanya Günlüğü",
+    "campaign": "Kampanya",
+    "account": "Hesap (Birincil)",
+    "accounts": "Hesaplar",
+    "casesPrimary": "Olaylar (Birincil)",
+    "portalUser": "Portal Kullanıcı",
+    "originalLead": "Orijinal Potansiyel",
+    "documents": "Belgeler",
+    "tasksPrimary": "Görevler (genişletilmiş)",
+    "opportunitiesPrimary": "Fırsatlar (Birincil)"
+  },
+  "labels": {
+    "Create Contact": "Kişi Oluştur"
+  },
+  "options": {
+    "opportunityRole": {
+      "Decision Maker": "Karar verici",
+      "Evaluator": "Değerlendirici",
+      "Influencer": "Etki Eden"
+    }
+  },
+  "presetFilters": {
+    "portalUsers": "Portal Kullanıcıları",
+    "notPortalUsers": "Portal Kullanıcısı Değildir",
+    "accountActive": "Etkin"
+  }
+}

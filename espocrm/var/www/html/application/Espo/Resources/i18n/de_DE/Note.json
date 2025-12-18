@@ -1,0 +1,64 @@
+{
+  "fields": {
+    "post": "Nachricht",
+    "attachments": "Anhänge",
+    "targetType": "Ziel",
+    "users": "Benutzer",
+    "portals": "Portale",
+    "type": "Typ",
+    "isGlobal": "Ist global",
+    "isInternal": "Ist Intern (für interne Benutzer)",
+    "related": "Verbunden",
+    "createdByGender": "Erstellt von Geschlecht",
+    "data": "Daten",
+    "number": "Nummer",
+    "isPinned": "Ist angeheftet"
+  },
+  "filters": {
+    "all": "Alle",
+    "posts": "Notizen",
+    "updates": "Aktualisierungen",
+    "activity": "Aktivität"
+  },
+  "messages": {
+    "writeMessage": "Schreiben Sie hier Ihre Nachricht",
+    "pinnedMaxCountExceeded": "Es können nicht mehr Notizen angeheftet werden. Die maximal zulässige Anzahl ist {count}."
+  },
+  "options": {
+    "type": {
+      "Post": "Senden",
+      "Create": "Erstellen",
+      "CreateRelated": "Verknüpft erstellen",
+      "Update": "Aktualisieren",
+      "Assign": "Zuweisen",
+      "Relate": "Verknüpfen",
+      "Unrelate": "Verknüpfung lösen",
+      "EmailReceived": "E-Mail erhalten",
+      "EmailSent": "E-Mail gesendet"
+    },
+    "targetType": {
+      "self": "Selbst",
+      "users": "Benutzer",
+      "all": "Alle interne Benutzer",
+      "portals": "Portalbenutzer"
+    }
+  },
+  "links": {
+    "superParent": "Super Eltern",
+    "related": "Verbunden",
+    "portals": "Portale",
+    "attachments": "Anhänge"
+  },
+  "labels": {
+    "View Posts": "Nachrichten anzeigen",
+    "View Activity": "Aktivitäten anzeigen",
+    "Pin": "Anheften",
+    "Unpin": "Lösen",
+    "Pinned": "Angeheftet",
+    "Quote Reply": "Antwort zitieren",
+    "View Attachments": "Anhänge anzeigen"
+  },
+  "otherFields": {
+    "to": "An"
+  }
+}

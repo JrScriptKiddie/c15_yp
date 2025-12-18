@@ -1,0 +1,17 @@
+[
+    {
+        "rows":[
+            [{"name": "name"}, {"name": "status"}],
+            [{"name": "category"}, {"name": "oneOff"}],
+            [{"name": "subject"}],
+            [
+                {
+                    "name": "insertField",
+                    "view": "views/email-template/fields/insert-field"
+                }
+            ],
+            [{"name": "body"}],
+            [{"name": "attachments"}, {"name": "isHtml"}]
+        ]
+    }
+]

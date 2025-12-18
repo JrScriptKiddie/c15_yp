@@ -1,0 +1,16 @@
+Return-Path: <root@mail.layer8.ag>
+Delivered-To: petrovich@layer8.ag
+Received: from mail.layer8.ag
+	by mail.layer8.ag with LMTP
+	id AKmkG+4TwGgFDAAAOnVOhw
+	(envelope-from <root@mail.layer8.ag>)
+	for <petrovich@layer8.ag>; Tue, 09 Sep 2025 11:47:58 +0000
+Received: by mail.layer8.ag (Postfix, from userid 0)
+	id 690D96A40F; Tue,  9 Sep 2025 11:47:58 +0000 (UTC)
+From: tester@layer8.ag
+To: petrovich@layer8.ag
+Subject: Test via container
+Message-Id: <20250909114758.690D96A40F@mail.layer8.ag>
+Date: Tue,  9 Sep 2025 11:47:58 +0000 (UTC)
+
+Hello from docker exec.

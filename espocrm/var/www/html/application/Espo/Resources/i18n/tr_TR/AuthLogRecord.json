@@ -1,0 +1,34 @@
+{
+  "fields": {
+    "username": "Kullanıcı Adı",
+    "ipAddress": "IP Adresi",
+    "requestTime": "İstek Zamanı",
+    "createdAt": "İstek Sahibi",
+    "denialReason": "Reddetme Nedeni",
+    "portal": "Pano",
+    "user": "Kullanıcı",
+    "requestUrl": "İstenen URL",
+    "requestMethod": "İstek Şekli",
+    "authTokenIsActive": "Kimlik Doğrulama Etkin",
+    "authenticationMethod": "Kimlik Doğrulama Yöntemi"
+  },
+  "links": {
+    "authToken": "Kimlik Doğrulama Oluşturuldu",
+    "user": "Kullanıcı",
+    "portal": "Pano",
+    "actionHistoryRecords": "Olay Geçmişi"
+  },
+  "presetFilters": {
+    "denied": "Reddedildi",
+    "accepted": "Kabul edildi"
+  },
+  "options": {
+    "denialReason": {
+      "CREDENTIALS": "Geçersiz kimlik bilgileri",
+      "INACTIVE_USER": "Pasif kullanıcı",
+      "IS_PORTAL_USER": "Portal kullanıcısı",
+      "IS_NOT_PORTAL_USER": "Portal kullanıcısı değil",
+      "USER_IS_NOT_IN_PORTAL": "Bu kullanıcı portalle ilgili değil"
+    }
+  }
+}

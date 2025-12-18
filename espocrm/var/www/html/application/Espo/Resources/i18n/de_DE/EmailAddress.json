@@ -1,0 +1,14 @@
+{
+  "labels": {
+    "Primary": "Primär",
+    "Opted Out": "Opt-Out gesetzt",
+    "Invalid": "Ungültig"
+  },
+  "fields": {
+    "invalid": "Ungültig",
+    "lower": "Name in Kleinbuchstaben"
+  },
+  "presetFilters": {
+    "orphan": "Verwaist"
+  }
+}

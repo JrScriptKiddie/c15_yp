@@ -1,0 +1,9 @@
+{
+    "createHookClassNameList": [
+        "Espo\\Tools\\LinkManager\\Hook\\Hooks\\TargetListCreate"
+    ],
+    "deleteHookClassNameList": [
+        "Espo\\Tools\\LinkManager\\Hook\\Hooks\\TargetListDelete",
+        "Espo\\Tools\\LinkManager\\Hook\\Hooks\\ForeignFieldDelete"
+    ]
+}

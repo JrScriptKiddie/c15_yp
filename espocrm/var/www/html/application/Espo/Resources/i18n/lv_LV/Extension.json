@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "name": "Nosaukums/vārds",
+    "version": "Versija",
+    "description": "Apraksts",
+    "isInstalled": "Instalētie",
+    "checkVersionUrl": "Vietrādis URL jauno versiju esamības pārbaudei"
+  },
+  "labels": {
+    "Uninstall": "Atinstalēt",
+    "Install": "Instalēt"
+  },
+  "messages": {
+    "uninstalled": "Paplašinājums {name} jau ir atinstalēts",
+    "fileExceedsMaxUploadSize": "Faila lielums pārsniedz maksimālo augšupielādes lielumu {maxSize}. Apsveriet iespēju palielināt `post_max_size` vai instalēt paplašinājumu, izmantojot CLI."
+  }
+}

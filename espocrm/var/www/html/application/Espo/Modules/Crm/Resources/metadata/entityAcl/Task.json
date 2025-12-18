@@ -1,0 +1,12 @@
+{
+    "fields": {
+        "email": {
+            "readOnly": true
+        }
+    },
+    "links": {
+        "collaborators": {
+            "readOnly": true
+        }
+    }
+}

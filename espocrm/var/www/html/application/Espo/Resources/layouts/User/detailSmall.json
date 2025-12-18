@@ -1,0 +1,16 @@
+[
+    {
+        "rows": [
+            [{"name": "name"}],
+            [{"name": "userName"}],
+            [{"name": "emailAddress"}],
+            [{"name": "phoneNumber"}]
+        ]
+    },
+    {
+        "rows": [
+            [{"name": "type"}, {"name": "isActive"}],
+            [{"name": "teams"}]
+        ]
+    }
+]

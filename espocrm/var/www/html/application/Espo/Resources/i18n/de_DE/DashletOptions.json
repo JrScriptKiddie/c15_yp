@@ -1,0 +1,46 @@
+{
+  "fields": {
+    "title": "Titel",
+    "dateFrom": "Von Datum",
+    "dateTo": "Bis Datum",
+    "autorefreshInterval": "Aktualisierungsintervall",
+    "displayRecords": "Sätze anzeigen",
+    "isDoubleHeight": "Zweifache Höhe",
+    "mode": "Modus",
+    "enabledScopeList": "Was soll angezeigt werden",
+    "users": "Benutzer",
+    "entityType": "Entitätstyp",
+    "primaryFilter": "Primärfilter",
+    "boolFilterList": "Zusätzliche Filter",
+    "dateFilter": "Datumsfilter",
+    "skipOwn": "Eigene Einträge nicht zeigen",
+    "folder": "Ordner",
+    "includeShared": "Gemeinsame miteinbeziehen",
+    "sortBy": "Sortiert nach",
+    "sortDirection": "Sortierrichtung"
+  },
+  "options": {
+    "mode": {
+      "agendaWeek": "Woche (Agenda)",
+      "basicWeek": "Woche",
+      "month": "Monat",
+      "basicDay": "Tag",
+      "agendaDay": "Tag (Agenda)",
+      "timeline": "Zeitachse"
+    },
+    "sortDirection": {
+      "asc": "Aufsteigend",
+      "desc": "Absteigend"
+    }
+  },
+  "messages": {
+    "selectEntityType": "Wählen Sie Entitätstyp in Dashlet-Optionen."
+  },
+  "tooltips": {
+    "skipOwn": "Von Ihrem Benutzerkonto durchgeführte Aktionen werden nicht angezeigt."
+  },
+  "otherFields": {
+    "soft": "Weiche Farbe",
+    "small": "Kleiner Font"
+  }
+}

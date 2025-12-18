@@ -1,0 +1,15 @@
+{
+    "massActions": {
+        "delete": {
+            "allowed": true
+        },
+        "update": {
+            "allowed": true
+        }
+    },
+    "relationships": {
+        "log": {
+            "countDisabled": true
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "fieldList": "Lista pól",
+    "exportAllFields": "Eksportuj wszystkie pola"
+  },
+  "options": {
+    "status": {
+      "Pending": "Oczekuje",
+      "Success": "Sukces",
+      "Failed": "Błąd"
+    }
+  }
+}

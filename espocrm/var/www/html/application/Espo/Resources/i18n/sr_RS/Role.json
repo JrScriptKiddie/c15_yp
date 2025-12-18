@@ -1,0 +1,47 @@
+{
+  "fields": {
+    "name": "Ime",
+    "roles": "Uloge",
+    "assignmentPermission": "Dozvola zaduživanja",
+    "userPermission": "Dozvola korisnika",
+    "portalPermission": "Dozvola za portal",
+    "exportPermission": "Eksportuj Permisije"
+  },
+  "links": {
+    "users": "Korisnici",
+    "teams": "Timovi"
+  },
+  "labels": {
+    "Access": "Pristup",
+    "Create Role": "Pravljenje uloge",
+    "Scope Level": "Nivo obuhvata",
+    "Field Level": "Nivo polja"
+  },
+  "options": {
+    "accessList": {
+      "not-set": "nije podešeno",
+      "enabled": "omogućeno",
+      "disabled": "onemogućeno"
+    },
+    "levelList": {
+      "all": "sve",
+      "team": "tim",
+      "account": "pravno lice",
+      "contact": "kontakt",
+      "own": "vlastiti",
+      "no": "ne",
+      "yes": "da",
+      "not-set": "nije podešeno"
+    }
+  },
+  "actions": {
+    "read": "Čitanje",
+    "edit": "Izmena",
+    "delete": "Brisanje",
+    "stream": "Tok vesti",
+    "create": "Pravljenje"
+  },
+  "messages": {
+    "changesAfterClearCache": "Sve promene u vidu kontrole pristupa će se primenjivati nakon što se keš očisti."
+  }
+}

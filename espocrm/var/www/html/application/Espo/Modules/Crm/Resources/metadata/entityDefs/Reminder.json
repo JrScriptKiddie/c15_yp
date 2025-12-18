@@ -1,0 +1,49 @@
+{
+    "fields": {
+        "remindAt": {
+            "type": "datetime",
+            "index": true
+        },
+        "startAt": {
+            "type": "datetime",
+            "index": true
+        },
+        "type": {
+            "type": "enum",
+            "options": [
+                "Popup",
+                "Email"
+            ],
+            "maxLength": 36,
+            "index": true,
+            "default": "Popup"
+        },
+        "seconds": {
+            "type": "enumInt",
+            "options": [0, 60, 120, 300, 600, 900, 1800, 3600, 7200, 18000, 86400, 604800],
+            "default": 0
+        },
+        "user": {
+            "type": "link"
+        },
+        "entity": {
+            "type": "linkParent"
+        },
+        "isSubmitted": {
+            "type": "bool"
+        }
+    },
+    "links": {
+        "user": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "entity": {
+            "type": "belongsToParent"
+        }
+    },
+    "collection": {
+        "orderBy": "remindAt",
+        "order": "desc"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "params": [
+        {
+            "name": "required",
+            "type": "bool",
+            "default": false
+        },
+        {
+            "name": "default",
+            "type": "varchar"
+        },
+        {
+            "name": "maxLength",
+            "type": "int"
+        },
+        {
+            "name": "strip",
+            "type": "bool",
+            "tooltip": "urlStrip"
+        },
+        {
+            "name": "copyToClipboard",
+            "type": "bool",
+            "default": false
+        },
+        {
+            "name": "audited",
+            "type": "bool"
+        },
+        {
+            "name": "readOnly",
+            "type": "bool"
+        },
+        {
+            "name": "readOnlyAfterCreate",
+            "type": "bool"
+        }
+    ],
+    "validationList": [
+        "required",
+        "maxLength",
+        "valid"
+    ],
+    "mandatoryValidationList": [
+        "maxLength",
+        "valid"
+    ],
+    "filter": true,
+    "fieldDefs": {
+        "type": "varchar"
+    },
+    "sanitizerClassNameList": [
+        "Espo\\Classes\\FieldSanitizers\\StringTrim"
+    ],
+    "personalData": true,
+    "default": null
+}

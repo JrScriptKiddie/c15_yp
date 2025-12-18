@@ -1,0 +1,20 @@
+[
+    {
+        "rows": [
+            [
+                {"name": "event"},
+                {"name": "isActive"}
+            ],
+            [
+                {"name": "url"}
+            ],
+            [
+                {"name": "user"},
+                {"name": "skipOwn"}
+            ],
+            [
+                {"name": "secretKey"}
+            ]
+        ]
+    }
+]

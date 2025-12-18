@@ -1,0 +1,18 @@
+use strict;
+
+#
+# Place your configuration directives here.  They will override those in
+# earlier files.
+#
+# See /usr/share/doc/amavisd-new/ for documentation and examples of
+# the directives you can use in this file
+#####
+# Пускать письма с «плохими заголовками»
+$final_bad_header_destiny = D_PASS;
+# Не складывать их в карантин
+$bad_header_quarantine_to = undef;
+# Не слать автоуведомления отправителю
+$warnbadhsender = 0;
+$inet_socket_port = 10024;
+#------------ Do not modify anything below this line -------------
+1;  # ensure a defined return

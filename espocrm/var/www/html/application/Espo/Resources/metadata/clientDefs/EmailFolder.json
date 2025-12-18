@@ -1,0 +1,23 @@
+{
+    "controller": "controllers/record",
+    "views": {
+        "list": "views/email-folder/list"
+    },
+    "recordViews": {
+        "list": "views/email-folder/record/list",
+        "editQuick": "views/email-folder/record/edit-small"
+    },
+    "menu": {
+        "list": {
+            "buttons": [
+                {
+                    "label": "Emails",
+                    "link": "#Email",
+                    "style": "default",
+                    "aclScope": "Email"
+                }
+            ]
+        }
+    },
+    "searchPanelDisabled": true
+}

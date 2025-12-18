@@ -1,0 +1,54 @@
+{
+  "fields": {
+    "attachments": "Bijlagen",
+    "targetType": "Doel",
+    "teams": "Groepen",
+    "users": "Gebruikers",
+    "isGlobal": "Is globaal",
+    "isInternal": "Is intern (voor interne gebruikers)",
+    "related": "Verwant",
+    "createdByGender": "Gemaakt door geslacht",
+    "number": "Nummer",
+    "isPinned": "Is vastgemaakt"
+  },
+  "filters": {
+    "all": "Alle",
+    "posts": "Berichten",
+    "activity": "Activiteit"
+  },
+  "messages": {
+    "writeMessage": "Schrijf je bericht hier",
+    "pinnedMaxCountExceeded": "Kan geen notities meer vastpinnen. Het maximaal toegestane aantal is {count}."
+  },
+  "options": {
+    "targetType": {
+      "self": "aan mezelf",
+      "users": "voor bepaalde gebruiker (s)",
+      "teams": "naar een specifiek(e) groep(en)",
+      "all": "voor alle interne gebruikers",
+      "portals": "voor portaalgebruikers"
+    },
+    "type": {
+      "Create": "Creër",
+      "CreateRelated": "Gerelateerde creëren",
+      "Assign": "Toewijzen",
+      "Relate": "Koppel",
+      "Unrelate": "Ontkoppel",
+      "EmailReceived": "Email ontvangen",
+      "EmailSent": "Email verstuurd"
+    }
+  },
+  "links": {
+    "superParent": "Behorende bij",
+    "related": "Verwant",
+    "portals": "Portalen",
+    "attachments": "Bijlagen"
+  },
+  "labels": {
+    "View Posts": "Posts bekijken",
+    "View Activity": "Activiteit bekijken",
+    "Unpin": "Ontpin",
+    "Pinned": "Vastgezet",
+    "Quote Reply": "Quote Beantwoorden"
+  }
+}

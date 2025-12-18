@@ -1,0 +1,29 @@
+{
+    "params": [
+        {
+            "name": "options",
+            "type": "array"
+        },
+        {
+            "name": "default",
+            "type": "float"
+        },
+        {
+            "name": "audited",
+            "type": "bool"
+        },
+        {
+            "name": "readOnly",
+            "type": "bool"
+        },
+        {
+            "name": "readOnlyAfterCreate",
+            "type": "bool"
+        }
+    ],
+    "filter": true,
+    "notCreatable": true,
+    "fieldDefs": {
+        "type": "float"
+    }
+}

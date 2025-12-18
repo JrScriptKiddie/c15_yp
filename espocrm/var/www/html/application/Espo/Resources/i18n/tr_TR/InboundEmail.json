@@ -1,0 +1,83 @@
+{
+  "fields": {
+    "name": "Ad",
+    "emailAddress": "Eposta Adresi",
+    "status": "Durum",
+    "assignToUser": "Kullanıcıyı Görevlendir",
+    "username": "Kullanıcı Adı",
+    "password": "Şifre",
+    "port": "Bağlantı Noktası",
+    "monitoredFolders": "İzlenen Klasörler",
+    "trashFolder": "Çöp Kutusu",
+    "createCase": "Dosya Oluştur",
+    "reply": "Otomatik Cevap",
+    "caseDistribution": "Dosya Dağıtımı",
+    "replyEmailTemplate": "Cevapla Eposta Taslağı",
+    "replyFromAddress": "Cevaplayan Adres",
+    "replyToAddress": "Cevaplanan Adres",
+    "replyFromName": "Cevaplayan İsim",
+    "targetUserPosition": "Hedef Kullanıcı Pozisyonu",
+    "fetchSince": "Şundan itibaren çek",
+    "addAllTeamUsers": "Tüm takım kullanıcıları için",
+    "team": "Hedef Ekibi",
+    "teams": "Takımlar",
+    "sentFolder": "Gönderilenler Klasörü",
+    "storeSentEmails": "Gönderilen Epostaları Sakla",
+    "useSmtp": "SMTP Kullan",
+    "smtpHost": "SMTP Sunucu",
+    "smtpSecurity": "SMTP Güvenlik",
+    "smtpUsername": "SMTP Kullanıcı Adı",
+    "smtpPassword": "SMTP Şifre",
+    "fromName": "Kimden",
+    "smtpIsShared": "SMTP Paylaşıldı",
+    "smtpIsForMassEmail": "SMTP Toplu eposta içindir",
+    "useImap": "Epostaları Al",
+    "smtpAuthMechanism": "SMTP Kimlik Doğrulama Tipi",
+    "security": "Güvenlik",
+    "groupEmailFolder": "Grup Eposta Klasörü"
+  },
+  "tooltips": {
+    "reply": "Epostaların gönderenlerine epostalarının alındığını bildirin. \\ N \\ n Döngüleri önlemek için belirli bir süre boyunca belirli bir alıcıya yalnızca bir eposta gönderilir.",
+    "createCase": "Gelen epostalardan otomatik dosya oluştur",
+    "replyToAddress": "Bu eposta kutusuna ait eposta adreslerini, cevapların buraya düşmesi için belirtiniz.",
+    "caseDistribution": "Herhangi bir durumda olay ataması nasıl yapılacak? Doğrudan kullanıcıya veya ekip arasında atanır.",
+    "assignToUser": "Kullanıcı olayı atanacak.",
+    "team": "Takım olayları atanacak.",
+    "teams": "Ekiplerin epostaları atanacak.",
+    "addAllTeamUsers": "Epostalar, belirtilen ekiplerin tüm kullanıcılarının Gelen Kutusunda görünecek.",
+    "targetUserPosition": "Olay kayıtları belli pozisyonlarda ki kullanıcılar arasında dağıtılır.",
+    "monitoredFolders": "Birden çok klasör virgülle ayrılmalıdır.",
+    "smtpIsShared": "Bu kutucuk işaretlenirse, kullanıcılar bu SMTP'yi kullanarak eposta gönderebilir. Bu özellik grup eposta hesabı izniyle kontrol edilir.",
+    "smtpIsForMassEmail": "SMTP kutucuğu işaretlenirse toplu eposta için kullanılabilir olacaktır.",
+    "storeSentEmails": "Gönderilen e-postalar IMAP sunucusunda saklanacaktır."
+  },
+  "links": {
+    "filters": "Filtreler",
+    "emails": "Epostalar",
+    "assignToUser": "Kullanıcıya ata",
+    "groupEmailFolder": "Grup Eposta Klasörü"
+  },
+  "options": {
+    "status": {
+      "Active": "Etkin",
+      "Inactive": "Pasif"
+    },
+    "caseDistribution": {
+      "": "Hiç",
+      "Direct-Assignment": "Direk-Görevlendirme",
+      "Least-Busy": "En az meşgul"
+    },
+    "smtpAuthMechanism": {
+      "plain": "DÜZ",
+      "login": "GİRİŞ"
+    }
+  },
+  "labels": {
+    "Create InboundEmail": "Eposta Hesabı Oluştur",
+    "Actions": "Eylemler",
+    "Main": "Ana Sayfa"
+  },
+  "messages": {
+    "couldNotConnectToImap": "IMAP sunucusuna bağlanılamıyor"
+  }
+}

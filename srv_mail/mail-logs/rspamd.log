@@ -1,0 +1,526 @@
+2025-09-09 11:40:21 #860(main) <248b77>; main; main: rspamd 3.12.1 is loading configuration, build id: release
+2025-09-09 11:40:22 #860(main) <>; lua; lua_cfg_transform.lua:456: converted surbl rules to rbl rules
+2025-09-09 11:40:22 #860(main) <>; lua; lua_cfg_transform.lua:470: converted emails rules to rbl rules
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_set_action_score: action reject has been already registered with priority 0, override it with new priority: 1, old threshold: nan, new threshold: 11.00
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_set_action_score: action add header has been already registered with priority 0, override it with new priority: 1, old threshold: nan, new threshold: 6.00
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_set_action_score: action greylist has been already registered with priority 0, override it with new priority: 1, old threshold: nan, new threshold: 4.00
+2025-09-09 11:40:22 #860(main) rspamd_regexp_library_init: pcre2 is compiled with JIT for x86 64bit (little endian + unaligned)
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/exe_clickbait.inc' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_redis.lua:610: use default Redis settings for neural
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; init.lua:59: controller plugin selectors; register webui path list_transforms
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; init.lua:59: controller plugin selectors; register webui path check_selector
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; init.lua:59: controller plugin selectors; register webui path list_extractors
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; init.lua:59: controller plugin selectors; register webui path check_message
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; init.lua:59: controller plugin fuzzy; register webui path hashes
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; init.lua:59: controller plugin maps; register webui path list
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; init.lua:59: controller plugin maps; register webui path query_specific
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; init.lua:59: controller plugin maps; register webui path query
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; init.lua:59: controller plugin maps; register webui path query_json
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; init.lua:59: controller plugin neural; register webui path learn
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_language_detector_init: loaded 46 languages, 33122 trigrams; fasttext is not compiled in
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; chartable_module_config: init internal chartable module
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; dkim_module_config: init internal dkim module
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_mime_expr_parse: added condition for regexp /\b[13LM][1-9A-Za-z]{25,34}\b/AL{sa_body}
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_mime_expr_parse: added condition for regexp /\b(?:(?:[a-zA-Z]\w+:)|(?:bc1))?[qpzry9x8gf2tvdw0s3jn54khce6mua7l]{14,}\b/AL{sa_body}
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; regexp_module_config: init internal regexp module, 131 regexp rules and 0 lua rules are loaded
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; fuzzy_parse_rule: added fuzzy rule FUZZY_UNKNOWN, key: ef43ae80cc8d, shingles_key: ef43ae80cc8d, algorithm: mum
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; fuzzy_check_module_config: init internal fuzzy_check module, 1 rules loaded
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_redis.lua:610: use default Redis settings for antivirus
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; antivirus.lua:209: added antivirus engine ClamAV -> CLAM_VIRUS
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module antivirus from /usr/share/rspamd/plugins/antivirus.lua; digest: 9b42eaa703
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module arc from /usr/share/rspamd/plugins/arc.lua; digest: e883895bbe
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module asn from /usr/share/rspamd/plugins/asn.lua; digest: 037ddf0b49
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module aws_s3 is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module bayes_expiry from /usr/share/rspamd/plugins/bayes_expiry.lua; digest: d0b08624b5
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module bimi is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module clickhouse is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module clustering is enabled but has not been configured
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: clustering disabling unconfigured lua module
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module contextal is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module dcc is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:327: reuse url for complex map definition chqbixcj: DKIM signing networks
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module dkim_signing from /usr/share/rspamd/plugins/dkim_signing.lua; digest: 5801ba3744
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module dmarc from /usr/share/rspamd/plugins/dmarc.lua; digest: a7dc6c5237
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module dynamic_conf is enabled but has not been configured
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: dynamic_conf disabling unconfigured lua module
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module elastic is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module emails is enabled but has not been configured
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: emails disabling unconfigured lua module
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module external_relay is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_redis.lua:610: use default Redis settings for external_services
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module external_services from /usr/share/rspamd/plugins/external_services.lua; digest: e14a9748fb
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module force_actions from /usr/share/rspamd/plugins/force_actions.lua; digest: def67ae0ec
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module forged_recipients from /usr/share/rspamd/plugins/forged_recipients.lua; digest: 3b134f341b
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module fuzzy_collect is enabled but has not been configured
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: fuzzy_collect disabling unconfigured lua module
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module gpt is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module greylist is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module hfilter from /usr/share/rspamd/plugins/hfilter.lua; digest: 5cf4f0ee12
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_redis.lua:610: use default Redis settings for history_redis
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module history_redis from /usr/share/rspamd/plugins/history_redis.lua; digest: b090820bfb
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module http_headers is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module ip_score is enabled but has not been configured
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: ip_score disabling unconfigured lua module
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module known_senders is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module maillist from /usr/share/rspamd/plugins/maillist.lua; digest: 5139f35b82
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module maps_stats is enabled but has not been configured
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: maps_stats disabling unconfigured lua module
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module metadata_exporter from /usr/share/rspamd/plugins/metadata_exporter.lua; digest: c9d47879ac
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module metric_exporter is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/mid.inc' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/mid.inc' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module mid from /usr/share/rspamd/plugins/mid.lua; digest: 5c9eb124f6
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; milter_headers.lua:757: active routines [x-spamd-result,x-rspamd-server,x-rspamd-queue-id,x-rspamd-action,remove-spam-flag]
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module milter_headers from /usr/share/rspamd/plugins/milter_headers.lua; digest: 61dc6ff391
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/mime_types.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/mime_types.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module mime_types from /usr/share/rspamd/plugins/mime_types.lua; digest: a73582e389
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_redis.lua:610: use default Redis settings for multimap
+2025-09-09 11:40:22 #860(main) <j3dmgm>; map; rspamd_map_add: added map https://maps.rspamd.com/freemail/disposable.txt.zst
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: disposable_mdn (header)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/disposable.txt.zst(hash)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: disposable_envfrom (from)
+2025-09-09 11:40:22 #860(main) <1m91ii>; map; rspamd_map_add: added map https://maps.rspamd.com/freemail/free.txt.zst
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: freemail_from (header)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/disposable.txt.zst(hash)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: disposable_cc (header)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/free.txt.zst(hash)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: freemail_to (header)
+2025-09-09 11:40:22 #860(main) <4x4rch>; map; rspamd_map_add: added map https://maps.rspamd.com/rspamd/redirectors.inc.zst
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: redirector (url)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/disposable.txt.zst(hash)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: disposable_from (header)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/free.txt.zst(hash)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: freemail_cc (header)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/disposable.txt.zst(hash)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: disposable_to (header)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/free.txt.zst(hash)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: freemail_replyto (header)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/free.txt.zst(hash)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: freemail_envfrom (from)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/free.txt.zst(hash)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: freemail_mdn (header)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/disposable.txt.zst(hash)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: disposable_envrcpt (rcpt)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/disposable.txt.zst(hash)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: disposable_replyto (header)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/free.txt.zst(hash)
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: freemail_envrcpt (rcpt)
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module multimap from /usr/share/rspamd/plugins/multimap.lua; digest: b5165b883f
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module mx_check is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module neural is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module once_received from /usr/share/rspamd/plugins/once_received.lua; digest: 86bcf30c2e
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module p0f is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/redirectors.inc' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/redirectors.inc' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/phishing_whitelist.inc' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/phishing_whitelist.inc' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module phishing from /usr/share/rspamd/plugins/phishing.lua; digest: 3131a70a7d
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_redis.lua:610: use default Redis settings for ratelimit
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module ratelimit from /usr/share/rspamd/plugins/ratelimit.lua; digest: b29286576b
+2025-09-09 11:40:22 #860(main) <orfb3c>; map; rspamd_map_add: added map https://maps.rspamd.com/rspamd/disabled_rbls.inc.zst
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/surbl-whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/surbl-whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1149: added URL whitelist for RBL RSPAMD_URIBL
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule RSPAMD_URIBL: checks: alive,dkim,emails,urls
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule RCVD_IN_DNSWL: checks: alive,user,local,ip,received
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:327: reuse url for complex map definition p1tsamp7: RBL url whitelist for URIBL_MULTI
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1149: added URL whitelist for RBL URIBL_MULTI
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule URIBL_MULTI: checks: alive,helo,dkim,emails,replyto,urls,rdns,selector
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule MSBL_EBL: checks: alive,emails,replyto
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:327: reuse url for complex map definition p1tsamp7: RBL url whitelist for DWL_DNSWL
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1149: added URL whitelist for RBL DWL_DNSWL
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule DWL_DNSWL: checks: alive,user,local,dkim
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule RBL_SEM: checks: alive,user,local,ip
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule RBL_SEM_IPV6: checks: alive,user,local,ip
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1345: disable rbl "SPAMHAUS_ZEN_URIBL"
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:327: reuse url for complex map definition p1tsamp7: RBL url whitelist for SURBL_MULTI
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1149: added URL whitelist for RBL SURBL_MULTI
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule SURBL_MULTI: checks: alive,helo,dkim,emails,replyto,urls,rdns,selector
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule BLOCKLISTDE: checks: alive,user,local,ip,received
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:327: reuse url for complex map definition p1tsamp7: RBL url whitelist for SEM_URIBL_FRESH15_UNKNOWN
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1149: added URL whitelist for RBL SEM_URIBL_FRESH15_UNKNOWN
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule SEM_URIBL_FRESH15_UNKNOWN: checks: alive,dkim,emails,urls
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule SURBL_HASHBL: checks: alive,selector
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:327: reuse url for complex map definition p1tsamp7: RBL url whitelist for SEM_URIBL_UNKNOWN
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1149: added URL whitelist for RBL SEM_URIBL_UNKNOWN
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule SEM_URIBL_UNKNOWN: checks: alive,dkim,emails,urls
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_maps.lua:327: reuse url for complex map definition p1tsamp7: RBL url whitelist for DBL
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1149: added URL whitelist for RBL DBL
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule DBL: checks: alive,helo,dkim,emails,replyto,urls,rdns,selector
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule MAILSPIKE: checks: alive,user,local,ip
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule RSPAMD_EMAILBL: checks: alive,emails,replyto
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule RBL_SENDERSCORE_REPUT_UNKNOWN: checks: alive,user,local,ip
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule RBL_VIRUSFREE_UNKNOWN: checks: alive,user,local,ip
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule SPAMHAUS: checks: alive,user,local,ip,received
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; rbl.lua:1345: disable rbl "senderscore"
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module rbl from /usr/share/rspamd/plugins/rbl.lua; digest: 62c9e1a244
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; lua_redis.lua:610: use default Redis settings for replies
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module replies from /usr/share/rspamd/plugins/replies.lua; digest: c3c8c585cc
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module reputation is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module rspamd_update is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module settings from /usr/share/rspamd/plugins/settings.lua; digest: 0af88d61af
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module spamassassin is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module spamtrap is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module spf from /usr/share/rspamd/plugins/spf.lua; digest: fb139e2df5
+2025-09-09 11:40:22 #860(main) <rjbuic>; lua; trie.lua:169: no tries defined
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module trie from /usr/share/rspamd/plugins/trie.lua; digest: 228703fa97
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module url_redirector is disabled in the configuration
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/dmarc_whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/dmarc_whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/spf_whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/spf_whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/maps.d/spf_whitelist.inc' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/spf_dkim_whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/spf_dkim_whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/dkim_whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/dkim_whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/maps.d/dkim_whitelist.inc' is not found, but it can be loaded automatically later
+2025-09-09 11:40:22 #860(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module whitelist from /usr/share/rspamd/plugins/whitelist.lua; digest: 60841cf3cd
+2025-09-09 11:40:22 #860(main) rspamd_url_init: start compiling of 10229 TLD suffixes; it might take a long time
+2025-09-09 11:40:33 #860(main) rspamd_url_init: initialized 10210 url match suffixes from '/usr/share/rspamd/effective_tld_names.dat'
+2025-09-09 11:40:33 #860(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/rspamd_dynamic' is not found, but it can be loaded automatically later
+2025-09-09 11:40:33 #860(main) <zcehhy>; map; rspamd_map_add: added map /var/lib/rspamd/rspamd_dynamic
+2025-09-09 11:40:33 #860(main) <rjbuic>; symcache; load_items: cannot open file /var/lib/rspamd/symbols.cache: No such file or directory
+2025-09-09 11:40:33 #860(main) <6e2053>; re_cache; rspamd_re_cache_init: loaded hyperscan engine with cpu tune 'generic' and features 'AVX2'
+2025-09-09 11:40:33 #860(main) <6e2053>; re_cache; rspamd_re_cache_load_hyperscan: hyperscan database has NOT been loaded; no valid expressions
+2025-09-09 11:40:33 #860(main) <rjbuic>; cfg; rspamd_config_register_settings_id: register new settings id 1937017268 (authenticated)
+2025-09-09 11:40:33 #860(main) <rjbuic>; lua; settings.lua:1230: loaded 1 elements of settings
+2025-09-09 11:40:33 #860(main) <zcehhy>; map; read_map_file: /var/lib/rspamd/rspamd_dynamic: map file is not found; it will be read automatically if created
+2025-09-09 11:40:33 #860(main) <opzbny>; map; read_map_file: /etc/rspamd/local.d/maps.d/dkim_whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:40:33 #860(main) <opzbny>; map; read_map_file: /var/lib/rspamd/dkim_whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:40:33 #860(main) <z84ycf>; map; read_map_file: /etc/rspamd/local.d/maps.d/spf_dkim_whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:40:33 #860(main) <z84ycf>; map; read_map_file: /var/lib/rspamd/spf_dkim_whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:40:33 #860(main) <z84ycf>; map; rspamd_kv_list_fin: read hash of 229 elements from https://maps.rspamd.com/rspamd/spf_dkim_whitelist.inc.zst
+2025-09-09 11:40:33 #860(main) <8pxy7b>; map; read_map_file: /etc/rspamd/local.d/maps.d/spf_whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:40:33 #860(main) <8pxy7b>; map; read_map_file: /var/lib/rspamd/spf_whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:40:33 #860(main) <sye7es>; map; read_map_file: /etc/rspamd/local.d/maps.d/dmarc_whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:40:33 #860(main) <sye7es>; map; read_map_file: /var/lib/rspamd/dmarc_whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:40:33 #860(main) <sye7es>; map; rspamd_kv_list_fin: read hash of 67 elements from https://maps.rspamd.com/rspamd/dmarc_whitelist_new.inc.zst
+2025-09-09 11:40:33 #860(main) <a91k53>; map; read_map_file: /etc/rspamd/local.d/maps.d/surbl-whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:40:33 #860(main) <a91k53>; map; read_map_file: /var/lib/rspamd/surbl-whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:40:33 #860(main) <a91k53>; map; rspamd_kv_list_fin: read hash of 827 elements from https://maps.rspamd.com/rspamd/surbl-whitelist.inc.zst
+2025-09-09 11:40:33 #860(main) <p1wthh>; map; read_map_file: /etc/rspamd/local.d/maps.d/redirectors.inc: map file is not found; it will be read automatically if created
+2025-09-09 11:40:33 #860(main) <p1wthh>; map; read_map_file: /etc/rspamd/local.d/redirectors.inc: map file is not found; it will be read automatically if created
+2025-09-09 11:40:33 #860(main) <p1wthh>; map; rspamd_kv_list_fin: read hash of 1045 elements from https://maps.rspamd.com/rspamd/redirectors.inc.zst
+2025-09-09 11:40:33 #860(main) <1dd6r5>; map; read_map_file: /etc/rspamd/local.d/maps.d/mime_types.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:40:33 #860(main) <1dd6r5>; map; read_map_file: /var/lib/rspamd/mime_types.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:40:33 #860(main) <1dd6r5>; map; rspamd_kv_list_fin: read hash of 1537 elements from https://maps.rspamd.com/rspamd/mime_types.inc.zst
+2025-09-09 11:40:33 #860(main) <htymxj>; map; read_map_file: /etc/rspamd/local.d/maps.d/mid.inc: map file is not found; it will be read automatically if created
+2025-09-09 11:40:33 #860(main) <htymxj>; map; read_map_file: /etc/rspamd/local.d/mid.inc: map file is not found; it will be read automatically if created
+2025-09-09 11:40:33 #860(main) <htymxj>; map; rspamd_kv_list_fin: read hash of 19 elements from https://maps.rspamd.com/rspamd/mid.inc.zst
+2025-09-09 11:40:33 #860(main) <qt6uy8>; map; read_map_static: static: read map data, 182 bytes
+2025-09-09 11:40:33 #860(main) <qt6uy8>; map; rspamd_re_map_finalize: hyperscan compiled 3 regular expressions from static in 3.8 ms
+2025-09-09 11:40:33 #860(main) <qt6uy8>; map; rspamd_try_save_re_map_cache: written cached hyperscan data for static to /var/lib/rspamd//4612c5b2850bcf5f37b1a61e18706264bfe489b0f3ca3c0e85ba51bc2b39b4a4.hsmc (17.63KiB length)
+2025-09-09 11:40:33 #860(main) <qt6uy8>; map; rspamd_regexp_list_fin: read regexp list of 3 elements
+2025-09-09 11:40:33 #860(main) <rk1f98>; map; read_map_static: static: read map data, 2466 bytes
+2025-09-09 11:40:34 #860(main) <rk1f98>; map; rspamd_re_map_finalize: hyperscan compiled 104 regular expressions from static in 73.3 ms
+2025-09-09 11:40:34 #860(main) <rk1f98>; map; rspamd_try_save_re_map_cache: written cached hyperscan data for static to /var/lib/rspamd//0402a5c3bc277ffca466995cb8420ad931d15f4ac592973a00292c88dabf3467.hsmc (231.97KiB length)
+2025-09-09 11:40:34 #860(main) <rk1f98>; map; rspamd_regexp_list_fin: read regexp list of 104 elements
+2025-09-09 11:40:34 #860(main) <o6x5q4>; map; read_map_static: static: read map data, 589 bytes
+2025-09-09 11:40:34 #860(main) <o6x5q4>; map; rspamd_re_map_finalize: hyperscan compiled 24 regular expressions from static in 7.7 ms
+2025-09-09 11:40:34 #860(main) <o6x5q4>; map; rspamd_try_save_re_map_cache: written cached hyperscan data for static to /var/lib/rspamd//bf0550e5a5b24f4fca1d1baa51c64e8f02fd7ec753bc7d244f4fd10414f831b5.hsmc (28.94KiB length)
+2025-09-09 11:40:34 #860(main) <o6x5q4>; map; rspamd_regexp_list_fin: read regexp list of 24 elements
+2025-09-09 11:40:34 #860(main) <1qyyf5>; map; read_map_static: static: read map data, 49 bytes
+2025-09-09 11:40:34 #860(main) <1qyyf5>; map; rspamd_re_map_finalize: hyperscan compiled 2 regular expressions from static in 0.0 ms
+2025-09-09 11:40:34 #860(main) <1qyyf5>; map; rspamd_try_save_re_map_cache: written cached hyperscan data for static to /var/lib/rspamd//9b7fc2c2d1cb7d752038a8c89c5812c0047965aec5efada37bd6a161237c90eb.hsmc (5.97KiB length)
+2025-09-09 11:40:34 #860(main) <1qyyf5>; map; rspamd_regexp_list_fin: read regexp list of 2 elements
+2025-09-09 11:40:34 #860(main) <6m1zqj>; map; read_map_static: static: read map data, 10 bytes
+2025-09-09 11:40:34 #860(main) <6m1zqj>; map; rspamd_radix_fin: read radix trie of 1 elements: ents=1 dup=0 tbm=0 lc=3 mem=1k free=0 waste=0
+2025-09-09 11:40:34 #860(main) <pgfniw>; map; read_map_file: /etc/rspamd/local.d/maps.d/exe_clickbait.inc: map file is not found; it will be read automatically if created
+2025-09-09 11:40:34 #860(main) <pgfniw>; map; rspamd_re_map_finalize: hyperscan compiled 15 regular expressions from /etc/rspamd/maps.d/exe_clickbait.inc in 30.8 ms
+2025-09-09 11:40:34 #860(main) <pgfniw>; map; rspamd_try_save_re_map_cache: written cached hyperscan data for /etc/rspamd/maps.d/exe_clickbait.inc to /var/lib/rspamd//4f56cd0c4171d02eb9f7a67ca09351850a05054ddfe53de24a11676d4785bf21.hsmc (25.41KiB length)
+2025-09-09 11:40:34 #860(main) <pgfniw>; map; rspamd_regexp_list_fin: read regexp list of 15 elements
+2025-09-09 11:40:34 #860(main) <248b77>; main; main: rspamd 3.12.1 is starting, build id: release
+2025-09-09 11:40:34 #860(main) <248b77>; main; main: cpu features: avx2, avx, sse2, sse3, ssse3, sse4.1, sse4.2, rdrand
+2025-09-09 11:40:34 #860(main) <248b77>; main; main: cryptobox configuration: curve25519(libsodium), chacha20(avx2), poly1305(libsodium), siphash(libsodium), blake2(libsodium), base64(avx2)
+2025-09-09 11:40:34 #860(main) <248b77>; main; main: libottery prf: AES-128
+2025-09-09 11:40:34 #860(main) <248b77>; main; main: simdutf implementation: haswell(Intel/AMD AVX2)
+2025-09-09 11:40:34 #860(main) <248b77>; main; main: skip writing pid in no-fork mode
+2025-09-09 11:40:34 #860(main) rspamd_inet_address_listen: bind unix:/var/lib/rspamd/rspamd.sock failed: 95, 'Operation not supported'
+2025-09-09 11:40:34 #860(main) <248b77>; main; main: cannot open control socket at path: /var/lib/rspamd/rspamd.sock mode=0600
+2025-09-09 11:40:34 #860(main) <248b77>; main; main: event loop initialised with backend: epoll
+2025-09-09 11:40:34 #860(main) <248b77>; main; spawn_workers: worker of type fuzzy(localhost:11335) is disabled in the config, skip spawning
+2025-09-09 11:40:34 #860(main) <248b77>; main; rspamd_fork_worker: prepare to fork process rspamd_proxy (0); listen on: 127.0.0.1:11332
+2025-09-09 11:40:34 #860(main) <248b77>; main; rspamd_fork_worker: prepare to fork process rspamd_proxy (1); listen on: 127.0.0.1:11332
+2025-09-09 11:40:34 #1379(rspamd_proxy) <248b77>; main; rspamd_worker_set_limits: use system max file descriptors limit: 1024KiB cur and 1024KiB max
+2025-09-09 11:40:34 #1379(rspamd_proxy) <248b77>; main; rspamd_worker_set_limits: use system max core size limit: 0B cur and -1B max
+2025-09-09 11:40:34 #860(main) <248b77>; main; rspamd_fork_worker: prepare to fork process controller (0); listen on: 0.0.0.0:11334
+2025-09-09 11:40:34 #1380(rspamd_proxy) <248b77>; main; rspamd_worker_set_limits: use system max file descriptors limit: 1024KiB cur and 1024KiB max
+2025-09-09 11:40:34 #1380(rspamd_proxy) <248b77>; main; rspamd_worker_set_limits: use system max core size limit: 0B cur and -1B max
+2025-09-09 11:40:34 #860(main) <248b77>; main; spawn_workers: worker of type normal(127.0.0.1:11333) is disabled in the config, skip spawning
+2025-09-09 11:40:34 #860(main) <248b77>; main; rspamd_fork_worker: prepare to fork process hs_helper (0), no bind socket
+2025-09-09 11:40:34 #1381(controller) <248b77>; main; rspamd_worker_set_limits: use system max file descriptors limit: 1024KiB cur and 1024KiB max
+2025-09-09 11:40:34 #1381(controller) <248b77>; main; rspamd_worker_set_limits: use system max core size limit: 0B cur and -1B max
+2025-09-09 11:40:34 #1381(controller) <rjbuic>; controller; rspamd_controller_password_sane: your normal password is not encrypted, we strongly recommend to replace it with the encrypted one
+2025-09-09 11:40:34 #1381(controller) <rjbuic>; controller; rspamd_controller_password_sane: enable password is not set, so you should filter controller availability by using of firewall or `secure_ip` option
+2025-09-09 11:40:34 #1382(hs_helper) <248b77>; main; rspamd_worker_set_limits: use system max file descriptors limit: 1024KiB cur and 1024KiB max
+2025-09-09 11:40:34 #1382(hs_helper) <248b77>; main; rspamd_worker_set_limits: use system max core size limit: 0B cur and -1B max
+2025-09-09 11:40:41 #1381(controller) <s4ti79>; monitored; rspamd_monitored_dns_cb: DNS reply returned 'no error' for score.senderscore.com while 'no records with this name' was expected when querying for '1.0.0.127.score.senderscore.com'(likely DNS spoofing or BL internal issues)
+2025-09-09 11:40:41 #860(main) <6e2053>; re_cache; rspamd_re_cache_load_hyperscan: full hyperscan database of 180 regexps has been loaded
+2025-09-09 11:40:41 #860(main) <248b77>; main; rspamd_srv_handler: received hyperscan cache loaded from /var/lib/rspamd/
+2025-09-09 11:41:30 #1381(controller) <s4ti79>; monitored; rspamd_monitored_dns_cb: DNS reply returned 'no error' for score.senderscore.com while 'no records with this name' was expected when querying for '1.0.0.127.score.senderscore.com'(likely DNS spoofing or BL internal issues)
+2025-09-09 11:41:41 #823(main) <2713be>; main; main: rspamd 3.12.1 is loading configuration, build id: release
+2025-09-09 11:41:41 #823(main) <>; lua; lua_cfg_transform.lua:456: converted surbl rules to rbl rules
+2025-09-09 11:41:41 #823(main) <>; lua; lua_cfg_transform.lua:470: converted emails rules to rbl rules
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_set_action_score: action reject has been already registered with priority 0, override it with new priority: 1, old threshold: nan, new threshold: 11.00
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_set_action_score: action add header has been already registered with priority 0, override it with new priority: 1, old threshold: nan, new threshold: 6.00
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_set_action_score: action greylist has been already registered with priority 0, override it with new priority: 1, old threshold: nan, new threshold: 4.00
+2025-09-09 11:41:41 #823(main) rspamd_regexp_library_init: pcre2 is compiled with JIT for x86 64bit (little endian + unaligned)
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/exe_clickbait.inc' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_redis.lua:610: use default Redis settings for neural
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; init.lua:59: controller plugin maps; register webui path query_json
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; init.lua:59: controller plugin maps; register webui path list
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; init.lua:59: controller plugin maps; register webui path query_specific
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; init.lua:59: controller plugin maps; register webui path query
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; init.lua:59: controller plugin selectors; register webui path list_extractors
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; init.lua:59: controller plugin selectors; register webui path list_transforms
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; init.lua:59: controller plugin selectors; register webui path check_message
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; init.lua:59: controller plugin selectors; register webui path check_selector
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; init.lua:59: controller plugin fuzzy; register webui path hashes
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; init.lua:59: controller plugin neural; register webui path learn
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_language_detector_init: loaded 46 languages, 33122 trigrams; fasttext is not compiled in
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; chartable_module_config: init internal chartable module
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; dkim_module_config: init internal dkim module
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_mime_expr_parse: added condition for regexp /\b[13LM][1-9A-Za-z]{25,34}\b/AL{sa_body}
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_mime_expr_parse: added condition for regexp /\b(?:(?:[a-zA-Z]\w+:)|(?:bc1))?[qpzry9x8gf2tvdw0s3jn54khce6mua7l]{14,}\b/AL{sa_body}
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; regexp_module_config: init internal regexp module, 131 regexp rules and 0 lua rules are loaded
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; fuzzy_parse_rule: added fuzzy rule FUZZY_UNKNOWN, key: ef43ae80cc8d, shingles_key: ef43ae80cc8d, algorithm: mum
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; fuzzy_check_module_config: init internal fuzzy_check module, 1 rules loaded
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_redis.lua:610: use default Redis settings for antivirus
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; antivirus.lua:209: added antivirus engine ClamAV -> CLAM_VIRUS
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module antivirus from /usr/share/rspamd/plugins/antivirus.lua; digest: 9b42eaa703
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module arc from /usr/share/rspamd/plugins/arc.lua; digest: e883895bbe
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module asn from /usr/share/rspamd/plugins/asn.lua; digest: 037ddf0b49
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module aws_s3 is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module bayes_expiry from /usr/share/rspamd/plugins/bayes_expiry.lua; digest: d0b08624b5
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module bimi is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module clickhouse is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module clustering is enabled but has not been configured
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: clustering disabling unconfigured lua module
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module contextal is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module dcc is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:327: reuse url for complex map definition chqbixcj: DKIM signing networks
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module dkim_signing from /usr/share/rspamd/plugins/dkim_signing.lua; digest: 5801ba3744
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module dmarc from /usr/share/rspamd/plugins/dmarc.lua; digest: a7dc6c5237
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module dynamic_conf is enabled but has not been configured
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: dynamic_conf disabling unconfigured lua module
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module elastic is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module emails is enabled but has not been configured
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: emails disabling unconfigured lua module
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module external_relay is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_redis.lua:610: use default Redis settings for external_services
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module external_services from /usr/share/rspamd/plugins/external_services.lua; digest: e14a9748fb
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module force_actions from /usr/share/rspamd/plugins/force_actions.lua; digest: def67ae0ec
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module forged_recipients from /usr/share/rspamd/plugins/forged_recipients.lua; digest: 3b134f341b
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module fuzzy_collect is enabled but has not been configured
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: fuzzy_collect disabling unconfigured lua module
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module gpt is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module greylist is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module hfilter from /usr/share/rspamd/plugins/hfilter.lua; digest: 5cf4f0ee12
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_redis.lua:610: use default Redis settings for history_redis
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module history_redis from /usr/share/rspamd/plugins/history_redis.lua; digest: b090820bfb
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module http_headers is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module ip_score is enabled but has not been configured
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: ip_score disabling unconfigured lua module
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module known_senders is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module maillist from /usr/share/rspamd/plugins/maillist.lua; digest: 5139f35b82
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module maps_stats is enabled but has not been configured
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: maps_stats disabling unconfigured lua module
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module metadata_exporter from /usr/share/rspamd/plugins/metadata_exporter.lua; digest: c9d47879ac
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module metric_exporter is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/mid.inc' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/mid.inc' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module mid from /usr/share/rspamd/plugins/mid.lua; digest: 5c9eb124f6
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; milter_headers.lua:757: active routines [x-spamd-result,x-rspamd-server,x-rspamd-queue-id,x-rspamd-action,remove-spam-flag]
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module milter_headers from /usr/share/rspamd/plugins/milter_headers.lua; digest: 61dc6ff391
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/mime_types.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/mime_types.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module mime_types from /usr/share/rspamd/plugins/mime_types.lua; digest: a73582e389
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_redis.lua:610: use default Redis settings for multimap
+2025-09-09 11:41:41 #823(main) <j3dmgm>; map; rspamd_map_add: added map https://maps.rspamd.com/freemail/disposable.txt.zst
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: disposable_mdn (header)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/disposable.txt.zst(hash)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: disposable_replyto (header)
+2025-09-09 11:41:41 #823(main) <1m91ii>; map; rspamd_map_add: added map https://maps.rspamd.com/freemail/free.txt.zst
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: freemail_from (header)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/disposable.txt.zst(hash)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: disposable_cc (header)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/free.txt.zst(hash)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: freemail_to (header)
+2025-09-09 11:41:41 #823(main) <4x4rch>; map; rspamd_map_add: added map https://maps.rspamd.com/rspamd/redirectors.inc.zst
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: redirector (url)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/disposable.txt.zst(hash)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: disposable_to (header)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/free.txt.zst(hash)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: freemail_cc (header)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/disposable.txt.zst(hash)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: disposable_from (header)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/free.txt.zst(hash)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: freemail_replyto (header)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/free.txt.zst(hash)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: freemail_envfrom (from)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/free.txt.zst(hash)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: freemail_mdn (header)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/disposable.txt.zst(hash)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: disposable_envrcpt (rcpt)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/disposable.txt.zst(hash)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: disposable_envfrom (from)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:305: reuse url for https://maps.rspamd.com/freemail/free.txt.zst(hash)
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; multimap.lua:1402: added multimap rule: freemail_envrcpt (rcpt)
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module multimap from /usr/share/rspamd/plugins/multimap.lua; digest: b5165b883f
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module mx_check is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module neural is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module once_received from /usr/share/rspamd/plugins/once_received.lua; digest: 86bcf30c2e
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module p0f is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/redirectors.inc' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/redirectors.inc' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/phishing_whitelist.inc' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/phishing_whitelist.inc' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module phishing from /usr/share/rspamd/plugins/phishing.lua; digest: 3131a70a7d
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_redis.lua:610: use default Redis settings for ratelimit
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module ratelimit from /usr/share/rspamd/plugins/ratelimit.lua; digest: b29286576b
+2025-09-09 11:41:41 #823(main) <orfb3c>; map; rspamd_map_add: added map https://maps.rspamd.com/rspamd/disabled_rbls.inc.zst
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule RCVD_IN_DNSWL: checks: alive,user,local,ip,received
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule MSBL_EBL: checks: alive,emails,replyto
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule SURBL_HASHBL: checks: alive,selector
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1345: disable rbl "SPAMHAUS_ZEN_URIBL"
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/surbl-whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/surbl-whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1149: added URL whitelist for RBL SEM_URIBL_UNKNOWN
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule SEM_URIBL_UNKNOWN: checks: alive,dkim,emails,urls
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule RBL_SENDERSCORE_REPUT_UNKNOWN: checks: alive,user,local,ip
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule BLOCKLISTDE: checks: alive,user,local,ip,received
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule RBL_VIRUSFREE_UNKNOWN: checks: alive,user,local,ip
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:327: reuse url for complex map definition p1tsamp7: RBL url whitelist for DWL_DNSWL
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1149: added URL whitelist for RBL DWL_DNSWL
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule DWL_DNSWL: checks: alive,user,local,dkim
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule MAILSPIKE: checks: alive,user,local,ip
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:327: reuse url for complex map definition p1tsamp7: RBL url whitelist for DBL
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1149: added URL whitelist for RBL DBL
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule DBL: checks: alive,helo,dkim,emails,replyto,urls,rdns,selector
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule RBL_SEM: checks: alive,user,local,ip
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:327: reuse url for complex map definition p1tsamp7: RBL url whitelist for URIBL_MULTI
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1149: added URL whitelist for RBL URIBL_MULTI
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule URIBL_MULTI: checks: alive,helo,dkim,emails,replyto,urls,rdns,selector
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1345: disable rbl "senderscore"
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule SPAMHAUS: checks: alive,user,local,ip,received
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule RBL_SEM_IPV6: checks: alive,user,local,ip
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:327: reuse url for complex map definition p1tsamp7: RBL url whitelist for RSPAMD_URIBL
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1149: added URL whitelist for RBL RSPAMD_URIBL
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule RSPAMD_URIBL: checks: alive,dkim,emails,urls
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:327: reuse url for complex map definition p1tsamp7: RBL url whitelist for SEM_URIBL_FRESH15_UNKNOWN
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1149: added URL whitelist for RBL SEM_URIBL_FRESH15_UNKNOWN
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule SEM_URIBL_FRESH15_UNKNOWN: checks: alive,dkim,emails,urls
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_maps.lua:327: reuse url for complex map definition p1tsamp7: RBL url whitelist for SURBL_MULTI
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1149: added URL whitelist for RBL SURBL_MULTI
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule SURBL_MULTI: checks: alive,helo,dkim,emails,replyto,urls,rdns,selector
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; rbl.lua:1203: added rbl rule RSPAMD_EMAILBL: checks: alive,emails,replyto
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module rbl from /usr/share/rspamd/plugins/rbl.lua; digest: 62c9e1a244
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; lua_redis.lua:610: use default Redis settings for replies
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module replies from /usr/share/rspamd/plugins/replies.lua; digest: c3c8c585cc
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module reputation is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module rspamd_update is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module settings from /usr/share/rspamd/plugins/settings.lua; digest: 0af88d61af
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module spamassassin is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module spamtrap is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module spf from /usr/share/rspamd/plugins/spf.lua; digest: fb139e2df5
+2025-09-09 11:41:41 #823(main) <rjbuic>; lua; trie.lua:169: no tries defined
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module trie from /usr/share/rspamd/plugins/trie.lua; digest: 228703fa97
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_config_is_module_enabled: lua module url_redirector is disabled in the configuration
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/spf_whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/spf_whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/maps.d/spf_whitelist.inc' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/dmarc_whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/dmarc_whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/spf_dkim_whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/spf_dkim_whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/dkim_whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/dkim_whitelist.inc.local' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/maps.d/dkim_whitelist.inc' is not found, but it can be loaded automatically later
+2025-09-09 11:41:41 #823(main) <rjbuic>; cfg; rspamd_init_lua_filters: init lua module whitelist from /usr/share/rspamd/plugins/whitelist.lua; digest: 60841cf3cd
+2025-09-09 11:41:41 #823(main) rspamd_url_init: start compiling of 10229 TLD suffixes; it might take a long time
+2025-09-09 11:41:52 #823(main) rspamd_url_init: initialized 10210 url match suffixes from '/usr/share/rspamd/effective_tld_names.dat'
+2025-09-09 11:41:52 #823(main) <rjbuic>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/rspamd_dynamic' is not found, but it can be loaded automatically later
+2025-09-09 11:41:52 #823(main) <zcehhy>; map; rspamd_map_add: added map /var/lib/rspamd/rspamd_dynamic
+2025-09-09 11:41:52 #823(main) <rjbuic>; symcache; load_items: cannot open file /var/lib/rspamd/symbols.cache: No such file or directory
+2025-09-09 11:41:52 #823(main) <6e2053>; re_cache; rspamd_re_cache_init: loaded hyperscan engine with cpu tune 'generic' and features 'AVX2'
+2025-09-09 11:41:52 #823(main) <6e2053>; re_cache; rspamd_re_cache_load_hyperscan: hyperscan database has NOT been loaded; no valid expressions
+2025-09-09 11:41:52 #823(main) <rjbuic>; cfg; rspamd_config_register_settings_id: register new settings id 1937017268 (authenticated)
+2025-09-09 11:41:52 #823(main) <rjbuic>; lua; settings.lua:1230: loaded 1 elements of settings
+2025-09-09 11:41:52 #823(main) <zcehhy>; map; read_map_file: /var/lib/rspamd/rspamd_dynamic: map file is not found; it will be read automatically if created
+2025-09-09 11:41:52 #823(main) <opzbny>; map; read_map_file: /etc/rspamd/local.d/maps.d/dkim_whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:41:52 #823(main) <opzbny>; map; read_map_file: /var/lib/rspamd/dkim_whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:41:52 #823(main) <z84ycf>; map; read_map_file: /etc/rspamd/local.d/maps.d/spf_dkim_whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:41:52 #823(main) <z84ycf>; map; read_map_file: /var/lib/rspamd/spf_dkim_whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:41:52 #823(main) <z84ycf>; map; rspamd_kv_list_fin: read hash of 229 elements from https://maps.rspamd.com/rspamd/spf_dkim_whitelist.inc.zst
+2025-09-09 11:41:52 #823(main) <sye7es>; map; read_map_file: /etc/rspamd/local.d/maps.d/dmarc_whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:41:52 #823(main) <sye7es>; map; read_map_file: /var/lib/rspamd/dmarc_whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:41:52 #823(main) <sye7es>; map; rspamd_kv_list_fin: read hash of 67 elements from https://maps.rspamd.com/rspamd/dmarc_whitelist_new.inc.zst
+2025-09-09 11:41:52 #823(main) <8pxy7b>; map; read_map_file: /etc/rspamd/local.d/maps.d/spf_whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:41:52 #823(main) <8pxy7b>; map; read_map_file: /var/lib/rspamd/spf_whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:41:52 #823(main) <3yeuax>; map; read_map_file: /etc/rspamd/local.d/maps.d/surbl-whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:41:52 #823(main) <3yeuax>; map; read_map_file: /var/lib/rspamd/surbl-whitelist.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:41:52 #823(main) <3yeuax>; map; rspamd_kv_list_fin: read hash of 827 elements from https://maps.rspamd.com/rspamd/surbl-whitelist.inc.zst
+2025-09-09 11:41:52 #823(main) <p1wthh>; map; read_map_file: /etc/rspamd/local.d/maps.d/redirectors.inc: map file is not found; it will be read automatically if created
+2025-09-09 11:41:52 #823(main) <p1wthh>; map; read_map_file: /etc/rspamd/local.d/redirectors.inc: map file is not found; it will be read automatically if created
+2025-09-09 11:41:52 #823(main) <p1wthh>; map; rspamd_kv_list_fin: read hash of 1045 elements from https://maps.rspamd.com/rspamd/redirectors.inc.zst
+2025-09-09 11:41:52 #823(main) <1dd6r5>; map; read_map_file: /etc/rspamd/local.d/maps.d/mime_types.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:41:52 #823(main) <1dd6r5>; map; read_map_file: /var/lib/rspamd/mime_types.inc.local: map file is not found; it will be read automatically if created
+2025-09-09 11:41:52 #823(main) <1dd6r5>; map; rspamd_kv_list_fin: read hash of 1537 elements from https://maps.rspamd.com/rspamd/mime_types.inc.zst
+2025-09-09 11:41:52 #823(main) <htymxj>; map; read_map_file: /etc/rspamd/local.d/maps.d/mid.inc: map file is not found; it will be read automatically if created
+2025-09-09 11:41:52 #823(main) <htymxj>; map; read_map_file: /etc/rspamd/local.d/mid.inc: map file is not found; it will be read automatically if created
+2025-09-09 11:41:52 #823(main) <htymxj>; map; rspamd_kv_list_fin: read hash of 19 elements from https://maps.rspamd.com/rspamd/mid.inc.zst
+2025-09-09 11:41:52 #823(main) <qt6uy8>; map; read_map_static: static: read map data, 182 bytes
+2025-09-09 11:41:52 #823(main) <qt6uy8>; map; rspamd_re_map_finalize: hyperscan compiled 3 regular expressions from static in 0.0 ms
+2025-09-09 11:41:52 #823(main) <qt6uy8>; map; rspamd_try_save_re_map_cache: written cached hyperscan data for static to /var/lib/rspamd//4612c5b2850bcf5f37b1a61e18706264bfe489b0f3ca3c0e85ba51bc2b39b4a4.hsmc (17.63KiB length)
+2025-09-09 11:41:52 #823(main) <qt6uy8>; map; rspamd_regexp_list_fin: read regexp list of 3 elements
+2025-09-09 11:41:52 #823(main) <rk1f98>; map; read_map_static: static: read map data, 2466 bytes
+2025-09-09 11:41:52 #823(main) <rk1f98>; map; rspamd_re_map_finalize: hyperscan compiled 104 regular expressions from static in 65.4 ms
+2025-09-09 11:41:52 #823(main) <rk1f98>; map; rspamd_try_save_re_map_cache: written cached hyperscan data for static to /var/lib/rspamd//0402a5c3bc277ffca466995cb8420ad931d15f4ac592973a00292c88dabf3467.hsmc (231.97KiB length)
+2025-09-09 11:41:52 #823(main) <rk1f98>; map; rspamd_regexp_list_fin: read regexp list of 104 elements
+2025-09-09 11:41:52 #823(main) <o6x5q4>; map; read_map_static: static: read map data, 589 bytes
+2025-09-09 11:41:52 #823(main) <o6x5q4>; map; rspamd_re_map_finalize: hyperscan compiled 24 regular expressions from static in 7.7 ms
+2025-09-09 11:41:52 #823(main) <o6x5q4>; map; rspamd_try_save_re_map_cache: written cached hyperscan data for static to /var/lib/rspamd//bf0550e5a5b24f4fca1d1baa51c64e8f02fd7ec753bc7d244f4fd10414f831b5.hsmc (28.94KiB length)
+2025-09-09 11:41:52 #823(main) <o6x5q4>; map; rspamd_regexp_list_fin: read regexp list of 24 elements
+2025-09-09 11:41:52 #823(main) <1qyyf5>; map; read_map_static: static: read map data, 49 bytes
+2025-09-09 11:41:52 #823(main) <1qyyf5>; map; rspamd_re_map_finalize: hyperscan compiled 2 regular expressions from static in 3.8 ms
+2025-09-09 11:41:52 #823(main) <1qyyf5>; map; rspamd_try_save_re_map_cache: written cached hyperscan data for static to /var/lib/rspamd//9b7fc2c2d1cb7d752038a8c89c5812c0047965aec5efada37bd6a161237c90eb.hsmc (5.97KiB length)
+2025-09-09 11:41:52 #823(main) <1qyyf5>; map; rspamd_regexp_list_fin: read regexp list of 2 elements
+2025-09-09 11:41:52 #823(main) <6m1zqj>; map; read_map_static: static: read map data, 10 bytes
+2025-09-09 11:41:52 #823(main) <6m1zqj>; map; rspamd_radix_fin: read radix trie of 1 elements: ents=1 dup=0 tbm=0 lc=3 mem=1k free=0 waste=0
+2025-09-09 11:41:52 #823(main) <pgfniw>; map; read_map_file: /etc/rspamd/local.d/maps.d/exe_clickbait.inc: map file is not found; it will be read automatically if created
+2025-09-09 11:41:52 #823(main) <pgfniw>; map; rspamd_re_map_finalize: hyperscan compiled 15 regular expressions from /etc/rspamd/maps.d/exe_clickbait.inc in 30.8 ms
+2025-09-09 11:41:52 #823(main) <pgfniw>; map; rspamd_try_save_re_map_cache: written cached hyperscan data for /etc/rspamd/maps.d/exe_clickbait.inc to /var/lib/rspamd//4f56cd0c4171d02eb9f7a67ca09351850a05054ddfe53de24a11676d4785bf21.hsmc (25.41KiB length)
+2025-09-09 11:41:52 #823(main) <pgfniw>; map; rspamd_regexp_list_fin: read regexp list of 15 elements
+2025-09-09 11:41:52 #823(main) <2713be>; main; main: rspamd 3.12.1 is starting, build id: release
+2025-09-09 11:41:52 #823(main) <2713be>; main; main: cpu features: avx2, avx, sse2, sse3, ssse3, sse4.1, sse4.2, rdrand
+2025-09-09 11:41:52 #823(main) <2713be>; main; main: cryptobox configuration: curve25519(libsodium), chacha20(avx2), poly1305(libsodium), siphash(libsodium), blake2(libsodium), base64(avx2)
+2025-09-09 11:41:52 #823(main) <2713be>; main; main: libottery prf: AES-128
+2025-09-09 11:41:52 #823(main) <2713be>; main; main: simdutf implementation: haswell(Intel/AMD AVX2)
+2025-09-09 11:41:52 #823(main) <2713be>; main; main: skip writing pid in no-fork mode
+2025-09-09 11:41:52 #823(main) <2713be>; main; main: event loop initialised with backend: epoll
+2025-09-09 11:41:52 #823(main) <2713be>; main; spawn_workers: worker of type fuzzy(localhost:11335) is disabled in the config, skip spawning
+2025-09-09 11:41:52 #823(main) <2713be>; main; rspamd_fork_worker: prepare to fork process rspamd_proxy (0); listen on: 127.0.0.1:11332
+2025-09-09 11:41:52 #823(main) <2713be>; main; rspamd_fork_worker: prepare to fork process rspamd_proxy (1); listen on: 127.0.0.1:11332
+2025-09-09 11:41:52 #1025(rspamd_proxy) <2713be>; main; rspamd_worker_set_limits: use system max file descriptors limit: 1024KiB cur and 1024KiB max
+2025-09-09 11:41:52 #1025(rspamd_proxy) <2713be>; main; rspamd_worker_set_limits: use system max core size limit: 0B cur and -1B max
+2025-09-09 11:41:52 #823(main) <2713be>; main; rspamd_fork_worker: prepare to fork process controller (0); listen on: 0.0.0.0:11334
+2025-09-09 11:41:52 #1026(rspamd_proxy) <2713be>; main; rspamd_worker_set_limits: use system max file descriptors limit: 1024KiB cur and 1024KiB max
+2025-09-09 11:41:52 #1026(rspamd_proxy) <2713be>; main; rspamd_worker_set_limits: use system max core size limit: 0B cur and -1B max
+2025-09-09 11:41:52 #823(main) <2713be>; main; spawn_workers: worker of type normal(127.0.0.1:11333) is disabled in the config, skip spawning
+2025-09-09 11:41:52 #823(main) <2713be>; main; rspamd_fork_worker: prepare to fork process hs_helper (0), no bind socket
+2025-09-09 11:41:52 #1027(controller) <2713be>; main; rspamd_worker_set_limits: use system max file descriptors limit: 1024KiB cur and 1024KiB max
+2025-09-09 11:41:52 #1027(controller) <2713be>; main; rspamd_worker_set_limits: use system max core size limit: 0B cur and -1B max
+2025-09-09 11:41:52 #1027(controller) <rjbuic>; controller; rspamd_controller_password_sane: your normal password is not encrypted, we strongly recommend to replace it with the encrypted one
+2025-09-09 11:41:52 #1027(controller) <rjbuic>; controller; rspamd_controller_password_sane: enable password is not set, so you should filter controller availability by using of firewall or `secure_ip` option
+2025-09-09 11:41:53 #823(main) <2713be>; main; main: listening for control commands on /var/lib/rspamd/rspamd.sock
+2025-09-09 11:41:53 #1028(hs_helper) <2713be>; main; rspamd_worker_set_limits: use system max file descriptors limit: 1024KiB cur and 1024KiB max
+2025-09-09 11:41:53 #1028(hs_helper) <2713be>; main; rspamd_worker_set_limits: use system max core size limit: 0B cur and -1B max
+2025-09-09 11:41:58 #823(main) <6e2053>; re_cache; rspamd_re_cache_load_hyperscan: full hyperscan database of 180 regexps has been loaded
+2025-09-09 11:41:58 #823(main) <2713be>; main; rspamd_srv_handler: received hyperscan cache loaded from /var/lib/rspamd/
+2025-09-09 11:42:01 #1027(controller) <s4ti79>; monitored; rspamd_monitored_dns_cb: DNS reply returned 'no error' for score.senderscore.com while 'no records with this name' was expected when querying for '1.0.0.127.score.senderscore.com'(likely DNS spoofing or BL internal issues)
+2025-09-09 11:42:59 #1027(controller) <s4ti79>; monitored; rspamd_monitored_dns_cb: DNS reply returned 'no error' for score.senderscore.com while 'no records with this name' was expected when querying for '1.0.0.127.score.senderscore.com'(likely DNS spoofing or BL internal issues)
+2025-09-09 11:44:58 #1027(controller) <s4ti79>; monitored; rspamd_monitored_dns_cb: DNS reply returned 'no error' for score.senderscore.com while 'no records with this name' was expected when querying for '1.0.0.127.score.senderscore.com'(likely DNS spoofing or BL internal issues)
+2025-09-09 11:44:58 #1027(controller) <s4ti79>; monitored; rspamd_monitored_propagate_error: invalid return on resolving score.senderscore.com, disable object
+2025-09-09 11:48:21 #1027(controller) <s4ti79>; monitored; rspamd_monitored_dns_cb: DNS reply returned 'no error' for score.senderscore.com while 'no records with this name' was expected when querying for '1.0.0.127.score.senderscore.com'(likely DNS spoofing or BL internal issues)

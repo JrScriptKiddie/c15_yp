@@ -1,0 +1,28 @@
+{
+  "fields": {
+    "name": "Ad",
+    "status": "Durum",
+    "body": "Mesaj",
+    "subject": "Konu",
+    "attachments": "Dosya Ekle",
+    "oneOff": "Bir defalık",
+    "category": "Sınıf"
+  },
+  "labels": {
+    "Create EmailTemplate": "Eposta Şablonu Oluştur",
+    "Info": "Bilgi",
+    "Available placeholders": "Kullanılabilir yer tutucular"
+  },
+  "tooltips": {
+    "oneOff": "Taslağı sadece bir defa kullanacaksanız işaretleyiniz. Ör. toplu posta için"
+  },
+  "presetFilters": {
+    "actual": "Güncel"
+  },
+  "placeholderTexts": {
+    "optOutLink": "abonelikten çıkma bağlantısı",
+    "today": "Günün tarihi",
+    "now": "Şu anki tarih & saat",
+    "currentYear": "Geçerli Yıl"
+  }
+}

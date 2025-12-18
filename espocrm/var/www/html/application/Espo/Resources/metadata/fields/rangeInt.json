@@ -1,0 +1,33 @@
+{
+    "actualFields": [
+        "from",
+        "to"
+    ],
+    "fields": {
+        "from": {
+            "type": "int",
+            "layoutAvailabilityList": [
+                "filters",
+                "massUpdate"
+            ]
+        },
+        "to": {
+            "type": "int",
+            "layoutAvailabilityList": [
+                "filters",
+                "massUpdate"
+            ]
+        }
+    },
+    "params": [
+        {
+            "name": "disableFormatting",
+            "type": "bool"
+        }
+    ],
+    "naming": "prefix",
+    "notMergeable": true,
+    "notCreatable": true,
+    "filter": false,
+    "skipOrmDefs": true
+}

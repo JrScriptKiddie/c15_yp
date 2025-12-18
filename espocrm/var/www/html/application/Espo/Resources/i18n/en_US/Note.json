@@ -1,0 +1,67 @@
+{
+    "fields": {
+        "post": "Post",
+        "attachments": "Attachments",
+        "targetType": "Target",
+        "teams": "Teams",
+        "users": "Users",
+        "portals": "Portals",
+        "type": "Type",
+        "isGlobal": "Is Global",
+        "isInternal": "Is Internal (for internal users)",
+        "isPinned": "Is Pinned",
+        "related": "Related",
+        "createdByGender": "Created By Gender",
+        "data": "Data",
+        "number": "Number"
+    },
+    "filters": {
+        "all": "All",
+        "posts": "Posts",
+        "updates": "Updates",
+        "activity": "Activity"
+    },
+    "options": {
+        "targetType": {
+            "self": "Self",
+            "users": "Users",
+            "teams": "Teams",
+            "all": "All Internal Users",
+            "portals": "Portal Users"
+        },
+        "type": {
+            "Post": "Post",
+            "Create": "Create",
+            "CreateRelated": "Create Related",
+            "Update": "Update",
+            "Status": "Status",
+            "Assign": "Assign",
+            "Relate": "Relate",
+            "Unrelate": "Unrelate",
+            "EmailReceived": "Email Received",
+            "EmailSent": "Email Sent"
+        }
+    },
+    "labels": {
+        "View Posts": "View Posts",
+        "View Attachments": "View Attachments",
+        "View Activity": "View Activity",
+        "Pin": "Pin",
+        "Unpin": "Unpin",
+        "Pinned": "Pinned",
+        "Quote Reply": "Quote Reply"
+    },
+    "messages": {
+        "writeMessage": "Write your message here",
+        "pinnedMaxCountExceeded": "Cannot pin more notes. Max allowed number is {count}."
+    },
+    "links": {
+        "portals": "Portals",
+        "attachments": "Attachments",
+        "superParent": "Super Parent",
+        "related": "Related"
+    },
+    "otherFields": {
+        "to": "To"
+    }
+}

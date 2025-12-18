@@ -1,0 +1,20 @@
+{
+    "massActions": {
+        "delete": {
+            "allowed": true
+        }
+    },
+    "afterUpdateHookClassNameList": [
+        "Espo\\Classes\\RecordHooks\\Team\\AfterUpdate"
+    ],
+    "beforeLinkHookClassNameList": [
+        "Espo\\Classes\\RecordHooks\\Team\\BeforeLinkUserCheck"
+    ],
+    "afterLinkHookClassNameList": [
+        "Espo\\Classes\\RecordHooks\\Team\\ClearCacheAfterLink"
+    ],
+    "afterUnlinkHookClassNameList": [
+        "Espo\\Classes\\RecordHooks\\Team\\ClearCacheAfterUnlink",
+        "Espo\\Classes\\RecordHooks\\Team\\UnsetUserDefaultTeam"
+    ]
+}

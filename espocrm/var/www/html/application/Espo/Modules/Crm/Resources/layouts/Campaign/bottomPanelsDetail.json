@@ -1,0 +1,20 @@
+{
+    "massEmails": {
+        "index": 0
+    },
+    "trackingUrls": {
+        "index": 1
+    },
+    "campaignLogRecords": {
+        "index": 2
+    },
+    "_delimiter_": {
+        "index": 3
+    },
+    "opportunities": {
+        "index": 4
+    },
+    "leads": {
+        "index": 5
+    }
+}

@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "name": "Ad",
+    "number": "Numara",
+    "status": "Durum",
+    "account": "Hesap",
+    "contact": "Kişi",
+    "contacts": "Kişiler",
+    "priority": "Öncelik",
+    "type": "Tür",
+    "description": "Açıklama",
+    "lead": "Potansiyel",
+    "attachments": "Ekler",
+    "inboundEmail": "Grup Eposta Hesabı"
+  },
+  "links": {
+    "account": "Hesap",
+    "contact": "İletişim (Birincil)",
+    "Contacts": "Kişiler",
+    "meetings": "Toplantılar",
+    "calls": "Aramalar",
+    "tasks": "Görevler",
+    "emails": "Epostalar",
+    "articles": "Bilgi Bankası Makaleleri",
+    "lead": "Potansiyel",
+    "attachments": "Ekler",
+    "inboundEmail": "Grup Eposta Hesabı"
+  },
+  "options": {
+    "status": {
+      "New": "Yeni",
+      "Assigned": "Atanmış",
+      "Pending": "Beklemede",
+      "Closed": "Kapandı",
+      "Rejected": "Reddedildi",
+      "Duplicate": "Kopyala"
+    },
+    "priority": {
+      "Low": "Düşük",
+      "High": "Yüksek",
+      "Urgent": "Acil"
+    },
+    "type": {
+      "Question": "Soru",
+      "Incident": "Olay"
+    }
+  },
+  "labels": {
+    "Create Case": "Dosya Oluştur",
+    "Close": "Kapalı",
+    "Reject": "Reddedildi",
+    "Closed": "Kapalı",
+    "Rejected": "Reddedildi"
+  },
+  "presetFilters": {
+    "open": "Açık",
+    "closed": "Kapalı"
+  }
+}

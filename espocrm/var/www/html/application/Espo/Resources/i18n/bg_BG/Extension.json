@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "name": "Име",
+    "version": "Версия",
+    "description": "Описание",
+    "isInstalled": "Инсталирано",
+    "checkVersionUrl": "URL за проверка на нови версии"
+  },
+  "labels": {
+    "Uninstall": "Деинсталиране",
+    "Install": "Инсталирай"
+  },
+  "messages": {
+    "uninstalled": "Разширението {name} беше деинсталирано",
+    "fileExceedsMaxUploadSize": "Размерът на файла надвишава максималния размер за качване {maxSize}. Помислете за увеличаване на `post_max_size` или инсталирайте разширението чрез CLI."
+  }
+}

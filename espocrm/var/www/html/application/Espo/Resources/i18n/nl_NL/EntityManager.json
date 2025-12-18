@@ -1,0 +1,113 @@
+{
+  "labels": {
+    "Fields": "Velden",
+    "Relationships": "Relaties",
+    "Schedule": "Planning",
+    "Formula": "Formule",
+    "Layouts": "Lay-outs"
+  },
+  "fields": {
+    "name": "Naam",
+    "labelSingular": "Label enkelvoud",
+    "labelPlural": "Label meervoud",
+    "entityForeign": "Externe entiteit",
+    "linkForeign": "Externe link",
+    "labelForeign": "Extern label",
+    "sortBy": "Standaard sortering (veld)",
+    "sortDirection": "Standaard sortering (richting)",
+    "relationName": "Middelste tabelnaam",
+    "linkMultipleField": "Link meerdere velden",
+    "linkMultipleFieldForeign": "Externe link meervoudig veld",
+    "disabled": "Uitgeschakeld",
+    "textFilterFields": "Tekst filter velden",
+    "audited": "Gecontroleerd",
+    "auditedForeign": "Extern gecontroleerd",
+    "statusField": "Statusveld",
+    "beforeSaveCustomScript": "Voordat u aangepast script opslaat",
+    "color": "Kleur",
+    "kanbanViewMode": "Kanban-weergave",
+    "kanbanStatusIgnoreList": "Genegeerde groepen in Kanban-weergave",
+    "iconClass": "Icoon",
+    "fullTextSearch": "Zoek volledige tekst",
+    "countDisabled": "De recordtelling uitschakelen",
+    "parentEntityTypeList": "Bovenliggende entiteit type",
+    "foreignLinkEntityTypeList": "Externe links",
+    "entity": "Entiteit",
+    "optimisticConcurrencyControl": "Optimistische gelijktijdigheidscontrole",
+    "beforeSaveApiScript": "API voor opslaan script",
+    "updateDuplicateCheck": "Duplicaatcontrole bij update",
+    "duplicateCheckFieldList": "Duplicaat controlevelden",
+    "layout": "Lay-out",
+    "author": "Auteur",
+    "version": "Versie",
+    "selectFilter": "Select filter",
+    "primaryFilters": "Primaire filters",
+    "stars": "Sterren",
+    "preserveAuditLog": "Auditlogboek bewaren",
+    "assignedUsers": "Meerdere toegewezen gebruikers",
+    "collaborators": "Medewerkers",
+    "aclContactLink": "ACL contact link"
+  },
+  "options": {
+    "type": {
+      "": "Geen",
+      "Base": "Basis",
+      "Person": "Persoon",
+      "CategoryTree": "Categorie structuur",
+      "Event": "Actie",
+      "BasePlus": "Basis plus",
+      "Company": "Bedrijf"
+    },
+    "linkType": {
+      "manyToMany": "Meer-tot-Meer",
+      "oneToMany": "Eén-op-Meer",
+      "manyToOne": "Meer-op-één",
+      "parentToChildren": "Bovenliggend-tot-Onderliggend",
+      "childrenToParent": "Onderliggend-tot-Bovenliggend",
+      "oneToOneRight": "Eén op één rechts",
+      "oneToOneLeft": "Eén op één links"
+    },
+    "sortDirection": {
+      "asc": "Oplopend",
+      "desc": "Aflopend"
+    },
+    "module": {
+      "Custom": "Aangepast"
+    }
+  },
+  "messages": {
+    "entityCreated": "Entiteit is gecreëerd",
+    "linkAlreadyExists": "Link naam conflict.",
+    "linkConflict": "Naam conflict : link of veld met dezelfde naam bestaat al.",
+    "confirmRemove": "Weet u zeker dat u het entiteittype uit het systeem wilt verwijderen?",
+    "beforeSaveCustomScript": "Een script dat elke keer wordt aangeroepen voordat een entiteit wordt opgeslagen. Te gebruiken voor het instellen van berekende velden.",
+    "beforeSaveApiScript": "Een script dat wordt aangeroepen bij aanmaken en update API requests voordat een entiteit wordt opgeslagen. Te gebruiken voor aangepaste validatie en duplicaat controle.",
+    "nameIsAlreadyUsed": "Naam '{name}' wordt al gebruikt.",
+    "nameIsNotAllowed": "Naam '{name}' is niet toegestaan.",
+    "nameIsTooLong": "Naam is te lang.",
+    "confirmRemoveLink": "Weet je zeker dat je de *{link}* relatie wilt verwijderen?",
+    "urlHashCopiedToClipboard": "Een URL-fragment voor de *{name}* filter wordt gekopieerd naar het klembord. Je kunt het toevoegen aan de navigatiebalk."
+  },
+  "tooltips": {
+    "statusField": "Updates van dit veld zijn gelogd in stream.",
+    "textFilterFields": "Velden die worden gebruikt door tekst zoeken.",
+    "disabled": "Controleer of u deze entiteit niet nodig hebt in uw systeem.",
+    "linkAudited": "Het maken van gerelateerde records en het linken met bestaande records worden vastgelegd in Stream.",
+    "linkMultipleField": "Link Multiple field biedt een handige manier om relaties te bewerken. Gebruik het niet als u een groot aantal gerelateerde records kunt hebben.",
+    "entityType": "Basis plus - heeft panelen Activiteiten, Geschiedenis en Taken.\n\nEvenement - beschikbaar in het paneel Agenda en Activiteiten.",
+    "fullTextSearch": "Reconstrueren is vereist.",
+    "countDisabled": "Het totale aantal wordt niet weergegeven in de lijstweergave. Kan de laadtijd verkorten wanneer de DB-tabel groot is.",
+    "optimisticConcurrencyControl": "Voorkomt schrijfconflicten.",
+    "duplicateCheckFieldList": "Welke velden te controleren bij het controleren op duplicaten.",
+    "updateDuplicateCheck": "Controleren op duplicaten bij het bijwerken van een record.",
+    "linkSelectFilter": "Een primair filter dat standaard wordt toegepast bij het selecteren van een record.",
+    "stars": "De optie om records te voorzien van sterren. Gebruikers kunnen sterren gebruiken om een bladwijzer voor records te maken.",
+    "aclContactLink": "De link met Contact om te gebruiken bij het toepassen van toegangscontrole voor portaalgebruikers.",
+    "aclAccountLink": "De link met Account om te gebruiken bij het toepassen van toegangscontrole voor portaalgebruikers.",
+    "collaborators": "De mogelijkheid om records te delen met specifieke gebruikers.",
+    "assignedUsers": "De mogelijkheid om meerdere gebruikers aan een record toe te wijzen.\n\nMerk op dat na het inschakelen van de parameter, bestaande toegewezen gebruikers niet worden overgezet naar het nieuwe veld *Toegewezen gebruikers*.",
+    "preserveAuditLog": "Schakelt het opschonen van het auditlogboek uit. Deze parameter is alleen van toepassing als Stream is uitgeschakeld. Als Stream is ingeschakeld, worden audit log records niet verwijderd.",
+    "stream": "Of de entiteit de Stream heeft.",
+    "linkParamReadOnly": "Een alleen-lezen link kan niet worden bewerkt via de *link* en *unlink* API-verzoeken. Het zal niet mogelijk zijn om records te relateren en te unrelateren via het relatiepaneel. Het is nog steeds mogelijk om alleen-lezen links te bewerken via link en link-multiple velden."
+  }
+}

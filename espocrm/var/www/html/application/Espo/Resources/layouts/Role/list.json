@@ -1,0 +1,11 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "info",
+        "width": 30,
+        "noLabel": true
+    }
+]

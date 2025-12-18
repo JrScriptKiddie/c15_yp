@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "name": "Vardas",
+    "version": "Versija",
+    "description": "Aprašymas",
+    "isInstalled": "Įdiegta",
+    "checkVersionUrl": "Naujų versijų tikrinimo URL"
+  },
+  "labels": {
+    "Uninstall": "Išdiegta",
+    "Install": "Įdiegti"
+  },
+  "messages": {
+    "uninstalled": "Plėtinys {name} yra išdiegtas",
+    "fileExceedsMaxUploadSize": "Failo dydis viršija maksimalų įkėlimo dydį {maxSize}. Apsvarstykite galimybę padidinti `post_max_size` arba įdiegti plėtinį per CLI."
+  }
+}

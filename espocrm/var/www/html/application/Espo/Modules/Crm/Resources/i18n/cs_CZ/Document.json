@@ -1,0 +1,36 @@
+{
+  "labels": {
+    "Create Document": "Vytvořit dokument",
+    "Details": "Detaily"
+  },
+  "fields": {
+    "name": "Název",
+    "file": "Soubor",
+    "type": "Typ",
+    "publishDate": "Datum publikace",
+    "expirationDate": "Datum expirace",
+    "description": "Popis",
+    "accounts": "Organizace",
+    "folder": "Složka"
+  },
+  "links": {
+    "accounts": "Organizace",
+    "opportunities": "Případy",
+    "folder": "Složka"
+  },
+  "options": {
+    "status": {
+      "Active": "Aktivní",
+      "Expired": "Expirovaný",
+      "Canceled": "Zrušený"
+    },
+    "type": {
+      "": "-",
+      "Contract": "Kontrakt",
+      "License Agreement": "Licenční smlouva"
+    }
+  },
+  "presetFilters": {
+    "active": "Aktivní"
+  }
+}

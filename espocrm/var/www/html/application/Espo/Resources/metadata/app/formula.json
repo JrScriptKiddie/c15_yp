@@ -1,0 +1,655 @@
+{
+    "functionList": [
+        {
+            "name": "ifThenElse",
+            "insertText": "ifThenElse(CONDITION, CONSEQUENT, ALTERNATIVE)"
+        },
+        {
+            "name": "ifThen",
+            "insertText": "ifThen(CONDITION, CONSEQUENT)"
+        },
+        {
+            "name": "list",
+            "insertText": "list()",
+            "returnType": "array"
+        },
+        {
+            "name": "string\\concatenate",
+            "insertText": "string\\concatenate(STRING_1, STRING_2)",
+            "returnType": "string"
+        },
+        {
+            "name": "string\\substring",
+            "insertText": "string\\substring(STRING, START, LENGTH)",
+            "returnType": "string"
+        },
+        {
+            "name": "string\\contains",
+            "insertText": "string\\contains(STRING, NEEDLE)",
+            "returnType": "bool"
+        },
+        {
+            "name": "string\\pos",
+            "insertText": "string\\pos(STRING, NEEDLE)",
+            "returnType": "int"
+        },
+        {
+            "name": "string\\pad",
+            "insertText": "string\\pad(STRING, LENGTH, PAD_STRING)",
+            "returnType": "string"
+        },
+        {
+            "name": "string\\test",
+            "insertText": "string\\test(STRING, REGULAR_EXPRESSION)",
+            "returnType": "bool"
+        },
+        {
+            "name": "string\\length",
+            "insertText": "string\\length(STRING)",
+            "returnType": "int"
+        },
+        {
+            "name": "string\\trim",
+            "insertText": "string\\trim(STRING)",
+            "returnType": "string"
+        },
+        {
+            "name": "string\\lowerCase",
+            "insertText": "string\\lowerCase(STRING)",
+            "returnType": "string"
+        },
+        {
+            "name": "string\\upperCase",
+            "insertText": "string\\upperCase(STRING)",
+            "returnType": "string"
+        },
+        {
+            "name": "string\\match",
+            "insertText": "string\\match(STRING, REGULAR_EXPRESSION)",
+            "returnType": "string|null"
+        },
+        {
+            "name": "string\\matchAll",
+            "insertText": "string\\matchAll(STRING, REGULAR_EXPRESSION)",
+            "returnType": "string[]|null"
+        },
+        {
+            "name": "string\\matchExtract",
+            "insertText": "string\\matchExtract(STRING, REGULAR_EXPRESSION)",
+            "returnType": "string[]|null"
+        },
+        {
+            "name": "string\\replace",
+            "insertText": "string\\replace(STRING, SEARCH, REPLACE)",
+            "returnType": "string"
+        },
+        {
+            "name": "string\\split",
+            "insertText": "string\\split(STRING, SEPARATOR)",
+            "returnType": "string[]"
+        },
+        {
+            "name": "datetime\\today",
+            "insertText": "datetime\\today()",
+            "returnType": "string"
+        },
+        {
+            "name": "datetime\\now",
+            "insertText": "datetime\\now()",
+            "returnType": "string"
+        },
+        {
+            "name": "datetime\\format",
+            "insertText": "datetime\\format(VALUE)",
+            "returnType": "string"
+        },
+        {
+            "name": "datetime\\date",
+            "insertText": "datetime\\date(VALUE)",
+            "returnType": "int"
+        },
+        {
+            "name": "datetime\\month",
+            "insertText": "datetime\\month(VALUE)",
+            "returnType": "int"
+        },
+        {
+            "name": "datetime\\year",
+            "insertText": "datetime\\year(VALUE)",
+            "returnType": "int"
+        },
+        {
+            "name": "datetime\\hour",
+            "insertText": "datetime\\hour(VALUE)",
+            "returnType": "int"
+        },
+        {
+            "name": "datetime\\minute",
+            "insertText": "datetime\\minute(VALUE)",
+            "returnType": "int"
+        },
+        {
+            "name": "datetime\\dayOfWeek",
+            "insertText": "datetime\\dayOfWeek(VALUE)",
+            "returnType": "int"
+        },
+        {
+            "name": "datetime\\addMinutes",
+            "insertText": "datetime\\addMinutes(VALUE, MINUTES)",
+            "returnType": "string"
+        },
+        {
+            "name": "datetime\\addHours",
+            "insertText": "datetime\\addHours(VALUE, HOURS)",
+            "returnType": "string"
+        },
+        {
+            "name": "datetime\\addDays",
+            "insertText": "datetime\\addDays(VALUE, DAYS)",
+            "returnType": "string"
+        },
+        {
+            "name": "datetime\\addWeeks",
+            "insertText": "datetime\\addWeeks(VALUE, WEEKS)",
+            "returnType": "string"
+        },
+        {
+            "name": "datetime\\addMonths",
+            "insertText": "datetime\\addMonths(VALUE, MONTHS)",
+            "returnType": "string"
+        },
+        {
+            "name": "datetime\\addYears",
+            "insertText": "datetime\\addYears(VALUE, YEARS)",
+            "returnType": "string"
+        },
+        {
+            "name": "datetime\\diff",
+            "insertText": "datetime\\diff(VALUE_1, VALUE_2, INTERVAL_TYPE)",
+            "returnType": "int"
+        },
+        {
+            "name": "datetime\\closest",
+            "insertText": "datetime\\closest(VALUE, TYPE, TARGET, IS_PAST, TIMEZONE)",
+            "returnType": "string"
+        },
+        {
+            "name": "number\\format",
+            "insertText": "number\\format(VALUE)",
+            "returnType": "string"
+        },
+        {
+            "name": "number\\abs",
+            "insertText": "number\\abs(VALUE)"
+        },
+        {
+            "name": "number\\power",
+            "insertText": "number\\power(VALUE, EXP)",
+            "returnType": "int|float"
+        },
+        {
+            "name": "number\\round",
+            "insertText": "number\\round(VALUE, PRECISION)",
+            "returnType": "int|float"
+        },
+        {
+            "name": "number\\floor",
+            "insertText": "number\\floor(VALUE)",
+            "returnType": "int"
+        },
+        {
+            "name": "number\\ceil",
+            "insertText": "number\\ceil(VALUE)",
+            "returnType": "int"
+        },
+        {
+            "name": "number\\randomInt",
+            "insertText": "number\\randomInt(MIN, MAX)",
+            "returnType": "int"
+        },
+        {
+            "name": "number\\parseInt",
+            "insertText": "number\\parseInt(STRING)",
+            "returnType": "int"
+        },
+        {
+            "name": "number\\parseFloat",
+            "insertText": "number\\parseFloat(STRING)",
+            "returnType": "float"
+        },
+        {
+            "name": "entity\\isNew",
+            "insertText": "entity\\isNew()",
+            "returnType": "bool"
+        },
+        {
+            "name": "entity\\isAttributeChanged",
+            "insertText": "entity\\isAttributeChanged('ATTRIBUTE')",
+            "returnType": "bool"
+        },
+        {
+            "name": "entity\\isAttributeNotChanged",
+            "insertText": "entity\\isAttributeNotChanged('ATTRIBUTE')",
+            "returnType": "bool"
+        },
+        {
+            "name": "entity\\attribute",
+            "insertText": "entity\\attribute('ATTRIBUTE')",
+            "returnType": "mixed",
+            "unsafe": true
+        },
+        {
+            "name": "entity\\attributeFetched",
+            "insertText": "entity\\attributeFetched('ATTRIBUTE')",
+            "returnType": "mixed",
+            "unsafe": true
+        },
+        {
+            "name": "entity\\setAttribute",
+            "insertText": "entity\\setAttribute('ATTRIBUTE', VALUE)",
+            "unsafe": true
+        },
+        {
+            "name": "entity\\clearAttribute",
+            "insertText": "entity\\clearAttribute('ATTRIBUTE')",
+            "unsafe": true
+        },
+        {
+            "name": "entity\\addLinkMultipleId",
+            "insertText": "entity\\addLinkMultipleId(LINK, ID)",
+            "unsafe": true
+        },
+        {
+            "name": "entity\\hasLinkMultipleId",
+            "insertText": "entity\\hasLinkMultipleId(LINK, ID)",
+            "returnType": "bool",
+            "unsafe": true
+        },
+        {
+            "name": "entity\\removeLinkMultipleId",
+            "insertText": "entity\\removeLinkMultipleId(LINK, ID)",
+            "unsafe": true
+        },
+        {
+            "name": "entity\\getLinkColumn",
+            "insertText": "entity\\getLinkColumn(LINK, ID, COLUMN)",
+            "returnType": "mixed",
+            "unsafe": true
+        },
+        {
+            "name": "entity\\setLinkMultipleColumn",
+            "insertText": "entity\\setLinkMultipleColumn(LINK, ID, COLUMN, VALUE)",
+            "unsafe": true
+        },
+        {
+            "name": "entity\\isRelated",
+            "insertText": "entity\\isRelated(LINK, ID)",
+            "returnType": "bool",
+            "unsafe": true
+        },
+        {
+            "name": "entity\\sumRelated",
+            "insertText": "entity\\sumRelated(LINK, FIELD, FILTER)",
+            "returnType": "int|float",
+            "unsafe": true
+        },
+        {
+            "name": "entity\\countRelated",
+            "insertText": "entity\\countRelated(LINK, FILTER)",
+            "returnType": "int",
+            "unsafe": true
+        },
+        {
+            "name": "record\\exists",
+            "insertText": "record\\exists(ENTITY_TYPE, KEY, VALUE)",
+            "returnType": "bool",
+            "unsafe": true
+        },
+        {
+            "name": "record\\count",
+            "insertText": "record\\count(ENTITY_TYPE, KEY, VALUE)",
+            "returnType": "int",
+            "unsafe": true
+        },
+        {
+            "name": "record\\attribute",
+            "insertText": "record\\attribute(ENTITY_TYPE, ID, ATTRIBUTE)",
+            "returnType": "mixed",
+            "unsafe": true
+        },
+        {
+            "name": "record\\findOne",
+            "insertText": "record\\findOne(ENTITY_TYPE, ORDER_BY, ORDER, KEY1, VALUE1, KEY2, VALUE2)",
+            "returnType": "string",
+            "unsafe": true
+        },
+        {
+            "name": "record\\findMany",
+            "insertText": "record\\findMany(ENTITY_TYPE, LIMIT, ORDER_BY, ORDER, KEY1, VALUE1, KEY2, VALUE2)",
+            "returnType": "string",
+            "unsafe": true
+        },
+        {
+            "name": "record\\findRelatedOne",
+            "insertText": "record\\findRelatedOne(ENTITY_TYPE, ID, LINK, ORDER_BY, ORDER, KEY1, VALUE1, KEY2, VALUE2)",
+            "returnType": "string",
+            "unsafe": true
+        },
+        {
+            "name": "record\\findRelatedMany",
+            "insertText": "record\\findRelatedMany(ENTITY_TYPE, ID, LINK, LIMIT, ORDER_BY, ORDER, KEY1, VALUE1, KEY2, VALUE2)",
+            "returnType": "string[]",
+            "unsafe": true
+        },
+        {
+            "name": "record\\fetch",
+            "insertText": "record\\fetch(ENTITY_TYPE, ID)",
+            "returnType": "?object",
+            "unsafe": true
+        },
+        {
+            "name": "record\\relate",
+            "insertText": "record\\relate(ENTITY_TYPE, ID, LINK, FOREIGN_ID)",
+            "unsafe": true
+        },
+        {
+            "name": "record\\unrelate",
+            "insertText": "record\\unrelate(ENTITY_TYPE, ID, LINK, FOREIGN_ID)",
+            "unsafe": true
+        },
+        {
+            "name": "record\\create",
+            "insertText": "record\\create(ENTITY_TYPE, ATTRIBUTE1, VALUE1, ATTRIBUTE2, VALUE2)",
+            "returnType": "string",
+            "unsafe": true
+        },
+        {
+            "name": "record\\update",
+            "insertText": "record\\update(ENTITY_TYPE, ID, ATTRIBUTE1, VALUE1, ATTRIBUTE2, VALUE2)",
+            "unsafe": true
+        },
+        {
+            "name": "record\\delete",
+            "insertText": "record\\delete(ENTITY_TYPE, ID)",
+            "unsafe": true
+        },
+        {
+            "name": "record\\relationColumn",
+            "insertText": "record\\relationColumn(ENTITY_TYPE, ID, LINK, FOREIGN_ID, COLUMN)",
+            "returnType": "mixed",
+            "unsafe": true
+        },
+        {
+            "name": "record\\updateRelationColumn",
+            "insertText": "record\\updateRelationColumn(ENTITY_TYPE, ID, LINK, FOREIGN_ID, COLUMN, VALUE)",
+            "unsafe": true
+        },
+        {
+            "name": "env\\userAttribute",
+            "insertText": "env\\userAttribute('ATTRIBUTE')",
+            "returnType": "mixed",
+            "unsafe": true
+        },
+        {
+            "name": "util\\generateId",
+            "insertText": "util\\generateId()",
+            "returnType": "string"
+        },
+        {
+            "name": "util\\generateRecordId",
+            "insertText": "util\\generateRecordId()",
+            "returnType": "string"
+        },
+        {
+            "name": "util\\base64Encode",
+            "insertText": "util\\base64Encode(STRING)",
+            "returnType": "string"
+        },
+        {
+            "name": "util\\base64Decode",
+            "insertText": "util\\base64Decode(STRING)",
+            "returnType": "string"
+        },
+        {
+            "name": "object\\create",
+            "insertText": "object\\create()",
+            "returnType": "object"
+        },
+        {
+            "name": "object\\get",
+            "insertText": "object\\get(OBJECT, KEY)",
+            "returnType": "mixed"
+        },
+        {
+            "name": "object\\has",
+            "insertText": "object\\has(OBJECT, KEY)",
+            "returnType": "bool"
+        },
+        {
+            "name": "object\\set",
+            "insertText": "object\\set(OBJECT, KEY, VALUE)"
+        },
+        {
+            "name": "object\\clear",
+            "insertText": "object\\clear(OBJECT, KEY)",
+            "returnType": "object"
+        },
+        {
+            "name": "object\\cloneDeep",
+            "insertText": "object\\cloneDeep(OBJECT)",
+            "returnType": "object"
+        },
+        {
+            "name": "password\\generate",
+            "insertText": "password\\generate()",
+            "returnType": "string"
+        },
+        {
+            "name": "password\\hash",
+            "insertText": "password\\hash(PASSWORD)",
+            "returnType": "string"
+        },
+        {
+            "name": "array\\includes",
+            "insertText": "array\\includes(LIST, VALUE)",
+            "returnType": "bool"
+        },
+        {
+            "name": "array\\push",
+            "insertText": "array\\push(LIST, VALUE)"
+        },
+        {
+            "name": "array\\length",
+            "insertText": "array\\length(LIST)",
+            "returnType": "int"
+        },
+        {
+            "name": "array\\at",
+            "insertText": "array\\at(LIST, INDEX)",
+            "returnType": "mixed"
+        },
+        {
+            "name": "array\\join",
+            "insertText": "array\\join(LIST, SEPARATOR)",
+            "returnType": "string"
+        },
+        {
+            "name": "array\\indexOf",
+            "insertText": "array\\indexOf(LIST, ELEMENT)",
+            "returnType": "?int"
+        },
+        {
+            "name": "array\\removeAt",
+            "insertText": "array\\removeAt(LIST, INDEX)",
+            "returnType": "array"
+        },
+        {
+            "name": "array\\unique",
+            "insertText": "array\\unique(LIST)",
+            "returnType": "array"
+        },
+        {
+            "name": "language\\translate",
+            "insertText": "language\\translate(LABEL, CATEGORY, SCOPE)",
+            "returnType": "string"
+        },
+        {
+            "name": "language\\translateOption",
+            "insertText": "language\\translateOption(OPTION, FIELD, SCOPE)",
+            "returnType": "string"
+        },
+        {
+            "name": "log\\info",
+            "insertText": "log\\info(MESSAGE)",
+            "unsafe": true
+        },
+        {
+            "name": "log\\notice",
+            "insertText": "log\\notice(MESSAGE)",
+            "unsafe": true
+        },
+        {
+            "name": "log\\warning",
+            "insertText": "log\\warning(MESSAGE)",
+            "unsafe": true
+        },
+        {
+            "name": "log\\error",
+            "insertText": "log\\error(MESSAGE)",
+            "unsafe": true
+        },
+        {
+            "name": "json\\retrieve",
+            "insertText": "json\\retrieve(JSON, PATH)",
+            "returnType": "mixed"
+        },
+        {
+            "name": "json\\encode",
+            "insertText": "json\\encode(VALUE)",
+            "returnType": "string"
+        },
+        {
+            "name": "ext\\email\\send",
+            "insertText": "ext\\email\\send(EMAIL_ID)",
+            "returnType": "bool",
+            "unsafe": true
+        },
+        {
+            "name": "ext\\sms\\send",
+            "insertText": "ext\\sms\\send(SMS_ID)",
+            "returnType": "bool",
+            "unsafe": true
+        },
+        {
+            "name": "ext\\email\\applyTemplate",
+            "insertText": "ext\\email\\applyTemplate(EMAIL_ID, EMAIL_TEMPLATE_ID)",
+            "unsafe": true
+        },
+        {
+            "name": "ext\\markdown\\transform",
+            "insertText": "ext\\markdown\\transform(STRING)",
+            "returnType": "string"
+        },
+        {
+            "name": "ext\\pdf\\generate",
+            "insertText": "ext\\pdf\\generate(ENTITY_TYPE, ENTITY_ID, TEMPLATE_ID, FILENAME)",
+            "returnType": "string",
+            "unsafe": true
+        },
+        {
+            "name": "ext\\workingTime\\addWorkingDays",
+            "insertText": "ext\\workingTime\\addWorkingDays(DATE, DAYS)",
+            "returnType": "string|null"
+        },
+        {
+            "name": "ext\\workingTime\\findClosestWorkingTime",
+            "insertText": "ext\\workingTime\\findClosestWorkingTime(DATE)",
+            "returnType": "string|null"
+        },
+        {
+            "name": "ext\\workingTime\\getSummedWorkingHours",
+            "insertText": "ext\\workingTime\\getSummedWorkingHours(FROM, TO)",
+            "returnType": "float"
+        },
+        {
+            "name": "ext\\workingTime\\getWorkingDays",
+            "insertText": "ext\\workingTime\\getWorkingDays(FROM, TO)",
+            "returnType": "int"
+        },
+        {
+            "name": "ext\\workingTime\\hasWorkingTime",
+            "insertText": "ext\\workingTime\\hasWorkingTime(FROM, TO)",
+            "returnType": "bool"
+        },
+        {
+            "name": "ext\\workingTime\\isWorkingDay",
+            "insertText": "ext\\workingTime\\isWorkingDay(DATE)",
+            "returnType": "bool"
+        },
+        {
+            "name": "ext\\user\\sendAccessInfo",
+            "insertText": "ext\\user\\sendAccessInfo(USER_ID)",
+            "unsafe": true
+        },
+        {
+            "name": "ext\\email\\send",
+            "insertText": "ext\\email\\send(EMAIL_ID)",
+            "returnType": "bool",
+            "unsafe": true
+        },
+        {
+            "name": "ext\\currency\\convert",
+            "insertText": "ext\\currency\\convert(AMOUNT, FROM_CODE)",
+            "returnType": "string"
+        },
+        {
+            "name": "ext\\acl\\checkEntity",
+            "insertText": "ext\\acl\\checkEntity(USER_ID, ENTITY_TYPE, ID, ACTION)",
+            "returnType": "bool",
+            "unsafe": true
+        },
+        {
+            "name": "ext\\acl\\checkScope",
+            "insertText": "ext\\acl\\checkScope(USER_ID, SCOPE, ACTION)",
+            "returnType": "bool",
+            "unsafe": true
+        },
+        {
+            "name": "ext\\acl\\getLevel",
+            "insertText": "ext\\acl\\getLevel(USER_ID, SCOPE, ACTION)",
+            "returnType": "string",
+            "unsafe": true
+        },
+        {
+            "name": "ext\\acl\\getPermissionLevel",
+            "insertText": "ext\\acl\\getPermissionLevel(USER_ID, PERMISSION)",
+            "returnType": "string",
+            "unsafe": true
+        },
+        {
+            "name": "ext\\oauth\\getAccessToken",
+            "insertText": "ext\\oauth\\getAccessToken(ID)",
+            "returnType": "string",
+            "unsafe": true
+        },
+        {
+            "name": "ext\\appSecret\\get",
+            "insertText": "ext\\appSecret\\get(STRING)",
+            "returnType": "string"
+        }
+    ],
+    "functionClassNameMap": {
+        "log\\info": "Espo\\Core\\Formula\\Functions\\LogGroup\\InfoType",
+        "log\\notice": "Espo\\Core\\Formula\\Functions\\LogGroup\\NoticeType",
+        "log\\warning": "Espo\\Core\\Formula\\Functions\\LogGroup\\WarningType",
+        "log\\error": "Espo\\Core\\Formula\\Functions\\LogGroup\\ErrorType",
+        "ext\\acl\\checkEntity": "Espo\\Core\\Formula\\Functions\\ExtGroup\\AclGroup\\CheckEntityType",
+        "ext\\acl\\checkScope": "Espo\\Core\\Formula\\Functions\\ExtGroup\\AclGroup\\CheckScopeType",
+        "ext\\acl\\getLevel": "Espo\\Core\\Formula\\Functions\\ExtGroup\\AclGroup\\GetLevelType",
+        "ext\\acl\\getPermissionLevel": "Espo\\Core\\Formula\\Functions\\ExtGroup\\AclGroup\\GetPermissionLevelType",
+        "ext\\appSecret\\get": "Espo\\Core\\Formula\\Functions\\ExtGroup\\SecretGroup\\GetType",
+        "util\\base64Encode": "Espo\\Core\\Formula\\Functions\\UtilGroup\\Base64EncodeType",
+        "util\\base64Decode": "Espo\\Core\\Formula\\Functions\\UtilGroup\\Base64DecodeType",
+        "ext\\oauth\\getAccessToken": "Espo\\Core\\Formula\\Functions\\ExtGroup\\OauthGroup\\GetAccessTokenType"
+    }
+}

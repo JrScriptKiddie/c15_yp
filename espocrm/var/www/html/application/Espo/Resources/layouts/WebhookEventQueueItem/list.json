@@ -1,0 +1,23 @@
+[
+    {
+        "name": "event",
+        "link": true
+    },
+    {
+        "name": "isProcessed",
+        "width": 12
+    },
+    {
+        "name": "target",
+        "width": 20
+    },
+    {
+        "name": "createdAt",
+        "width": 14
+    },
+    {
+        "name": "user",
+        "width": 15,
+        "hidden": true
+    }
+]

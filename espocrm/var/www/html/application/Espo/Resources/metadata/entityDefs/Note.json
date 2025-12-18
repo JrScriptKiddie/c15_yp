@@ -1,0 +1,262 @@
+{
+    "fields": {
+        "post": {
+            "type": "text",
+            "rows": 100000,
+            "view": "views/note/fields/post",
+            "preview": true,
+            "attachmentField": "attachments",
+            "customizationDefaultDisabled": true,
+            "customizationRequiredDisabled": true,
+            "customizationInlineEditDisabledDisabled": true,
+            "customizationTooltipTextDisabled": true,
+            "customizationSeeMoreDisabledDisabled": true,
+            "customizationRowsDisabled": true,
+            "customizationDisplayRawTextDisabled": true,
+            "customizationReadOnlyDisabled": true,
+            "dynamicLogicDisabled": true
+        },
+        "data": {
+            "type": "jsonObject",
+            "readOnly": true,
+            "customizationDisabled": true
+        },
+        "type": {
+            "type": "enum",
+            "readOnly": true,
+            "view": "views/note/fields/type",
+            "options": [
+                "Post",
+                "Create",
+                "CreateRelated",
+                "Update",
+                "Assign",
+                "Relate",
+                "Unrelate",
+                "EmailReceived",
+                "EmailSent"
+            ],
+            "maxLength": 24,
+            "customizationDisabled": true,
+            "default": "Post"
+        },
+        "targetType": {
+            "type": "enum",
+            "options": [
+                "self",
+                "all",
+                "teams",
+                "users",
+                "portals"
+            ],
+            "maxLength": 7,
+            "customizationDisabled": true,
+            "readOnlyAfterCreate": true
+        },
+        "parent": {
+            "type": "linkParent",
+            "customizationDisabled": true,
+            "view": "views/note/fields/parent",
+            "readOnlyAfterCreate": true
+        },
+        "related": {
+            "type": "linkParent",
+            "readOnly": true,
+            "customizationDisabled": true,
+            "view": "views/note/fields/related"
+        },
+        "attachments": {
+            "type": "attachmentMultiple",
+            "view": "views/stream/fields/attachment-multiple",
+            "customizationRequiredDisabled": true,
+            "customizationPreviewSizeDisabled": true,
+            "customizationInlineEditDisabledDisabled": true,
+            "customizationTooltipTextDisabled": true,
+            "dynamicLogicDisabled": true
+        },
+        "number": {
+            "type": "autoincrement",
+            "index": true,
+            "dbType": "bigint",
+            "readOnly": true,
+            "customizationDisabled": true
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "noLoad": true,
+            "customizationDisabled": true,
+            "readOnlyAfterCreate": true
+        },
+        "portals": {
+            "type": "linkMultiple",
+            "noLoad": true,
+            "customizationDisabled": true,
+            "readOnlyAfterCreate": true
+        },
+        "users": {
+            "type": "linkMultiple",
+            "noLoad": true,
+            "customizationDisabled": true,
+            "readOnlyAfterCreate": true
+        },
+        "isGlobal": {
+            "type": "bool",
+            "customizationDisabled": true,
+            "readOnlyAfterCreate": true
+        },
+        "createdByGender": {
+            "type": "foreign",
+            "link": "createdBy",
+            "field": "gender",
+            "customizationDisabled": true
+        },
+        "notifiedUserIdList": {
+            "type": "jsonArray",
+            "notStorable": true,
+            "utility": true,
+            "customizationDisabled": true,
+            "readOnly": true
+        },
+        "isInternal": {
+            "type": "bool",
+            "customizationDisabled": true,
+            "readOnlyAfterCreate": true
+        },
+        "isPinned": {
+            "type": "bool",
+            "customizationDisabled": true,
+            "readOnly": true
+        },
+        "reactionCounts": {
+            "type": "jsonObject",
+            "notStorable": true,
+            "readOnly": true,
+            "customizationDisabled": true,
+            "utility": true
+        },
+        "myReactions": {
+            "type": "jsonArray",
+            "notStorable": true,
+            "readOnly": true,
+            "customizationDisabled": true,
+            "utility": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true,
+            "customizationDisabled": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true,
+            "customizationDisabled": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "customizationDisabled": true,
+            "view": "views/fields/user"
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "customizationDisabled": true,
+            "view": "views/fields/user"
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "attachments": {
+            "type": "hasChildren",
+            "entity": "Attachment",
+            "relationName": "attachments",
+            "foreign": "parent"
+        },
+        "parent": {
+            "type": "belongsToParent",
+            "foreign": "notes"
+        },
+        "superParent": {
+            "type": "belongsToParent"
+        },
+        "related": {
+            "type": "belongsToParent"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "foreign": "notes"
+        },
+        "portals": {
+            "type": "hasMany",
+            "entity": "Portal",
+            "foreign": "notes"
+        },
+        "users": {
+            "type": "hasMany",
+            "entity": "User",
+            "foreign": "notes"
+        }
+    },
+    "collection": {
+        "orderBy": "number",
+        "order": "desc",
+        "textFilterFields": ["post"],
+        "fullTextSearch": true,
+        "fullTextSearchOrderType": "original"
+    },
+    "statusStyles": {
+        "Lead": {},
+        "Case": {},
+        "Opportunity": {},
+        "Task": {}
+    },
+    "indexes": {
+        "createdAt": {
+            "type": "index",
+            "columns": ["createdAt"]
+        },
+        "createdByNumber": {
+            "columns": ["createdById", "number"]
+        },
+        "type": {
+            "type": "index",
+            "columns": ["type"]
+        },
+        "targetType": {
+            "type": "index",
+            "columns": ["targetType"]
+        },
+        "parentId": {
+            "type": "index",
+            "columns": ["parentId"]
+        },
+        "parentType": {
+            "type": "index",
+            "columns": ["parentType"]
+        },
+        "relatedId": {
+            "type": "index",
+            "columns": ["relatedId"]
+        },
+        "relatedType": {
+            "type": "index",
+            "columns": ["relatedType"]
+        },
+        "superParentType": {
+            "type": "index",
+            "columns": ["superParentType"]
+        },
+        "superParentId": {
+            "type": "index",
+            "columns": ["superParentId"]
+        }
+    }
+}

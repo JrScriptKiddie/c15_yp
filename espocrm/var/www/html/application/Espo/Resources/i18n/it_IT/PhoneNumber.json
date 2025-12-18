@@ -1,0 +1,11 @@
+{
+  "fields": {
+    "type": "Tipo",
+    "optOut": "Cancellato",
+    "invalid": "Invalido",
+    "numeric": "Valore Numerico"
+  },
+  "presetFilters": {
+    "orphan": "Orfano"
+  }
+}

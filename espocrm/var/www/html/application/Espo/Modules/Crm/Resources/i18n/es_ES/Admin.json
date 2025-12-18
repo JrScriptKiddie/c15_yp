@@ -1,0 +1,12 @@
+{
+  "layouts": {
+    "detailConvert": "Convertir posible cliente",
+    "listForAccount": "Listado (por Cuentas)",
+    "listForContact": "Lista (para contacto)"
+  },
+  "templates": {
+    "invitation": "Invitación",
+    "reminder": "Recordatorio",
+    "cancellation": "Cancelación"
+  }
+}

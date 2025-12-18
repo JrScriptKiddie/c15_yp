@@ -1,0 +1,46 @@
+{
+  "fields": {
+    "name": "Vārds",
+    "body": "Pamatteksts",
+    "entityType": "Vienību tips",
+    "header": "Virsraksts",
+    "footer": "Kājene",
+    "leftMargin": "Kreisā piemale",
+    "topMargin": "Augšējā piemale",
+    "rightMargin": "Labā piemale",
+    "bottomMargin": "Apakšējā piemale",
+    "printFooter": "Drukāt kājenes tekstu",
+    "footerPosition": "Kājenes novietojums",
+    "variables": "Pieejamie vietturi",
+    "pageOrientation": "Lappuses orientācija",
+    "pageFormat": "Papīra formāts",
+    "fontFace": "Fonts",
+    "pageWidth": "Lapas platums (mm)",
+    "pageHeight": "Lapas augstums (mm)",
+    "headerPosition": "Virsraksta pozīcija",
+    "printHeader": "Drukāt galveni",
+    "title": "Nosaukums",
+    "style": "Stils"
+  },
+  "labels": {
+    "Create Template": "Izveidot veidni"
+  },
+  "tooltips": {
+    "footer": "Drukājot lappuses numuru, izmantot {pageNumber}.",
+    "variables": "Kopēt un ielīmēt nepieciešamo vietturi virsrakstā, pamattekstā vai kājenē."
+  },
+  "options": {
+    "pageOrientation": {
+      "Portrait": "Portrets",
+      "Landscape": "Ainava"
+    },
+    "placeholders": {
+      "today": "Šodien (datums)",
+      "now": "Tagad (datums-laiks)",
+      "pagebreak": "Lapas pārtraukums"
+    },
+    "pageFormat": {
+      "Custom": "Pielāgots"
+    }
+  }
+}

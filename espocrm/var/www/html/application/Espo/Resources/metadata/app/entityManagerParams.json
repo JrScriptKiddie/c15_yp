@@ -1,0 +1,221 @@
+{
+    "Global": {
+        "stars": {
+            "location": "scopes",
+            "fieldDefs": {
+                "type": "bool",
+                "tooltip": true
+            }
+        },
+        "optimisticConcurrencyControl": {
+            "location": "entityDefs",
+            "fieldDefs": {
+                "type": "bool",
+                "tooltip": true
+            }
+        },
+        "preserveAuditLog": {
+            "location": "scopes",
+            "fieldDefs": {
+                "type": "bool",
+                "tooltip": true
+            }
+        }
+    },
+    "@Company": {
+        "updateDuplicateCheck": {
+            "location": "recordDefs",
+            "fieldDefs": {
+                "type": "bool",
+                "tooltip": true
+            }
+        },
+        "duplicateCheckFieldList": {
+            "location": "scopes",
+            "fieldDefs": {
+                "type": "multiEnum",
+                "tooltip": true,
+                "view": "views/admin/entity-manager/fields/duplicate-check-field-list"
+            }
+        },
+        "collaborators": {
+            "location": "scopes",
+            "fieldDefs": {
+                "type": "bool",
+                "tooltip": true
+            }
+        },
+        "assignedUsers": {
+            "location": "scopes",
+            "fieldDefs": {
+                "type": "bool",
+                "tooltip": true
+            }
+        },
+        "aclContactLink": {
+            "location": "aclDefs",
+            "param": "contactLink",
+            "fieldDefs": {
+                "type": "enum",
+                "tooltip": true,
+                "view": "views/admin/entity-manager/fields/acl-contact-link"
+            }
+        },
+        "aclAccountLink": {
+            "location": "aclDefs",
+            "param": "accountLink",
+            "fieldDefs": {
+                "type": "enum",
+                "tooltip": true,
+                "view": "views/admin/entity-manager/fields/acl-account-link"
+            }
+        }
+    },
+    "@Person": {
+        "updateDuplicateCheck": {
+            "location": "recordDefs",
+            "fieldDefs": {
+                "type": "bool",
+                "tooltip": true
+            }
+        },
+        "duplicateCheckFieldList": {
+            "location": "scopes",
+            "fieldDefs": {
+                "type": "multiEnum",
+                "tooltip": true,
+                "view": "views/admin/entity-manager/fields/duplicate-check-field-list"
+            }
+        },
+        "collaborators": {
+            "location": "scopes",
+            "fieldDefs": {
+                "type": "bool",
+                "tooltip": true
+            }
+        },
+        "assignedUsers": {
+            "location": "scopes",
+            "fieldDefs": {
+                "type": "bool",
+                "tooltip": true
+            }
+        },
+        "aclContactLink": {
+            "location": "aclDefs",
+            "param": "contactLink",
+            "fieldDefs": {
+                "type": "enum",
+                "tooltip": true,
+                "view": "views/admin/entity-manager/fields/acl-contact-link"
+            }
+        },
+        "aclAccountLink": {
+            "location": "aclDefs",
+            "param": "accountLink",
+            "fieldDefs": {
+                "type": "enum",
+                "tooltip": true
+            },
+            "view": "views/admin/entity-manager/fields/acl-account-link"
+        }
+    },
+    "@Base": {
+        "updateDuplicateCheck": {
+            "location": "recordDefs",
+            "fieldDefs": {
+                "type": "bool",
+                "tooltip": true
+            }
+        },
+        "duplicateCheckFieldList": {
+            "location": "scopes",
+            "fieldDefs": {
+                "type": "multiEnum",
+                "tooltip": true,
+                "view": "views/admin/entity-manager/fields/duplicate-check-field-list"
+            }
+        },
+        "collaborators": {
+            "location": "scopes",
+            "fieldDefs": {
+                "type": "bool",
+                "tooltip": true
+            }
+        },
+        "assignedUsers": {
+            "location": "scopes",
+            "fieldDefs": {
+                "type": "bool",
+                "tooltip": true
+            }
+        },
+        "aclContactLink": {
+            "location": "aclDefs",
+            "param": "contactLink",
+            "fieldDefs": {
+                "type": "enum",
+                "tooltip": true,
+                "view": "views/admin/entity-manager/fields/acl-contact-link"
+            }
+        },
+        "aclAccountLink": {
+            "location": "aclDefs",
+            "param": "accountLink",
+            "fieldDefs": {
+                "type": "enum",
+                "tooltip": true,
+                "view": "views/admin/entity-manager/fields/acl-account-link"
+            }
+        }
+    },
+    "@BasePlus": {
+        "updateDuplicateCheck": {
+            "location": "recordDefs",
+            "fieldDefs": {
+                "type": "bool",
+                "tooltip": true
+            }
+        },
+        "duplicateCheckFieldList": {
+            "location": "scopes",
+            "fieldDefs": {
+                "type": "multiEnum",
+                "tooltip": true,
+                "view": "views/admin/entity-manager/fields/duplicate-check-field-list"
+            }
+        },
+        "collaborators": {
+            "location": "scopes",
+            "fieldDefs": {
+                "type": "bool",
+                "tooltip": true
+            }
+        },
+        "assignedUsers": {
+            "location": "scopes",
+            "fieldDefs": {
+                "type": "bool",
+                "tooltip": true
+            }
+        },
+        "aclContactLink": {
+            "location": "aclDefs",
+            "param": "contactLink",
+            "fieldDefs": {
+                "type": "enum",
+                "tooltip": true,
+                "view": "views/admin/entity-manager/fields/acl-contact-link"
+            }
+        },
+        "aclAccountLink": {
+            "location": "aclDefs",
+            "param": "accountLink",
+            "fieldDefs": {
+                "type": "enum",
+                "tooltip": true,
+                "view": "views/admin/entity-manager/fields/acl-account-link"
+            }
+        }
+    }
+}

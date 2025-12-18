@@ -1,0 +1,64 @@
+{
+    "view":"crm:views/dashlets/activities",
+    "options": {
+        "view": "crm:views/dashlets/options/activities",
+        "fields": {
+            "title": {
+                "type": "varchar",
+                "required": true
+            },
+            "autorefreshInterval": {
+                "type": "enumFloat",
+                "options": [0, 0.5, 1, 2, 5, 10]
+            },
+            "enabledScopeList": {
+                "type": "multiEnum",
+                "translation": "Global.scopeNamesPlural",
+                "required": true
+            },
+            "displayRecords": {
+                "type": "int",
+                "min": 1,
+                "max": 20
+            },
+            "futureDays": {
+                "type": "int",
+                "min": 0,
+                "required": true
+            },
+            "includeShared": {
+                "type": "bool"
+            }
+        },
+        "defaults": {
+            "displayRecords": 10,
+            "autorefreshInterval": 0.5,
+            "futureDays": 3,
+            "enabledScopeList": ["Meeting", "Call", "Task"],
+            "includeShared": false
+        },
+        "layout": [
+            {
+                "rows": [
+                    [
+                        {"name": "title"},
+                        {"name": "autorefreshInterval"}
+                    ],
+                    [
+                        {"name": "displayRecords"},
+                        {"name": "enabledScopeList"}
+                    ],
+                    [
+                        {"name": "futureDays"},
+                        {"name": "includeShared"}
+                    ]
+                ]
+            }
+        ]
+    },
+    "accessDataList": [
+        {
+            "inPortalDisabled": true
+        }
+    ]
+}

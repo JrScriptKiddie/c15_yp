@@ -1,0 +1,15 @@
+[
+    {
+        "name":"name",
+        "link":true
+    },
+    {
+        "name": "url",
+        "width": 40,
+        "notSortable": true
+    },
+    {
+        "name": "isActive",
+        "width": 15
+    }
+]

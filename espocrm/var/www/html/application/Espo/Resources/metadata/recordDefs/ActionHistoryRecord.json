@@ -1,0 +1,15 @@
+{
+    "readLoaderClassNameList": [
+        "Espo\\Core\\FieldProcessing\\LinkParent\\TargetLoader"
+    ],
+    "listLoaderClassNameList": [
+        "Espo\\Core\\FieldProcessing\\LinkParent\\TargetLoader"
+    ],
+    "massActions": {
+        "delete": {
+            "allowed": true
+        }
+    },
+    "forceSelectAllAttributes": true,
+    "actionHistoryDisabled": true
+}

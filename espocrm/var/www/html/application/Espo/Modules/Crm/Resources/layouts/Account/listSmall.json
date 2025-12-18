@@ -1,0 +1,4 @@
+[
+    {"name": "name", "link": true},
+    {"name": "billingAddressCountry", "width": 50}
+]

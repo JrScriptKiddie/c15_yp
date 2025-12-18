@@ -1,0 +1,26 @@
+{
+  "labels": {
+    "Calendars": "Calendários"
+  },
+  "fields": {
+    "timeRanges": "Agenda",
+    "dateStart": "Data de início",
+    "dateEnd": "Data de fim",
+    "type": "Tipo",
+    "calendars": "Calendário",
+    "users": "Utilizador"
+  },
+  "links": {
+    "calendars": "Calendário",
+    "users": "Utilizadores"
+  },
+  "options": {
+    "type": {
+      "Non-working": "Não está a trabalhar",
+      "Working": "Está a trabalhar"
+    }
+  },
+  "presetFilters": {
+    "actual": "Atual"
+  }
+}

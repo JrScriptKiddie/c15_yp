@@ -1,0 +1,48 @@
+{
+  "fields": {
+    "name": "Nazwa",
+    "roles": "Rola",
+    "assignmentPermission": "Uprawnienia przypisania",
+    "userPermission": "Uprawnienia użytkownika",
+    "groupEmailAccountPermission": "Uprawnienia do grupowego konta e-mail",
+    "exportPermission": "Eksportuj uprawnienia",
+    "dataPrivacyPermission": "Uprawnienia do danych osobowych",
+    "massUpdatePermission": "Uprawnienie do masowej aktualizacji"
+  },
+  "links": {
+    "users": "Użytkownik",
+    "teams": "Zespoły"
+  },
+  "labels": {
+    "Access": "Dostęp",
+    "Create Role": "Utwórz Role"
+  },
+  "options": {
+    "accessList": {
+      "not-set": "nie ustawiony",
+      "enabled": "włączony",
+      "disabled": "wyłączony"
+    },
+    "levelList": {
+      "all": "wszystko",
+      "team": "zespół",
+      "account": "Klient",
+      "own": "własny",
+      "no": "nie",
+      "yes": "tak",
+      "not-set": "nie ustawiony"
+    }
+  },
+  "actions": {
+    "read": "Przeczytany",
+    "edit": "Edytuj",
+    "delete": "Usuń",
+    "create": "Utwórz"
+  },
+  "messages": {
+    "changesAfterClearCache": "Wszystkie zmiany w dostępie zostaną aktywowany w momencie wyczyszczenia pamięci."
+  },
+  "tooltips": {
+    "dataPrivacyPermission": "Zezwól na przeglądanie oraz czyszczenie danych osobowych."
+  }
+}

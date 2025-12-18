@@ -1,0 +1,31 @@
+{
+  "labels": {
+    "Calendars": "Kalender",
+    "Create WorkingTimeRange": "Ausnahme erstellen"
+  },
+  "fields": {
+    "timeRanges": "Zeitplan",
+    "dateStart": "Startdatum",
+    "dateEnd": "Enddatum",
+    "type": "Typ",
+    "calendars": "Kalender",
+    "users": "Benutzer"
+  },
+  "links": {
+    "calendars": "Kalender",
+    "users": "Benutzer"
+  },
+  "options": {
+    "type": {
+      "Non-working": "Kein Arbeitstag",
+      "Working": "Arbeitstag"
+    }
+  },
+  "presetFilters": {
+    "actual": "Aktuell"
+  },
+  "tooltips": {
+    "calendars": "Kalender, auf die die Ausnahme angewendet werden soll. Die Ausnahme wird auf alle Benutzer der ausgewählten Kalender angewendet.\n\nLassen Sie das Feld leer, wenn Sie die Ausnahme nur für bestimmte Benutzer anwenden möchten.",
+    "users": "Bestimmte Benutzer, für die die Ausnahme gelten soll."
+  }
+}

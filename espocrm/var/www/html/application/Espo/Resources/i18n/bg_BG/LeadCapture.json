@@ -1,0 +1,63 @@
+{
+  "fields": {
+    "name": "Име",
+    "campaign": "Кампания",
+    "isActive": "Е активен",
+    "subscribeToTargetList": "Абониране за целевия списък",
+    "subscribeContactToTargetList": "Абониране на контакта ако съществува",
+    "targetList": "Целеви списък",
+    "fieldList": "Налични полета",
+    "optInConfirmation": "Двойно потвърждение",
+    "optInConfirmationEmailTemplate": "Шаблон за имейл за потвърждение за включване",
+    "optInConfirmationLifetime": "Времетраене на потвърждението за включване (часове)",
+    "optInConfirmationSuccessMessage": "Текст за показване след потвърждение за включване",
+    "leadSource": "Източник на потенциална продажба",
+    "apiKey": "API ключ",
+    "targetTeam": "Целеви екип",
+    "exampleRequestMethod": "Метод",
+    "createLeadBeforeOptInConfirmation": "Създайте потенциална продажба преди потвърждение",
+    "duplicateCheck": "Проверка за дублиране",
+    "skipOptInConfirmationIfSubscribed": "Пропуснете потвърждението, ако потенциалният клиент вече е в целевия списък",
+    "smtpAccount": "SMTP профил",
+    "inboundEmail": "Групов имейл акаунт",
+    "exampleRequestHeaders": "HTTP Хедъри",
+    "phoneNumberCountry": "Телефонен код на държавата",
+    "fieldParams": "Параметри на полето",
+    "formId": "ID на форма",
+    "formEnabled": "Уеб форма",
+    "formUrl": "URL на форма",
+    "formSuccessText": "Текст за показване след изпращане на формата",
+    "formText": "Текст за показване във формата",
+    "formSuccessRedirectUrl": "URL адрес за пренасочване след изпращане на формата",
+    "formLanguage": "Език, използван във формата",
+    "formFrameAncestors": "Разрешени хостове за вграждане на формуляр (iframe)",
+    "formCaptcha": "Активиране на Captcha",
+    "formTitle": "Заглавие на формата",
+    "formTheme": "Тема на формата"
+  },
+  "links": {
+    "targetList": "Целеви списък",
+    "campaign": "Кампания",
+    "optInConfirmationEmailTemplate": "Шаблон за имейл за потвърждение за включване",
+    "targetTeam": "Целеви екип",
+    "logRecords": "Журнал",
+    "inboundEmail": "Групов имейл акаунт"
+  },
+  "labels": {
+    "Create LeadCapture": "Създаване на Web-to-Lead",
+    "Generate New API Key": "Генериране на нов API ключ",
+    "Request": "Заявка",
+    "Confirm Opt-In": "Потвърждаване за включване",
+    "Generate New Form ID": "Генериране на нов ID на формата",
+    "Web Form": "Уеб форма"
+  },
+  "messages": {
+    "generateApiKey": "Създаване на нов API ключ",
+    "optInConfirmationExpired": "Линкът за потвърждение на включване е изтекъл.",
+    "optInIsConfirmed": "Включването е потвърдено."
+  },
+  "tooltips": {
+    "optInConfirmationSuccessMessage": "Markdown се поддържа.",
+    "formCaptcha": "За да можете да използвате Captcha, трябва да го конфигурирате в **Администриране** > **Интеграции**."
+  }
+}

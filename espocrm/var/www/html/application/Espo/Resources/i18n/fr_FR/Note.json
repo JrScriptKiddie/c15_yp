@@ -1,0 +1,60 @@
+{
+  "fields": {
+    "post": "Poster",
+    "attachments": "Pièces-jointes",
+    "targetType": "Cible",
+    "teams": "Équipes",
+    "users": "Utilisateurs",
+    "portals": "Portails",
+    "createdByGender": "Créé par Gender",
+    "isPinned": "Est Epinglé"
+  },
+  "filters": {
+    "all": "Tous",
+    "posts": "Publications",
+    "updates": "Mises à jour",
+    "activity": "Activité"
+  },
+  "messages": {
+    "writeMessage": "Écrivez votre message ici",
+    "pinnedMaxCountExceeded": "Ne peut pas épingler plus de notes. Le nombre maximum autorisé est {count}."
+  },
+  "options": {
+    "type": {
+      "Post": "Poster",
+      "Create": "Créer",
+      "CreateRelated": "Créer associé",
+      "Update": "Mise à jour",
+      "Assign": "Attribution",
+      "Relate": "Attacher",
+      "Unrelate": "Détacher",
+      "EmailReceived": "eMail reçu",
+      "EmailSent": "eMail envoyé\n"
+    },
+    "targetType": {
+      "self": "Autonome",
+      "users": "Utilisateurs",
+      "teams": "Équipes",
+      "all": "Tous les utilisateurs internes",
+      "portals": "Utilisateurs du portail"
+    }
+  },
+  "links": {
+    "superParent": "Super parent",
+    "related": "Apparenté, relié, connexe",
+    "portals": "Portails",
+    "attachments": "Attachés"
+  },
+  "labels": {
+    "View Posts": "Afficher les posts\n",
+    "View Activity": "Afficher l'activité",
+    "Pin": "Epingler",
+    "Unpin": "Désépingler",
+    "Pinned": "Epinglés",
+    "Quote Reply": "Citation Réponse",
+    "View Attachments": "Voir les pièces jointes"
+  },
+  "otherFields": {
+    "to": "À"
+  }
+}

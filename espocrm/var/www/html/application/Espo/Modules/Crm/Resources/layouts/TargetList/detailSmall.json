@@ -1,0 +1,10 @@
+[
+    {
+        "rows": [
+            [{"name": "name"}],
+            [{"name": "category"}],
+            [{"name": "entryCount"}, {"name": "optedOutCount"}],
+            [{"name": "description"}]
+        ]
+    }
+]

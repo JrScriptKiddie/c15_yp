@@ -1,0 +1,32 @@
+{
+    "recordViews":{
+        "detail":"views/inbound-email/record/detail",
+        "edit":"views/inbound-email/record/edit",
+        "list":"views/inbound-email/record/list"
+    },
+    "inlineEditDisabled": true,
+    "searchPanelDisabled": true,
+    "relationshipPanels": {
+        "filters": {
+            "select": false,
+            "rowActionsView": "views/record/row-actions/relationship-edit-and-remove",
+            "unlinkDisabled": true
+        },
+        "emails": {
+            "select": false,
+            "create": false,
+            "rowActionsView": "views/record/row-actions/remove-only",
+            "unlinkDisabled": true
+        }
+    },
+    "defaultSidePanelFieldLists": {
+        "detail": [
+        ],
+        "detailSmall": [
+        ],
+        "edit": [
+        ],
+        "editSmall": [
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+[
+    {
+        "rows": [
+            [{"name":"name"}, {"name": "account"}],
+            [{"name":"emailAddress"}, {"name":"phoneNumber"}],
+            [{"name":"title"}, false],
+            [{"name":"address"}, false],
+            [{"name":"description", "fullWidth": true}]
+        ]
+    }
+]

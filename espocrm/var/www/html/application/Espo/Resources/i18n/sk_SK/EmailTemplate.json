@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "name": "Názov",
+    "status": "Stav",
+    "body": "Telo",
+    "subject": "Predmet",
+    "attachments": "Prílohy",
+    "category": "Kategória"
+  },
+  "labels": {
+    "Create EmailTemplate": "Vytvoriť šablónu emailu",
+    "Available placeholders": "Dostupné náhrady"
+  },
+  "tooltips": {
+    "oneOff": "Skontroluj ci použiješ túto šablónu iba raz. Napr. pre hromadný email."
+  },
+  "presetFilters": {
+    "actual": "Aktuálne"
+  },
+  "placeholderTexts": {
+    "optOutLink": "odkaz na odhlásenie odberu"
+  }
+}

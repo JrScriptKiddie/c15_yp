@@ -1,0 +1,55 @@
+{
+  "fields": {
+    "name": "Nombre",
+    "parent": "Padre",
+    "status": "Estado",
+    "dateStart": "Fecha de comienzo",
+    "dateEnd": "Fecha de vencimiento",
+    "dateStartDate": "Fecha de Inicio (todo el día)",
+    "dateEndDate": "Fecha de finalización (todo el día)",
+    "priority": "Prioridad",
+    "description": "Descripción",
+    "isOverdue": "Atrasado",
+    "account": "Cuenta",
+    "dateCompleted": "Fecha de completado",
+    "attachments": "Adjuntos",
+    "reminders": "Recordatorios",
+    "contact": "Contacto",
+    "originalEmail": "Correo original"
+  },
+  "links": {
+    "attachments": "Adjuntos",
+    "account": "Cuenta",
+    "contact": "Contacto",
+    "email": "Correo"
+  },
+  "options": {
+    "status": {
+      "Not Started": "Sin empezar",
+      "Started": "Comenzado",
+      "Completed": "Completado",
+      "Canceled": "Cancelado",
+      "Deferred": "Diferido"
+    },
+    "priority": {
+      "Low": "Baja",
+      "High": "Alta",
+      "Urgent": "Urgente"
+    }
+  },
+  "labels": {
+    "Create Task": "Crear tarea",
+    "Complete": "Completada",
+    "overdue": "atrasado"
+  },
+  "presetFilters": {
+    "completed": "Completado",
+    "todays": "De hoy",
+    "overdue": "Atrazadas",
+    "deferred": "Diferido",
+    "actual": "Abiertos"
+  },
+  "nameOptions": {
+    "replyToEmail": "Responder al correo"
+  }
+}

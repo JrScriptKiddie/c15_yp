@@ -1,0 +1,83 @@
+{
+    "view": "views/dashlets/abstract/record-list",
+    "aclScope": "Opportunity",
+    "entityType": "Opportunity",
+    "options": {
+        "view": "views/dashlets/options/record-list",
+        "fields": {
+            "title": {
+                "type": "varchar",
+                "required": true
+            },
+            "autorefreshInterval": {
+                "type": "enumFloat",
+                "options": [0, 0.5, 1, 2, 5, 10]
+            },
+            "displayRecords": {
+                "type": "int",
+                "min": 1,
+                "max": 20
+            },
+            "expandedLayout": {
+                "type": "base",
+                "view": "views/dashlets/fields/records/expanded-layout"
+            },
+            "includeShared": {
+                "type": "bool"
+            }
+        },
+        "defaults": {
+            "orderBy": "closeDate",
+            "order": "asc",
+            "displayRecords": 5,
+            "populateAssignedUser": true,
+            "includeShared": false,
+            "expandedLayout": {
+                "rows": [
+                    [
+                        {
+                            "name": "name",
+                            "link": true
+                        }
+                    ],
+                    [
+                        {
+                            "name": "stage"
+                        },
+                        {
+                            "name": "amount"
+                        },
+                        {
+                            "name": "closeDate",
+                            "soft": true
+                        }
+                    ]
+                ]
+            },
+            "searchData": {
+                "bool": {
+                    "onlyMy": true
+                },
+                "primary": "open"
+            }
+        },
+        "layout": [
+            {
+                "rows": [
+                    [
+                        {"name": "title"},
+                        {"name": "autorefreshInterval"}
+                    ],
+                    [
+                        {"name": "displayRecords"},
+                        {"name": "includeShared"}
+                    ],
+                    [
+                        {"name": "expandedLayout"},
+                        false
+                    ]
+                ]
+            }
+        ]
+    }
+}

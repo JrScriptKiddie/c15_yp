@@ -1,0 +1,22 @@
+{
+    "massActions": {
+        "update": {
+            "allowed": true
+        },
+        "delete": {
+            "allowed": true
+        }
+    },
+    "createInputFilterClassNameList": [
+        "Espo\\Classes\\Record\\InboundEmail\\PasswordsInputFilter"
+    ],
+    "updateInputFilterClassNameList": [
+        "Espo\\Classes\\Record\\InboundEmail\\PasswordsInputFilter"
+    ],
+    "readLoaderClassNameList": [
+        "Espo\\Classes\\FieldProcessing\\InboundEmail\\IsSystemLoader"
+    ],
+    "listLoaderClassNameList": [
+        "Espo\\Classes\\FieldProcessing\\InboundEmail\\IsSystemLoader"
+    ]
+}

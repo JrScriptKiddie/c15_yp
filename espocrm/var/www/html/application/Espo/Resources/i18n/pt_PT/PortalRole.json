@@ -1,0 +1,15 @@
+{
+  "links": {
+    "users": "Utilizadores"
+  },
+  "labels": {
+    "Access": "Acesso",
+    "Create PortalRole": "Crie uma função de portal",
+    "Scope Level": "Nível de âmbito",
+    "Field Level": "Nível de campo"
+  },
+  "fields": {
+    "exportPermission": "Exportar permissões",
+    "massUpdatePermission": "Permissão de atualização em massa"
+  }
+}

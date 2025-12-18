@@ -1,0 +1,8 @@
+{
+  "fields": {
+    "method": "Yöntem"
+  },
+  "labels": {
+    "Create AuthenticationProvider": "Sağlayıcı Oluştur"
+  }
+}

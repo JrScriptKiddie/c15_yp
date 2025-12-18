@@ -1,0 +1,65 @@
+{
+  "fields": {
+    "post": "Publicējums",
+    "attachments": "Pielikumi",
+    "targetType": "Mērķa",
+    "teams": "Grupas",
+    "users": "Lietotāji",
+    "portals": "Portāli",
+    "type": "Tips",
+    "isGlobal": "Ir globāls",
+    "isInternal": "Ir iekšējs (iekšējiem lietotājiem)",
+    "related": "Saistīts",
+    "createdByGender": "Izveidotāja dzimums",
+    "data": "Dati",
+    "number": "Numurs",
+    "isPinned": "Vai ir piesprausts"
+  },
+  "filters": {
+    "all": "Visi",
+    "posts": "Publicējumi",
+    "updates": "Atjauninājumi",
+    "activity": "Darbība"
+  },
+  "messages": {
+    "writeMessage": "Šeit ierakstiet ziņojumu",
+    "pinnedMaxCountExceeded": "Vairāk piezīmju nevar piespraust. Maksimālais atļautais skaits ir {count}."
+  },
+  "options": {
+    "type": {
+      "Post": "Publicējums",
+      "Create": "Izveidot",
+      "CreateRelated": "Izveidot",
+      "Update": "Atjaunināt",
+      "Status": "Statuss",
+      "Assign": "Piešķirt",
+      "Relate": "Saistīt",
+      "Unrelate": "Atcelt",
+      "EmailReceived": "Saņemtais e-pasts",
+      "EmailSent": "Nosūtītais e-pasta vēstule"
+    },
+    "targetType": {
+      "users": "Lietotāji",
+      "teams": "Komandas",
+      "all": "Visi iekšējie lietotāji",
+      "portals": "Portāla lietotāji"
+    }
+  },
+  "links": {
+    "superParent": "Galvenais primārais elements",
+    "related": "Saistīts",
+    "portals": "Portāli",
+    "attachments": "Pielikumi"
+  },
+  "labels": {
+    "View Posts": "Pārskatīt ziņas",
+    "View Activity": "Apskatīt darbību",
+    "Unpin": "Atvienojiet",
+    "Pinned": "Piesprausts",
+    "Quote Reply": "Atbildēt uz citātu",
+    "View Attachments": "Skatīt pielikumus"
+  },
+  "otherFields": {
+    "to": "Uz"
+  }
+}

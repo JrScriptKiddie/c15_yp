@@ -1,0 +1,23 @@
+{
+  "modes": {
+    "month": "Mese",
+    "week": "Settimana",
+    "agendaWeek": "Settimana",
+    "day": "Giorno",
+    "agendaDay": "Giorno",
+    "timeline": "Sequenza temporale"
+  },
+  "labels": {
+    "Today": "Oggi",
+    "Create": "Crea",
+    "Shared": "Diviso",
+    "Add User": "Aggiungi Utente",
+    "current": "In Corso",
+    "time": "ora",
+    "User List": "Lista Utenti",
+    "View Calendar": "Mostra calendario",
+    "Create Shared View": "Crea vista condivisa",
+    "Edit Shared View": "Modifica vista condivisa",
+    "Shared Mode Options": "Opzioni modalità condivisa"
+  }
+}

@@ -1,0 +1,5 @@
+dn: uid=user1, {{ LDAP_BASE_DN }}
+objectClass: account
+objectClass: simpleSecurityObject
+uid: user1
+userPassword: user1

@@ -1,0 +1,11 @@
+{
+  "fields": {
+    "type": "Soort",
+    "optOut": "Afgemeld",
+    "invalid": "Ongeldig",
+    "numeric": "Numerieke waarde"
+  },
+  "presetFilters": {
+    "orphan": "Wees"
+  }
+}

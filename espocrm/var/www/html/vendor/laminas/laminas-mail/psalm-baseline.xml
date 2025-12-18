@@ -1,0 +1,3174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files psalm-version="5.15.0@5c774aca4746caf3d239d9c8cadb9f882ca29352">
+  <file src="src/Address.php">
+    <DocblockTypeContradiction>
+      <code>! is_string($email)</code>
+      <code>is_string($name)</code>
+    </DocblockTypeContradiction>
+    <InvalidArgument>
+      <code>Hostname::ALLOW_DNS | Hostname::ALLOW_LOCAL</code>
+    </InvalidArgument>
+    <MixedArgument>
+      <code>$email</code>
+    </MixedArgument>
+    <PossiblyNullArgument>
+      <code>$name</code>
+    </PossiblyNullArgument>
+    <PossiblyUndefinedVariable>
+      <code>$email</code>
+    </PossiblyUndefinedVariable>
+    <UnsafeInstantiation>
+      <code>new static($email, $name, $comment)</code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/AddressList.php">
+    <DocblockTypeContradiction>
+      <code>gettype($emailOrAddress)</code>
+      <code>is_string($key)</code>
+    </DocblockTypeContradiction>
+    <ImplementedReturnTypeMismatch>
+      <code>false|AddressInterface</code>
+      <code>false|AddressInterface</code>
+    </ImplementedReturnTypeMismatch>
+    <MixedArgument>
+      <code>$value</code>
+      <code>$value</code>
+    </MixedArgument>
+    <MixedAssignment>
+      <code>$value</code>
+    </MixedAssignment>
+    <RedundantConditionGivenDocblockType>
+      <code>$key !== false</code>
+      <code>is_object($emailOrAddress)</code>
+    </RedundantConditionGivenDocblockType>
+  </file>
+  <file src="src/Header/AbstractAddressList.php">
+    <DocblockTypeContradiction>
+      <code><![CDATA[null === $this->addressList]]></code>
+    </DocblockTypeContradiction>
+    <LessSpecificImplementedReturnType>
+      <code>self</code>
+    </LessSpecificImplementedReturnType>
+    <MissingConstructor>
+      <code>$addressList</code>
+      <code>$addressList</code>
+      <code>$addressList</code>
+      <code>$addressList</code>
+      <code>$addressList</code>
+    </MissingConstructor>
+    <MissingReturnType>
+      <code>setAddressList</code>
+    </MissingReturnType>
+    <MixedArgument>
+      <code>$value</code>
+    </MixedArgument>
+    <RedundantCondition>
+      <code>assert(is_array($conversionInfo))</code>
+      <code>is_array($conversionInfo)</code>
+    </RedundantCondition>
+    <UnnecessaryVarAnnotation>
+      <code>AddressList</code>
+      <code>string|false</code>
+    </UnnecessaryVarAnnotation>
+    <UnsafeInstantiation>
+      <code>new static()</code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/Header/ContentDisposition.php">
+    <MixedArgument>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$values[$i]</code>
+    </MixedArgument>
+    <MixedAssignment>
+      <code>$value</code>
+      <code>$value</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>null|string</code>
+    </MixedInferredReturnType>
+    <MixedReturnStatement>
+      <code><![CDATA[$this->parameters[$name]]]></code>
+    </MixedReturnStatement>
+    <UnsafeInstantiation>
+      <code>new static()</code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/Header/ContentTransferEncoding.php">
+    <LessSpecificImplementedReturnType>
+      <code>self</code>
+    </LessSpecificImplementedReturnType>
+    <MissingConstructor>
+      <code>$transferEncoding</code>
+    </MissingConstructor>
+    <MixedArgumentTypeCoercion>
+      <code>static::$allowedTransferEncodings</code>
+    </MixedArgumentTypeCoercion>
+    <RedundantCastGivenDocblockType>
+      <code>(string) $transferEncoding</code>
+    </RedundantCastGivenDocblockType>
+    <UnsafeInstantiation>
+      <code>new static()</code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/Header/ContentType.php">
+    <LessSpecificImplementedReturnType>
+      <code>self</code>
+    </LessSpecificImplementedReturnType>
+    <MissingConstructor>
+      <code>$type</code>
+    </MissingConstructor>
+    <MixedArgument>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$value</code>
+      <code>$values[$i]</code>
+    </MixedArgument>
+    <MixedAssignment>
+      <code>$value</code>
+      <code>$value</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>null|string</code>
+    </MixedInferredReturnType>
+    <MixedReturnStatement>
+      <code><![CDATA[$this->parameters[$name]]]></code>
+    </MixedReturnStatement>
+    <RedundantCastGivenDocblockType>
+      <code>(string) $type</code>
+      <code>(string) $value</code>
+    </RedundantCastGivenDocblockType>
+    <UnsafeInstantiation>
+      <code>new static()</code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/Header/Date.php">
+    <LessSpecificImplementedReturnType>
+      <code>self</code>
+    </LessSpecificImplementedReturnType>
+    <UnsafeInstantiation>
+      <code>new static($value)</code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/Header/GenericHeader.php">
+    <DocblockTypeContradiction>
+      <code>! is_string($fieldName)</code>
+      <code>$encoding === null</code>
+    </DocblockTypeContradiction>
+    <LessSpecificImplementedReturnType>
+      <code>GenericHeader</code>
+      <code>self</code>
+    </LessSpecificImplementedReturnType>
+    <RedundantCastGivenDocblockType>
+      <code>(string) $fieldValue</code>
+    </RedundantCastGivenDocblockType>
+    <UndefinedDocblockClass>
+      <code>Exception\InvalidArgumentException;</code>
+      <code>Exception\InvalidArgumentException;</code>
+    </UndefinedDocblockClass>
+    <UnsafeInstantiation>
+      <code>new static($name, $value)</code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/Header/GenericMultiHeader.php">
+    <ImplementedReturnTypeMismatch>
+      <code>array|GenericHeader|GenericMultiHeader|static</code>
+      <code>array|GenericHeader|GenericMultiHeader|static</code>
+    </ImplementedReturnTypeMismatch>
+    <MixedArgumentTypeCoercion>
+      <code>$values</code>
+    </MixedArgumentTypeCoercion>
+    <MixedAssignment>
+      <code>$header</code>
+      <code>$values[]</code>
+    </MixedAssignment>
+    <MixedMethodCall>
+      <code>getFieldValue</code>
+    </MixedMethodCall>
+    <UnsafeInstantiation>
+      <code>new static($fieldName, $fieldValue)</code>
+      <code>new static($fieldName, $multiValue)</code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/Header/HeaderLocator.php">
+    <MixedInferredReturnType>
+      <code>?string</code>
+    </MixedInferredReturnType>
+    <MixedReturnStatement>
+      <code><![CDATA[$this->plugins[$name] ?? $default]]></code>
+      <code><![CDATA[$this->plugins[$name] ?? $default]]></code>
+    </MixedReturnStatement>
+  </file>
+  <file src="src/Header/HeaderWrap.php">
+    <MixedOperand>
+      <code>$accumulator</code>
+    </MixedOperand>
+    <MixedPropertyFetch>
+      <code><![CDATA[$headerPart->text]]></code>
+    </MixedPropertyFetch>
+  </file>
+  <file src="src/Header/IdentificationField.php">
+    <MissingConstructor>
+      <code>$messageIds</code>
+      <code>$messageIds</code>
+    </MissingConstructor>
+    <UnsafeInstantiation>
+      <code>new static()</code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/Header/MessageId.php">
+    <LessSpecificImplementedReturnType>
+      <code>self</code>
+    </LessSpecificImplementedReturnType>
+    <MissingConstructor>
+      <code>$messageId</code>
+    </MissingConstructor>
+    <UnsafeInstantiation>
+      <code>new static()</code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/Header/MimeVersion.php">
+    <LessSpecificImplementedReturnType>
+      <code>self</code>
+    </LessSpecificImplementedReturnType>
+    <UnsafeInstantiation>
+      <code>new static()</code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/Header/MultipleHeadersInterface.php">
+    <MissingReturnType>
+      <code>toStringMultipleHeaders</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/Header/Received.php">
+    <LessSpecificImplementedReturnType>
+      <code>self</code>
+    </LessSpecificImplementedReturnType>
+    <UnsafeInstantiation>
+      <code>new static($value)</code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/Header/Sender.php">
+    <DocblockTypeContradiction>
+      <code>gettype($emailOrAddress)</code>
+    </DocblockTypeContradiction>
+    <LessSpecificImplementedReturnType>
+      <code>self</code>
+    </LessSpecificImplementedReturnType>
+    <MissingConstructor>
+      <code>$address</code>
+    </MissingConstructor>
+    <RedundantConditionGivenDocblockType>
+      <code>is_object($emailOrAddress)</code>
+    </RedundantConditionGivenDocblockType>
+    <UnsafeInstantiation>
+      <code>new static()</code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/Header/Subject.php">
+    <DocblockTypeContradiction>
+      <code>$encoding === null</code>
+    </DocblockTypeContradiction>
+    <LessSpecificImplementedReturnType>
+      <code>self</code>
+    </LessSpecificImplementedReturnType>
+    <RedundantCastGivenDocblockType>
+      <code>(string) $subject</code>
+    </RedundantCastGivenDocblockType>
+    <UnsafeInstantiation>
+      <code>new static()</code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/Headers.php">
+    <ArgumentTypeCoercion>
+      <code>$eol</code>
+    </ArgumentTypeCoercion>
+    <DocblockTypeContradiction>
+      <code><![CDATA[! $instanceOrFieldName instanceof Header\HeaderInterface && ! is_string($instanceOrFieldName)]]></code>
+      <code><![CDATA[! is_array($headers) && ! $headers instanceof Traversable]]></code>
+      <code>is_array($fieldValue)</code>
+      <code>is_array($headers)</code>
+      <code>is_string($headerFieldNameOrLine)</code>
+    </DocblockTypeContradiction>
+    <LessSpecificImplementedReturnType>
+      <code>mixed</code>
+    </LessSpecificImplementedReturnType>
+    <LessSpecificReturnStatement>
+      <code><![CDATA[$this->pluginClassLoader->load($key) ?: GenericHeader::class]]></code>
+    </LessSpecificReturnStatement>
+    <MixedArgument>
+      <code>$headers</code>
+      <code>$value</code>
+      <code>$value[0]</code>
+      <code>$value[1]</code>
+      <code>current($value)</code>
+    </MixedArgument>
+    <MixedArgumentTypeCoercion>
+      <code>key($value)</code>
+    </MixedArgumentTypeCoercion>
+    <MixedArrayOffset>
+      <code><![CDATA[$this->headersKeys[$index]]]></code>
+      <code><![CDATA[$this->headers[$index]]]></code>
+    </MixedArrayOffset>
+    <MixedArrayTypeCoercion>
+      <code><![CDATA[$this->headersKeys[$index]]]></code>
+      <code><![CDATA[$this->headers[$index]]]></code>
+    </MixedArrayTypeCoercion>
+    <MixedAssignment>
+      <code>$current</code>
+      <code>$current</code>
+      <code>$i</code>
+      <code>$index</code>
+      <code>$name</code>
+      <code>$results[]</code>
+      <code>$value</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>HeaderInterface</code>
+      <code>false|ArrayIterator|HeaderInterface</code>
+    </MixedInferredReturnType>
+    <MixedOperand>
+      <code>$i</code>
+    </MixedOperand>
+    <MixedReturnStatement>
+      <code>$current</code>
+      <code>$current</code>
+      <code>$results[0]</code>
+      <code>$results[0]</code>
+    </MixedReturnStatement>
+    <MoreSpecificReturnType>
+      <code><![CDATA[null|class-string<HeaderInterface>]]></code>
+    </MoreSpecificReturnType>
+    <PossiblyInvalidArgument>
+      <code><![CDATA[Header\GenericMultiHeader::fromString($headerFieldNameOrLine . ':' . $i)]]></code>
+    </PossiblyInvalidArgument>
+    <PossiblyUndefinedArrayOffset>
+      <code>$results[0]</code>
+    </PossiblyUndefinedArrayOffset>
+    <UnsafeInstantiation>
+      <code>new static()</code>
+    </UnsafeInstantiation>
+    <UnusedForeachValue>
+      <code>$item</code>
+    </UnusedForeachValue>
+  </file>
+  <file src="src/Message.php">
+    <ArgumentTypeCoercion>
+      <code>$emailOrAddressList</code>
+      <code>$emailOrAddressList</code>
+      <code>$emailOrAddressList</code>
+      <code>$header</code>
+    </ArgumentTypeCoercion>
+    <DocblockTypeContradiction>
+      <code>gettype($emailOrAddressOrList)</code>
+      <code>is_object($body)</code>
+      <code><![CDATA[null === $this->headers]]></code>
+    </DocblockTypeContradiction>
+    <FalsableReturnStatement>
+      <code>$header</code>
+    </FalsableReturnStatement>
+    <InvalidStringClass>
+      <code>new $headerClass()</code>
+    </InvalidStringClass>
+    <LessSpecificReturnStatement>
+      <code>$header</code>
+    </LessSpecificReturnStatement>
+    <MissingConstructor>
+      <code>$body</code>
+      <code>$headers</code>
+    </MissingConstructor>
+    <MissingReturnType>
+      <code>clearHeaderByName</code>
+      <code>updateAddressList</code>
+    </MissingReturnType>
+    <MixedArgument>
+      <code>$address</code>
+      <code>$emailOrAddress</code>
+      <code>$name</code>
+    </MixedArgument>
+    <MixedAssignment>
+      <code>$address</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>null|string</code>
+    </MixedInferredReturnType>
+    <MixedReturnStatement>
+      <code><![CDATA[$header->getFieldValue()]]></code>
+    </MixedReturnStatement>
+    <MoreSpecificReturnType>
+      <code>Header\HeaderInterface|ArrayIterator</code>
+    </MoreSpecificReturnType>
+    <NullArgument>
+      <code>$content</code>
+    </NullArgument>
+    <PossiblyFalseReference>
+      <code>getFieldValue</code>
+      <code>setEncoding</code>
+      <code>setSubject</code>
+    </PossiblyFalseReference>
+    <PossiblyInvalidCast>
+      <code><![CDATA[$this->body]]></code>
+    </PossiblyInvalidCast>
+    <PossiblyNullPropertyAssignmentValue>
+      <code>$body</code>
+    </PossiblyNullPropertyAssignmentValue>
+    <PossiblyUndefinedMethod>
+      <code>getFieldValue</code>
+      <code>setEncoding</code>
+    </PossiblyUndefinedMethod>
+    <RedundantConditionGivenDocblockType>
+      <code>is_object($emailOrAddressOrList)</code>
+    </RedundantConditionGivenDocblockType>
+    <UndefinedMethod>
+      <code>setSubject</code>
+    </UndefinedMethod>
+    <UnsafeInstantiation>
+      <code>new static()</code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/MessageFactory.php">
+    <DocblockTypeContradiction>
+      <code><![CDATA[! is_array($options) && ! $options instanceof Traversable]]></code>
+    </DocblockTypeContradiction>
+    <MixedArgument>
+      <code>$key</code>
+    </MixedArgument>
+    <MixedAssignment>
+      <code>$key</code>
+      <code>$value</code>
+    </MixedAssignment>
+  </file>
+  <file src="src/Protocol/AbstractProtocol.php">
+    <DocblockTypeContradiction>
+      <code>$cmd === null</code>
+      <code><![CDATA[$errMsg !== '']]></code>
+    </DocblockTypeContradiction>
+    <InvalidArgument>
+      <code>Validator\Hostname::ALLOW_ALL</code>
+    </InvalidArgument>
+    <InvalidPropertyAssignmentValue>
+      <code><![CDATA[$this->socket]]></code>
+    </InvalidPropertyAssignmentValue>
+    <MissingReturnType>
+      <code>_addLog</code>
+      <code>_disconnect</code>
+      <code>connect</code>
+      <code>resetLog</code>
+      <code>setMaximumLog</code>
+    </MissingReturnType>
+    <MixedArgumentTypeCoercion>
+      <code><![CDATA[$this->log]]></code>
+    </MixedArgumentTypeCoercion>
+    <PropertyNotSetInConstructor>
+      <code>$request</code>
+      <code>$response</code>
+    </PropertyNotSetInConstructor>
+    <RedundantCastGivenDocblockType>
+      <code>(int) $maximumLog</code>
+    </RedundantCastGivenDocblockType>
+  </file>
+  <file src="src/Protocol/Imap.php">
+    <DocblockTypeContradiction>
+      <code>$to === INF</code>
+      <code>$to === INF</code>
+    </DocblockTypeContradiction>
+    <InvalidPropertyAssignmentValue>
+      <code><![CDATA[$this->socket]]></code>
+    </InvalidPropertyAssignmentValue>
+    <InvalidScalarArgument>
+      <code>$chars</code>
+      <code>$chars</code>
+      <code>$ssl</code>
+    </InvalidScalarArgument>
+    <MissingReturnType>
+      <code>sendRequest</code>
+    </MissingReturnType>
+    <MixedArgument>
+      <code>$ids</code>
+      <code>$item</code>
+      <code>$line</code>
+      <code>$string</code>
+      <code>$tokens[1]</code>
+      <code>$tokens[2]</code>
+      <code>$tokens[2]</code>
+      <code>$tokens[2]</code>
+      <code>$tokens[2]</code>
+      <code>$tokens[2]</code>
+      <code>$tokens[2]</code>
+      <code>$tokens[2]</code>
+    </MixedArgument>
+    <MixedArgumentTypeCoercion>
+      <code>$from</code>
+      <code>$result</code>
+    </MixedArgumentTypeCoercion>
+    <MixedArrayAccess>
+      <code>$ids[0]</code>
+      <code>$item[0]</code>
+      <code>$item[1]</code>
+      <code>$item[2]</code>
+      <code>$item[3]</code>
+      <code>$token[0]</code>
+      <code>$token[1]</code>
+      <code>$token[2]</code>
+      <code>$token[2]</code>
+      <code>$token[2][0]</code>
+      <code>$token[2][1]</code>
+      <code>$tokens[2][$count - 2]</code>
+      <code>$tokens[2][$i + 1]</code>
+      <code>$tokens[2][$i]</code>
+      <code>$tokens[2][$uidKey]</code>
+      <code>$tokens[2][$uidKey]</code>
+      <code>$tokens[2][0]</code>
+      <code>$tokens[2][1]</code>
+      <code>$tokens[2][2]</code>
+      <code>$tokens[2][3]</code>
+    </MixedArrayAccess>
+    <MixedArrayOffset>
+      <code>$data[current($tokens[2])]</code>
+      <code>$result[$item[3]]</code>
+      <code>$result[$token[0]]</code>
+      <code>$result[$tokens[0]]</code>
+      <code>$tokens[2][$uidKey]</code>
+      <code>$tokens[2][$uidKey]</code>
+    </MixedArrayOffset>
+    <MixedAssignment>
+      <code>$data</code>
+      <code>$data</code>
+      <code>$data</code>
+      <code>$data[current($tokens[2])]</code>
+      <code>$ids</code>
+      <code>$item</code>
+      <code>$line</code>
+      <code>$line</code>
+      <code>$list</code>
+      <code>$response</code>
+      <code>$response</code>
+      <code>$result</code>
+      <code>$result</code>
+      <code>$result</code>
+      <code>$result[$token[0]]</code>
+      <code>$result[$tokens[0]]</code>
+      <code>$result[]</code>
+      <code>$result[strtolower($tokens[1])]</code>
+      <code>$string</code>
+      <code>$token</code>
+      <code>$token</code>
+      <code>$tokens</code>
+      <code>$uidKey</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>array</code>
+      <code>bool</code>
+      <code>bool</code>
+      <code>bool</code>
+      <code>bool</code>
+      <code>bool</code>
+      <code>bool</code>
+      <code>bool</code>
+      <code>bool</code>
+      <code>bool</code>
+      <code>bool</code>
+      <code>string|array</code>
+    </MixedInferredReturnType>
+    <MixedOperand>
+      <code>$line</code>
+      <code>$line</code>
+      <code>$line</code>
+      <code>$token</code>
+      <code>$token[0]</code>
+      <code><![CDATA[array_search('UID', $tokens[2])]]></code>
+    </MixedOperand>
+    <MixedReturnStatement>
+      <code>$data</code>
+      <code>$ids</code>
+      <code>$response</code>
+      <code>$result</code>
+      <code>$result</code>
+      <code><![CDATA[$this->requestAndResponse('APPEND', $tokens, true)]]></code>
+      <code><![CDATA[$this->requestAndResponse('COPY', [$set, $this->escapeString($folder)], true)]]></code>
+      <code><![CDATA[$this->requestAndResponse('CREATE', [$this->escapeString($folder)], true)]]></code>
+      <code><![CDATA[$this->requestAndResponse('DELETE', [$this->escapeString($folder)], true)]]></code>
+      <code><![CDATA[$this->requestAndResponse('EXPUNGE')]]></code>
+      <code><![CDATA[$this->requestAndResponse('LOGIN', $this->escapeString($user, $password), true)]]></code>
+      <code><![CDATA[$this->requestAndResponse('NOOP')]]></code>
+      <code><![CDATA[$this->requestAndResponse('RENAME', $this->escapeString($old, $new), true)]]></code>
+      <code><![CDATA[$this->requestAndResponse('SUBSCRIBE', [$this->escapeString($folder)], true)]]></code>
+    </MixedReturnStatement>
+    <NullArgument>
+      <code>$tag</code>
+    </NullArgument>
+    <PossiblyFalseOperand>
+      <code>$endPos</code>
+    </PossiblyFalseOperand>
+    <PossiblyInvalidArgument>
+      <code><![CDATA[$this->escapeString($old, $new)]]></code>
+      <code><![CDATA[$this->escapeString($reference, $mailbox)]]></code>
+      <code><![CDATA[$this->escapeString($user, $password)]]></code>
+      <code>$tokens</code>
+      <code>$tokens</code>
+    </PossiblyInvalidArgument>
+    <PossiblyInvalidArrayOffset>
+      <code>$tokens[2][$count - 2]</code>
+      <code>$tokens[2][$i + 1]</code>
+      <code>$tokens[2][$i]</code>
+      <code>$tokens[2][1]</code>
+      <code>$tokens[2][2]</code>
+      <code>$tokens[2][3]</code>
+    </PossiblyInvalidArrayOffset>
+    <PossiblyInvalidCast>
+      <code>$tokens</code>
+    </PossiblyInvalidCast>
+    <PossiblyNullArgument>
+      <code>$tag</code>
+      <code>$tag</code>
+      <code>$tag</code>
+      <code>$tag</code>
+      <code><![CDATA[$this->socket]]></code>
+      <code><![CDATA[$this->socket]]></code>
+      <code><![CDATA[$this->socket]]></code>
+      <code>$tokens</code>
+      <code>$tokens</code>
+      <code>$tokens</code>
+    </PossiblyNullArgument>
+    <PossiblyNullArrayAccess>
+      <code>$tokens[0]</code>
+      <code>$tokens[0]</code>
+      <code>$tokens[0]</code>
+    </PossiblyNullArrayAccess>
+    <PossiblyUndefinedArrayOffset>
+      <code>$line</code>
+    </PossiblyUndefinedArrayOffset>
+    <PossiblyUndefinedVariable>
+      <code>$data</code>
+      <code>$data</code>
+      <code>$uidKey</code>
+      <code>$uidKey</code>
+    </PossiblyUndefinedVariable>
+    <RedundantCastGivenDocblockType>
+      <code>(int) $from</code>
+      <code>(int) $from</code>
+      <code>(int) $from</code>
+      <code>(int) $from</code>
+      <code>(int) $to</code>
+      <code>(int) $to</code>
+      <code>(int) $to</code>
+    </RedundantCastGivenDocblockType>
+  </file>
+  <file src="src/Protocol/Pop3.php">
+    <InvalidPropertyAssignmentValue>
+      <code><![CDATA[$this->socket]]></code>
+    </InvalidPropertyAssignmentValue>
+    <InvalidScalarArgument>
+      <code>$ssl</code>
+    </InvalidScalarArgument>
+    <MissingReturnType>
+      <code>delete</code>
+      <code>login</code>
+      <code>logout</code>
+      <code>noop</code>
+      <code>sendRequest</code>
+      <code>status</code>
+      <code>undelete</code>
+    </MissingReturnType>
+    <PossiblyNullArgument>
+      <code><![CDATA[$this->socket]]></code>
+      <code><![CDATA[$this->socket]]></code>
+      <code><![CDATA[$this->socket]]></code>
+      <code><![CDATA[$this->socket]]></code>
+    </PossiblyNullArgument>
+    <PossiblyUndefinedArrayOffset>
+      <code>$id</code>
+      <code>$message</code>
+    </PossiblyUndefinedArrayOffset>
+    <RedundantCastGivenDocblockType>
+      <code>(int) $lines</code>
+    </RedundantCastGivenDocblockType>
+    <ReferenceConstraintViolation>
+      <code>$messages</code>
+      <code>$octets</code>
+    </ReferenceConstraintViolation>
+    <UnusedFunctionCall>
+      <code>strtok</code>
+    </UnusedFunctionCall>
+  </file>
+  <file src="src/Protocol/ProtocolTrait.php">
+    <PossiblyNullArgument>
+      <code>$port</code>
+    </PossiblyNullArgument>
+  </file>
+  <file src="src/Protocol/Smtp.php">
+    <InvalidArgument>
+      <code>220</code>
+      <code>220</code>
+      <code>221</code>
+      <code>250</code>
+      <code>250</code>
+      <code>250</code>
+      <code>250</code>
+      <code>250</code>
+      <code>354</code>
+    </InvalidArgument>
+    <MismatchingDocblockReturnType>
+      <code>Generator|string[]</code>
+    </MismatchingDocblockReturnType>
+    <MissingReturnType>
+      <code>_disconnect</code>
+      <code>auth</code>
+      <code>data</code>
+      <code>disconnect</code>
+      <code>ehlo</code>
+      <code>helo</code>
+      <code>mail</code>
+      <code>noop</code>
+      <code>quit</code>
+      <code>rcpt</code>
+      <code>rset</code>
+      <code>startSession</code>
+      <code>stopSession</code>
+      <code>vrfy</code>
+    </MissingReturnType>
+    <MixedArgument>
+      <code><![CDATA[$config['novalidatecert']]]></code>
+      <code><![CDATA[$config['ssl']]]></code>
+      <code><![CDATA[$config['use_complete_quit']]]></code>
+      <code>$host</code>
+      <code>$port</code>
+    </MixedArgument>
+    <MixedAssignment>
+      <code>$host</code>
+      <code>$port</code>
+    </MixedAssignment>
+    <MixedOperand>
+      <code><![CDATA[$config['ssl']]]></code>
+    </MixedOperand>
+    <PossiblyNullArgument>
+      <code><![CDATA[$this->socket]]></code>
+    </PossiblyNullArgument>
+    <PropertyNotSetInConstructor>
+      <code>$data</code>
+      <code>$secure</code>
+      <code>Smtp</code>
+      <code>Smtp</code>
+    </PropertyNotSetInConstructor>
+    <RedundantCastGivenDocblockType>
+      <code>(bool) $useCompleteQuit</code>
+    </RedundantCastGivenDocblockType>
+  </file>
+  <file src="src/Protocol/Smtp/Auth/Crammd5.php">
+    <ArgumentTypeCoercion>
+      <code>$challenge</code>
+    </ArgumentTypeCoercion>
+    <DocblockTypeContradiction>
+      <code>! is_string($data)</code>
+      <code>! is_string($key)</code>
+      <code><![CDATA[$data === '']]></code>
+      <code><![CDATA[$key === '']]></code>
+    </DocblockTypeContradiction>
+    <InvalidArgument>
+      <code>235</code>
+      <code>334</code>
+    </InvalidArgument>
+    <MissingReturnType>
+      <code>auth</code>
+    </MissingReturnType>
+    <MixedArgument>
+      <code><![CDATA[$config['password']]]></code>
+      <code><![CDATA[$config['username']]]></code>
+    </MixedArgument>
+    <PossiblyNullArgument>
+      <code><![CDATA[$this->getPassword()]]></code>
+    </PossiblyNullArgument>
+    <PossiblyNullOperand>
+      <code><![CDATA[$this->getUsername()]]></code>
+    </PossiblyNullOperand>
+    <PropertyNotSetInConstructor>
+      <code>Crammd5</code>
+      <code>Crammd5</code>
+      <code>Crammd5</code>
+      <code>Crammd5</code>
+    </PropertyNotSetInConstructor>
+  </file>
+  <file src="src/Protocol/Smtp/Auth/Login.php">
+    <DocblockTypeContradiction>
+      <code>is_array($host)</code>
+    </DocblockTypeContradiction>
+    <InvalidArgument>
+      <code>235</code>
+      <code>334</code>
+      <code>334</code>
+    </InvalidArgument>
+    <MissingReturnType>
+      <code>auth</code>
+    </MissingReturnType>
+    <MixedArgument>
+      <code><![CDATA[$config['password']]]></code>
+      <code><![CDATA[$config['username']]]></code>
+      <code>$host</code>
+    </MixedArgument>
+    <MixedAssignment>
+      <code>$config</code>
+    </MixedAssignment>
+    <PropertyNotSetInConstructor>
+      <code>$password</code>
+      <code>$username</code>
+      <code>Login</code>
+      <code>Login</code>
+      <code>Login</code>
+      <code>Login</code>
+    </PropertyNotSetInConstructor>
+  </file>
+  <file src="src/Protocol/Smtp/Auth/Plain.php">
+    <DocblockTypeContradiction>
+      <code>is_array($host)</code>
+    </DocblockTypeContradiction>
+    <InvalidArgument>
+      <code>235</code>
+      <code>334</code>
+    </InvalidArgument>
+    <MissingReturnType>
+      <code>auth</code>
+    </MissingReturnType>
+    <MixedArgument>
+      <code><![CDATA[$config['password']]]></code>
+      <code><![CDATA[$config['username']]]></code>
+      <code>$host</code>
+    </MixedArgument>
+    <MixedAssignment>
+      <code>$config</code>
+    </MixedAssignment>
+    <PropertyNotSetInConstructor>
+      <code>$password</code>
+      <code>$username</code>
+      <code>Plain</code>
+      <code>Plain</code>
+      <code>Plain</code>
+      <code>Plain</code>
+    </PropertyNotSetInConstructor>
+  </file>
+  <file src="src/Protocol/SmtpPluginManager.php">
+    <MissingReturnType>
+      <code>validatePlugin</code>
+    </MissingReturnType>
+    <NonInvariantDocblockPropertyType>
+      <code>$aliases</code>
+      <code>$factories</code>
+      <code>$instanceOf</code>
+    </NonInvariantDocblockPropertyType>
+  </file>
+  <file src="src/Protocol/SmtpPluginManagerFactory.php">
+    <MissingConstructor>
+      <code>$creationOptions</code>
+    </MissingConstructor>
+    <MissingParamType>
+      <code>$name</code>
+      <code>$name</code>
+      <code>$requestedName</code>
+    </MissingParamType>
+    <MoreSpecificImplementedParamType>
+      <code>$options</code>
+    </MoreSpecificImplementedParamType>
+  </file>
+  <file src="src/Storage/AbstractStorage.php">
+    <ImplementedReturnTypeMismatch>
+      <code>Message</code>
+      <code>bool</code>
+      <code>int</code>
+    </ImplementedReturnTypeMismatch>
+    <LessSpecificReturnStatement>
+      <code><![CDATA[$this->getMessage($id)]]></code>
+      <code><![CDATA[$this->getMessage($this->iterationPos)]]></code>
+    </LessSpecificReturnStatement>
+    <MissingReturnType>
+      <code>close</code>
+      <code>noop</code>
+      <code>removeMessage</code>
+    </MissingReturnType>
+    <MissingTemplateParam>
+      <code>ArrayAccess</code>
+      <code>SeekableIterator</code>
+    </MissingTemplateParam>
+    <MixedInferredReturnType>
+      <code>bool</code>
+      <code>null|bool</code>
+    </MixedInferredReturnType>
+    <MixedReturnStatement>
+      <code><![CDATA[$this->has[$var] ?? null]]></code>
+      <code><![CDATA[$this->has[$var] ?? null]]></code>
+      <code><![CDATA[$this->removeMessage($id)]]></code>
+    </MixedReturnStatement>
+    <MoreSpecificReturnType>
+      <code>Message</code>
+      <code>Message</code>
+    </MoreSpecificReturnType>
+    <RedundantConditionGivenDocblockType>
+      <code><![CDATA[$this->getMessage($id)]]></code>
+    </RedundantConditionGivenDocblockType>
+  </file>
+  <file src="src/Storage/Folder.php">
+    <ImplementedReturnTypeMismatch>
+      <code>Folder</code>
+      <code>string</code>
+    </ImplementedReturnTypeMismatch>
+    <MissingTemplateParam>
+      <code>RecursiveIterator</code>
+    </MissingTemplateParam>
+    <RedundantCastGivenDocblockType>
+      <code><![CDATA[(string) $this->getGlobalName()]]></code>
+    </RedundantCastGivenDocblockType>
+    <RedundantConditionGivenDocblockType>
+      <code>$current</code>
+      <code><![CDATA[$current && $current instanceof self]]></code>
+    </RedundantConditionGivenDocblockType>
+  </file>
+  <file src="src/Storage/Folder/FolderInterface.php">
+    <MissingReturnType>
+      <code>selectFolder</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/Storage/Folder/Maildir.php">
+    <ArgumentTypeCoercion>
+      <code><![CDATA[$this->delim]]></code>
+    </ArgumentTypeCoercion>
+    <MissingReturnType>
+      <code>buildFolderTree</code>
+      <code>selectFolder</code>
+    </MissingReturnType>
+    <MixedAssignment>
+      <code>$currentFolder</code>
+      <code>$delim</code>
+      <code>$folder</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>Folder</code>
+    </MixedInferredReturnType>
+    <MixedMethodCall>
+      <code>getGlobalName</code>
+    </MixedMethodCall>
+    <MixedPropertyFetch>
+      <code><![CDATA[$currentFolder->$entry]]></code>
+    </MixedPropertyFetch>
+    <MixedReturnStatement>
+      <code>$currentFolder</code>
+    </MixedReturnStatement>
+    <PossiblyNullArgument>
+      <code>$parent</code>
+    </PossiblyNullArgument>
+    <PossiblyUndefinedArrayOffset>
+      <code>$subname</code>
+    </PossiblyUndefinedArrayOffset>
+    <RedundantCondition>
+      <code>$stack</code>
+    </RedundantCondition>
+    <TypeDoesNotContainType>
+      <code>! $stack</code>
+      <code>$stack</code>
+    </TypeDoesNotContainType>
+  </file>
+  <file src="src/Storage/Folder/Mbox.php">
+    <MissingReturnType>
+      <code>buildFolderTree</code>
+      <code>selectFolder</code>
+    </MissingReturnType>
+    <MixedAssignment>
+      <code>$currentFolder</code>
+      <code>$folder</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>Storage\Folder</code>
+    </MixedInferredReturnType>
+    <MixedMethodCall>
+      <code>getGlobalName</code>
+    </MixedMethodCall>
+    <MixedPropertyFetch>
+      <code><![CDATA[$currentFolder->$entry]]></code>
+    </MixedPropertyFetch>
+    <MixedReturnStatement>
+      <code>$currentFolder</code>
+    </MixedReturnStatement>
+    <PossiblyUndefinedArrayOffset>
+      <code>$subname</code>
+    </PossiblyUndefinedArrayOffset>
+    <PropertyNotSetInConstructor>
+      <code>$rootFolder</code>
+      <code>Mbox</code>
+      <code>Mbox</code>
+      <code>Mbox</code>
+    </PropertyNotSetInConstructor>
+  </file>
+  <file src="src/Storage/Imap.php">
+    <ImplicitToStringCast>
+      <code>$folder</code>
+      <code>$folder</code>
+    </ImplicitToStringCast>
+    <InvalidArgument>
+      <code>INF</code>
+      <code>INF</code>
+    </InvalidArgument>
+    <InvalidCast>
+      <code>$parent</code>
+    </InvalidCast>
+    <InvalidReturnStatement>
+      <code><![CDATA[$this->protocol->fetch('RFC822.HEADER', $id)]]></code>
+      <code><![CDATA[$this->protocol->fetch('RFC822.SIZE', $id)]]></code>
+      <code><![CDATA[$this->protocol->fetch('RFC822.SIZE', 1, INF)]]></code>
+      <code><![CDATA[$this->protocol->fetch('RFC822.TEXT', $id)]]></code>
+    </InvalidReturnStatement>
+    <InvalidReturnType>
+      <code>int|array</code>
+      <code>string</code>
+      <code>string</code>
+    </InvalidReturnType>
+    <LessSpecificReturnStatement>
+      <code><![CDATA[new $this->messageClass(['handler' => $this, 'id' => $id, 'headers' => $header, 'flags' => $flags])]]></code>
+    </LessSpecificReturnStatement>
+    <MissingReturnType>
+      <code>appendMessage</code>
+      <code>close</code>
+      <code>copyMessage</code>
+      <code>createFolder</code>
+      <code>moveMessage</code>
+      <code>noop</code>
+      <code>removeFolder</code>
+      <code>removeMessage</code>
+      <code>renameFolder</code>
+      <code>selectFolder</code>
+      <code>setFlags</code>
+    </MissingReturnType>
+    <MixedArgument>
+      <code><![CDATA[$data['flags']]]></code>
+      <code>$flag</code>
+    </MixedArgument>
+    <MixedArgumentTypeCoercion>
+      <code>$globalName</code>
+      <code>$globalName</code>
+      <code>$globalName</code>
+      <code>$globalName</code>
+      <code>$localName</code>
+    </MixedArgumentTypeCoercion>
+    <MixedArrayAccess>
+      <code><![CDATA[$data['delim']]]></code>
+      <code><![CDATA[$data['delim']]]></code>
+      <code><![CDATA[$data['delim']]]></code>
+      <code><![CDATA[$data['flags']]]></code>
+    </MixedArrayAccess>
+    <MixedArrayOffset>
+      <code>static::$knownFlags[$flag]</code>
+      <code>static::$searchFlags[$flag]</code>
+    </MixedArrayOffset>
+    <MixedAssignment>
+      <code>$data</code>
+      <code>$flag</code>
+      <code>$flag</code>
+      <code>$flags[]</code>
+      <code>$folder</code>
+      <code>$header</code>
+      <code>$host</code>
+      <code>$params[]</code>
+      <code>$password</code>
+      <code>$port</code>
+      <code>$ssl</code>
+      <code><![CDATA[$this->delimiter]]></code>
+      <code>$v</code>
+    </MixedAssignment>
+    <MixedOperand>
+      <code><![CDATA[$data['delim']]]></code>
+    </MixedOperand>
+    <MixedReturnTypeCoercion>
+      <code>$k</code>
+      <code>int</code>
+    </MixedReturnTypeCoercion>
+    <MoreSpecificImplementedParamType>
+      <code>$message</code>
+    </MoreSpecificImplementedParamType>
+    <MoreSpecificReturnType>
+      <code>Message</code>
+    </MoreSpecificReturnType>
+    <PossiblyInvalidArrayOffset>
+      <code><![CDATA[$data['FLAGS']]]></code>
+      <code><![CDATA[$data['RFC822.HEADER']]]></code>
+    </PossiblyInvalidArrayOffset>
+    <PossiblyInvalidIterator>
+      <code>$ids</code>
+    </PossiblyInvalidIterator>
+    <PossiblyNullReference>
+      <code>append</code>
+      <code>copy</code>
+      <code>create</code>
+      <code>delete</code>
+      <code>escapeString</code>
+      <code>fetch</code>
+      <code>fetch</code>
+      <code>fetch</code>
+      <code>fetch</code>
+      <code>fetch</code>
+      <code>fetch</code>
+      <code>fetch</code>
+      <code>listMailbox</code>
+      <code>logout</code>
+      <code>noop</code>
+      <code>rename</code>
+      <code>search</code>
+      <code>search</code>
+      <code>select</code>
+      <code>store</code>
+      <code>store</code>
+    </PossiblyNullReference>
+    <RedundantCondition>
+      <code>$stack</code>
+    </RedundantCondition>
+    <TypeDoesNotContainType>
+      <code>! $stack</code>
+      <code>$stack</code>
+    </TypeDoesNotContainType>
+  </file>
+  <file src="src/Storage/Maildir.php">
+    <InvalidOperand>
+      <code>$num</code>
+      <code>$num</code>
+      <code>$num</code>
+    </InvalidOperand>
+    <InvalidReturnStatement>
+      <code>$ids</code>
+      <code>$num + 1</code>
+      <code>$result</code>
+    </InvalidReturnStatement>
+    <InvalidReturnType>
+      <code>array|string</code>
+      <code>int</code>
+    </InvalidReturnType>
+    <LessSpecificReturnStatement>
+      <code><![CDATA[new $this->messageClass([
+                'file'  => $this->getFileData($id, 'filename'),
+                'flags' => $this->getFileData($id, 'flags'),
+            ])]]></code>
+      <code><![CDATA[new $this->messageClass([
+            'handler' => $this,
+            'id'      => $id,
+            'headers' => $this->getRawHeader($id),
+            'flags'   => $this->getFileData($id, 'flags'),
+        ])]]></code>
+    </LessSpecificReturnStatement>
+    <MissingReturnType>
+      <code>close</code>
+      <code>getMaildirFiles</code>
+      <code>openMaildir</code>
+      <code>removeMessage</code>
+    </MissingReturnType>
+    <MixedArgument>
+      <code><![CDATA[$a['filename']]]></code>
+      <code><![CDATA[$b['filename']]]></code>
+      <code><![CDATA[$data['filename']]]></code>
+      <code><![CDATA[$filedata['filename']]]></code>
+    </MixedArgument>
+    <MixedArrayAccess>
+      <code><![CDATA[$a['filename']]]></code>
+      <code><![CDATA[$b['filename']]]></code>
+      <code><![CDATA[$data['filename']]]></code>
+      <code><![CDATA[$data['size']]]></code>
+      <code><![CDATA[$file['uniq']]]></code>
+      <code><![CDATA[$file['uniq']]]></code>
+      <code><![CDATA[$this->files[$id - 1][$field]]]></code>
+    </MixedArrayAccess>
+    <MixedArrayOffset>
+      <code><![CDATA[$file['flaglookup'][$flags]]]></code>
+    </MixedArrayOffset>
+    <MixedAssignment>
+      <code>$data</code>
+      <code>$file</code>
+      <code>$file</code>
+      <code>$file</code>
+      <code>$file</code>
+      <code>$ids[$num + 1]</code>
+      <code>$namedFlags[$flag]</code>
+      <code>$result[$num + 1]</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>int|array</code>
+      <code>string|array</code>
+    </MixedInferredReturnType>
+    <MixedReturnStatement>
+      <code><![CDATA[$filedata['size'] ?? filesize($filedata['filename'])]]></code>
+      <code><![CDATA[$filedata['size'] ?? filesize($filedata['filename'])]]></code>
+      <code><![CDATA[$this->files[$id - 1]]]></code>
+      <code><![CDATA[$this->files[$id - 1][$field]]]></code>
+    </MixedReturnStatement>
+    <MoreSpecificReturnType>
+      <code>File</code>
+    </MoreSpecificReturnType>
+    <PossiblyInvalidArgument>
+      <code><![CDATA[$this->getFileData($id, 'filename')]]></code>
+      <code><![CDATA[$this->getFileData($id, 'filename')]]></code>
+    </PossiblyInvalidArgument>
+    <PossiblyInvalidArrayOffset>
+      <code><![CDATA[$filedata['filename']]]></code>
+    </PossiblyInvalidArrayOffset>
+    <PossiblyInvalidCast>
+      <code><![CDATA[$this->getFileData($id, 'filename')]]></code>
+      <code><![CDATA[$this->getFileData($id, 'filename')]]></code>
+    </PossiblyInvalidCast>
+    <PossiblyUndefinedArrayOffset>
+      <code>$flags</code>
+      <code>$info</code>
+      <code>$size</code>
+    </PossiblyUndefinedArrayOffset>
+    <UnusedForeachValue>
+      <code>$v</code>
+    </UnusedForeachValue>
+  </file>
+  <file src="src/Storage/Mbox.php">
+    <InvalidArgument>
+      <code>$id</code>
+    </InvalidArgument>
+    <InvalidOperand>
+      <code>$num</code>
+    </InvalidOperand>
+    <InvalidPropertyAssignmentValue>
+      <code><![CDATA[$this->fh]]></code>
+      <code><![CDATA[$this->fh]]></code>
+    </InvalidPropertyAssignmentValue>
+    <InvalidReturnStatement>
+      <code>$id</code>
+      <code>$id</code>
+      <code>$result</code>
+    </InvalidReturnStatement>
+    <InvalidReturnType>
+      <code>array|string</code>
+      <code>int</code>
+    </InvalidReturnType>
+    <LessSpecificReturnStatement>
+      <code><![CDATA[new $this->messageClass($messageClassParams)]]></code>
+      <code><![CDATA[new $this->messageClass(['handler' => $this, 'id' => $id, 'headers' => $message])]]></code>
+    </LessSpecificReturnStatement>
+    <MissingReturnType>
+      <code>close</code>
+      <code>openMboxFile</code>
+      <code>removeMessage</code>
+    </MissingReturnType>
+    <MixedArgument>
+      <code><![CDATA[$messagePos['end'] - $messagePos['separator']]]></code>
+      <code><![CDATA[$messagePos['separator']]]></code>
+      <code><![CDATA[$messagePos['separator'] - $messagePos['start']]]></code>
+      <code><![CDATA[$messagePos['start']]]></code>
+    </MixedArgument>
+    <MixedArrayAccess>
+      <code><![CDATA[$pos['end']]]></code>
+      <code><![CDATA[$pos['end']]]></code>
+      <code><![CDATA[$pos['start']]]></code>
+      <code><![CDATA[$pos['start']]]></code>
+    </MixedArrayAccess>
+    <MixedAssignment>
+      <code>$pos</code>
+      <code>$pos</code>
+      <code>$result[$num + 1]</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>array</code>
+      <code>int|array</code>
+    </MixedInferredReturnType>
+    <MixedOperand>
+      <code><![CDATA[$messagePos['end']]]></code>
+      <code><![CDATA[$messagePos['separator']]]></code>
+      <code><![CDATA[$pos['end']]]></code>
+      <code><![CDATA[$pos['end']]]></code>
+    </MixedOperand>
+    <MixedReturnStatement>
+      <code><![CDATA[$pos['end'] - $pos['start']]]></code>
+      <code><![CDATA[$this->positions[$id - 1]]]></code>
+    </MixedReturnStatement>
+    <MoreSpecificReturnType>
+      <code>File</code>
+    </MoreSpecificReturnType>
+    <PossiblyInvalidArgument>
+      <code>$file</code>
+      <code>$file</code>
+      <code>$file</code>
+      <code>$file</code>
+    </PossiblyInvalidArgument>
+    <PossiblyNullArgument>
+      <code><![CDATA[$this->fh]]></code>
+      <code><![CDATA[$this->fh]]></code>
+    </PossiblyNullArgument>
+    <PropertyNotSetInConstructor>
+      <code>$positions</code>
+    </PropertyNotSetInConstructor>
+  </file>
+  <file src="src/Storage/Message.php">
+    <MixedArgument>
+      <code><![CDATA[$params['file']]]></code>
+      <code><![CDATA[$params['flags']]]></code>
+      <code><![CDATA[$params['flags']]]></code>
+    </MixedArgument>
+    <MixedArrayOffset>
+      <code><![CDATA[$this->flags[$flag]]]></code>
+    </MixedArrayOffset>
+  </file>
+  <file src="src/Storage/Message/File.php">
+    <MixedArgument>
+      <code><![CDATA[$params['flags']]]></code>
+      <code><![CDATA[$params['flags']]]></code>
+    </MixedArgument>
+    <MixedArrayOffset>
+      <code><![CDATA[$this->flags[$flag]]]></code>
+    </MixedArrayOffset>
+  </file>
+  <file src="src/Storage/Part.php">
+    <ImplementedReturnTypeMismatch>
+      <code>Part</code>
+      <code>string</code>
+    </ImplementedReturnTypeMismatch>
+    <InvalidReturnStatement>
+      <code><![CDATA[$this->getHeader($name, 'string')]]></code>
+      <code><![CDATA[$this->iterationPos]]></code>
+    </InvalidReturnStatement>
+    <InvalidReturnType>
+      <code>string</code>
+      <code>string</code>
+    </InvalidReturnType>
+    <MissingTemplateParam>
+      <code>RecursiveIterator</code>
+    </MissingTemplateParam>
+    <MixedArgument>
+      <code><![CDATA[$params['headers']]]></code>
+      <code><![CDATA[$params['headers']]]></code>
+      <code><![CDATA[$params['raw']]]></code>
+      <code><![CDATA[$params['strict']]]></code>
+      <code><![CDATA[current($this->getHeader($name, 'array'))]]></code>
+    </MixedArgument>
+    <MixedArrayAccess>
+      <code><![CDATA[$part['body']]]></code>
+      <code><![CDATA[$part['header']]]></code>
+    </MixedArrayAccess>
+    <MixedAssignment>
+      <code>$h</code>
+      <code><![CDATA[$params['strict']]]></code>
+      <code>$part</code>
+      <code>$return[]</code>
+      <code><![CDATA[$this->content]]></code>
+      <code><![CDATA[$this->messageNum]]></code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>Part</code>
+      <code>string</code>
+    </MixedInferredReturnType>
+    <MixedMethodCall>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+    </MixedMethodCall>
+    <MixedReturnStatement>
+      <code><![CDATA[$header->getFieldValue(HeaderInterface::FORMAT_RAW)]]></code>
+      <code><![CDATA[$this->parts[$num]]]></code>
+    </MixedReturnStatement>
+    <NoValue>
+      <code><![CDATA[return $this->parts[$num];]]></code>
+    </NoValue>
+    <PossiblyInvalidArgument>
+      <code>$boundary</code>
+      <code><![CDATA[$this->getHeader($name, 'array')]]></code>
+    </PossiblyInvalidArgument>
+    <PossiblyInvalidCast>
+      <code>$boundary</code>
+    </PossiblyInvalidCast>
+    <PossiblyNullArgument>
+      <code><![CDATA[$this->content]]></code>
+      <code><![CDATA[$this->content]]></code>
+      <code><![CDATA[$this->headers]]></code>
+      <code><![CDATA[$this->headers]]></code>
+    </PossiblyNullArgument>
+    <RedundantConditionGivenDocblockType>
+      <code>$current</code>
+      <code><![CDATA[$current && $current instanceof self]]></code>
+    </RedundantConditionGivenDocblockType>
+    <UnsafeInstantiation>
+      <code><![CDATA[new static(['headers' => $part['header'], 'content' => $part['body']])]]></code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/Storage/Part/File.php">
+    <InvalidReturnStatement>
+      <code><![CDATA[stream_copy_to_stream($this->fh, $stream, $this->contentPos[1] - $this->contentPos[0])]]></code>
+    </InvalidReturnStatement>
+    <InvalidReturnType>
+      <code>string</code>
+    </InvalidReturnType>
+    <MixedArgument>
+      <code>$length</code>
+      <code><![CDATA[$params['EOL']]]></code>
+      <code><![CDATA[$params['file']]]></code>
+      <code><![CDATA[$params['startPos']]]></code>
+      <code><![CDATA[$this->contentPos[0]]]></code>
+      <code><![CDATA[$this->contentPos[1] - $this->contentPos[0]]]></code>
+    </MixedArgument>
+    <MixedArrayAccess>
+      <code><![CDATA[$this->partPos[$num][0]]]></code>
+      <code><![CDATA[$this->partPos[$num][1]]]></code>
+    </MixedArrayAccess>
+    <MixedAssignment>
+      <code>$endPos</code>
+      <code>$length</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>int</code>
+    </MixedInferredReturnType>
+    <MixedOperand>
+      <code><![CDATA[$this->contentPos[1]]]></code>
+      <code><![CDATA[$this->contentPos[1]]]></code>
+      <code><![CDATA[$this->contentPos[1]]]></code>
+    </MixedOperand>
+    <MixedReturnStatement>
+      <code><![CDATA[$this->contentPos[1] - $this->contentPos[0]]]></code>
+    </MixedReturnStatement>
+    <PossiblyInvalidOperand>
+      <code>$boundary</code>
+      <code>$boundary</code>
+    </PossiblyInvalidOperand>
+    <UnsafeInstantiation>
+      <code><![CDATA[new static([
+            'file'     => $this->fh,
+            'startPos' => $this->partPos[$num][0],
+            'endPos'   => $this->partPos[$num][1],
+        ])]]></code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/Storage/Part/PartInterface.php">
+    <MissingTemplateParam>
+      <code>RecursiveIterator</code>
+    </MissingTemplateParam>
+  </file>
+  <file src="src/Storage/Pop3.php">
+    <ImplementedReturnTypeMismatch>
+      <code>null|string</code>
+    </ImplementedReturnTypeMismatch>
+    <InvalidReturnStatement>
+      <code>$id</code>
+      <code>$id</code>
+      <code>$result</code>
+      <code><![CDATA[$this->has['uniqueid']]]></code>
+      <code><![CDATA[$this->protocol->hasTop]]></code>
+    </InvalidReturnStatement>
+    <InvalidReturnType>
+      <code>array|string</code>
+    </InvalidReturnType>
+    <LessSpecificReturnStatement>
+      <code><![CDATA[new $this->messageClass([
+            'handler'    => $this,
+            'id'         => $id,
+            'headers'    => $message,
+            'noToplines' => $bodyLines < 1,
+        ])]]></code>
+    </LessSpecificReturnStatement>
+    <MissingReturnType>
+      <code>close</code>
+      <code>noop</code>
+      <code>removeMessage</code>
+    </MissingReturnType>
+    <MixedAssignment>
+      <code>$host</code>
+      <code>$password</code>
+      <code>$port</code>
+      <code>$ssl</code>
+      <code>$v</code>
+    </MixedAssignment>
+    <MixedReturnTypeCoercion>
+      <code>$k</code>
+      <code>int</code>
+    </MixedReturnTypeCoercion>
+    <MoreSpecificReturnType>
+      <code>Message</code>
+    </MoreSpecificReturnType>
+    <NullArgument>
+      <code>$body</code>
+      <code>$headers</code>
+    </NullArgument>
+    <PossiblyInvalidIterator>
+      <code>$ids</code>
+    </PossiblyInvalidIterator>
+    <PossiblyNullPropertyFetch>
+      <code><![CDATA[$this->protocol->hasTop]]></code>
+    </PossiblyNullPropertyFetch>
+    <PossiblyNullReference>
+      <code>delete</code>
+      <code>getList</code>
+      <code>logout</code>
+      <code>noop</code>
+      <code>retrieve</code>
+      <code>status</code>
+      <code>top</code>
+      <code>top</code>
+      <code>top</code>
+      <code>uniqueid</code>
+      <code>uniqueid</code>
+    </PossiblyNullReference>
+    <RedundantCastGivenDocblockType>
+      <code>(int) $count</code>
+    </RedundantCastGivenDocblockType>
+  </file>
+  <file src="src/Storage/Writable/Maildir.php">
+    <DocblockTypeContradiction>
+      <code><![CDATA[is_array($this->quota)]]></code>
+      <code><![CDATA[is_array($this->quota)]]></code>
+    </DocblockTypeContradiction>
+    <ImplementedParamTypeMismatch>
+      <code>$message</code>
+    </ImplementedParamTypeMismatch>
+    <InvalidOperand>
+      <code>$count</code>
+      <code>$size</code>
+    </InvalidOperand>
+    <InvalidReturnStatement>
+      <code><![CDATA[$this->quota]]></code>
+    </InvalidReturnStatement>
+    <InvalidReturnType>
+      <code>bool|array</code>
+    </InvalidReturnType>
+    <MissingReturnType>
+      <code>appendMessage</code>
+      <code>copyMessage</code>
+      <code>initMaildir</code>
+      <code>moveMessage</code>
+      <code>removeFolder</code>
+      <code>removeMessage</code>
+      <code>renameFolder</code>
+      <code>setFlags</code>
+      <code>setQuota</code>
+    </MissingReturnType>
+    <MixedArgument>
+      <code>$fh</code>
+      <code>$fh</code>
+      <code>$fh</code>
+      <code><![CDATA[$filedata['filename']]]></code>
+      <code><![CDATA[$filedata['filename']]]></code>
+      <code>$flags</code>
+      <code>$flags</code>
+      <code>$flags</code>
+      <code>$flags</code>
+      <code>$oldFile</code>
+      <code>$oldFile</code>
+      <code>$oldFile</code>
+      <code>$oldFile</code>
+      <code><![CDATA[$params->dirname]]></code>
+      <code><![CDATA[$tempFile['filename']]]></code>
+      <code><![CDATA[$tempFile['filename']]]></code>
+      <code><![CDATA[$tempFile['filename']]]></code>
+      <code><![CDATA[$tempFile['filename']]]></code>
+      <code><![CDATA[$tempFile['filename']]]></code>
+      <code><![CDATA[$tempFile['filename']]]></code>
+      <code><![CDATA[$tempFile['filename']]]></code>
+      <code><![CDATA[$tempFile['handle']]]></code>
+      <code><![CDATA[$tempFile['handle']]]></code>
+      <code><![CDATA[$tempFile['handle']]]></code>
+      <code><![CDATA[$tempFile['handle']]]></code>
+      <code><![CDATA[$tempFile['handle']]]></code>
+      <code><![CDATA[$tmp['filename']]]></code>
+    </MixedArgument>
+    <MixedArrayAccess>
+      <code>$flags[$key]</code>
+      <code>$flags[$key]</code>
+    </MixedArrayAccess>
+    <MixedArrayOffset>
+      <code>$flags[$key]</code>
+      <code>$flags[$key]</code>
+      <code>$wantedFlags[$flag]</code>
+    </MixedArrayOffset>
+    <MixedAssignment>
+      <code>$fh</code>
+      <code>$flag</code>
+      <code>$flags</code>
+      <code>$flags</code>
+      <code>$flags[$char]</code>
+      <code>$folder</code>
+      <code>$key</code>
+      <code>$key</code>
+      <code>$messages</code>
+      <code>$messages</code>
+      <code>$oldFile</code>
+      <code>$oldFile</code>
+      <code>$quota</code>
+      <code>$quota</code>
+      <code>$quota</code>
+      <code>$quota</code>
+      <code>$subdir</code>
+      <code>$totalSize</code>
+      <code>$totalSize</code>
+      <code>$value</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>bool|array</code>
+    </MixedInferredReturnType>
+    <MixedMethodCall>
+      <code>getGlobalName</code>
+    </MixedMethodCall>
+    <MixedOperand>
+      <code><![CDATA[$params->dirname]]></code>
+      <code>$subdir</code>
+      <code><![CDATA[$tempFile['dirname']]]></code>
+      <code><![CDATA[$tempFile['dirname']]]></code>
+      <code><![CDATA[$tempFile['dirname']]]></code>
+      <code><![CDATA[$tempFile['uniq']]]></code>
+      <code><![CDATA[$tempFile['uniq']]]></code>
+      <code><![CDATA[$tempFile['uniq']]]></code>
+      <code>$value</code>
+    </MixedOperand>
+    <MixedReturnStatement>
+      <code><![CDATA[$detailedResponse ? $result : $result['over_quota']]]></code>
+      <code><![CDATA[$detailedResponse ? $result : $result['over_quota']]]></code>
+    </MixedReturnStatement>
+    <PossiblyFalseArgument>
+      <code><![CDATA[strrpos($folder, $this->delim)]]></code>
+      <code><![CDATA[strrpos($name, $this->delim)]]></code>
+    </PossiblyFalseArgument>
+    <PossiblyInvalidArgument>
+      <code>$filename</code>
+      <code>$filename</code>
+      <code>$message</code>
+    </PossiblyInvalidArgument>
+    <PossiblyInvalidArrayOffset>
+      <code><![CDATA[$filedata['filename']]]></code>
+      <code><![CDATA[$filedata['filename']]]></code>
+      <code><![CDATA[$filedata['filename']]]></code>
+      <code><![CDATA[$filedata['filename']]]></code>
+      <code><![CDATA[$filedata['flags']]]></code>
+      <code><![CDATA[$filedata['flags']]]></code>
+      <code><![CDATA[$filedata['flags']]]></code>
+      <code>$filedata[uniq]</code>
+    </PossiblyInvalidArrayOffset>
+    <PossiblyInvalidCast>
+      <code>$filename</code>
+      <code>$filename</code>
+    </PossiblyInvalidCast>
+    <PossiblyInvalidIterator>
+      <code>$quota</code>
+    </PossiblyInvalidIterator>
+    <PossiblyInvalidPropertyAssignmentValue>
+      <code>$value</code>
+    </PossiblyInvalidPropertyAssignmentValue>
+    <PossiblyUndefinedVariable>
+      <code>$fh</code>
+      <code>$size</code>
+    </PossiblyUndefinedVariable>
+    <PropertyNotSetInConstructor>
+      <code>$quota</code>
+    </PropertyNotSetInConstructor>
+    <TypeDoesNotContainType>
+      <code>$overQuota</code>
+      <code>$overQuota</code>
+    </TypeDoesNotContainType>
+    <UnusedFunctionCall>
+      <code>strtok</code>
+    </UnusedFunctionCall>
+  </file>
+  <file src="src/Storage/Writable/WritableInterface.php">
+    <MissingReturnType>
+      <code>appendMessage</code>
+      <code>copyMessage</code>
+      <code>createFolder</code>
+      <code>moveMessage</code>
+      <code>removeFolder</code>
+      <code>renameFolder</code>
+      <code>setFlags</code>
+    </MissingReturnType>
+  </file>
+  <file src="src/Transport/Envelope.php">
+    <InvalidNullableReturnType>
+      <code>string</code>
+    </InvalidNullableReturnType>
+    <MissingReturnType>
+      <code>setFrom</code>
+      <code>setTo</code>
+    </MissingReturnType>
+    <NullableReturnStatement>
+      <code><![CDATA[$this->from]]></code>
+    </NullableReturnStatement>
+    <RedundantCastGivenDocblockType>
+      <code>(string) $from</code>
+    </RedundantCastGivenDocblockType>
+  </file>
+  <file src="src/Transport/Factory.php">
+    <DocblockTypeContradiction>
+      <code>$spec instanceof Traversable</code>
+      <code>is_array($spec)</code>
+    </DocblockTypeContradiction>
+    <MixedArgument>
+      <code>$spec</code>
+      <code><![CDATA[$spec['options']]]></code>
+      <code><![CDATA[$spec['options']]]></code>
+      <code>$type</code>
+      <code>$type</code>
+      <code>$type</code>
+    </MixedArgument>
+    <MixedAssignment>
+      <code>$type</code>
+    </MixedAssignment>
+    <MixedMethodCall>
+      <code>new $type()</code>
+    </MixedMethodCall>
+  </file>
+  <file src="src/Transport/File.php">
+    <MissingReturnType>
+      <code>setOptions</code>
+    </MissingReturnType>
+    <MixedAssignment>
+      <code>$filename</code>
+    </MixedAssignment>
+    <MixedOperand>
+      <code>$filename</code>
+    </MixedOperand>
+    <PropertyNotSetInConstructor>
+      <code>$lastFile</code>
+    </PropertyNotSetInConstructor>
+  </file>
+  <file src="src/Transport/FileOptions.php">
+    <DocblockTypeContradiction>
+      <code>is_object($callback)</code>
+      <code><![CDATA[null === $this->callback]]></code>
+      <code><![CDATA[null === $this->path]]></code>
+    </DocblockTypeContradiction>
+    <PropertyNotSetInConstructor>
+      <code>$callback</code>
+      <code>$path</code>
+    </PropertyNotSetInConstructor>
+    <RedundantCastGivenDocblockType>
+      <code>(string) $path</code>
+    </RedundantCastGivenDocblockType>
+    <RedundantConditionGivenDocblockType>
+      <code>gettype($callback)</code>
+    </RedundantConditionGivenDocblockType>
+  </file>
+  <file src="src/Transport/Sendmail.php">
+    <DocblockTypeContradiction>
+      <code><![CDATA[! is_array($parameters) && ! $parameters instanceof Traversable]]></code>
+      <code><![CDATA[$this->errstr !== null]]></code>
+      <code>is_object($callable)</code>
+    </DocblockTypeContradiction>
+    <InvalidArgument>
+      <code><![CDATA[[$this, 'handleMailErrors']]]></code>
+    </InvalidArgument>
+    <MissingReturnType>
+      <code>mailHandler</code>
+    </MissingReturnType>
+    <MixedAssignment>
+      <code>$param</code>
+    </MixedAssignment>
+    <MixedOperand>
+      <code>$param</code>
+    </MixedOperand>
+    <PossiblyFalseReference>
+      <code>getFieldValue</code>
+    </PossiblyFalseReference>
+    <PossiblyNullPropertyAssignmentValue>
+      <code>$parameters</code>
+    </PossiblyNullPropertyAssignmentValue>
+    <PossiblyUndefinedMethod>
+      <code>getFieldValue</code>
+    </PossiblyUndefinedMethod>
+    <PropertyNotSetInConstructor>
+      <code>$errstr</code>
+      <code>$operatingSystem</code>
+      <code>$parameters</code>
+    </PropertyNotSetInConstructor>
+    <RedundantCastGivenDocblockType>
+      <code><![CDATA[(string) $this->parameters]]></code>
+    </RedundantCastGivenDocblockType>
+    <RedundantConditionGivenDocblockType>
+      <code>$from</code>
+      <code><![CDATA[$this->errstr !== null]]></code>
+      <code>gettype($callable)</code>
+    </RedundantConditionGivenDocblockType>
+  </file>
+  <file src="src/Transport/Smtp.php">
+    <DocblockTypeContradiction>
+      <code><![CDATA[null === $this->plugins]]></code>
+    </DocblockTypeContradiction>
+    <MissingReturnType>
+      <code>setConnection</code>
+      <code>setEnvelope</code>
+    </MissingReturnType>
+    <MixedArgument>
+      <code>$recipient</code>
+    </MixedArgument>
+    <MixedAssignment>
+      <code>$recipient</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>Protocol\Smtp</code>
+    </MixedInferredReturnType>
+    <MixedReturnStatement>
+      <code><![CDATA[$this->getPluginManager()->get($name, $options)]]></code>
+      <code><![CDATA[$this->getPluginManager()->get($name, $options)]]></code>
+    </MixedReturnStatement>
+    <PossiblyNullReference>
+      <code>getFrom</code>
+      <code>getFrom</code>
+      <code>getTo</code>
+      <code>getTo</code>
+    </PossiblyNullReference>
+    <PropertyNotSetInConstructor>
+      <code>$plugins</code>
+    </PropertyNotSetInConstructor>
+    <PropertyTypeCoercion>
+      <code>$connection</code>
+    </PropertyTypeCoercion>
+    <RedundantCastGivenDocblockType>
+      <code>(bool) $flag</code>
+    </RedundantCastGivenDocblockType>
+  </file>
+  <file src="src/Transport/SmtpOptions.php">
+    <DocblockTypeContradiction>
+      <code>! is_string($connectionClass)</code>
+      <code>! is_string($name)</code>
+    </DocblockTypeContradiction>
+    <PossiblyNullPropertyAssignmentValue>
+      <code>$connectionClass</code>
+      <code>$name</code>
+    </PossiblyNullPropertyAssignmentValue>
+    <RedundantCastGivenDocblockType>
+      <code>(int) $port</code>
+      <code>(int) $seconds</code>
+      <code>(string) $host</code>
+    </RedundantCastGivenDocblockType>
+  </file>
+  <file src="test/AddressListTest.php">
+    <NullArgument>
+      <code>null</code>
+    </NullArgument>
+    <PossiblyFalseReference>
+      <code>getName</code>
+      <code>getName</code>
+      <code>getName</code>
+      <code>getName</code>
+    </PossiblyFalseReference>
+    <UndefinedInterfaceMethod>
+      <code>getComment</code>
+    </UndefinedInterfaceMethod>
+  </file>
+  <file src="test/AddressTest.php">
+    <MixedInferredReturnType>
+      <code>array</code>
+      <code>array</code>
+    </MixedInferredReturnType>
+  </file>
+  <file src="test/Header/AddressListHeaderTest.php">
+    <MixedArgument>
+      <code>$list</code>
+      <code>$list</code>
+    </MixedArgument>
+    <MixedArgumentTypeCoercion>
+      <code>$k</code>
+      <code>$k</code>
+    </MixedArgumentTypeCoercion>
+    <MixedAssignment>
+      <code>$address</code>
+      <code>$address</code>
+      <code>$address</code>
+      <code>$address</code>
+      <code>$address</code>
+      <code>$address</code>
+      <code>$address</code>
+      <code>$address</code>
+      <code>$header</code>
+      <code>$header</code>
+      <code>$header</code>
+      <code>$list</code>
+      <code>$list</code>
+      <code>$v</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+    </MixedInferredReturnType>
+    <MixedMethodCall>
+      <code>get</code>
+      <code>get</code>
+      <code>get</code>
+      <code>get</code>
+      <code>get</code>
+      <code>get</code>
+      <code>get</code>
+      <code>get</code>
+      <code>getAddressList</code>
+      <code>getAddressList</code>
+      <code>getFieldName</code>
+      <code>getFieldValue</code>
+      <code>getName</code>
+      <code>getName</code>
+      <code>getName</code>
+      <code>getName</code>
+      <code>getName</code>
+      <code>getName</code>
+      <code>getName</code>
+      <code>getName</code>
+      <code>has</code>
+      <code>has</code>
+      <code>has</code>
+      <code>has</code>
+      <code>has</code>
+      <code>has</code>
+      <code>has</code>
+      <code>has</code>
+    </MixedMethodCall>
+    <PossiblyFalseReference>
+      <code>getName</code>
+    </PossiblyFalseReference>
+    <PossiblyNullArgument>
+      <code>$sample</code>
+    </PossiblyNullArgument>
+  </file>
+  <file src="test/Header/ContentDispositionTest.php">
+    <ArgumentTypeCoercion>
+      <code>$exception</code>
+      <code>$expectedException</code>
+      <code>$expectedException</code>
+    </ArgumentTypeCoercion>
+    <MixedArgument>
+      <code>$value</code>
+    </MixedArgument>
+    <MixedArgumentTypeCoercion>
+      <code>$name</code>
+    </MixedArgumentTypeCoercion>
+    <MixedAssignment>
+      <code>$value</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+      <code>iterable</code>
+      <code>iterable</code>
+    </MixedInferredReturnType>
+  </file>
+  <file src="test/Header/ContentTransferEncodingTest.php">
+    <MixedInferredReturnType>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+    </MixedInferredReturnType>
+    <UnusedVariable>
+      <code>$contentTransferEncodingHeader</code>
+    </UnusedVariable>
+  </file>
+  <file src="test/Header/ContentTypeTest.php">
+    <ArgumentTypeCoercion>
+      <code>$expectedException</code>
+      <code>$expectedException</code>
+    </ArgumentTypeCoercion>
+    <MixedArgument>
+      <code>$value</code>
+    </MixedArgument>
+    <MixedArgumentTypeCoercion>
+      <code>$name</code>
+    </MixedArgumentTypeCoercion>
+    <MixedAssignment>
+      <code>$value</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+      <code>iterable</code>
+    </MixedInferredReturnType>
+  </file>
+  <file src="test/Header/DateTest.php">
+    <MixedInferredReturnType>
+      <code>array</code>
+    </MixedInferredReturnType>
+    <UnusedVariable>
+      <code>$address</code>
+    </UnusedVariable>
+  </file>
+  <file src="test/Header/GenericHeaderTest.php">
+    <NullArgument>
+      <code>null</code>
+    </NullArgument>
+    <PossiblyNullArgument>
+      <code>$fieldName</code>
+    </PossiblyNullArgument>
+  </file>
+  <file src="test/Header/GenericMultiHeaderTest.php">
+    <MixedAssignment>
+      <code>$header</code>
+    </MixedAssignment>
+    <PossibleRawObjectIteration>
+      <code>$headers</code>
+    </PossibleRawObjectIteration>
+    <PossiblyInvalidArgument>
+      <code>$headers</code>
+    </PossiblyInvalidArgument>
+  </file>
+  <file src="test/Header/HeaderLocatorTest.php">
+    <MixedInferredReturnType>
+      <code>array</code>
+      <code>array</code>
+    </MixedInferredReturnType>
+  </file>
+  <file src="test/Header/HeaderNameTest.php">
+    <MixedInferredReturnType>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+    </MixedInferredReturnType>
+  </file>
+  <file src="test/Header/HeaderValueTest.php">
+    <MixedInferredReturnType>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+    </MixedInferredReturnType>
+  </file>
+  <file src="test/Header/HeaderWrapTest.php">
+    <PossiblyFalseReference>
+      <code>getFieldValue</code>
+    </PossiblyFalseReference>
+    <PossiblyUndefinedMethod>
+      <code>getFieldValue</code>
+    </PossiblyUndefinedMethod>
+    <TooManyArguments>
+      <code><![CDATA[new Bcc('test@example.org')]]></code>
+    </TooManyArguments>
+  </file>
+  <file src="test/Header/IdentificationFieldTest.php">
+    <InvalidStringClass>
+      <code>$className::fromString($headerString)</code>
+      <code>$className::fromString($headerString)</code>
+      <code>$className::fromString($headerString)</code>
+      <code><![CDATA[$className::fromString('Foo: bar')]]></code>
+      <code>new $className()</code>
+      <code>new $className()</code>
+    </InvalidStringClass>
+    <MixedInferredReturnType>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+    </MixedInferredReturnType>
+    <UnusedVariable>
+      <code>$header</code>
+    </UnusedVariable>
+  </file>
+  <file src="test/Header/MessageIdTest.php">
+    <MixedInferredReturnType>
+      <code>array</code>
+      <code>array</code>
+    </MixedInferredReturnType>
+    <UnusedVariable>
+      <code>$messageid</code>
+    </UnusedVariable>
+  </file>
+  <file src="test/Header/MimeVersionTest.php">
+    <MixedInferredReturnType>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+    </MixedInferredReturnType>
+    <UnusedVariable>
+      <code>$mime</code>
+    </UnusedVariable>
+  </file>
+  <file src="test/Header/ReceivedTest.php">
+    <MixedInferredReturnType>
+      <code>array</code>
+      <code>array</code>
+    </MixedInferredReturnType>
+    <UnevaluatedCode>
+      <code>$receivedHeader = new Header\Received();</code>
+      <code>$receivedHeader = new Header\Received();</code>
+      <code><![CDATA[$this->assertEmpty('Received: xxx', $receivedHeader->toString());]]></code>
+      <code><![CDATA[$this->assertEquals('xxx', $receivedHeader->getFieldValue());]]></code>
+    </UnevaluatedCode>
+    <UnusedVariable>
+      <code>$received</code>
+    </UnusedVariable>
+  </file>
+  <file src="test/Header/SenderTest.php">
+    <ArgumentTypeCoercion>
+      <code>$expectedException</code>
+      <code>$expectedException</code>
+    </ArgumentTypeCoercion>
+    <MixedArgument>
+      <code>$parameters</code>
+    </MixedArgument>
+    <MixedInferredReturnType>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+    </MixedInferredReturnType>
+    <PossiblyNullReference>
+      <code>getEmail</code>
+      <code>getName</code>
+    </PossiblyNullReference>
+  </file>
+  <file src="test/Header/SubjectTest.php">
+    <ArgumentTypeCoercion>
+      <code>$expectedException</code>
+    </ArgumentTypeCoercion>
+    <MixedInferredReturnType>
+      <code>array</code>
+      <code>array</code>
+    </MixedInferredReturnType>
+    <NullArgument>
+      <code>null</code>
+    </NullArgument>
+    <PossiblyNullArgument>
+      <code>$expectedExceptionMessage</code>
+    </PossiblyNullArgument>
+  </file>
+  <file src="test/Header/ToTest.php">
+    <MixedInferredReturnType>
+      <code>array</code>
+    </MixedInferredReturnType>
+  </file>
+  <file src="test/HeadersTest.php">
+    <DeprecatedMethod>
+      <code>getPluginClassLoader</code>
+      <code>setPluginClassLoader</code>
+    </DeprecatedMethod>
+    <InvalidArgument>
+      <code>$object</code>
+      <code><![CDATA['foo']]></code>
+      <code><![CDATA[["foo-bar\r\n\r\nevilContent"]]]></code>
+    </InvalidArgument>
+    <InvalidCast>
+      <code>$object</code>
+    </InvalidCast>
+    <MixedArgument>
+      <code>$header</code>
+    </MixedArgument>
+    <MixedAssignment>
+      <code>$header</code>
+      <code>$index</code>
+    </MixedAssignment>
+    <NullArgument>
+      <code>null</code>
+    </NullArgument>
+    <PossiblyFalseReference>
+      <code>current</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getName</code>
+    </PossiblyFalseReference>
+    <PossiblyUndefinedMethod>
+      <code>current</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+    </PossiblyUndefinedMethod>
+  </file>
+  <file src="test/MessageFactoryTest.php">
+    <MixedArgument>
+      <code>$options</code>
+    </MixedArgument>
+    <MixedInferredReturnType>
+      <code>array</code>
+    </MixedInferredReturnType>
+    <PossiblyFalseReference>
+      <code>getName</code>
+    </PossiblyFalseReference>
+    <PossiblyNullReference>
+      <code>getEmail</code>
+    </PossiblyNullReference>
+  </file>
+  <file src="test/MessageTest.php">
+    <MixedArgument>
+      <code>$body</code>
+      <code><![CDATA[$header->getAddressList()]]></code>
+      <code><![CDATA[$header->getAddressList()]]></code>
+      <code><![CDATA[$header->getAddressList()]]></code>
+      <code><![CDATA[$header->getAddressList()]]></code>
+      <code><![CDATA[$header->getAddressList()]]></code>
+      <code>$test</code>
+      <code>$test</code>
+    </MixedArgument>
+    <MixedAssignment>
+      <code>$test</code>
+      <code>$test</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>array</code>
+      <code>array</code>
+    </MixedInferredReturnType>
+    <PossiblyFalseReference>
+      <code>getAddressList</code>
+      <code>getAddressList</code>
+      <code>getAddressList</code>
+      <code>getAddressList</code>
+      <code>getAddressList</code>
+      <code>getEncoding</code>
+      <code>getEncoding</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getType</code>
+      <code>toString</code>
+      <code>toString</code>
+    </PossiblyFalseReference>
+    <PossiblyUndefinedMethod>
+      <code>getEncoding</code>
+      <code>getEncoding</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>getFieldValue</code>
+      <code>toString</code>
+      <code>toString</code>
+    </PossiblyUndefinedMethod>
+    <UndefinedMethod>
+      <code>getAddressList</code>
+      <code>getAddressList</code>
+      <code>getAddressList</code>
+      <code>getAddressList</code>
+      <code>getAddressList</code>
+      <code>getType</code>
+    </UndefinedMethod>
+    <UnusedVariable>
+      <code>$sender</code>
+    </UnusedVariable>
+  </file>
+  <file src="test/Protocol/AbstractProtocolTest.php">
+    <PropertyNotSetInConstructor>
+      <code><![CDATA[class ('127.0.0.1', 8080) extends AbstractProtocol {
+            use ProtocolTrait;
+
+            public function connect(): void
+            {
+                $this->_disconnect();
+                $this->socket = $this->setupSocket('tcp', $this->host, $this->port, 2);
+            }
+
+            public function send(string $path, ?int $readTimeout): string
+            {
+                $this->_send('GET ' . $path . ' HTTP/1.1');
+                $this->_send('Host: ' . $this->host);
+                $this->_send('');
+
+                return $this->_receive($readTimeout);
+            }
+        }]]></code>
+      <code><![CDATA[class ('127.0.0.1', 8080) extends AbstractProtocol {
+            use ProtocolTrait;
+
+            public function connect(): void
+            {
+                $this->_disconnect();
+                $this->socket = $this->setupSocket('tcp', $this->host, $this->port, 2);
+            }
+
+            public function send(string $path, ?int $readTimeout): string
+            {
+                $this->_send('GET ' . $path . ' HTTP/1.1');
+                $this->_send('Host: ' . $this->host);
+                $this->_send('');
+
+                return $this->_receive($readTimeout);
+            }
+        }]]></code>
+    </PropertyNotSetInConstructor>
+  </file>
+  <file src="test/Protocol/HttpStatusService/index.php">
+    <ArgumentTypeCoercion>
+      <code><![CDATA[(int) $_GET['sleep']]]></code>
+    </ArgumentTypeCoercion>
+    <RiskyCast>
+      <code><![CDATA[$_GET['sleep']]]></code>
+    </RiskyCast>
+  </file>
+  <file src="test/Protocol/Smtp/Auth/Crammd5Test.php">
+    <MixedAssignment>
+      <code>$result</code>
+    </MixedAssignment>
+  </file>
+  <file src="test/Protocol/SmtpPluginManagerFactoryTest.php">
+    <DeprecatedMethod>
+      <code>getServiceLocator</code>
+    </DeprecatedMethod>
+    <RedundantConditionGivenDocblockType>
+      <code><![CDATA[method_exists($plugins, 'configure')]]></code>
+    </RedundantConditionGivenDocblockType>
+  </file>
+  <file src="test/Protocol/TestAsset/ErroneousSmtp.php">
+    <DeprecatedMethod>
+      <code>_connect</code>
+    </DeprecatedMethod>
+    <PossiblyNullArgument>
+      <code>$customRemote</code>
+    </PossiblyNullArgument>
+    <PropertyNotSetInConstructor>
+      <code>ErroneousSmtp</code>
+      <code>ErroneousSmtp</code>
+    </PropertyNotSetInConstructor>
+  </file>
+  <file src="test/Storage/ImapTest.php">
+    <InvalidArgument>
+      <code><![CDATA[$mail->getRawHeader(1)]]></code>
+      <code>INF</code>
+      <code>INF</code>
+      <code>Storage::FLAG_ANSWERED</code>
+      <code>Storage::FLAG_ANSWERED</code>
+      <code>Storage::FLAG_FLAGGED</code>
+      <code>Storage::FLAG_FLAGGED</code>
+      <code>Storage::FLAG_SEEN</code>
+      <code>Storage::FLAG_SEEN</code>
+      <code>[Storage::FLAG_SEEN, Storage::FLAG_ANSWERED]</code>
+      <code>[Storage::FLAG_SEEN, Storage::FLAG_FLAGGED]</code>
+    </InvalidArgument>
+    <MixedArgument>
+      <code>$id</code>
+      <code>$result[1]</code>
+      <code>$result[1]</code>
+      <code>$result[1]</code>
+      <code><![CDATA[$this->params['host']]]></code>
+      <code><![CDATA[$this->params['host']]]></code>
+      <code><![CDATA[$this->params['host']]]></code>
+      <code><![CDATA[$this->params['host']]]></code>
+      <code><![CDATA[$this->params['host']]]></code>
+      <code><![CDATA[$this->params['host']]]></code>
+      <code><![CDATA[$this->params['host']]]></code>
+      <code><![CDATA[$this->params['host']]]></code>
+      <code><![CDATA[$this->params['host']]]></code>
+      <code><![CDATA[$this->params['password']]]></code>
+      <code><![CDATA[$this->params['password']]]></code>
+      <code><![CDATA[$this->params['password']]]></code>
+      <code><![CDATA[$this->params['password']]]></code>
+      <code><![CDATA[$this->params['password']]]></code>
+      <code><![CDATA[$this->params['password']]]></code>
+      <code><![CDATA[$this->params['password']]]></code>
+      <code><![CDATA[$this->params['password']]]></code>
+      <code><![CDATA[$this->params['user']]]></code>
+      <code><![CDATA[$this->params['user']]]></code>
+      <code><![CDATA[$this->params['user']]]></code>
+      <code><![CDATA[$this->params['user']]]></code>
+      <code><![CDATA[$this->params['user']]]></code>
+      <code><![CDATA[$this->params['user']]]></code>
+      <code><![CDATA[$this->params['user']]]></code>
+      <code><![CDATA[$this->params['user']]]></code>
+      <code>$uid</code>
+    </MixedArgument>
+    <MixedArrayAccess>
+      <code><![CDATA[$v['FLAGS']]]></code>
+      <code><![CDATA[$v['UID']]]></code>
+    </MixedArrayAccess>
+    <MixedArrayOffset>
+      <code><![CDATA[$foundFolders[$folder->__toString()]]]></code>
+      <code><![CDATA[$searchFolders[$folder->getGlobalName()]]]></code>
+    </MixedArrayOffset>
+    <MixedAssignment>
+      <code>$folder</code>
+      <code>$folder</code>
+      <code><![CDATA[$foundFolders[$folder->__toString()]]]></code>
+      <code>$id</code>
+      <code>$innerId</code>
+      <code>$localName</code>
+      <code>$localName</code>
+      <code>$uid</code>
+      <code>$v</code>
+    </MixedAssignment>
+    <MixedMethodCall>
+      <code>__toString</code>
+      <code>getGlobalName</code>
+      <code>getLocalName</code>
+    </MixedMethodCall>
+    <PossiblyFalseArgument>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_SERVER_TESTDIR')]]></code>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_SERVER_TESTDIR')]]></code>
+    </PossiblyFalseArgument>
+    <PossiblyFalseOperand>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_SERVER_FORMAT')]]></code>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_SERVER_TESTDIR')]]></code>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_SERVER_TESTDIR')]]></code>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_SERVER_TESTDIR')]]></code>
+    </PossiblyFalseOperand>
+    <PossiblyInvalidArgument>
+      <code><![CDATA[$mail->getUniqueId(1)]]></code>
+    </PossiblyInvalidArgument>
+    <PossiblyInvalidArrayAccess>
+      <code>$result[1]</code>
+      <code>$result[1]</code>
+      <code>$result[1]</code>
+      <code><![CDATA[$status['exists']]]></code>
+      <code><![CDATA[$status['exists']]]></code>
+      <code><![CDATA[$status['flags']]]></code>
+      <code><![CDATA[$status['flags']]]></code>
+    </PossiblyInvalidArrayAccess>
+    <PossiblyInvalidArrayOffset>
+      <code><![CDATA[$message['UID']]]></code>
+      <code><![CDATA[$result['UID']]]></code>
+    </PossiblyInvalidArrayOffset>
+    <PossiblyInvalidCast>
+      <code><![CDATA[$mail->getUniqueId(1)]]></code>
+    </PossiblyInvalidCast>
+    <PossiblyInvalidIterator>
+      <code>$ids</code>
+      <code>$ids</code>
+      <code>$result</code>
+    </PossiblyInvalidIterator>
+    <PossiblyNullArgument>
+      <code>$delimiter</code>
+    </PossiblyNullArgument>
+    <UndefinedMethod>
+      <code>assertInternalType</code>
+      <code>assertInternalType</code>
+      <code>assertInternalType</code>
+      <code>assertInternalType</code>
+      <code>assertInternalType</code>
+    </UndefinedMethod>
+    <UnusedForeachValue>
+      <code>$message</code>
+    </UnusedForeachValue>
+  </file>
+  <file src="test/Storage/MaildirFolderTest.php">
+    <MixedArgument>
+      <code><![CDATA[$this->params['dirname']]]></code>
+    </MixedArgument>
+    <MixedAssignment>
+      <code>$folder</code>
+      <code>$localName</code>
+    </MixedAssignment>
+    <MixedMethodCall>
+      <code>getLocalName</code>
+    </MixedMethodCall>
+    <MixedOperand>
+      <code><![CDATA[$this->params['dirname']]]></code>
+      <code><![CDATA[$this->params['dirname']]]></code>
+      <code><![CDATA[$this->params['dirname']]]></code>
+      <code><![CDATA[$this->params['dirname']]]></code>
+      <code><![CDATA[$this->params['dirname']]]></code>
+      <code><![CDATA[$this->params['dirname']]]></code>
+    </MixedOperand>
+    <PossiblyFalseArgument>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+    </PossiblyFalseArgument>
+    <PossiblyFalseOperand>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+    </PossiblyFalseOperand>
+    <PossiblyFalsePropertyAssignmentValue>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_TEMPDIR')]]></code>
+    </PossiblyFalsePropertyAssignmentValue>
+    <RedundantPropertyInitializationCheck>
+      <code><![CDATA[isset($this->tmpdir)]]></code>
+    </RedundantPropertyInitializationCheck>
+    <UnevaluatedCode>
+      <code>$check = false;</code>
+      <code><![CDATA[$count = $mail->countMessages();]]></code>
+      <code><![CDATA[$count = $mail->countMessages();]]></code>
+      <code>$foundFolders  = [];</code>
+      <code>$foundFolders  = [];</code>
+      <code>$foundFolders  = [];</code>
+      <code><![CDATA[$iterator = new RecursiveIteratorIterator(
+            $mail->getFolders('INBOX.subfolder'),
+            RecursiveIteratorIterator::SELF_FIRST
+        );]]></code>
+      <code><![CDATA[$iterator = new RecursiveIteratorIterator($mail->getFolders(), RecursiveIteratorIterator::SELF_FIRST);]]></code>
+      <code><![CDATA[$iterator = new RecursiveIteratorIterator($mail->getFolders(), RecursiveIteratorIterator::SELF_FIRST);]]></code>
+      <code><![CDATA[$mail        = new Folder\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail     = new Folder\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail     = new Folder\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail     = new Folder\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail = new Folder\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail = new Folder\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail = new Folder\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail = new Folder\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail = new Folder\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail->selectFolder('subfolder.test');]]></code>
+      <code><![CDATA[$mail->selectFolder('subfolder.test');]]></code>
+      <code><![CDATA[$mail->selectFolder('subfolder.test');]]></code>
+      <code><![CDATA[$mail->selectFolder('subfolder.test');]]></code>
+      <code><![CDATA[$searchFolders = [
+            'subfolder'      => 'subfolder',
+            'subfolder.test' => 'test',
+            'INBOX'          => 'INBOX',
+        ];]]></code>
+      <code><![CDATA[$searchFolders = [
+            'subfolder'      => 'subfolder',
+            'subfolder.test' => 'test',
+            'INBOX'          => 'INBOX',
+        ];]]></code>
+      <code><![CDATA[$searchFolders = ['subfolder.test' => 'test'];]]></code>
+      <code><![CDATA[$shouldSizes = [1 => 397, 89, 694, 452, 497];]]></code>
+      <code><![CDATA[$sizes = $mail->getSize();]]></code>
+      <code><![CDATA[$sizes = $mail->getSize();]]></code>
+      <code><![CDATA[$stat = stat($this->params['dirname'] . '.subfolder');]]></code>
+      <code><![CDATA[$statcheck = stat($this->params['dirname'] . '.subfolder');]]></code>
+      <code><![CDATA[$subject = $mail->getMessage(1)->subject;]]></code>
+      <code><![CDATA[$subject = $mail->getMessage(1)->subject;]]></code>
+      <code><![CDATA[$this->assertEquals($mail->getCurrentFolder(), 'subfolder.test');]]></code>
+      <code><![CDATA[$this->assertEquals($mail->getFolders()->subfolder->__toString(), 'subfolder');]]></code>
+      <code><![CDATA[$this->assertEquals($mail->getFolders()->subfolder->key(), 'test');]]></code>
+      <code><![CDATA[$this->assertEquals($searchFolders, $foundFolders);]]></code>
+      <code><![CDATA[$this->assertEquals($searchFolders, $foundFolders);]]></code>
+      <code><![CDATA[$this->assertEquals($searchFolders, $foundFolders);]]></code>
+      <code><![CDATA[$this->assertEquals($shouldSizes, $sizes);]]></code>
+      <code><![CDATA[$this->assertEquals('Message in subfolder', $subject);]]></code>
+      <code><![CDATA[$this->assertEquals('Simple Message', $subject);]]></code>
+      <code><![CDATA[$this->assertEquals(1, $count);]]></code>
+      <code><![CDATA[$this->assertEquals(5, $count);]]></code>
+      <code><![CDATA[$this->assertEquals([1 => 467], $sizes);]]></code>
+      <code><![CDATA[chmod($this->params['dirname'] . '.subfolder', $stat['mode']);]]></code>
+      <code><![CDATA[chmod($this->params['dirname'] . '.subfolder', 0);]]></code>
+      <code>clearstatcache();</code>
+      <code><![CDATA[foreach ($iterator as $localName => $folder) {
+            if (! isset($searchFolders[$folder->getGlobalName()])) {
+                continue;
+            }
+
+            // explicit call of __toString() needed for PHP < 5.2
+            $foundFolders[$folder->__toString()] = $localName;
+        }]]></code>
+      <code><![CDATA[foreach ($iterator as $localName => $folder) {
+            if (! isset($searchFolders[$folder->getGlobalName()])) {
+                continue;
+            }
+
+            // explicit call of __toString() needed for PHP < 5.2
+            $foundFolders[$folder->__toString()] = $localName;
+        }]]></code>
+      <code><![CDATA[foreach ($iterator as $localName => $folder) {
+            if (! isset($searchFolders[$folder->getGlobalName()])) {
+                continue;
+            }
+
+            // explicit call of __toString() needed for PHP < 5.2
+            $foundFolders[$folder->__toString()] = $localName;
+        }]]></code>
+      <code><![CDATA[if (! $check) {
+            $this->fail('no exception while loading invalid dir with subfolder not readable');
+        }]]></code>
+      <code><![CDATA[if ($statcheck['mode'] % (8 * 8 * 8) !== 0) {
+            chmod($this->params['dirname'] . '.subfolder', $stat['mode']);
+            $this->markTestSkipped(
+                'cannot remove read rights, which makes this test useless (maybe you are using Windows?)'
+            );
+            return;
+        }]]></code>
+      <code>return;</code>
+      <code>return;</code>
+      <code>return;</code>
+      <code><![CDATA[try {
+            $mail = new Folder\Maildir($this->params);
+        } catch (\Exception) {
+            $check = true;
+            // test ok
+        }]]></code>
+    </UnevaluatedCode>
+  </file>
+  <file src="test/Storage/MaildirMessageOldTest.php">
+    <PossiblyFalseArgument>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+    </PossiblyFalseArgument>
+    <PossiblyFalseOperand>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+    </PossiblyFalseOperand>
+    <PossiblyFalsePropertyAssignmentValue>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_TEMPDIR')]]></code>
+    </PossiblyFalsePropertyAssignmentValue>
+    <RedundantPropertyInitializationCheck>
+      <code><![CDATA[isset($this->tmpdir)]]></code>
+    </RedundantPropertyInitializationCheck>
+    <UnevaluatedCode>
+      <code>return;</code>
+      <code>return;</code>
+      <code>return;</code>
+    </UnevaluatedCode>
+  </file>
+  <file src="test/Storage/MaildirTest.php">
+    <MixedArgument>
+      <code>$id</code>
+    </MixedArgument>
+    <MixedAssignment>
+      <code>$id</code>
+    </MixedAssignment>
+    <PossiblyFalseArgument>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+    </PossiblyFalseArgument>
+    <PossiblyFalseOperand>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+    </PossiblyFalseOperand>
+    <PossiblyFalsePropertyAssignmentValue>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_TEMPDIR')]]></code>
+    </PossiblyFalsePropertyAssignmentValue>
+    <PossiblyInvalidArgument>
+      <code><![CDATA[$mail->getUniqueId(1)]]></code>
+    </PossiblyInvalidArgument>
+    <PossiblyInvalidCast>
+      <code><![CDATA[$mail->getUniqueId(1)]]></code>
+    </PossiblyInvalidCast>
+    <PossiblyInvalidIterator>
+      <code>$ids</code>
+    </PossiblyInvalidIterator>
+    <RedundantPropertyInitializationCheck>
+      <code><![CDATA[isset($this->tmpdir)]]></code>
+    </RedundantPropertyInitializationCheck>
+    <UnevaluatedCode>
+      <code>return;</code>
+      <code>return;</code>
+      <code>return;</code>
+    </UnevaluatedCode>
+  </file>
+  <file src="test/Storage/MaildirWritableTest.php">
+    <MixedArgument>
+      <code><![CDATA[$this->params['dirname']]]></code>
+      <code><![CDATA[$this->params['dirname']]]></code>
+    </MixedArgument>
+    <MixedOperand>
+      <code><![CDATA[$this->params['dirname']]]></code>
+    </MixedOperand>
+    <PossiblyFalseArgument>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+    </PossiblyFalseArgument>
+    <PossiblyFalseOperand>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+    </PossiblyFalseOperand>
+    <PossiblyFalsePropertyAssignmentValue>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_TEMPDIR')]]></code>
+    </PossiblyFalsePropertyAssignmentValue>
+    <RedundantPropertyInitializationCheck>
+      <code><![CDATA[isset($this->tmpdir)]]></code>
+    </RedundantPropertyInitializationCheck>
+    <UnevaluatedCode>
+      <code><![CDATA[$count = $mail->countMessages();]]></code>
+      <code><![CDATA[$fromCount = $mail->countMessages();]]></code>
+      <code><![CDATA[$mail        = new Writable\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail   = new Writable\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail = new Writable\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail = new Writable\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail = new Writable\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail = new Writable\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail = new Writable\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail = new Writable\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail = new Writable\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail = new Writable\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail = new Writable\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail = new Writable\Maildir($this->params);]]></code>
+      <code><![CDATA[$mail->appendMessage("Subject: test\r\n\r\n");]]></code>
+      <code><![CDATA[$mail->appendMessage("Subject: test\r\n\r\n");]]></code>
+      <code><![CDATA[$mail->appendMessage("Subject: test\r\n\r\n");]]></code>
+      <code><![CDATA[$mail->copyMessage(1, 'justARandomFolder');]]></code>
+      <code><![CDATA[$mail->copyMessage(1, 'subfolder');]]></code>
+      <code><![CDATA[$mail->copyMessage(1, 'subfolder.test');]]></code>
+      <code><![CDATA[$mail->createFolder('foo.bar');]]></code>
+      <code><![CDATA[$mail->createFolder('subfolder.test1');]]></code>
+      <code><![CDATA[$mail->createFolder('test2', 'INBOX.subfolder');]]></code>
+      <code><![CDATA[$mail->createFolder('test3', $mail->getFolders()->subfolder);]]></code>
+      <code><![CDATA[$mail->moveMessage(1, $target);]]></code>
+      <code><![CDATA[$mail->removeFolder('subfolder.test');]]></code>
+      <code><![CDATA[$mail->removeMessage(1);]]></code>
+      <code><![CDATA[$mail->renameFolder('subfolder.test', 'foo');]]></code>
+      <code><![CDATA[$mail->selectFolder($mail->getFolders()->foo->bar);]]></code>
+      <code><![CDATA[$mail->selectFolder($mail->getFolders()->subfolder->test1);]]></code>
+      <code><![CDATA[$mail->selectFolder($mail->getFolders()->subfolder->test2);]]></code>
+      <code><![CDATA[$mail->selectFolder($mail->getFolders()->subfolder->test3);]]></code>
+      <code><![CDATA[$mail->selectFolder($target);]]></code>
+      <code><![CDATA[$mail->selectFolder($target);]]></code>
+      <code><![CDATA[$mail->selectFolder('INBOX');]]></code>
+      <code><![CDATA[$mail->selectFolder('INBOX');]]></code>
+      <code><![CDATA[$mail->selectFolder('subfolder.test');]]></code>
+      <code><![CDATA[$mail->selectFolder('subfolder.test');]]></code>
+      <code><![CDATA[$mail->selectFolder('subfolder.test');]]></code>
+      <code><![CDATA[$mail->selectFolder('subfolder.test');]]></code>
+      <code><![CDATA[$mail->setQuota(['size' => 100, 'count' => 2, 'X' => 0]);]]></code>
+      <code><![CDATA[$mail->setQuota(['size' => 100, 'count' => 2, 'X' => 0]);]]></code>
+      <code><![CDATA[$mail->setQuota(['size' => 3000, 'count' => 5, 'X' => 0]);]]></code>
+      <code><![CDATA[$mail->setQuota(['size' => 3000, 'count' => 6, 'X' => 0]);]]></code>
+      <code><![CDATA[$mail->setQuota(['size' => 3000, 'count' => 6, 'X' => 0]);]]></code>
+      <code><![CDATA[$mail->setQuota(false);]]></code>
+      <code><![CDATA[$mail->setQuota(false);]]></code>
+      <code><![CDATA[$mail->setQuota(true);]]></code>
+      <code><![CDATA[$mail->setQuota(true);]]></code>
+      <code><![CDATA[$message = $mail->getMessage(1);]]></code>
+      <code><![CDATA[$quotaResult = [
+            'size'       => 2129,
+            'count'      => 5,
+            'quota'      => [
+                'count' => 10,
+                'L'     => 1,
+                'size'  => 3000,
+            ],
+            'over_quota' => false,
+        ];]]></code>
+      <code><![CDATA[$quotaResult = [
+            'size'       => 2129,
+            'count'      => 5,
+            'quota'      => [
+                'size'  => 100,
+                'count' => 2,
+                'X'     => 0,
+            ],
+            'over_quota' => true,
+        ];]]></code>
+      <code><![CDATA[$quotaResult = [
+            'size'       => 2129,
+            'count'      => 5,
+            'quota'      => [
+                'size'  => 100,
+                'count' => 2,
+                'X'     => 0,
+            ],
+            'over_quota' => true,
+        ];]]></code>
+      <code><![CDATA[$quotaResult = [
+            'size'       => 2613,
+            'count'      => 7,
+            'quota'      => [
+                'size'  => 3000,
+                'count' => 6,
+                'X'     => 0,
+            ],
+            'over_quota' => true,
+        ];]]></code>
+      <code><![CDATA[$quotaResult = [
+            'size'       => 2993,
+            'count'      => 7,
+            'quota'      => [
+                'size'  => 3000,
+                'count' => 6,
+                'X'     => 0,
+            ],
+            'over_quota' => true,
+        ];]]></code>
+      <code><![CDATA[$target = $mail->getFolders()->subfolder->test;]]></code>
+      <code><![CDATA[$this->assertEquals($count + 1, $mail->countMessages());]]></code>
+      <code><![CDATA[$this->assertEquals($fromCount - 1, $mail->countMessages());]]></code>
+      <code><![CDATA[$this->assertEquals($mail->checkQuota(true), $quotaResult);]]></code>
+      <code><![CDATA[$this->assertEquals($mail->checkQuota(true), $quotaResult);]]></code>
+      <code><![CDATA[$this->assertEquals($mail->checkQuota(true), $quotaResult);]]></code>
+      <code><![CDATA[$this->assertEquals($mail->getMessage($count + 1)->from, $message->from);]]></code>
+      <code><![CDATA[$this->assertEquals($mail->getMessage($count + 1)->subject, $message->subject);]]></code>
+      <code><![CDATA[$this->assertEquals($mail->getMessage($count + 1)->to, $message->to);]]></code>
+      <code><![CDATA[$this->assertEquals($mail->getQuota(), ['size' => 100, 'count' => 2, 'X' => 0]);]]></code>
+      <code><![CDATA[$this->assertEquals($mail->getQuota(true), $quotaResult['quota']);]]></code>
+      <code><![CDATA[$this->assertEquals($mail->getQuota(true), ['size' => 3000, 'L' => 1, 'count' => 10]);]]></code>
+      <code><![CDATA[$this->assertEquals($quotaResult, $mail->checkQuota(true));]]></code>
+      <code><![CDATA[$this->assertEquals($quotaResult, $mail->checkQuota(true, true));]]></code>
+      <code><![CDATA[$this->assertEquals($toCount + 1, $mail->countMessages());]]></code>
+      <code><![CDATA[$this->assertEquals(['size' => 100, 'count' => 2, 'X' => 0], $mail->getQuota(true));]]></code>
+      <code><![CDATA[$this->assertFalse($mail->checkQuota());]]></code>
+      <code><![CDATA[$this->assertFalse($mail->checkQuota(false, true));]]></code>
+      <code><![CDATA[$this->assertFalse($mail->checkQuota(false, true));]]></code>
+      <code><![CDATA[$this->assertFalse($mail->getQuota());]]></code>
+      <code><![CDATA[$this->assertNull($mail->getQuota());]]></code>
+      <code><![CDATA[$this->assertTrue($mail->checkQuota());]]></code>
+      <code><![CDATA[$this->assertTrue($mail->checkQuota());]]></code>
+      <code><![CDATA[$this->assertTrue($mail->checkQuota(false, true));]]></code>
+      <code><![CDATA[$this->assertTrue($mail->getQuota());]]></code>
+      <code><![CDATA[$this->expectException(Exception\InvalidArgumentException::class);]]></code>
+      <code><![CDATA[$this->expectException(Exception\InvalidArgumentException::class);]]></code>
+      <code><![CDATA[$this->expectException(Exception\InvalidArgumentException::class);]]></code>
+      <code><![CDATA[$this->expectException(Exception\InvalidArgumentException::class);]]></code>
+      <code><![CDATA[$this->expectException(Exception\InvalidArgumentException::class);]]></code>
+      <code><![CDATA[$this->subdirs[] = '.foo';]]></code>
+      <code><![CDATA[$this->subdirs[] = '.foo.bar';]]></code>
+      <code><![CDATA[$this->subdirs[] = '.subfolder.test1';]]></code>
+      <code><![CDATA[$this->subdirs[] = '.subfolder.test2';]]></code>
+      <code><![CDATA[$this->subdirs[] = '.subfolder.test3';]]></code>
+      <code><![CDATA[$toCount = $mail->countMessages();]]></code>
+      <code>return;</code>
+      <code>return;</code>
+      <code>return;</code>
+      <code><![CDATA[unlink($this->params['dirname'] . 'cur/1000000000.P1.example.org:2,S');]]></code>
+      <code><![CDATA[unlink($this->tmpdir . 'maildirsize');]]></code>
+    </UnevaluatedCode>
+    <UnusedVariable>
+      <code>$e</code>
+      <code>$e</code>
+      <code>$mail</code>
+      <code>$mail</code>
+    </UnusedVariable>
+  </file>
+  <file src="test/Storage/MboxFolderTest.php">
+    <InternalMethod>
+      <code>addToAssertionCount</code>
+      <code>addToAssertionCount</code>
+    </InternalMethod>
+    <MixedArrayOffset>
+      <code><![CDATA[$foundFolders[$folder->__toString()]]]></code>
+      <code><![CDATA[$foundFolders[$folder->__toString()]]]></code>
+      <code><![CDATA[$searchFolders[$folder->getGlobalName()]]]></code>
+      <code><![CDATA[$searchFolders[$folder->getGlobalName()]]]></code>
+    </MixedArrayOffset>
+    <MixedAssignment>
+      <code>$folder</code>
+      <code>$folder</code>
+      <code>$folder</code>
+      <code><![CDATA[$foundFolders[$folder->__toString()]]]></code>
+      <code><![CDATA[$foundFolders[$folder->__toString()]]]></code>
+      <code>$localName</code>
+      <code>$localName</code>
+      <code>$localName</code>
+      <code>$mail</code>
+    </MixedAssignment>
+    <MixedMethodCall>
+      <code>__toString</code>
+      <code>__toString</code>
+      <code>countMessages</code>
+      <code>countMessages</code>
+      <code>getContent</code>
+      <code>getContent</code>
+      <code>getGlobalName</code>
+      <code>getGlobalName</code>
+      <code>getLocalName</code>
+      <code>getMessage</code>
+      <code>getMessage</code>
+      <code>selectFolder</code>
+    </MixedMethodCall>
+    <MixedOperand>
+      <code><![CDATA[$this->params['dirname']]]></code>
+      <code><![CDATA[$this->params['dirname']]]></code>
+      <code><![CDATA[$this->params['dirname']]]></code>
+      <code><![CDATA[$this->params['dirname']]]></code>
+      <code><![CDATA[$this->params['dirname']]]></code>
+      <code><![CDATA[$this->params['dirname']]]></code>
+    </MixedOperand>
+    <PossiblyFalseArgument>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+    </PossiblyFalseArgument>
+    <PossiblyFalseOperand>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+    </PossiblyFalseOperand>
+    <PossiblyFalsePropertyAssignmentValue>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_TEMPDIR')]]></code>
+    </PossiblyFalsePropertyAssignmentValue>
+    <RedundantConditionGivenDocblockType>
+      <code>assertIsArray</code>
+    </RedundantConditionGivenDocblockType>
+    <RedundantPropertyInitializationCheck>
+      <code><![CDATA[isset($this->tmpdir)]]></code>
+    </RedundantPropertyInitializationCheck>
+    <UnevaluatedCode>
+      <code>return;</code>
+      <code>return;</code>
+    </UnevaluatedCode>
+    <UnusedVariable>
+      <code>$mail</code>
+    </UnusedVariable>
+  </file>
+  <file src="test/Storage/MboxInterfaceTest.php">
+    <MixedAssignment>
+      <code>$message</code>
+      <code>$message</code>
+    </MixedAssignment>
+    <UnusedForeachValue>
+      <code>$message</code>
+      <code>$message</code>
+      <code>$message</code>
+      <code>$message</code>
+    </UnusedForeachValue>
+  </file>
+  <file src="test/Storage/MboxMessageOldTest.php">
+    <PossiblyFalseArgument>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+    </PossiblyFalseArgument>
+    <PossiblyFalseOperand>
+      <code><![CDATA[$this->tmpdir]]></code>
+    </PossiblyFalseOperand>
+    <PossiblyFalsePropertyAssignmentValue>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_TEMPDIR')]]></code>
+    </PossiblyFalsePropertyAssignmentValue>
+    <RedundantPropertyInitializationCheck>
+      <code><![CDATA[isset($this->tmpdir)]]></code>
+    </RedundantPropertyInitializationCheck>
+    <UnevaluatedCode>
+      <code>return;</code>
+    </UnevaluatedCode>
+  </file>
+  <file src="test/Storage/MboxTest.php">
+    <InternalMethod>
+      <code>addToAssertionCount</code>
+      <code>addToAssertionCount</code>
+      <code>addToAssertionCount</code>
+    </InternalMethod>
+    <InvalidArgument>
+      <code>INF</code>
+    </InvalidArgument>
+    <MixedArgument>
+      <code>$id</code>
+    </MixedArgument>
+    <MixedAssignment>
+      <code>$id</code>
+      <code>$mail</code>
+      <code>$mail</code>
+    </MixedAssignment>
+    <MixedMethodCall>
+      <code>countMessages</code>
+      <code>getContent</code>
+      <code>getMessage</code>
+    </MixedMethodCall>
+    <PossiblyFalseArgument>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+      <code><![CDATA[$this->tmpdir]]></code>
+    </PossiblyFalseArgument>
+    <PossiblyFalseOperand>
+      <code><![CDATA[$this->tmpdir]]></code>
+    </PossiblyFalseOperand>
+    <PossiblyFalsePropertyAssignmentValue>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_TEMPDIR')]]></code>
+    </PossiblyFalsePropertyAssignmentValue>
+    <PossiblyInvalidArgument>
+      <code><![CDATA[$mail->getUniqueId(1)]]></code>
+    </PossiblyInvalidArgument>
+    <PossiblyInvalidCast>
+      <code><![CDATA[$mail->getUniqueId(1)]]></code>
+    </PossiblyInvalidCast>
+    <PossiblyInvalidIterator>
+      <code>$ids</code>
+    </PossiblyInvalidIterator>
+    <RedundantPropertyInitializationCheck>
+      <code><![CDATA[isset($this->tmpdir)]]></code>
+    </RedundantPropertyInitializationCheck>
+    <UnevaluatedCode>
+      <code>return;</code>
+      <code>return;</code>
+    </UnevaluatedCode>
+    <UnusedVariable>
+      <code>$content</code>
+      <code>$count</code>
+      <code>$mail</code>
+      <code>$mail</code>
+      <code>$mail</code>
+    </UnusedVariable>
+  </file>
+  <file src="test/Storage/MessageTest.php">
+    <InvalidArgument>
+      <code>MimeException\ExceptionInterface::class</code>
+      <code>MimeException\ExceptionInterface::class</code>
+    </InvalidArgument>
+    <MixedArgument>
+      <code><![CDATA[$part->__toString()]]></code>
+    </MixedArgument>
+    <MixedAssignment>
+      <code>$badMessage</code>
+      <code>$num</code>
+      <code>$part</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>array</code>
+    </MixedInferredReturnType>
+    <MixedMethodCall>
+      <code>__toString</code>
+      <code>getHeaders</code>
+    </MixedMethodCall>
+    <MixedPropertyFetch>
+      <code><![CDATA[$part->contentType]]></code>
+    </MixedPropertyFetch>
+    <NullReference>
+      <code>$body</code>
+      <code>$headers1</code>
+      <code>$headers2</code>
+    </NullReference>
+    <PossiblyNullArgument>
+      <code>$decodedBody</code>
+      <code>$decodedHeaders</code>
+    </PossiblyNullArgument>
+    <PossiblyUndefinedVariable>
+      <code>$part</code>
+    </PossiblyUndefinedVariable>
+    <RedundantCastGivenDocblockType>
+      <code>(string) $body</code>
+    </RedundantCastGivenDocblockType>
+    <RedundantConditionGivenDocblockType>
+      <code>assertTrue</code>
+      <code>assertTrue</code>
+    </RedundantConditionGivenDocblockType>
+    <UnusedVariable>
+      <code>$message</code>
+    </UnusedVariable>
+  </file>
+  <file src="test/Storage/Pop3Test.php">
+    <DocblockTypeContradiction>
+      <code>assertFalse</code>
+      <code>assertTrue</code>
+      <code>assertTrue</code>
+    </DocblockTypeContradiction>
+    <InvalidArgument>
+      <code><![CDATA[$mail->getRawHeader(1)]]></code>
+    </InvalidArgument>
+    <MixedArgument>
+      <code>$id</code>
+      <code><![CDATA[$this->params['host']]]></code>
+      <code><![CDATA[$this->params['host']]]></code>
+      <code><![CDATA[$this->params['host']]]></code>
+      <code><![CDATA[$this->params['host']]]></code>
+      <code><![CDATA[$this->params['password']]]></code>
+      <code><![CDATA[$this->params['user']]]></code>
+    </MixedArgument>
+    <MixedAssignment>
+      <code>$id</code>
+      <code>$innerId</code>
+    </MixedAssignment>
+    <PossiblyFalseArgument>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_SERVER_TESTDIR')]]></code>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_SERVER_TESTDIR')]]></code>
+    </PossiblyFalseArgument>
+    <PossiblyFalseOperand>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_SERVER_FORMAT')]]></code>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_SERVER_TESTDIR')]]></code>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_SERVER_TESTDIR')]]></code>
+      <code><![CDATA[getenv('TESTS_LAMINAS_MAIL_SERVER_TESTDIR')]]></code>
+    </PossiblyFalseOperand>
+    <PossiblyInvalidArgument>
+      <code><![CDATA[$mail->getUniqueId(1)]]></code>
+      <code>$uids</code>
+    </PossiblyInvalidArgument>
+    <PossiblyInvalidCast>
+      <code><![CDATA[$mail->getUniqueId(1)]]></code>
+    </PossiblyInvalidCast>
+    <PossiblyInvalidIterator>
+      <code>$ids</code>
+      <code>$ids</code>
+    </PossiblyInvalidIterator>
+    <UndefinedMethod>
+      <code>assertInternalType</code>
+    </UndefinedMethod>
+  </file>
+  <file src="test/Storage/TestAsset/MaildirOldMessage.php">
+    <NonInvariantDocblockPropertyType>
+      <code>$messageClass</code>
+    </NonInvariantDocblockPropertyType>
+  </file>
+  <file src="test/Storage/TestAsset/MboxOldMessage.php">
+    <PropertyNotSetInConstructor>
+      <code>MboxOldMessage</code>
+    </PropertyNotSetInConstructor>
+  </file>
+  <file src="test/TestAsset/SmtpProtocolSpy.php">
+    <PropertyNotSetInConstructor>
+      <code>SmtpProtocolSpy</code>
+      <code>SmtpProtocolSpy</code>
+      <code>SmtpProtocolSpy</code>
+      <code>SmtpProtocolSpy</code>
+    </PropertyNotSetInConstructor>
+    <RedundantCastGivenDocblockType>
+      <code>(bool) $status</code>
+      <code>(bool) $status</code>
+    </RedundantCastGivenDocblockType>
+  </file>
+  <file src="test/Transport/FactoryTest.php">
+    <InvalidArgument>
+      <code>$spec</code>
+      <code>static function ($code, $message): void {
+            // skip deprecation notices
+        }</code>
+    </InvalidArgument>
+    <MixedArgument>
+      <code>$spec</code>
+    </MixedArgument>
+    <MixedInferredReturnType>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+      <code>array</code>
+    </MixedInferredReturnType>
+    <MixedMethodCall>
+      <code>getHost</code>
+      <code>getPath</code>
+    </MixedMethodCall>
+    <UndefinedInterfaceMethod>
+      <code>getOptions</code>
+      <code>getOptions</code>
+    </UndefinedInterfaceMethod>
+    <UnusedClosureParam>
+      <code>$code</code>
+      <code>$message</code>
+    </UnusedClosureParam>
+  </file>
+  <file src="test/Transport/FileOptionsTest.php">
+    <MissingClosureParamType>
+      <code>$transport</code>
+    </MissingClosureParamType>
+    <MixedArgument>
+      <code>$test</code>
+    </MixedArgument>
+    <MixedAssignment>
+      <code>$test</code>
+    </MixedAssignment>
+    <NullArgument>
+      <code>null</code>
+    </NullArgument>
+    <RedundantConditionGivenDocblockType>
+      <code>assertIsCallable</code>
+    </RedundantConditionGivenDocblockType>
+    <UnusedClosureParam>
+      <code>$transport</code>
+    </UnusedClosureParam>
+  </file>
+  <file src="test/Transport/SendmailTest.php">
+    <MixedAssignment>
+      <code>$parameters</code>
+      <code>$parameters</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>iterable</code>
+    </MixedInferredReturnType>
+  </file>
+  <file src="test/Transport/SmtpTest.php">
+    <MixedAssignment>
+      <code>$connectedTimeAfterFirstMail</code>
+    </MixedAssignment>
+    <RedundantCondition>
+      <code>assertNotNull</code>
+    </RedundantCondition>
+  </file>
+</files>

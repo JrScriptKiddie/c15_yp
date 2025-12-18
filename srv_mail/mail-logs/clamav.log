@@ -1,0 +1,78 @@
+Tue Sep  9 11:40:22 2025 -> +++ Started at Tue Sep  9 11:40:22 2025
+Tue Sep  9 11:40:22 2025 -> Received 0 file descriptor(s) from systemd.
+Tue Sep  9 11:40:22 2025 -> clamd daemon 1.0.7 (OS: Linux, ARCH: x86_64, CPU: x86_64)
+Tue Sep  9 11:40:22 2025 -> Log file size limited to 4294967295 bytes.
+Tue Sep  9 11:40:22 2025 -> Reading databases from /var/lib/clamav
+Tue Sep  9 11:40:22 2025 -> Not loading PUA signatures.
+Tue Sep  9 11:40:22 2025 -> Bytecode: Security mode set to "TrustSigned".
+Tue Sep  9 11:40:47 2025 -> Loaded 8708190 signatures.
+Tue Sep  9 11:40:49 2025 -> LOCAL: Unix socket file /var/run/clamav/clamd.ctl
+Tue Sep  9 11:40:49 2025 -> LOCAL: Setting connection queue length to 15
+Tue Sep  9 11:40:49 2025 -> Limits: Global time limit set to 120000 milliseconds.
+Tue Sep  9 11:40:49 2025 -> Limits: Global size limit set to 104857600 bytes.
+Tue Sep  9 11:40:49 2025 -> Limits: File size limit set to 26214400 bytes.
+Tue Sep  9 11:40:49 2025 -> Limits: Recursion level limit set to 16.
+Tue Sep  9 11:40:49 2025 -> Limits: Files limit set to 10000.
+Tue Sep  9 11:40:49 2025 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+Tue Sep  9 11:40:49 2025 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+Tue Sep  9 11:40:49 2025 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+Tue Sep  9 11:40:49 2025 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+Tue Sep  9 11:40:49 2025 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+Tue Sep  9 11:40:49 2025 -> Limits: MaxPartitions limit set to 50.
+Tue Sep  9 11:40:49 2025 -> Limits: MaxIconsPE limit set to 100.
+Tue Sep  9 11:40:49 2025 -> Limits: MaxRecHWP3 limit set to 16.
+Tue Sep  9 11:40:49 2025 -> Limits: PCREMatchLimit limit set to 10000.
+Tue Sep  9 11:40:49 2025 -> Limits: PCRERecMatchLimit limit set to 5000.
+Tue Sep  9 11:40:49 2025 -> Limits: PCREMaxFileSize limit set to 26214400.
+Tue Sep  9 11:40:49 2025 -> Archive support enabled.
+Tue Sep  9 11:40:49 2025 -> AlertExceedsMax heuristic detection disabled.
+Tue Sep  9 11:40:49 2025 -> Heuristic alerts enabled.
+Tue Sep  9 11:40:49 2025 -> Portable Executable support enabled.
+Tue Sep  9 11:40:49 2025 -> ELF support enabled.
+Tue Sep  9 11:40:49 2025 -> Mail files support enabled.
+Tue Sep  9 11:40:49 2025 -> OLE2 support enabled.
+Tue Sep  9 11:40:49 2025 -> PDF support enabled.
+Tue Sep  9 11:40:49 2025 -> SWF support enabled.
+Tue Sep  9 11:40:49 2025 -> HTML support enabled.
+Tue Sep  9 11:40:49 2025 -> XMLDOCS support enabled.
+Tue Sep  9 11:40:49 2025 -> HWP3 support enabled.
+Tue Sep  9 11:40:49 2025 -> Self checking every 3600 seconds.
+Tue Sep  9 11:41:42 2025 -> +++ Started at Tue Sep  9 11:41:42 2025
+Tue Sep  9 11:41:42 2025 -> Received 0 file descriptor(s) from systemd.
+Tue Sep  9 11:41:42 2025 -> clamd daemon 1.0.7 (OS: Linux, ARCH: x86_64, CPU: x86_64)
+Tue Sep  9 11:41:42 2025 -> Log file size limited to 4294967295 bytes.
+Tue Sep  9 11:41:42 2025 -> Reading databases from /var/lib/clamav
+Tue Sep  9 11:41:42 2025 -> Not loading PUA signatures.
+Tue Sep  9 11:41:42 2025 -> Bytecode: Security mode set to "TrustSigned".
+Tue Sep  9 11:41:55 2025 -> Loaded 8708190 signatures.
+Tue Sep  9 11:41:58 2025 -> LOCAL: Unix socket file /var/run/clamav/clamd.ctl
+Tue Sep  9 11:41:58 2025 -> LOCAL: Setting connection queue length to 15
+Tue Sep  9 11:41:58 2025 -> Limits: Global time limit set to 120000 milliseconds.
+Tue Sep  9 11:41:58 2025 -> Limits: Global size limit set to 104857600 bytes.
+Tue Sep  9 11:41:58 2025 -> Limits: File size limit set to 26214400 bytes.
+Tue Sep  9 11:41:58 2025 -> Limits: Recursion level limit set to 16.
+Tue Sep  9 11:41:58 2025 -> Limits: Files limit set to 10000.
+Tue Sep  9 11:41:58 2025 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+Tue Sep  9 11:41:58 2025 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+Tue Sep  9 11:41:58 2025 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+Tue Sep  9 11:41:58 2025 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+Tue Sep  9 11:41:58 2025 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+Tue Sep  9 11:41:58 2025 -> Limits: MaxPartitions limit set to 50.
+Tue Sep  9 11:41:58 2025 -> Limits: MaxIconsPE limit set to 100.
+Tue Sep  9 11:41:58 2025 -> Limits: MaxRecHWP3 limit set to 16.
+Tue Sep  9 11:41:58 2025 -> Limits: PCREMatchLimit limit set to 10000.
+Tue Sep  9 11:41:58 2025 -> Limits: PCRERecMatchLimit limit set to 5000.
+Tue Sep  9 11:41:58 2025 -> Limits: PCREMaxFileSize limit set to 26214400.
+Tue Sep  9 11:41:58 2025 -> Archive support enabled.
+Tue Sep  9 11:41:58 2025 -> AlertExceedsMax heuristic detection disabled.
+Tue Sep  9 11:41:58 2025 -> Heuristic alerts enabled.
+Tue Sep  9 11:41:58 2025 -> Portable Executable support enabled.
+Tue Sep  9 11:41:58 2025 -> ELF support enabled.
+Tue Sep  9 11:41:58 2025 -> Mail files support enabled.
+Tue Sep  9 11:41:58 2025 -> OLE2 support enabled.
+Tue Sep  9 11:41:58 2025 -> PDF support enabled.
+Tue Sep  9 11:41:58 2025 -> SWF support enabled.
+Tue Sep  9 11:41:58 2025 -> HTML support enabled.
+Tue Sep  9 11:41:58 2025 -> XMLDOCS support enabled.
+Tue Sep  9 11:41:58 2025 -> HWP3 support enabled.
+Tue Sep  9 11:41:58 2025 -> Self checking every 3600 seconds.

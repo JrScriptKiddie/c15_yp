@@ -1,0 +1,71 @@
+{
+    "controller": "crm:controllers/task",
+    "recordViews": {
+        "list": "crm:views/task/record/list",
+        "detail": "crm:views/task/record/detail"
+    },
+    "views": {
+        "list": "crm:views/task/list",
+        "detail": "crm:views/task/detail"
+    },
+    "modalViews": {
+        "detail": "crm:views/task/modals/detail"
+    },
+    "viewSetupHandlers": {
+        "record/detail": [
+            "__APPEND__",
+            "crm:handlers/task/reminders-handler"
+        ],
+        "record/edit": [
+            "__APPEND__",
+            "crm:handlers/task/reminders-handler"
+        ]
+    },
+    "menu": {
+        "detail": {
+            "buttons": [
+                {
+                    "label": "Complete",
+                    "name": "setCompletedMain",
+                    "iconHtml": "<span class=\"fas fa-check fa-sm\"></span>",
+                    "acl": "edit",
+                    "handler": "crm:handlers/task/menu",
+                    "actionFunction": "complete",
+                    "checkVisibilityFunction": "isCompleteAvailable"
+                }
+            ]
+        }
+    },
+    "modalDetailActionList": [
+        {
+            "name": "complete",
+            "label": "Complete",
+            "acl": "edit",
+            "handler": "crm:handlers/task/detail-actions",
+            "actionFunction": "complete",
+            "checkVisibilityFunction": "isCompleteAvailable"
+        }
+    ],
+    "filterList": [
+        "actual",
+        {
+            "name": "completed",
+            "style": "success"
+        },
+        {
+            "name": "todays"
+        },
+        {
+            "name": "overdue",
+            "style": "danger"
+        },
+        {
+            "name": "deferred"
+        }
+    ],
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "iconClass": "fas fa-tasks",
+    "kanbanViewMode": true
+}

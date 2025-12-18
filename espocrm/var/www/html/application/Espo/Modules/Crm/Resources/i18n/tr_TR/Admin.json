@@ -1,0 +1,11 @@
+{
+  "layouts": {
+    "detailConvert": "Potansiyele çevir",
+    "listForAccount": "Liste (Hesap için)",
+    "listForContact": "Liste (Kişiler)"
+  },
+  "templates": {
+    "invitation": "Davet",
+    "reminder": "Ratırlatıcı"
+  }
+}

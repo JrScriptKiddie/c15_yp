@@ -1,0 +1,27 @@
+{
+    "controller": "controllers/email-filter",
+    "dynamicHandler": "handlers/email-filter",
+    "modalViews": {
+        "edit": "views/email-filter/modals/edit"
+    },
+    "recordViews": {
+        "list": "views/email-filter/record/list"
+    },
+    "inlineEditDisabled": true,
+    "searchPanelDisabled": false,
+    "menu": {
+        "list": {
+            "buttons": [
+                {
+                    "label": "Emails",
+                    "link": "#Email",
+                    "style": "default",
+                    "aclScope": "Email"
+                }
+            ]
+        }
+    },
+    "boolFilterList": [
+        "onlyMy"
+    ]
+}

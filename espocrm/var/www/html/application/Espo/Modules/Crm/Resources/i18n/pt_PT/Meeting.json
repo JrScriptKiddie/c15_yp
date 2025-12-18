@@ -1,0 +1,55 @@
+{
+  "fields": {
+    "name": "Nome",
+    "parent": "Relativo a",
+    "status": "Estado",
+    "dateStart": "Data de início",
+    "dateEnd": "Data fim",
+    "duration": "Duração",
+    "description": "Descrição",
+    "users": "Utilizadores",
+    "contacts": "Contatos",
+    "reminders": "Lembretes",
+    "account": "Conta",
+    "acceptanceStatus": "Estado de aceitação",
+    "dateStartDate": "Data de início (todo o dia)",
+    "dateEndDate": "Data de fim (todo o dia)",
+    "isAllDay": "Todo o dia",
+    "sourceEmail": "Email de origem"
+  },
+  "options": {
+    "status": {
+      "Planned": "Planeado",
+      "Held": "Realizada",
+      "Not Held": "Não Realizada"
+    },
+    "acceptanceStatus": {
+      "None": "Nenhum",
+      "Accepted": "Aceite",
+      "Declined": "Recusado",
+      "Tentative": "Tentativa"
+    }
+  },
+  "massActions": {
+    "setHeld": "Configurar como Realizada",
+    "setNotHeld": "Configurar como Não Realizada"
+  },
+  "labels": {
+    "Create Meeting": "Criar reunião",
+    "Set Held": "Configurar como Realizada",
+    "Set Not Held": "Configurar como Não Realizada",
+    "Send Invitations": "Enviar convites",
+    "on time": "na hora",
+    "before": "antes",
+    "All-Day": "Todo o dia"
+  },
+  "presetFilters": {
+    "planned": "Planeado",
+    "held": "Realizada",
+    "todays": "Hoje"
+  },
+  "messages": {
+    "nothingHasBeenSent": "Nada foi enviado",
+    "selectAcceptanceStatus": "Defina seu status de aceitação."
+  }
+}

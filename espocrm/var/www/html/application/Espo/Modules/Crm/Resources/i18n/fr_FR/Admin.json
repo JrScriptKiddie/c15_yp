@@ -1,0 +1,11 @@
+{
+  "layouts": {
+    "detailConvert": "Convertir le prospect",
+    "listForAccount": "Liste (compte)",
+    "listForContact": "Liste (pour contact)"
+  },
+  "templates": {
+    "reminder": "Rappel",
+    "cancellation": "Annulation"
+  }
+}

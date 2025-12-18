@@ -1,0 +1,57 @@
+{
+  "fields": {
+    "name": "Ad",
+    "parent": "Üst Seçenek",
+    "status": "Durum",
+    "dateStart": "Başlangıç Tarihi",
+    "dateEnd": "Bitiş Tarihi",
+    "duration": "Süre",
+    "description": "Açıklama",
+    "users": "Kullanıcılar",
+    "contacts": "Kişiler",
+    "leads": "Potansiyeller",
+    "reminders": "Hatırlatıcılar",
+    "account": "Firma",
+    "acceptanceStatus": "Kabul Durumu",
+    "sourceEmail": "Kaynak Eposta"
+  },
+  "options": {
+    "status": {
+      "Planned": "Planlanmış",
+      "Held": "Elde Tutulanlar",
+      "Not Held": "Elde Tutulmayanlar"
+    },
+    "acceptanceStatus": {
+      "None": "Yok",
+      "Accepted": "Kabul edilmiş",
+      "Declined": "Red Edilmiş",
+      "Tentative": "Geçici"
+    }
+  },
+  "massActions": {
+    "setHeld": "Düzenlendi",
+    "setNotHeld": "Düzenlenmedi olarak ayarla"
+  },
+  "labels": {
+    "Create Meeting": "Toplantı Oluştur ",
+    "Set Held": "SET HELDXXX",
+    "Set Not Held": "SET NOT HELD XXXX",
+    "Send Invitations": "Davetleri Gönder",
+    "on time": "Zamanında",
+    "before": "Önce",
+    "All-Day": "Tüm Gün",
+    "Send Cancellation": "İptal Gönder",
+    "Acceptance": "Onama"
+  },
+  "presetFilters": {
+    "planned": "Planlandı",
+    "held": "Düzenlenen",
+    "todays": "Bugünün"
+  },
+  "messages": {
+    "nothingHasBeenSent": "Hiçbir şey gönderilmedi",
+    "selectAcceptanceStatus": "Kabul durumunuzu ayarlayın.",
+    "sendInvitationsToSelectedAttendees": "Seçilen katılımcılara davetiye epotaları gönderilecektir.",
+    "sendCancellationsToSelectedAttendees": "Seçilen katılımcılara iptal postaları gönderilecektir."
+  }
+}

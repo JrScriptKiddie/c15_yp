@@ -1,0 +1,75 @@
+{
+    "import": {
+        "className": "Espo\\Classes\\ConsoleCommands\\Import",
+        "listed": true
+    },
+    "clearCache": {
+        "listed": true,
+        "noSystemUser": true
+    },
+    "rebuild": {
+        "listed": true,
+        "noSystemUser": true,
+        "allowedFlags": [
+            "hard",
+            "y"
+        ]
+    },
+    "updateAppTimestamp": {
+        "listed": true,
+        "noSystemUser": true
+    },
+    "appInfo": {
+        "listed": true
+    },
+    "setPassword": {
+        "listed": true
+    },
+    "upgrade": {
+        "listed": true
+    },
+    "extension": {
+        "listed": true
+    },
+    "runJob": {
+        "listed": true,
+        "allowedOptions": [
+            "job",
+            "targetId",
+            "targetType"
+        ]
+    },
+    "version": {
+        "listed": true,
+        "noSystemUser": true
+    },
+    "createAdminUser": {
+        "className": "Espo\\Classes\\ConsoleCommands\\CreateAdminUser",
+        "listed": true
+    },
+    "rebuildCategoryPaths": {
+        "className": "Espo\\Classes\\ConsoleCommands\\RebuildCategoryPaths",
+        "listed": true
+    },
+    "populateArrayValues": {
+        "className": "Espo\\Classes\\ConsoleCommands\\PopulateArrayValues",
+        "listed": true
+    },
+    "populateNumbers": {
+        "className": "Espo\\Classes\\ConsoleCommands\\PopulateNumbers",
+        "listed": false
+    },
+    "checkFilePermissions": {
+        "className": "Espo\\Classes\\ConsoleCommands\\CheckFilePermissions",
+        "listed": true,
+        "noSystemUser": true
+    },
+    "migrate": {
+        "listed": true,
+        "noSystemUser": true
+    },
+    "migrationVersionStep": {
+        "listed": false,
+        "noSystemUser": true
+    }
+}

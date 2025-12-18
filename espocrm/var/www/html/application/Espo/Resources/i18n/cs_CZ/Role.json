@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "name": "Jméno",
+    "roles": "Role",
+    "assignmentPermission": "Přiřazení oprávnění",
+    "userPermission": "Uživatelská oprávnění"
+  },
+  "links": {
+    "users": "Uživatelé",
+    "teams": "Týmy"
+  },
+  "labels": {
+    "Access": "Přístup",
+    "Create Role": "Vytvořit roli"
+  },
+  "options": {
+    "accessList": {
+      "not-set": "není nastaveno",
+      "enabled": "povoleno",
+      "disabled": "zakázáno"
+    },
+    "levelList": {
+      "all": "vše",
+      "team": "tým",
+      "own": "vlastní",
+      "no": "ne",
+      "not-set": "není nastaveno"
+    }
+  },
+  "actions": {
+    "read": "Číst",
+    "edit": "Upravit",
+    "delete": "Smazat"
+  },
+  "messages": {
+    "changesAfterClearCache": "Všechny změny v nastavení ACL budou aplikovány po vyčištění cache."
+  }
+}

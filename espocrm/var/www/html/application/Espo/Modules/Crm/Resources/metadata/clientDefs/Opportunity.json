@@ -1,0 +1,104 @@
+{
+    "controller": "controllers/record",
+    "modelDefaultsPreparator": "crm:handlers/opportunity/defaults-preparator",
+   "views":{
+      "detail":"crm:views/opportunity/detail"
+   },
+   "recordViews":{
+      "edit":"crm:views/opportunity/record/edit",
+      "editSmall":"crm:views/opportunity/record/edit-small",
+      "list":"crm:views/opportunity/record/list",
+      "kanban": "crm:views/opportunity/record/kanban"
+   },
+   "sidePanels": {
+      "detail": [
+          {
+              "name": "activities",
+              "reference": "activities",
+              "view": "crm:views/opportunity/record/panels/activities"
+          },
+          {
+              "name": "history",
+              "reference": "history"
+          },
+          {
+              "name": "tasks",
+              "reference": "tasks"
+          }
+      ],
+      "detailSmall": [
+          {
+              "name": "activities",
+              "reference": "activities",
+              "view": "crm:views/opportunity/record/panels/activities"
+          },
+          {
+              "name": "history",
+              "reference": "history"
+          },
+          {
+              "name": "tasks",
+              "reference": "tasks"
+          }
+      ]
+   },
+    "bottomPanels": {
+        "detail": [
+            {
+                "name": "activities",
+                "reference": "activities",
+                "disabled": true,
+                "view": "crm:views/opportunity/record/panels/activities"
+            },
+            {
+                "name": "history",
+                "reference": "history",
+                "disabled": true
+            }
+        ]
+    },
+   "filterList": [
+      {
+         "name":"open"
+      },
+      {
+         "name":"won",
+         "style": "success"
+      }
+   ],
+   "boolFilterList": ["onlyMy"],
+   "additionalLayouts": {
+      "detailConvert": {
+         "type": "detail"
+      },
+      "listForAccount": {
+         "type": "listSmall"
+      },
+      "listForContact": {
+         "type": "listSmall"
+      }
+   },
+   "kanbanViewMode": true,
+    "relationshipPanels": {
+        "contacts": {
+            "createAttributeMap": {
+                "accountId": "accountId",
+                "accountName": "accountName"
+            },
+            "createHandler": "crm:handlers/opportunity/contacts-create",
+            "selectHandler": "handlers/select-related/same-account-many"
+        },
+        "contact": {
+            "createAttributeMap": {
+                "accountId": "accountId",
+                "accountName": "accountName"
+            },
+            "selectHandler": "handlers/select-related/same-account-many"
+        },
+        "documents": {
+            "selectHandler": "handlers/select-related/same-account-many"
+        }
+    },
+   "color": "#9fc77e",
+   "iconClass": "fas fa-dollar-sign"
+}

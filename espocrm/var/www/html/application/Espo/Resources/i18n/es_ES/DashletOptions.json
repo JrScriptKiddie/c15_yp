@@ -1,0 +1,48 @@
+{
+  "fields": {
+    "title": "Título",
+    "dateFrom": "Fecha desde",
+    "dateTo": "Fecha hasta",
+    "autorefreshInterval": "Actualizar cada:",
+    "displayRecords": "Mostrar Registros",
+    "isDoubleHeight": "Altitud 2x",
+    "mode": "Modo",
+    "enabledScopeList": "Qué mostrar",
+    "users": "Usuarios",
+    "entityType": "Tipo de entidad",
+    "primaryFilter": "Filtro principal",
+    "boolFilterList": "Filtros adicionales",
+    "expandedLayout": "Diseño",
+    "dateFilter": "Filtro de fecha",
+    "skipOwn": "No mostrar registros propios",
+    "text": "Texto",
+    "folder": "Carpeta",
+    "includeShared": "Incluir compartido",
+    "sortBy": "Ordenar por",
+    "sortDirection": "Dirección del orden"
+  },
+  "options": {
+    "mode": {
+      "agendaWeek": "Semana (orden del día)",
+      "basicWeek": "Semana",
+      "month": "Mes",
+      "basicDay": "Día",
+      "agendaDay": "Día (agenda)",
+      "timeline": "Línea de tiempo"
+    },
+    "sortDirection": {
+      "asc": "Ascendente",
+      "desc": "Descendiendo"
+    }
+  },
+  "messages": {
+    "selectEntityType": "Seleccione el tipo de entidad en las opciones de la caja."
+  },
+  "tooltips": {
+    "skipOwn": "Las acciones realizadas por su cuenta de usuario no se mostrarán."
+  },
+  "otherFields": {
+    "soft": "Color suave",
+    "small": "Fuente pequeña"
+  }
+}

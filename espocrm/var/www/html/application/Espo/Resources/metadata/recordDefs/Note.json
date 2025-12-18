@@ -1,0 +1,18 @@
+{
+    "readLoaderClassNameList": [
+        "Espo\\Classes\\FieldProcessing\\Note\\AdditionalFieldsLoader"
+    ],
+    "updateInputFilterClassNameList": [
+        "Espo\\Classes\\Record\\Note\\UpdateInputFilter"
+    ],
+    "beforeCreateHookClassNameList": [
+        "Espo\\Classes\\RecordHooks\\Note\\AssignmentCheck",
+        "Espo\\Classes\\RecordHooks\\Note\\BeforeCreate"
+    ],
+    "beforeUpdateHookClassNameList": [
+        "Espo\\Classes\\RecordHooks\\Note\\BeforeUpdate"
+    ],
+    "afterCreateHookClassNameList": [
+        "Espo\\Classes\\RecordHooks\\Note\\AfterCreate"
+    ]
+}

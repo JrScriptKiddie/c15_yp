@@ -1,0 +1,92 @@
+{
+    "controller":"controllers/record",
+    "boolFilterList":[
+        "onlyMy"
+    ],
+    "sidePanels":{
+        "detail":[
+            {
+                "name":"optedOut",
+                "label":"Opted Out",
+                "view":"crm:views/target-list/record/panels/opted-out"
+            }
+        ]
+    },
+    "views": {
+        "list": "views/list-with-categories"
+    },
+    "recordViews":{
+        "detail": "crm:views/target-list/record/detail"
+    },
+    "modalViews": {
+        "select": "views/modals/select-records-with-categories"
+    },
+    "relationshipPanels":{
+        "contacts":{
+            "actionList":[
+                {
+                    "label":"Unlink All",
+                    "action":"unlinkAllRelated",
+                    "acl":"edit",
+                    "data":{
+                        "link":"contacts"
+                    }
+                }
+            ],
+            "rowActionsView":"crm:views/target-list/record/row-actions/default",
+            "view":"crm:views/target-list/record/panels/relationship",
+            "removeDisabled": true,
+            "massSelect": true
+        },
+        "leads":{
+            "actionList":[
+                {
+                    "label":"Unlink All",
+                    "action":"unlinkAllRelated",
+                    "acl":"edit",
+                    "data":{
+                        "link":"leads"
+                    }
+                }
+            ],
+            "rowActionsView":"crm:views/target-list/record/row-actions/default",
+            "view":"crm:views/target-list/record/panels/relationship",
+            "removeDisabled": true,
+            "massSelect": true
+        },
+        "accounts":{
+            "actionList":[
+                {
+                    "label":"Unlink All",
+                    "action":"unlinkAllRelated",
+                    "acl":"edit",
+                    "data":{
+                        "link":"accounts"
+                    }
+                }
+            ],
+            "rowActionsView":"crm:views/target-list/record/row-actions/default",
+            "view":"crm:views/target-list/record/panels/relationship",
+            "removeDisabled": true,
+            "massSelect": true
+        },
+        "users":{
+            "create":false,
+            "actionList":[
+                {
+                    "label":"Unlink All",
+                    "action":"unlinkAllRelated",
+                    "acl":"edit",
+                    "data":{
+                        "link":"users"
+                    }
+                }
+            ],
+            "rowActionsView":"crm:views/target-list/record/row-actions/default",
+            "view":"crm:views/target-list/record/panels/relationship",
+            "removeDisabled": true,
+            "massSelect": true
+        }
+    },
+    "iconClass":"fas fa-crosshairs"
+}

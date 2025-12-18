@@ -1,0 +1,67 @@
+{
+  "fields": {
+    "post": "Entrada",
+    "attachments": "Adjuntos",
+    "targetType": "Objetivo",
+    "teams": "Equipos",
+    "users": "Usuarios",
+    "portals": "Portales",
+    "type": "Tipo",
+    "isGlobal": "Es global",
+    "isInternal": "Es Interno (para usuarios internos)",
+    "related": "Relacionado",
+    "createdByGender": "Creado por género",
+    "data": "Datos",
+    "number": "Número",
+    "isPinned": "Está fijado"
+  },
+  "filters": {
+    "all": "Todos",
+    "posts": "Entradas",
+    "updates": "Actualizaciones",
+    "activity": "Actividad"
+  },
+  "messages": {
+    "writeMessage": "Escriba su mensaje aquí",
+    "pinnedMaxCountExceeded": "No se pueden anclar más notas. El número máximo permitido es {count}."
+  },
+  "options": {
+    "type": {
+      "Post": "Entrada",
+      "Create": "Crear",
+      "CreateRelated": "Crear relacionado",
+      "Update": "Actualizar",
+      "Status": "Estado",
+      "Assign": "Asignar",
+      "Relate": "Relatar",
+      "Unrelate": "Desvincularse",
+      "EmailReceived": "Correo recibido",
+      "EmailSent": "Correo enviado"
+    },
+    "targetType": {
+      "self": "Sí mismo",
+      "users": "Usuarios",
+      "teams": "Equipos",
+      "all": "Todos los usuarios internos",
+      "portals": "Usuarios del portal"
+    }
+  },
+  "links": {
+    "superParent": "Super padre",
+    "related": "Relacionado",
+    "portals": "Portales",
+    "attachments": "Archivos adjuntos"
+  },
+  "labels": {
+    "View Posts": "Ver publicaciones",
+    "View Activity": "Ver actividad",
+    "Pin": "Fijar",
+    "Unpin": "Desfijar",
+    "Pinned": "Fijado",
+    "Quote Reply": "Citar Responder",
+    "View Attachments": "Ver archivos adjuntos"
+  },
+  "otherFields": {
+    "to": "A"
+  }
+}

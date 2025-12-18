@@ -1,0 +1,14 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "post"
+                }
+            ],
+            [
+                {"name": "attachments"}
+            ]
+        ]
+    }
+]

@@ -1,0 +1,6 @@
+[
+    {"name":"name", "link":true},
+    {"name":"priority", "isMuted": true},
+    {"name":"parent"},
+    {"name":"dateEnd", "align": "right", "isMuted": true}
+]

@@ -1,0 +1,7 @@
+{
+  "fields": {
+    "type": "Typ",
+    "invalid": "Ungültig",
+    "numeric": "Numerischer Wert"
+  }
+}

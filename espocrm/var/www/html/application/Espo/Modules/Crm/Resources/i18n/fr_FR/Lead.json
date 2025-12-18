@@ -1,0 +1,63 @@
+{
+  "labels": {
+    "Converted To": "Converti en",
+    "Create Lead": "Créer un prospect",
+    "Convert": "Convertir",
+    "convert": "convertir"
+  },
+  "fields": {
+    "name": "Nom",
+    "title": "Titre",
+    "website": "Site internet",
+    "phoneNumber": "Téléphone",
+    "accountName": "Nom du compte",
+    "doNotCall": "Ne pas appeler",
+    "address": "Adresse",
+    "status": "Statut",
+    "opportunityAmount": "Montant en jeu de l'opportunité",
+    "opportunityAmountConverted": "Montant en jeu de l'opportunité (converti)",
+    "createdAccount": "Compte",
+    "createdOpportunity": "Opportunité",
+    "campaign": "Campagne",
+    "targetLists": "Listes de diffusion",
+    "targetList": "Liste de diffusion",
+    "industry": "Industrie",
+    "acceptanceStatus": "Statut d'acceptation",
+    "acceptanceStatusMeetings": "Statut d'acceptation (Rendez-vous)",
+    "acceptanceStatusCalls": "Statut d'acceptation (Appels)",
+    "convertedAt": "Converti à",
+    "originalEmail": "Email original"
+  },
+  "links": {
+    "targetLists": "Listes de diffusion",
+    "campaignLogRecords": "Journaux de campagne",
+    "campaign": "Campagne",
+    "createdAccount": "Compte",
+    "createdOpportunity": "Opportunité",
+    "cases": "Tickets"
+  },
+  "options": {
+    "status": {
+      "New": "Nouveau",
+      "Assigned": "Assigné",
+      "In Process": "En cours",
+      "Converted": "Converti",
+      "Recycled": "Recyclé",
+      "Dead": "Mort"
+    },
+    "source": {
+      "Call": "Appel",
+      "Existing Customer": "Client existant",
+      "Partner": "Partenaire",
+      "Public Relations": "Relations publiques",
+      "Web Site": "Site internet",
+      "Campaign": "Campagne",
+      "Other": "Autre"
+    }
+  },
+  "presetFilters": {
+    "active": "Actif",
+    "converted": "Converti",
+    "actual": "Ouvert"
+  }
+}

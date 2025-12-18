@@ -1,0 +1,9 @@
+[
+    {
+        "rows": [
+            [{"name": "name"}],
+            [{"name": "entityType"}, {"name": "status"}],
+            [{"name": "body"}]
+        ]
+    }
+]

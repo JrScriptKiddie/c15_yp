@@ -1,0 +1,37 @@
+{
+    "controller": "controllers/record",
+    "forceListViewSettings": true,
+    "views": {
+        "list": "views/email-template/list"
+    },
+    "recordViews": {
+        "edit": "views/email-template/record/edit",
+        "detail": "views/email-template/record/detail",
+        "editQuick": "views/email-template/record/edit-quick"
+    },
+    "modalViews": {
+        "select": "views/modals/select-records-with-categories"
+    },
+    "sidePanels": {
+        "detail": [
+            {
+                "name": "information",
+                "label":"Info",
+                "view":"views/email-template/record/panels/information"
+            }
+        ],
+        "edit": [
+            {
+                "name": "information",
+                "label":"Info",
+                "view":"views/email-template/record/panels/information"
+            }
+        ]
+    },
+    "boolFilterList": ["onlyMy"],
+    "filterList": [
+        "actual"
+    ],
+    "placeholderList": ["optOutUrl", "optOutLink"],
+    "iconClass": "fas fa-envelope-square"
+}

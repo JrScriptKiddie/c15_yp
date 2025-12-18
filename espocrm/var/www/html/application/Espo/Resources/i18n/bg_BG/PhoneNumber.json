@@ -1,0 +1,11 @@
+{
+  "fields": {
+    "type": "Тип",
+    "optOut": "Не звъни",
+    "invalid": "Невалиден",
+    "numeric": "Числова стойност"
+  },
+  "presetFilters": {
+    "orphan": "Изоставени"
+  }
+}

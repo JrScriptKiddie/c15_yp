@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "link": "Saite",
+    "notSortable": "Nevar kārtot",
+    "align": "Līdzināt",
+    "panelName": "Paneļa nosaukums",
+    "style": "Stils",
+    "isLarge": "Liels šrifta izmērs",
+    "dynamicLogicVisible": "Nosacījumi, lai panelis kļūtu redzams",
+    "hidden": "Slēptais",
+    "dynamicLogicStyled": "Nosacījumi, kas nosaka piemērojamo stilu",
+    "noLabel": "Nav etiķetes",
+    "tabLabel": "Cilnes etiķete",
+    "tabBreak": "Tabulatora pārrāvums",
+    "width": "Platums",
+    "noteText": "Piezīme Teksts",
+    "noteStyle": "Piezīme Stils",
+    "isMuted": "Izkliedēta krāsa",
+    "sticked": "Pietuvoties pie augšas"
+  },
+  "options": {
+    "align": {
+      "left": "Pa kreisi",
+      "right": "Pa labi"
+    },
+    "style": {
+      "default": "Noklusējuma",
+      "success": "Izpildīts",
+      "danger": "Bīstamība",
+      "info": "Informācija",
+      "warning": "Brīdinājums",
+      "primary": "Primārais"
+    }
+  },
+  "labels": {
+    "New panel": "Jauns panelis",
+    "Layout": "Izkārtojums"
+  },
+  "tooltips": {
+    "link": "Ja ir atzīmēts, lauka vērtība tiks parādīta kā saite, kas norāda uz ieraksta detalizētu pārskatu. Parasti to izmanto *Nosaukums* laukiem.",
+    "hiddenPanel": "Lai redzētu paneli, ir jānoklikšķina uz \"parādīt vairāk\".",
+    "sticked": "Panelis tiks piestiprināts pie paneļa virs tā. Starp paneļiem nav atstarpes.",
+    "panelStyle": "Paneļa krāsa.",
+    "dynamicLogicVisible": "Ja tas ir iestatīts, panelis tiks paslēpts, ja vien nosacījums nebūs izpildīts.",
+    "dynamicLogicStyled": "Krāsa tiks piemērota, ja tiks izpildīts konkrēts nosacījums . Krāsu nosaka parametrs *Style*.",
+    "tabBreak": "Atsevišķa cilne panelim un visiem nākamajiem paneļiem līdz nākamajam cilnes pārrāvumam.",
+    "noLabel": "Kolonnas etiķete nav redzama galvenē.",
+    "notSortable": "Izslēdz iespēju šķirot pēc kolonnas.",
+    "width": "Kolonnas platums. Ieteicams izveidot vienu kolonnu bez norādīta platuma, parasti tas ir *Nosaukuma* lauks.",
+    "noteText": "Teksts, kas tiks parādīts panelī. Tiek atbalstīts Markdown."
+  },
+  "messages": {
+    "cantBeEmpty": "Izkārtojums nevar būt tukšs.",
+    "fieldsIncompatible": "Lauki nevar būt kopā izkārtojumā: {lauki}.",
+    "alreadyExists": "Izkārtojums `{nosaukums}` jau pastāv.",
+    "createInfo": "Attiecību paneļos var izmantot pielāgotus sarakstu izkārtojumus."
+  }
+}

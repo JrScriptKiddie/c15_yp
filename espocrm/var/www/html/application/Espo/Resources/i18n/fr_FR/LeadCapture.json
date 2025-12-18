@@ -1,0 +1,63 @@
+{
+  "fields": {
+    "name": "Nom",
+    "campaign": "Campagne",
+    "isActive": "Actif",
+    "subscribeToTargetList": "S'abonner à la liste des cibles",
+    "subscribeContactToTargetList": "S'abonner Contact si existe",
+    "targetList": "Liste de diffusion",
+    "fieldList": "Champs de charge utile",
+    "optInConfirmation": "Double opt-in",
+    "optInConfirmationEmailTemplate": "Modèle d'e-mail de confirmation d'adhésion",
+    "optInConfirmationLifetime": "Opt-in confirmation à vie (heures)",
+    "optInConfirmationSuccessMessage": "Texte à afficher après la confirmation d'adhésion",
+    "leadSource": "Source principale",
+    "apiKey": "clé API",
+    "targetTeam": "Équipe cible",
+    "exampleRequestMethod": "Méthode",
+    "exampleRequestPayload": "Charge utile",
+    "createLeadBeforeOptInConfirmation": "Créer un prospect avant confirmation",
+    "duplicateCheck": "Contrôle en double",
+    "skipOptInConfirmationIfSubscribed": "Ignorer la confirmation si le prospect est déjà dans la liste des cibles",
+    "smtpAccount": "Compte SMTP",
+    "inboundEmail": "Compte de messagerie de groupe",
+    "exampleRequestHeaders": "Entête",
+    "phoneNumberCountry": "Indicatif téléphonique national",
+    "fieldParams": "Paramètres du champ",
+    "formId": "Formulaire ID",
+    "formEnabled": "Formulaire Web",
+    "formUrl": "URL du formulaire",
+    "formSuccessText": "Texte à afficher après la soumission du formulaire",
+    "formText": "Texte à afficher sur le formulaire",
+    "formSuccessRedirectUrl": "URL à rediriger après la soumission du formulaire",
+    "formLanguage": "Langue utilisée dans le formulaire",
+    "formFrameAncestors": "Hôtes autorisés pour l'intégration de formulaires",
+    "formCaptcha": "Utiliser Captcha",
+    "formTitle": "Titre du formulaire",
+    "formTheme": "Thème du formulaire"
+  },
+  "links": {
+    "targetList": "Liste de diffusion",
+    "campaign": "Campagne",
+    "optInConfirmationEmailTemplate": "Modèle d'e-mail de confirmation d'adhésion",
+    "targetTeam": "Équipe cible",
+    "inboundEmail": "Compte de messagerie de groupe"
+  },
+  "labels": {
+    "Create LeadCapture": "Créer un point d'entrée",
+    "Generate New API Key": "Générer une nouvelle clé API",
+    "Request": "Demande",
+    "Confirm Opt-In": "Confirmer la participation",
+    "Generate New Form ID": "Générer un nouvel ID de formulaire",
+    "Web Form": "Formulaire Web"
+  },
+  "messages": {
+    "generateApiKey": "Créer une nouvelle clé API",
+    "optInConfirmationExpired": "Le lien de confirmation d'adhésion a expiré.",
+    "optInIsConfirmed": "L'inscription est confirmée."
+  },
+  "tooltips": {
+    "optInConfirmationSuccessMessage": "Markdown est pris en charge.",
+    "formCaptcha": "Pour pouvoir utiliser Captcha, vous devez le configurer sous **Administration** > **Intégrations**."
+  }
+}

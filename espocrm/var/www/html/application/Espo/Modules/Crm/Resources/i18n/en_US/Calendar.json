@@ -1,0 +1,23 @@
+{
+    "modes": {
+        "month": "Month",
+        "week": "Week",
+        "day": "Day",
+        "agendaWeek": "Week",
+        "agendaDay": "Day",
+        "timeline": "Timeline"
+    },
+    "labels": {
+        "Today": "Today",
+        "Create": "Create",
+        "Shared": "Shared",
+        "Add User": "Add User",
+        "current": "current",
+        "time": "time",
+        "User List": "User List",
+        "View Calendar": "View Calendar",
+        "Create Shared View": "Create Shared View",
+        "Edit Shared View": "Edit Shared View",
+        "Shared Mode Options": "Shared Mode Options"
+    }
+}

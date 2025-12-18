@@ -1,0 +1,979 @@
+Xsession: X session started for vpupkin at Tue Dec 16 05:32:21 UTC 2025
+localuser:vpupkin being added to access control list
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting USER=vpupkin
+dbus-update-activation-environment: setting HOME=/home/vpupkin
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-nrv60h7CBC,guid=2ae7f32df4ff4fa3c0ef122a6940eee5
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting LOGNAME=vpupkin
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting PWD=/home/vpupkin
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+/usr/bin/x-session-manager: X server already running on display :10.0
+
+(xfce4-session:121): dbind-WARNING **: 05:32:21.808: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+_IceTransmkdir: ERROR: euid != 0,directory /tmp/.ICE-unix will not be created.
+
+(xfce4-session:121): xfce4-session-WARNING **: 05:32:21.986: No GPG agent found
+
+(xfce4-session:121): xfce4-session-WARNING **: 05:32:21.988: No SSH authentication agent found
+
+(xfwm4:198): dbind-WARNING **: 05:32:22.059: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfwm4:198): xfwm4-WARNING **: 05:32:23.187: Another compositing manager is running on screen 0
+
+(xfsettingsd:203): dbind-WARNING **: 05:32:23.234: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfsettingsd:203): libupower-glib-WARNING **: 05:32:23.251: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-panel:207): dbind-WARNING **: 05:32:23.370: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(migrate:213): dbind-WARNING **: 05:32:23.417: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(Thunar:212): dbind-WARNING **: 05:32:23.431: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfdesktop:223): dbind-WARNING **: 05:32:23.491: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such fConnection failure: Connection refused
+
+(xfsettingsd:227): dbind-WARNING **: 05:32:23.675: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+ile or directory
+pa_context_connect() failed: Connection refused
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+
+** (xfdesktop:223): WARNING **: 05:32:23.690: Thumbnailer failed calling GetFlavors
+
+(xfce4-notifyd:228): dbind-WARNING **: 05:32:23.691: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfdesktop:223): GLib-GObject-CRITICAL **: 05:32:23.693: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+N: [pulseaudio] module-xrdp-sink.c: Build library version 16.1.0
+E: [xrdp-sink] module-xrdp-sink.c: sink_process_msg: PA_SINK_MESSAGE_SET_STATE [IDLE]
+E: [xrdp-sink] module-xrdp-sink.c: sink_process_msg: not running
+E: [xrdp-sink] module-xrdp-sink.c: close_send:
+N: [pulseaudio] module-xrdp-source.c: Build library version 16.1.0
+W: [pulseaudio] authkey.c: Failed to open cookie file '/home/vpupkin/.config/pulse/cookie': No such file or directory
+W: [pulseaudio] authkey.c: Failed to load authentication key '/home/vpupkin/.config/pulse/cookie': No such file or directory
+W: [pulseaudio] authkey.c: Failed to open cookie file '/home/vpupkin/.pulse-cookie': No such file or directory
+W: [pulseaudio] authkey.c: Failed to load authentication key '/home/vpupkin/.pulse-cookie': No such file or directory
+
+** (xfdesktop:223): WARNING **: 05:32:23.820: Failed to get system bus: Could not connect: No such file or directory
+xfce4-panel-Message: 05:32:23.861: Plugin "(null)-7" was not found and has been removed from the configuration
+xfce4-panel-Message: 05:32:23.874: Plugin "power-manager-plugin-9" was not found and has been removed from the configuration
+
+(wrapper-2.0:248): dbind-WARNING **: 05:32:23.889: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(wrapper-2.0:249): dbind-WARNING **: 05:32:23.902: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(wrapper-2.0:250): dbind-WARNING **: 05:32:23.902: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+libclock-Message: 05:32:23.907: could not get proxy for org.freedesktop.login1
+
+(xfce4-panel:207): libclock-WARNING **: 05:32:23.908: could not instantiate a sleep monitor
+
+(wrapper-2.0:260): dbind-WARNING **: 05:32:24.000: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+** (wrapper-2.0:249): WARNING **: 05:32:24.583: Binding 'XF86AudioLowerVolume' failed!
+
+** (wrapper-2.0:249): WARNING **: 05:32:24.584: Binding 'XF86AudioRaiseVolume' failed!
+
+** (wrapper-2.0:249): WARNING **: 05:32:24.584: Binding 'XF86AudioMute' failed!
+
+** (wrapper-2.0:249): WARNING **: 05:32:24.585: Binding 'XF86AudioMicMute' failed!
+
+(wrapper-2.0:249): pulseaudio-plugin-WARNING **: 05:32:24.585: Could not have grabbed volume control keys. Is another volume control application (xfce4-volumed) running?
+
+(wrapper-2.0:250): xfce4-notification-plugin-WARNING **: 05:32:24.585: Failed to look up notification icon
+
+** (wrapper-2.0:249): WARNING **: 05:32:24.585: Binding 'XF86AudioPlay' failed!
+
+** (wrapper-2.0:249): WARNING **: 05:32:24.586: Binding 'XF86AudioStop' failed!
+
+** (wrapper-2.0:249): WARNING **: 05:32:24.586: Binding 'XF86AudioPrev' failed!
+
+** (wrapper-2.0:249): WARNING **: 05:32:24.587: Binding 'XF86AudioNext' failed!
+
+(wrapper-2.0:249): pulseaudio-plugin-WARNING **: 05:32:24.587: Could not have grabbed multimedia control keys.
+
+(wrapper-2.0:250): xfce4-notification-plugin-WARNING **: 05:32:24.604: Failed to look up notification icon
+
+(wrapper-2.0:250): xfce4-notification-plugin-WARNING **: 05:32:24.605: Failed to look up notification icon
+
+(xfce4-session:121): xfce4-session-WARNING **: 05:32:24.608: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:121): xfce4-session-WARNING **: 05:32:24.612: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:121): xfce4-session-WARNING **: 05:32:24.615: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(wrapper-2.0:250): xfce4-notification-plugin-WARNING **: 05:32:24.634: Failed to look up notification icon
+
+(exo-open:274): dbind-WARNING **: 05:32:29.617: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-mime-helper:276): dbind-WARNING **: 05:32:29.641: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+[277] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
+[GFX1-]: glxtest: libpci missing
+remmina-Message: 05:32:46.557: Remmina does not log all output statements. Turn on more verbose output by using "G_MESSAGES_DEBUG=remmina" as an environment variable.
+More info available on the Remmina wiki at:
+https://gitlab.com/Remmina/Remmina/-/wikis/Usage/Remmina-debugging
+
+(process:669): libsecret-CRITICAL **: 05:32:46.620: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+[glibsecret] unable to get secret service: Unknown error.
+
+(org.remmina.Remmina:669): dbind-WARNING **: 05:32:46.636: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+Warning: Remmina is running without a secret plugin. Passwords will be saved in a less secure way.
+
+(org.remmina.Remmina:669): Gtk-WARNING **: 05:32:46.947: gtk_menu_attach_to_widget(): menu already attached to GtkMenuItem
+[05:32:59:328] [669:000002e8] [WARN][com.freerdp.core.nego] - [nego_enable_aad]: This build does not support AAD security, disabling.
+[05:33:29:823] [669:000002e8] [ERROR][com.freerdp.crypto] - [x509_utils_from_pem]: BIO_new failed for certificate
+[05:33:29:823] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_certificate_name_mismatch_error]: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[05:33:29:823] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_certificate_name_mismatch_error]: @           WARNING: CERTIFICATE NAME MISMATCH!           @
+[05:33:29:824] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_certificate_name_mismatch_error]: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[05:33:29:824] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_certificate_name_mismatch_error]: The hostname used for this connection (srv_users.layer8.ag:3389) 
+[05:33:29:824] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_certificate_name_mismatch_error]: does not match any of the names given in the certificate:
+[05:33:29:825] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_certificate_name_mismatch_error]: Common Name (CN):
+[05:33:29:825] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_certificate_name_mismatch_error]: 	localhost
+[05:33:29:825] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_certificate_name_mismatch_error]: Alternative names:
+[05:33:29:825] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_certificate_name_mismatch_error]: 	 localhost
+[05:33:29:825] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_certificate_name_mismatch_error]: A valid certificate for the wrong name should NOT be trusted!
+[05:33:29:825] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_new_certificate_warn]: The host key for srv_users.layer8.ag:3389 has changed
+[05:33:29:826] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_new_certificate_warn]: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[05:33:29:826] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_new_certificate_warn]: @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+[05:33:29:826] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_new_certificate_warn]: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[05:33:29:827] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_new_certificate_warn]: IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+[05:33:29:827] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_new_certificate_warn]: Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+[05:33:29:827] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_new_certificate_warn]: It is also possible that a host key has just been changed.
+[05:33:29:827] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_new_certificate_warn]: The fingerprint for the host key sent by the remote host is a8:53:22:6c:51:8b:d9:78:86:da:71:7d:50:99:bf:04:32:b9:00:cd:47:e5:33:a3:64:f6:92:4d:32:63:0d:ab
+[05:33:29:827] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_new_certificate_warn]: Please contact your system administrator.
+[05:33:29:828] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_new_certificate_warn]: Add correct host key in /home/vpupkin/.config/freerdp/server/srv_users.layer8.ag_3389.pem to get rid of this message.
+[05:33:29:828] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_new_certificate_warn]: Host key for srv_users.layer8.ag has changed and you have requested strict checking.
+[05:33:29:828] [669:000002e8] [ERROR][com.freerdp.crypto] - [tls_print_new_certificate_warn]: Host key verification failed.
+[05:33:33:996] [669:000002e8] [WARN][com.freerdp.core.connection] - [rdp_client_connect_auto_detect]: messageChannelId == 0
+[05:33:33:998] [669:000002e8] [ERROR][com.freerdp.core.license] - [license_read_binary_blob_data]: license binary blob::type expected BB_UNKNOWN, got BB_ERROR_BLOB
+[05:33:33:999] [669:000002e8] [WARN][com.freerdp.core.license] - [license_read_binary_blob_data]: license binary blob::type BB_ERROR_BLOB, length=0, skipping.
+[05:33:33:531] [669:00000305] [WARN][com.freerdp.channels.drdynvc.client] - [check_open_close_receive]: {Microsoft::Windows::RDS::DisplayControl:1} OnOpen=(nil), OnClose=0x7ec8b9641c00
+[05:33:56:505] [669:000002e8] [ERROR][com.freerdp.core] - [freerdp_abort_connect_context]: ERRCONNECT_CONNECT_CANCELLED [0x0002000B]
+[05:33:56:506] [669:0000029d] [WARN][com.freerdp.core] - [input_ensure_client_running]: [APPLICATION BUG] input functions called after the session terminated
+[05:33:56:506] [669:0000029d] [WARN][com.freerdp.core] - [input_ensure_client_running]: [APPLICATION BUG] input functions called after the session terminated
+[05:33:56:511] [669:00000305] [WARN][com.freerdp.channels.drdynvc.client] - [check_open_close_receive]: {Microsoft::Windows::RDS::DisplayControl:1} OnOpen=(nil), OnClose=0x7ec8b9641c00
+
+(org.remmina.Remmina:669): Gtk-WARNING **: 05:34:01.765: Could not load a pixbuf from /org/gtk/libgtk/theme/Adwaita/assets/bullet-symbolic.svg.
+This may indicate that pixbuf loaders or the mime database could not be found.
+[05:34:32:267] [669:0000034d] [WARN][com.freerdp.core.nego] - [nego_enable_aad]: This build does not support AAD security, disabling.
+[05:34:41:152] [669:0000034d] [WARN][com.freerdp.core.connection] - [rdp_client_connect_auto_detect]: messageChannelId == 0
+[05:34:41:155] [669:0000034d] [ERROR][com.freerdp.core.license] - [license_read_binary_blob_data]: license binary blob::type expected BB_UNKNOWN, got BB_ERROR_BLOB
+[05:34:41:155] [669:0000034d] [WARN][com.freerdp.core.license] - [license_read_binary_blob_data]: license binary blob::type BB_ERROR_BLOB, length=0, skipping.
+[05:34:42:282] [669:0000035e] [WARN][com.freerdp.channels.drdynvc.client] - [check_open_close_receive]: {Microsoft::Windows::RDS::DisplayControl:1} OnOpen=(nil), OnClose=0x7ec8b9641c00
+[07:01:55:916] [669:0000034d] [ERROR][com.freerdp.core] - [rdp_set_error_info]: ERRINFO_LOGOFF_BY_USER [0x0001000C]
+[07:01:55:925] [669:0000035e] [WARN][com.freerdp.channels.drdynvc.client] - [check_open_close_receive]: {Microsoft::Windows::RDS::DisplayControl:1} OnOpen=(nil), OnClose=0x7ec8b9641c00
+
+(org.remmina.Remmina:669): Gtk-WARNING **: 07:01:58.871: gtk_menu_detach(): menu is not attached
+
+(xfce4-session:121): xfce4-session-WARNING **: 07:02:00.283: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:121): xfce4-session-WARNING **: 07:02:00.285: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:121): xfce4-session-WARNING **: 07:02:00.288: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:121): xfce4-session-WARNING **: 07:02:03.151: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:121): xfce4-session-WARNING **: 07:02:03.154: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:121): xfce4-session-WARNING **: 07:02:03.157: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:121): Gtk-WARNING **: 07:02:03.182: Could not load a pixbuf from /org/gtk/libgtk/theme/Adwaita/assets/check-symbolic.svg.
+This may indicate that pixbuf loaders or the mime database could not be found.
+Another notification daemon is running, exiting
+Another notification daemon is running, exiting
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [xrdp-sink] module-xrdp-sink.c: sink_process_msg: PA_SINK_MESSAGE_SET_STATE [UNLINKED]
+E: [xrdp-sink] module-xrdp-sink.c: sink_process_msg: not running
+E: [xrdp-sink] module-xrdp-sink.c: close_send:
+W: [pulseaudio] module.c: After module unload, module 'module-null-sink' was still loaded!
+Xsession: X session started for vpupkin at Tue Dec 16 07:33:22 UTC 2025
+localuser:vpupkin being added to access control list
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting USER=vpupkin
+dbus-update-activation-environment: setting HOME=/home/vpupkin
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-WSDAcZqGG9,guid=79e16226d886fab1c0843fd769410b42
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting LOGNAME=vpupkin
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting PWD=/home/vpupkin
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+/usr/bin/x-session-manager: X server already running on display :10.0
+
+(xfce4-session:99): dbind-WARNING **: 07:33:22.369: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+
+(xfce4-session:99): xfce4-session-WARNING **: 07:33:22.428: No GPG agent found
+
+(xfce4-session:99): xfce4-session-WARNING **: 07:33:22.429: No SSH authentication agent found
+
+(xfwm4:174): dbind-WARNING **: 07:33:22.457: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfwm4:174): xfwm4-WARNING **: 07:33:22.669: Unsupported GL renderer (llvmpipe (LLVM 20.1.2, 256 bits)).
+
+(xfsettingsd:204): dbind-WARNING **: 07:33:22.712: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfsettingsd:204): libupower-glib-WARNING **: 07:33:22.726: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-panel:208): dbind-WARNING **: 07:33:22.819: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(Thunar:213): dbind-WARNING **: 07:33:22.874: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfdesktop:219): dbind-WARNING **: 07:33:22.934: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+** (xfdesktop:219): WARNING **: 07:33:23.079: Thumbnailer failed calling GetFlavors
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+Connection failure: Connection refused
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+pa_context_connect() failed: Connection refused
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+
+(xfsettingsd:223): dbind-WARNING **: 07:33:23.093: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-notifyd:224): dbind-WARNING **: 07:33:23.101: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+N: [pulseaudio] module-xrdp-sink.c: Build library version 16.1.0
+E: [xrdp-sink] module-xrdp-sink.c: sink_process_msg: PA_SINK_MESSAGE_SET_STATE [IDLE]
+E: [xrdp-sink] module-xrdp-sink.c: sink_process_msg: not running
+E: [xrdp-sink] module-xrdp-sink.c: close_send:
+N: [pulseaudio] module-xrdp-source.c: Build library version 16.1.0
+
+(wrapper-2.0:243): dbind-WARNING **: 07:33:23.152: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(wrapper-2.0:245): dbind-WARNING **: 07:33:23.155: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(wrapper-2.0:244): dbind-WARNING **: 07:33:23.157: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+libclock-Message: 07:33:23.163: could not get proxy for org.freedesktop.login1
+
+(xfce4-panel:208): libclock-WARNING **: 07:33:23.163: could not instantiate a sleep monitor
+
+** (xfdesktop:219): WARNING **: 07:33:23.171: Failed to get system bus: Could not connect: No such file or directory
+
+(wrapper-2.0:256): dbind-WARNING **: 07:33:23.255: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+** (wrapper-2.0:244): WARNING **: 07:33:23.555: Binding 'XF86AudioLowerVolume' failed!
+
+** (wrapper-2.0:244): WARNING **: 07:33:23.555: Binding 'XF86AudioRaiseVolume' failed!
+
+** (wrapper-2.0:244): WARNING **: 07:33:23.555: Binding 'XF86AudioMute' failed!
+
+** (wrapper-2.0:244): WARNING **: 07:33:23.555: Binding 'XF86AudioMicMute' failed!
+
+(wrapper-2.0:244): pulseaudio-plugin-WARNING **: 07:33:23.556: Could not have grabbed volume control keys. Is another volume control application (xfce4-volumed) running?
+
+** (wrapper-2.0:244): WARNING **: 07:33:23.556: Binding 'XF86AudioPlay' failed!
+
+** (wrapper-2.0:244): WARNING **: 07:33:23.556: Binding 'XF86AudioStop' failed!
+
+** (wrapper-2.0:244): WARNING **: 07:33:23.557: Binding 'XF86AudioPrev' failed!
+
+** (wrapper-2.0:244): WARNING **: 07:33:23.557: Binding 'XF86AudioNext' failed!
+
+(wrapper-2.0:244): pulseaudio-plugin-WARNING **: 07:33:23.557: Could not have grabbed multimedia control keys.
+
+(wrapper-2.0:245): xfce4-notification-plugin-WARNING **: 07:33:23.559: Failed to look up notification icon
+
+(wrapper-2.0:245): xfce4-notification-plugin-WARNING **: 07:33:23.573: Failed to look up notification icon
+
+(wrapper-2.0:245): xfce4-notification-plugin-WARNING **: 07:33:23.574: Failed to look up notification icon
+
+(xfce4-session:99): xfce4-session-WARNING **: 07:33:23.574: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:99): xfce4-session-WARNING **: 07:33:23.578: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:99): xfce4-session-WARNING **: 07:33:23.582: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(wrapper-2.0:245): xfce4-notification-plugin-WARNING **: 07:33:23.600: Failed to look up notification icon
+
+(xfce4-panel:208): xfce4-panel-CRITICAL **: 07:33:32.256: panel-window.c:2346 (panel_window_active_window_geometry_changed): expression 'WNCK_IS_WINDOW (active_window)' failed.
+
+(xfce4-panel:208): xfce4-panel-CRITICAL **: 07:33:40.546: panel-window.c:2346 (panel_window_active_window_geometry_changed): expression 'WNCK_IS_WINDOW (active_window)' failed.
+
+(xfce4-panel:208): xfce4-panel-CRITICAL **: 07:33:48.283: panel-window.c:2346 (panel_window_active_window_geometry_changed): expression 'WNCK_IS_WINDOW (active_window)' failed.
+remmina-Message: 07:33:53.178: Remmina does not log all output statements. Turn on more verbose output by using "G_MESSAGES_DEBUG=remmina" as an environment variable.
+More info available on the Remmina wiki at:
+https://gitlab.com/Remmina/Remmina/-/wikis/Usage/Remmina-debugging
+
+(process:273): libsecret-CRITICAL **: 07:33:53.215: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+[glibsecret] unable to get secret service: Unknown error.
+
+(org.remmina.Remmina:273): dbind-WARNING **: 07:33:53.227: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+Warning: Remmina is running without a secret plugin. Passwords will be saved in a less secure way.
+
+(org.remmina.Remmina:273): Gtk-WARNING **: 07:33:53.442: gtk_menu_attach_to_widget(): menu already attached to GtkMenuItem
+[07:34:09:440] [273:0000015c] [WARN][com.freerdp.core.nego] - [nego_enable_aad]: This build does not support AAD security, disabling.
+[07:34:15:127] [273:0000015c] [ERROR][com.freerdp.core] - [freerdp_tcp_is_hostname_resolvable]: ERRCONNECT_DNS_NAME_NOT_FOUND [0x00020005]
+[07:34:23:809] [273:0000015c] [ERROR][com.freerdp.core.nego] - [nego_connect]: Failed to connect
+
+(exo-open:362): dbind-WARNING **: 07:34:33.873: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-mime-helper:364): dbind-WARNING **: 07:34:33.897: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-terminal:365): dbind-WARNING **: 07:34:33.931: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+Xsession: X session started for vpupkin at Tue Dec 16 07:35:55 UTC 2025
+localuser:vpupkin being added to access control list
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting USER=vpupkin
+dbus-update-activation-environment: setting HOME=/home/vpupkin
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_11
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_11
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-obk9R829Jr,guid=fe269d6e60ad99b50237572669410bdb
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting LOGNAME=vpupkin
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting DISPLAY=:11.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting PWD=/home/vpupkin
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+/usr/bin/x-session-manager: X server already running on display :11.0
+
+(xfce4-session:99): dbind-WARNING **: 07:35:55.914: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+
+(xfce4-session:99): xfce4-session-WARNING **: 07:35:55.979: No GPG agent found
+
+(xfce4-session:99): xfce4-session-WARNING **: 07:35:55.980: No SSH authentication agent found
+
+(xfwm4:174): dbind-WARNING **: 07:35:56.009: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfwm4:174): xfwm4-WARNING **: 07:35:56.215: Unsupported GL renderer (llvmpipe (LLVM 20.1.2, 256 bits)).
+
+(xfsettingsd:204): dbind-WARNING **: 07:35:56.259: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfsettingsd:204): libupower-glib-WARNING **: 07:35:56.273: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-panel:208): dbind-WARNING **: 07:35:56.370: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(Thunar:213): dbind-WARNING **: 07:35:56.417: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfdesktop:219): dbind-WARNING **: 07:35:56.474: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+** (xfdesktop:219): WARNING **: 07:35:56.635: Thumbnailer failed calling GetFlavors
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such fConnection failure: Connection refused
+ile or directory
+pa_context_connect() failed: Connection refused
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+
+(xfsettingsd:223): dbind-WARNING **: 07:35:56.646: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-notifyd:224): dbind-WARNING **: 07:35:56.657: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+E: [pulseaudio] pid.c: Daemon already running.
+E: [pulseaudio] main.c: pa_pid_file_create() failed.
+
+(wrapper-2.0:240): dbind-WARNING **: 07:35:56.706: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(wrapper-2.0:242): dbind-WARNING **: 07:35:56.710: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+libclock-Message: 07:35:56.712: could not get proxy for org.freedesktop.login1
+
+(xfce4-panel:208): libclock-WARNING **: 07:35:56.713: could not instantiate a sleep monitor
+
+(wrapper-2.0:241): dbind-WARNING **: 07:35:56.713: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+** (xfdesktop:219): WARNING **: 07:35:56.721: Failed to get system bus: Could not connect: No such file or directory
+
+(wrapper-2.0:253): dbind-WARNING **: 07:35:56.804: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-panel:208): xfce4-panel-CRITICAL **: 07:35:57.095: panel-window.c:2346 (panel_window_active_window_geometry_changed): expression 'WNCK_IS_WINDOW (active_window)' failed.
+
+** (wrapper-2.0:241): WARNING **: 07:35:57.105: Binding 'XF86AudioLowerVolume' failed!
+
+** (wrapper-2.0:241): WARNING **: 07:35:57.105: Binding 'XF86AudioRaiseVolume' failed!
+
+** (wrapper-2.0:241): WARNING **: 07:35:57.106: Binding 'XF86AudioMute' failed!
+
+** (wrapper-2.0:241): WARNING **: 07:35:57.106: Binding 'XF86AudioMicMute' failed!
+
+(wrapper-2.0:241): pulseaudio-plugin-WARNING **: 07:35:57.106: Could not have grabbed volume control keys. Is another volume control application (xfce4-volumed) running?
+
+** (wrapper-2.0:241): WARNING **: 07:35:57.107: Binding 'XF86AudioPlay' failed!
+
+(wrapper-2.0:242): xfce4-notification-plugin-WARNING **: 07:35:57.107: Failed to look up notification icon
+
+** (wrapper-2.0:241): WARNING **: 07:35:57.107: Binding 'XF86AudioStop' failed!
+
+** (wrapper-2.0:241): WARNING **: 07:35:57.108: Binding 'XF86AudioPrev' failed!
+
+** (wrapper-2.0:241): WARNING **: 07:35:57.109: Binding 'XF86AudioNext' failed!
+
+(wrapper-2.0:241): pulseaudio-plugin-WARNING **: 07:35:57.109: Could not have grabbed multimedia control keys.
+
+(wrapper-2.0:242): xfce4-notification-plugin-WARNING **: 07:35:57.123: Failed to look up notification icon
+
+(wrapper-2.0:242): xfce4-notification-plugin-WARNING **: 07:35:57.124: Failed to look up notification icon
+
+(xfce4-session:99): xfce4-session-WARNING **: 07:35:57.130: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:99): xfce4-session-WARNING **: 07:35:57.133: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:99): xfce4-session-WARNING **: 07:35:57.137: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(wrapper-2.0:242): xfce4-notification-plugin-WARNING **: 07:35:57.157: Failed to look up notification icon
+
+(exo-open:267): dbind-WARNING **: 07:36:00.224: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-mime-helper:269): dbind-WARNING **: 07:36:00.252: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+[270] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
+[GFX1-]: glxtest: libpci missing
+
+(xfce4-session:99): xfce4-session-WARNING **: 07:39:30.935: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:99): xfce4-session-WARNING **: 07:39:30.938: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:99): xfce4-session-WARNING **: 07:39:30.942: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:99): xfce4-session-WARNING **: 07:39:31.941: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:99): xfce4-session-WARNING **: 07:39:31.944: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:99): xfce4-session-WARNING **: 07:39:31.947: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:99): Gtk-WARNING **: 07:39:31.972: Could not load a pixbuf from /org/gtk/libgtk/theme/Adwaita/assets/check-symbolic.svg.
+This may indicate that pixbuf loaders or the mime database could not be found.
+[GFX1-]: Detect DeviceReset DeviceResetReason::FORCED_RESET DeviceResetDetectPlace::WR_SIMULATE in Parent process
+Xsession: X session started for vpupkin at Tue Dec 16 08:04:34 UTC 2025
+localuser:vpupkin being added to access control list
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting USER=vpupkin
+dbus-update-activation-environment: setting HOME=/home/vpupkin
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_11
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_11
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-SlCnw11V5z,guid=c1e51540be0f0a70429211a969411292
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting LOGNAME=vpupkin
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting DISPLAY=:11.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting PWD=/home/vpupkin
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+/usr/bin/x-session-manager: X server already running on display :11.0
+
+(xfce4-session:873): dbind-WARNING **: 08:04:34.450: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+
+(xfce4-session:873): xfce4-session-WARNING **: 08:04:34.509: No GPG agent found
+
+(xfce4-session:873): xfce4-session-WARNING **: 08:04:34.510: No SSH authentication agent found
+
+(xfwm4:948): dbind-WARNING **: 08:04:34.537: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfwm4:948): xfwm4-WARNING **: 08:04:34.741: Unsupported GL renderer (llvmpipe (LLVM 20.1.2, 256 bits)).
+
+(xfsettingsd:978): dbind-WARNING **: 08:04:34.780: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfsettingsd:978): libupower-glib-WARNING **: 08:04:34.794: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-panel:982): dbind-WARNING **: 08:04:34.886: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(Thunar:987): dbind-WARNING **: 08:04:34.938: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfdesktop:993): dbind-WARNING **: 08:04:34.992: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+[997] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
+
+** (xfdesktop:993): WARNING **: 08:04:35.138: Thumbnailer failed calling GetFlavors
+
+(wrapper-2.0:1007): dbind-WARNING **: 08:04:35.204: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(wrapper-2.0:1009): dbind-WARNING **: 08:04:35.213: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+
+(wrapper-2.0:1008): dbind-WARNING **: 08:04:35.216: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+libclock-Message: 08:04:35.220: could not get proxy for org.freedesktop.login1
+
+(xfce4-panel:982): libclock-WARNING **: 08:04:35.220: could not instantiate a sleep monitor
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+
+(xfsettingsd:1010): dbind-WARNING **: 08:04:35.225: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-notifyd:1011): dbind-WARNING **: 08:04:35.233: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+** (xfdesktop:993): WARNING **: 08:04:35.236: Failed to get system bus: Could not connect: No such file or directory
+W: [pulseaudio] pid.c: Stale PID file, overwriting.
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+N: [pulseaudio] module-xrdp-sink.c: Build library version 16.1.0
+E: [xrdp-sink] module-xrdp-sink.c: sink_process_msg: PA_SINK_MESSAGE_SET_STATE [IDLE]
+E: [xrdp-sink] module-xrdp-sink.c: sink_process_msg: not running
+E: [xrdp-sink] module-xrdp-sink.c: close_send:
+N: [pulseaudio] module-xrdp-source.c: Build library version 16.1.0
+
+(wrapper-2.0:1072): dbind-WARNING **: 08:04:35.328: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+[GFX1-]: glxtest: libpci missing
+
+** (wrapper-2.0:1008): WARNING **: 08:04:35.668: Binding 'XF86AudioLowerVolume' failed!
+
+** (wrapper-2.0:1008): WARNING **: 08:04:35.669: Binding 'XF86AudioRaiseVolume' failed!
+
+** (wrapper-2.0:1008): WARNING **: 08:04:35.669: Binding 'XF86AudioMute' failed!
+
+** (wrapper-2.0:1008): WARNING **: 08:04:35.669: Binding 'XF86AudioMicMute' failed!
+
+(wrapper-2.0:1008): pulseaudio-plugin-WARNING **: 08:04:35.670: Could not have grabbed volume control keys. Is another volume control application (xfce4-volumed) running?
+
+(wrapper-2.0:1009): xfce4-notification-plugin-WARNING **: 08:04:35.670: Failed to look up notification icon
+
+** (wrapper-2.0:1008): WARNING **: 08:04:35.670: Binding 'XF86AudioPlay' failed!
+
+** (wrapper-2.0:1008): WARNING **: 08:04:35.670: Binding 'XF86AudioStop' failed!
+
+** (wrapper-2.0:1008): WARNING **: 08:04:35.671: Binding 'XF86AudioPrev' failed!
+
+** (wrapper-2.0:1008): WARNING **: 08:04:35.671: Binding 'XF86AudioNext' failed!
+
+(wrapper-2.0:1008): pulseaudio-plugin-WARNING **: 08:04:35.671: Could not have grabbed multimedia control keys.
+
+(wrapper-2.0:1009): xfce4-notification-plugin-WARNING **: 08:04:35.688: Failed to look up notification icon
+
+(wrapper-2.0:1009): xfce4-notification-plugin-WARNING **: 08:04:35.692: Failed to look up notification icon
+
+(xfce4-session:873): xfce4-session-WARNING **: 08:04:35.700: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:873): xfce4-session-WARNING **: 08:04:35.704: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:873): xfce4-session-WARNING **: 08:04:35.707: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(wrapper-2.0:1009): xfce4-notification-plugin-WARNING **: 08:04:35.748: Failed to look up notification icon
+remmina-Message: 08:05:22.856: Remmina does not log all output statements. Turn on more verbose output by using "G_MESSAGES_DEBUG=remmina" as an environment variable.
+More info available on the Remmina wiki at:
+https://gitlab.com/Remmina/Remmina/-/wikis/Usage/Remmina-debugging
+
+(process:1457): libsecret-CRITICAL **: 08:05:22.894: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+[glibsecret] unable to get secret service: Unknown error.
+
+(org.remmina.Remmina:1457): dbind-WARNING **: 08:05:22.908: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+Warning: Remmina is running without a secret plugin. Passwords will be saved in a less secure way.
+
+(org.remmina.Remmina:1457): Gtk-WARNING **: 08:05:21.913: gtk_menu_attach_to_widget(): menu already attached to GtkMenuItem
+[08:05:35:680] [1457:000005ff] [WARN][com.freerdp.core.nego] - [nego_enable_aad]: This build does not support AAD security, disabling.
+[08:05:51:681] [1457:000005ff] [ERROR][com.freerdp.core] - [freerdp_tcp_default_connect]: ERRCONNECT_CONNECT_FAILED [0x00020006]
+[08:05:51:681] [1457:000005ff] [ERROR][com.freerdp.core] - [freerdp_tcp_default_connect]: failed to connect to 192.168.3.78
+[08:05:51:681] [1457:000005ff] [ERROR][com.freerdp.core.nego] - [nego_connect]: Failed to connect
+[08:07:19:150] [1457:00000612] [WARN][com.freerdp.core.nego] - [nego_enable_aad]: This build does not support AAD security, disabling.
+[08:07:35:151] [1457:00000612] [ERROR][com.freerdp.core] - [freerdp_tcp_default_connect]: ERRCONNECT_CONNECT_FAILED [0x00020006]
+[08:07:35:152] [1457:00000612] [ERROR][com.freerdp.core] - [freerdp_tcp_default_connect]: failed to connect to 192.168.3.78
+[08:07:35:152] [1457:00000612] [ERROR][com.freerdp.core.nego] - [nego_connect]: Failed to connect
+
+(exo-open:1577): dbind-WARNING **: 08:07:53.914: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-mime-helper:1579): dbind-WARNING **: 08:07:53.936: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-terminal:1580): dbind-WARNING **: 08:07:53.967: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+Xsession: X session started for vpupkin at Tue Dec 16 08:10:29 UTC 2025
+localuser:vpupkin being added to access control list
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting USER=vpupkin
+dbus-update-activation-environment: setting HOME=/home/vpupkin
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_12
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_12
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-Yyhv8W0HCz,guid=98266b39df33a5342dc765bc694113f5
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting LOGNAME=vpupkin
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting DISPLAY=:12.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting PWD=/home/vpupkin
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+/usr/bin/x-session-manager: X server already running on display :12.0
+
+(xfce4-session:98): dbind-WARNING **: 08:10:29.244: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+
+(xfce4-session:98): xfce4-session-WARNING **: 08:10:29.301: No GPG agent found
+
+(xfce4-session:98): xfce4-session-WARNING **: 08:10:29.302: No SSH authentication agent found
+
+(xfwm4:173): dbind-WARNING **: 08:10:29.328: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfwm4:173): xfwm4-WARNING **: 08:10:29.522: Unsupported GL renderer (llvmpipe (LLVM 20.1.2, 256 bits)).
+
+(xfsettingsd:203): dbind-WARNING **: 08:10:29.564: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfsettingsd:203): libupower-glib-WARNING **: 08:10:29.578: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-panel:207): dbind-WARNING **: 08:10:29.669: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(Thunar:212): dbind-WARNING **: 08:10:29.720: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfdesktop:218): dbind-WARNING **: 08:10:29.775: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+** (xfdesktop:218): WARNING **: 08:10:29.936: Thumbnailer failed calling GetFlavors
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+
+(xfsettingsd:222): dbind-WARNING **: 08:10:29.945: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+
+(xfce4-notifyd:223): dbind-WARNING **: 08:10:29.951: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+W: [pulseaudio] pid.c: Stale PID file, overwriting.
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+N: [pulseaudio] module-xrdp-sink.c: Build library version 16.1.0
+E: [xrdp-sink] module-xrdp-sink.c: sink_process_msg: PA_SINK_MESSAGE_SET_STATE [IDLE]
+E: [xrdp-sink] module-xrdp-sink.c: sink_process_msg: not running
+E: [xrdp-sink] module-xrdp-sink.c: close_send:
+N: [pulseaudio] module-xrdp-source.c: Build library version 16.1.0
+
+(wrapper-2.0:242): dbind-WARNING **: 08:10:30.010: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(wrapper-2.0:244): dbind-WARNING **: 08:10:30.012: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(wrapper-2.0:243): dbind-WARNING **: 08:10:30.012: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+libclock-Message: 08:10:30.015: could not get proxy for org.freedesktop.login1
+
+(xfce4-panel:207): libclock-WARNING **: 08:10:30.015: could not instantiate a sleep monitor
+
+** (xfdesktop:218): WARNING **: 08:10:30.024: Failed to get system bus: Could not connect: No such file or directory
+
+(wrapper-2.0:255): dbind-WARNING **: 08:10:30.101: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+** (wrapper-2.0:243): WARNING **: 08:10:30.407: Binding 'XF86AudioLowerVolume' failed!
+
+** (wrapper-2.0:243): WARNING **: 08:10:30.407: Binding 'XF86AudioRaiseVolume' failed!
+
+** (wrapper-2.0:243): WARNING **: 08:10:30.407: Binding 'XF86AudioMute' failed!
+
+** (wrapper-2.0:243): WARNING **: 08:10:30.408: Binding 'XF86AudioMicMute' failed!
+
+(wrapper-2.0:243): pulseaudio-plugin-WARNING **: 08:10:30.408: Could not have grabbed volume control keys. Is another volume co
+(wrapper-2.0:244): xfce4-notification-plugin-WARNING **: 08:10:30.408: Failed to look up notification icon
+ntrol application (xfce4-volumed) running?
+
+** (wrapper-2.0:243): WARNING **: 08:10:30.408: Binding 'XF86AudioPlay' failed!
+
+** (wrapper-2.0:243): WARNING **: 08:10:30.408: Binding 'XF86AudioStop' failed!
+
+** (wrapper-2.0:243): WARNING **: 08:10:30.409: Binding 'XF86AudioPrev' failed!
+
+** (wrapper-2.0:243): WARNING **: 08:10:30.409: Binding 'XF86AudioNext' failed!
+
+(wrapper-2.0:243): pulseaudio-plugin-WARNING **: 08:10:30.409: Could not have grabbed multimedia control keys.
+
+(wrapper-2.0:244): xfce4-notification-plugin-WARNING **: 08:10:30.425: Failed to look up notification icon
+
+(wrapper-2.0:244): xfce4-notification-plugin-WARNING **: 08:10:30.426: Failed to look up notification icon
+
+(xfce4-session:98): xfce4-session-WARNING **: 08:10:30.430: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:98): xfce4-session-WARNING **: 08:10:30.433: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:98): xfce4-session-WARNING **: 08:10:30.437: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(wrapper-2.0:244): xfce4-notification-plugin-WARNING **: 08:10:30.454: Failed to look up notification icon
+
+(exo-open:269): dbind-WARNING **: 08:10:32.676: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-mime-helper:271): dbind-WARNING **: 08:10:32.699: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-terminal:272): dbind-WARNING **: 08:10:32.728: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(exo-open:283): dbind-WARNING **: 08:10:51.448: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-mime-helper:285): dbind-WARNING **: 08:10:51.481: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+[286] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
+[GFX1-]: glxtest: libpci missing
+remmina-Message: 08:11:17.999: Remmina does not log all output statements. Turn on more verbose output by using "G_MESSAGES_DEBUG=remmina" as an environment variable.
+More info available on the Remmina wiki at:
+https://gitlab.com/Remmina/Remmina/-/wikis/Usage/Remmina-debugging
+
+(process:667): libsecret-CRITICAL **: 08:11:18.051: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+[glibsecret] unable to get secret service: Unknown error.
+
+(org.remmina.Remmina:667): dbind-WARNING **: 08:11:18.069: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+Warning: Remmina is running without a secret plugin. Passwords will be saved in a less secure way.
+
+(org.remmina.Remmina:667): Gtk-WARNING **: 08:11:18.325: gtk_menu_attach_to_widget(): menu already attached to GtkMenuItem
+[08:11:44:871] [667:000002e9] [WARN][com.freerdp.core.nego] - [nego_enable_aad]: This build does not support AAD security, disabling.
+[08:11:56:326] [667:000002e9] [WARN][com.freerdp.core.connection] - [rdp_client_connect_auto_detect]: messageChannelId == 0
+[08:11:56:328] [667:000002e9] [ERROR][com.freerdp.core.license] - [license_read_binary_blob_data]: license binary blob::type expected BB_UNKNOWN, got BB_ERROR_BLOB
+[08:11:56:328] [667:000002e9] [WARN][com.freerdp.core.license] - [license_read_binary_blob_data]: license binary blob::type BB_ERROR_BLOB, length=0, skipping.
+[08:11:56:448] [667:000002fd] [WARN][com.freerdp.channels.drdynvc.client] - [check_open_close_receive]: {Microsoft::Windows::RDS::DisplayControl:1} OnOpen=(nil), OnClose=0x73fdb608dc00
+[08:15:16:219] [667:000002e9] [ERROR][com.freerdp.core] - [rdp_set_error_info]: ERRINFO_LOGOFF_BY_USER [0x0001000C]
+[08:15:16:230] [667:000002fd] [WARN][com.freerdp.channels.drdynvc.client] - [check_open_close_receive]: {Microsoft::Windows::RDS::DisplayControl:1} OnOpen=(nil), OnClose=0x73fdb608dc00
+
+(org.remmina.Remmina:667): Gtk-WARNING **: 08:15:22.298: gtk_menu_detach(): menu is not attached
+
+(xfce4-session:98): xfce4-session-WARNING **: 08:15:28.549: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:98): xfce4-session-WARNING **: 08:15:28.552: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:98): xfce4-session-WARNING **: 08:15:28.554: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:98): xfce4-session-WARNING **: 08:15:29.879: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:98): xfce4-session-WARNING **: 08:15:29.882: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:98): xfce4-session-WARNING **: 08:15:29.885: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:98): Gtk-WARNING **: 08:15:29.909: Could not load a pixbuf from /org/gtk/libgtk/theme/Adwaita/assets/check-symbolic.svg.
+This may indicate that pixbuf loaders or the mime database could not be found.
+Another notification daemon is running, exiting
+Another notification daemon is running, exiting
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [xrdp-sink] module-xrdp-sink.c: sink_process_msg: PA_SINK_MESSAGE_SET_STATE [UNLINKED]
+E: [xrdp-sink] module-xrdp-sink.c: sink_process_msg: not running
+E: [xrdp-sink] module-xrdp-sink.c: close_send:
+W: [pulseaudio] module.c: After module unload, module 'module-null-sink' was still loaded!
+Xsession: X session started for vpupkin at Tue Dec 16 09:11:52 UTC 2025
+localuser:vpupkin being added to access control list
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting USER=vpupkin
+dbus-update-activation-environment: setting HOME=/home/vpupkin
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_12
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_12
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-aOBWg6hvud,guid=ab0b66ccee727819b45cc10569412258
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting LOGNAME=vpupkin
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting DISPLAY=:12.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting PWD=/home/vpupkin
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+/usr/bin/x-session-manager: X server already running on display :12.0
+
+(xfce4-session:825): dbind-WARNING **: 09:11:52.286: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+
+(xfce4-session:825): xfce4-session-WARNING **: 09:11:52.351: No GPG agent found
+
+(xfce4-session:825): xfce4-session-WARNING **: 09:11:52.352: No SSH authentication agent found
+
+(xfwm4:900): dbind-WARNING **: 09:11:52.383: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfwm4:900): xfwm4-WARNING **: 09:11:52.578: Unsupported GL renderer (llvmpipe (LLVM 20.1.2, 256 bits)).
+
+(xfsettingsd:930): dbind-WARNING **: 09:11:52.618: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfsettingsd:930): libupower-glib-WARNING **: 09:11:52.632: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-panel:934): dbind-WARNING **: 09:11:52.724: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(Thunar:939): dbind-WARNING **: 09:11:52.774: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfdesktop:945): dbind-WARNING **: 09:11:52.828: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+** (xfdesktop:945): WARNING **: 09:11:52.971: Thumbnailer failed calling GetFlavors
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+
+(xfsettingsd:949): dbind-WARNING **: 09:11:52.982: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+Connection failure: Connection refused
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+pa_context_connect() failed: Connection refused
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [pulseaudio] core-util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+
+(xfce4-notifyd:950): dbind-WARNING **: 09:11:52.994: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+N: [pulseaudio] module-xrdp-sink.c: Build library version 16.1.0
+E: [xrdp-sink] module-xrdp-sink.c: sink_process_msg: PA_SINK_MESSAGE_SET_STATE [IDLE]
+E: [xrdp-sink] module-xrdp-sink.c: sink_process_msg: not running
+E: [xrdp-sink] module-xrdp-sink.c: close_send:
+N: [pulseaudio] module-xrdp-source.c: Build library version 16.1.0
+
+(wrapper-2.0:969): dbind-WARNING **: 09:11:53.047: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(wrapper-2.0:971): dbind-WARNING **: 09:11:53.051: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(wrapper-2.0:970): dbind-WARNING **: 09:11:53.053: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+libclock-Message: 09:11:53.058: could not get proxy for org.freedesktop.login1
+
+(xfce4-panel:934): libclock-WARNING **: 09:11:53.058: could not instantiate a sleep monitor
+
+** (xfdesktop:945): WARNING **: 09:11:53.059: Failed to get system bus: Could not connect: No such file or directory
+
+(wrapper-2.0:982): dbind-WARNING **: 09:11:53.144: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+** (wrapper-2.0:970): WARNING **: 09:11:53.468: Binding 'XF86AudioLowerVolume' failed!
+
+** (wrapper-2.0:970): WARNING **: 09:11:53.468: Binding 'XF86AudioRaiseVolume' failed!
+
+** (wrapper-2.0:970): WARNING **: 09:11:53.468: Binding 'XF86AudioMute' failed!
+
+(wrapper-2.0:971): xfce4-notification-plugin-WARNING **: 09:11:53.469: Failed to look up notification icon
+
+** (wrapper-2.0:970): WARNING **: 09:11:53.469: Binding 'XF86AudioMicMute' failed!
+
+(wrapper-2.0:970): pulseaudio-plugin-WARNING **: 09:11:53.469: Could not have grabbed volume control keys. Is another volume control application (xfce4-volumed) running?
+
+** (wrapper-2.0:970): WARNING **: 09:11:53.469: Binding 'XF86AudioPlay' failed!
+
+** (wrapper-2.0:970): WARNING **: 09:11:53.470: Binding 'XF86AudioStop' failed!
+
+** (wrapper-2.0:970): WARNING **: 09:11:53.470: Binding 'XF86AudioPrev' failed!
+
+** (wrapper-2.0:970): WARNING **: 09:11:53.470: Binding 'XF86AudioNext' failed!
+
+(wrapper-2.0:970): pulseaudio-plugin-WARNING **: 09:11:53.470: Could not have grabbed multimedia control keys.
+
+(wrapper-2.0:971): xfce4-notification-plugin-WARNING **: 09:11:53.486: Failed to look up notification icon
+
+(wrapper-2.0:971): xfce4-notification-plugin-WARNING **: 09:11:53.487: Failed to look up notification icon
+
+(xfce4-session:825): xfce4-session-WARNING **: 09:11:53.488: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:825): xfce4-session-WARNING **: 09:11:53.492: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:825): xfce4-session-WARNING **: 09:11:53.495: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(wrapper-2.0:971): xfce4-notification-plugin-WARNING **: 09:11:53.515: Failed to look up notification icon
+
+(xfce4-panel:934): xfce4-panel-CRITICAL **: 09:11:55.722: panel-window.c:2346 (panel_window_active_window_geometry_changed): expression 'WNCK_IS_WINDOW (active_window)' failed.
+remmina-Message: 09:12:11.145: Remmina does not log all output statements. Turn on more verbose output by using "G_MESSAGES_DEBUG=remmina" as an environment variable.
+More info available on the Remmina wiki at:
+https://gitlab.com/Remmina/Remmina/-/wikis/Usage/Remmina-debugging
+
+(process:999): libsecret-CRITICAL **: 09:12:11.193: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+[glibsecret] unable to get secret service: Unknown error.
+
+(org.remmina.Remmina:999): dbind-WARNING **: 09:12:11.204: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+Warning: Remmina is running without a secret plugin. Passwords will be saved in a less secure way.
+
+(org.remmina.Remmina:999): Gtk-WARNING **: 09:12:11.403: gtk_menu_attach_to_widget(): menu already attached to GtkMenuItem
+
+(org.remmina.Remmina:999): Gtk-WARNING **: 09:12:19.863: Could not load a pixbuf from /org/gtk/libgtk/theme/Adwaita/assets/bullet-symbolic.svg.
+This may indicate that pixbuf loaders or the mime database could not be found.
+[09:12:54:36] [999:00000479] [WARN][com.freerdp.core.nego] - [nego_enable_aad]: This build does not support AAD security, disabling.
+[09:12:54:110] [999:00000479] [WARN][com.freerdp.core.connection] - [rdp_client_connect_auto_detect]: messageChannelId == 0
+[09:12:54:112] [999:00000479] [ERROR][com.freerdp.core.license] - [license_read_binary_blob_data]: license binary blob::type expected BB_UNKNOWN, got BB_ERROR_BLOB
+[09:12:54:113] [999:00000479] [WARN][com.freerdp.core.license] - [license_read_binary_blob_data]: license binary blob::type BB_ERROR_BLOB, length=0, skipping.
+[09:12:54:240] [999:0000048a] [WARN][com.freerdp.channels.drdynvc.client] - [check_open_close_receive]: {Microsoft::Windows::RDS::DisplayControl:1} OnOpen=(nil), OnClose=0x7aa2bf5cac00
+[09:15:14:534] [999:00000479] [ERROR][com.freerdp.core] - [rdp_set_error_info]: ERRINFO_LOGOFF_BY_USER [0x0001000C]
+[09:15:14:541] [999:0000048a] [WARN][com.freerdp.channels.drdynvc.client] - [check_open_close_receive]: {Microsoft::Windows::RDS::DisplayControl:1} OnOpen=(nil), OnClose=0x7aa2bf5cac00
+
+(org.remmina.Remmina:999): Gtk-WARNING **: 09:15:17.069: gtk_menu_detach(): menu is not attached
+
+(xfce4-session:825): xfce4-session-WARNING **: 09:15:18.168: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:825): xfce4-session-WARNING **: 09:15:18.171: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:825): xfce4-session-WARNING **: 09:15:18.173: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:825): xfce4-session-WARNING **: 09:15:19.450: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:825): xfce4-session-WARNING **: 09:15:19.453: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:825): xfce4-session-WARNING **: 09:15:19.456: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:825): Gtk-WARNING **: 09:15:19.480: Could not load a pixbuf from /org/gtk/libgtk/theme/Adwaita/assets/check-symbolic.svg.
+This may indicate that pixbuf loaders or the mime database could not be found.
+Another notification daemon is running, exiting
+Another notification daemon is running, exiting
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [null-sink] util.c: Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+E: [xrdp-sink] module-xrdp-sink.c: sink_process_msg: PA_SINK_MESSAGE_SET_STATE [UNLINKED]
+E: [xrdp-sink] module-xrdp-sink.c: sink_process_msg: not running
+E: [xrdp-sink] module-xrdp-sink.c: close_send:
+W: [pulseaudio] module.c: After module unload, module 'module-null-sink' was still loaded!

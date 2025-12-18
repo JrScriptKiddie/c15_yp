@@ -1,0 +1,17 @@
+{
+  "links": {
+    "users": "Gebruikers"
+  },
+  "labels": {
+    "Access": "Toegang",
+    "Create PortalRole": "Creëer Portaalrol",
+    "Scope Level": "Toepassingsniveau",
+    "Field Level": "Veldniveau"
+  },
+  "fields": {
+    "exportPermission": "Exporteer rechten",
+    "massUpdatePermission": "Rechten voor massale update",
+    "data": "Gegevens",
+    "fieldData": "Veldgegevens"
+  }
+}

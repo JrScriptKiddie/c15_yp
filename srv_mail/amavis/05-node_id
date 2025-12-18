@@ -1,0 +1,7 @@
+use strict;
+
+# Force FQDN for amavisd node identification
+$myhostname = "mail.layer8.ag";
+
+1;  # ensure a defined return
+

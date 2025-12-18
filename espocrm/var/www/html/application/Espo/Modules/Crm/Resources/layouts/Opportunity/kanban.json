@@ -1,0 +1,7 @@
+[
+    {"name":"name", "link": true},
+    {"name":"amount", "align": "right", "isLarge": true},
+    {"name":"account"},
+    {"name":"closeDate", "align": "right", "isMuted": true},
+    {"name":"assignedUser", "hidden": true}
+]

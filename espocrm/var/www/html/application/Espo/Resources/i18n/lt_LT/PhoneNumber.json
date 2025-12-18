@@ -1,0 +1,11 @@
+{
+  "fields": {
+    "type": "Tipas",
+    "optOut": "Atsisakyta",
+    "invalid": "Negaliojantis",
+    "numeric": "Skaitmeninė reikšmė"
+  },
+  "presetFilters": {
+    "orphan": "Našlaitis"
+  }
+}

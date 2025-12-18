@@ -1,0 +1,45 @@
+{
+  "fields": {
+    "name": "Название",
+    "body": "Тело",
+    "entityType": "Тип объекта",
+    "header": "Шапка",
+    "footer": "Подвал",
+    "leftMargin": "Левый отступ",
+    "topMargin": "Верхний отступ",
+    "rightMargin": "Правый отступ",
+    "bottomMargin": "Нижний отступ",
+    "printFooter": "Отображать колонтитул?",
+    "footerPosition": "Положение колонтитула",
+    "variables": "Доступные заполнители",
+    "pageOrientation": "Ориентация страницы",
+    "pageFormat": "Формат бумаги",
+    "fontFace": "Шрифт",
+    "pageWidth": "Ширина страницы (мм)",
+    "pageHeight": "Высота страницы (мм)",
+    "headerPosition": "Положение заголовка",
+    "printHeader": "Печатный заголовок",
+    "title": "Название"
+  },
+  "labels": {
+    "Create Template": "Создать шаблон"
+  },
+  "tooltips": {
+    "footer": "Используйте {pageNumber} для отображения номера страницы.",
+    "variables": "Копировать-вставить нужный заполнитель для заголовка, тела или нижнего колонтитула."
+  },
+  "options": {
+    "pageOrientation": {
+      "Portrait": "Книжная",
+      "Landscape": "Альбомная"
+    },
+    "placeholders": {
+      "today": "Сегодня (дата)",
+      "now": "Теперь (дата-время)",
+      "pagebreak": "Разрыв страницы"
+    },
+    "pageFormat": {
+      "Custom": "Пользовательский"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "fields": {
+    "post": "Разместить",
+    "attachments": "Вложения",
+    "targetType": "Цель",
+    "teams": "Группы",
+    "users": "Пользователи",
+    "portals": "Порталы",
+    "type": "Тип",
+    "isGlobal": "Глобальный",
+    "isInternal": "Внутренний (для внутренних пользователей)",
+    "related": "Связанный",
+    "createdByGender": "Создано по полу",
+    "data": "Данные",
+    "number": "Номер"
+  },
+  "filters": {
+    "all": "Все",
+    "posts": "Сообщения",
+    "updates": "Обновления"
+  },
+  "messages": {
+    "writeMessage": "Напишите Ваше сообщение здесь"
+  },
+  "options": {
+    "type": {
+      "Post": "Разместить"
+    }
+  },
+  "links": {
+    "related": "Связанный"
+  }
+}

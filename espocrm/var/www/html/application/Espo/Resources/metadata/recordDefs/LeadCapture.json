@@ -1,0 +1,17 @@
+{
+    "massActions": {
+        "delete": {
+            "allowed": true
+        },
+        "update": {
+            "allowed": true
+        }
+    },
+    "readLoaderClassNameList": [
+        "Espo\\Classes\\FieldProcessing\\LeadCapture\\ExampleLoader"
+    ],
+    "beforeCreateHookClassNameList": [
+        "Espo\\Classes\\RecordHooks\\LeadCapture\\BeforeCreate"
+    ],
+    "loadAdditionalFieldsAfterUpdate": true
+}

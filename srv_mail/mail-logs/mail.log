@@ -1,0 +1,627 @@
+2025-09-09T11:40:21.540034+00:00 mail dovecot: master: Dovecot v2.3.19.1 (9b53102964) starting up for imap, lmtp, pop3 (core dumps disabled)
+2025-09-09T11:40:22.093653+00:00 mail opendkim[865]: OpenDKIM Filter v2.11.0 starting (args: -f)
+2025-09-09T11:40:22.240502+00:00 mail opendmarc[880]: OpenDMARC Filter v1.4.2 starting (args: -f -p inet:8893@localhost -P /var/run/opendmarc/opendmarc.pid)
+2025-09-09T11:40:22.240532+00:00 mail opendmarc[880]: additional trusted authentication services: mail.layer8.ag
+2025-09-09T11:40:22.660120+00:00 mail postfix/postfix-script[957]: warning: not owned by root: /var/spool/postfix/.
+2025-09-09T11:40:22.663851+00:00 mail postfix/postfix-script[958]: warning: not owned by root: /var/spool/postfix/pid
+2025-09-09T11:40:22.668830+00:00 mail postfix/postfix-script[960]: warning: group or other writable: /var/spool/postfix/.
+2025-09-09T11:40:22.673337+00:00 mail postfix/postfix-script[961]: warning: group or other writable: /var/spool/postfix/pid
+2025-09-09T11:40:22.686167+00:00 mail postfix/postfix-script[971]: warning: not owned by postfix: /var/lib/postfix/.
+2025-09-09T11:40:22.692806+00:00 mail postfix/postfix-script[973]: warning: group or other writable: /var/lib/postfix/.
+2025-09-09T11:40:22.711154+00:00 mail postfix/postfix-script[978]: warning: not owned by postfix: /var/spool/postfix/active
+2025-09-09T11:40:22.716435+00:00 mail postfix/postfix-script[979]: warning: not owned by postfix: /var/spool/postfix/bounce
+2025-09-09T11:40:22.721355+00:00 mail postfix/postfix-script[980]: warning: not owned by postfix: /var/spool/postfix/corrupt
+2025-09-09T11:40:22.727719+00:00 mail postfix/postfix-script[982]: warning: not owned by postfix: /var/spool/postfix/defer
+2025-09-09T11:40:22.733916+00:00 mail postfix/postfix-script[983]: warning: not owned by postfix: /var/spool/postfix/deferred
+2025-09-09T11:40:22.741413+00:00 mail postfix/postfix-script[984]: warning: not owned by postfix: /var/spool/postfix/flush
+2025-09-09T11:40:22.748005+00:00 mail postfix/postfix-script[985]: warning: not owned by postfix: /var/spool/postfix/hold
+2025-09-09T11:40:22.754352+00:00 mail postfix/postfix-script[986]: warning: not owned by postfix: /var/spool/postfix/incoming
+2025-09-09T11:40:22.759621+00:00 mail postfix/postfix-script[990]: warning: not owned by postfix: /var/spool/postfix/private
+2025-09-09T11:40:22.766531+00:00 mail postfix/postfix-script[991]: warning: not owned by postfix: /var/spool/postfix/public
+2025-09-09T11:40:22.771870+00:00 mail postfix/postfix-script[992]: warning: not owned by postfix: /var/spool/postfix/saved
+2025-09-09T11:40:22.776915+00:00 mail postfix/postfix-script[993]: warning: not owned by postfix: /var/spool/postfix/trace
+2025-09-09T11:40:22.783488+00:00 mail postfix/postfix-script[995]: warning: not owned by postfix: /var/spool/postfix/maildrop
+2025-09-09T11:40:22.788568+00:00 mail postfix/postfix-script[997]: warning: not owned by group postdrop: /var/spool/postfix/public
+2025-09-09T11:40:22.792804+00:00 mail postfix/postfix-script[998]: warning: not owned by group postdrop: /var/spool/postfix/maildrop
+2025-09-09T11:40:22.803230+00:00 mail postfix/postfix-script[1002]: starting the Postfix mail system
+2025-09-09T11:40:22.811682+00:00 mail postfix/master[1003]: fatal: bind: private/smtpd: Operation not supported
+2025-09-09T11:40:23.254815+00:00 mail amavis[981]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:23.254867+00:00 mail amavis[981]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:23.269964+00:00 mail amavis[981]: (!)Net::Server: 2025/09/09-11:40:23 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:24.770563+00:00 mail amavis[1053]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:24.770607+00:00 mail amavis[1053]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:24.784656+00:00 mail amavis[1053]: (!)Net::Server: 2025/09/09-11:40:24 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:26.286449+00:00 mail amavis[1071]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:26.286513+00:00 mail amavis[1071]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:26.299756+00:00 mail amavis[1071]: (!)Net::Server: 2025/09/09-11:40:26 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:27.816231+00:00 mail amavis[1089]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:27.816276+00:00 mail amavis[1089]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:27.831892+00:00 mail amavis[1089]: (!)Net::Server: 2025/09/09-11:40:27 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:28.043713+00:00 mail postfix/postfix-script[1151]: warning: not owned by root: /var/spool/postfix/.
+2025-09-09T11:40:28.047341+00:00 mail postfix/postfix-script[1152]: warning: not owned by root: /var/spool/postfix/pid
+2025-09-09T11:40:28.055347+00:00 mail postfix/postfix-script[1155]: warning: group or other writable: /var/spool/postfix/.
+2025-09-09T11:40:28.059670+00:00 mail postfix/postfix-script[1156]: warning: group or other writable: /var/spool/postfix/pid
+2025-09-09T11:40:28.073938+00:00 mail postfix/postfix-script[1166]: warning: not owned by postfix: /var/lib/postfix/.
+2025-09-09T11:40:28.079068+00:00 mail postfix/postfix-script[1167]: warning: not owned by postfix: /var/lib/postfix/./master.lock
+2025-09-09T11:40:28.084274+00:00 mail postfix/postfix-script[1169]: warning: group or other writable: /var/lib/postfix/.
+2025-09-09T11:40:28.089157+00:00 mail postfix/postfix-script[1170]: warning: group or other writable: /var/lib/postfix/./master.lock
+2025-09-09T11:40:28.106301+00:00 mail postfix/postfix-script[1175]: warning: not owned by postfix: /var/spool/postfix/active
+2025-09-09T11:40:28.111529+00:00 mail postfix/postfix-script[1176]: warning: not owned by postfix: /var/spool/postfix/bounce
+2025-09-09T11:40:28.116567+00:00 mail postfix/postfix-script[1177]: warning: not owned by postfix: /var/spool/postfix/corrupt
+2025-09-09T11:40:28.121461+00:00 mail postfix/postfix-script[1178]: warning: not owned by postfix: /var/spool/postfix/defer
+2025-09-09T11:40:28.127984+00:00 mail postfix/postfix-script[1179]: warning: not owned by postfix: /var/spool/postfix/deferred
+2025-09-09T11:40:28.133297+00:00 mail postfix/postfix-script[1180]: warning: not owned by postfix: /var/spool/postfix/flush
+2025-09-09T11:40:28.138431+00:00 mail postfix/postfix-script[1181]: warning: not owned by postfix: /var/spool/postfix/hold
+2025-09-09T11:40:28.143602+00:00 mail postfix/postfix-script[1182]: warning: not owned by postfix: /var/spool/postfix/incoming
+2025-09-09T11:40:28.148537+00:00 mail postfix/postfix-script[1183]: warning: not owned by postfix: /var/spool/postfix/private
+2025-09-09T11:40:28.154727+00:00 mail postfix/postfix-script[1184]: warning: not owned by postfix: /var/spool/postfix/public
+2025-09-09T11:40:28.160876+00:00 mail postfix/postfix-script[1185]: warning: not owned by postfix: /var/spool/postfix/saved
+2025-09-09T11:40:28.165955+00:00 mail postfix/postfix-script[1186]: warning: not owned by postfix: /var/spool/postfix/trace
+2025-09-09T11:40:28.172730+00:00 mail postfix/postfix-script[1188]: warning: not owned by postfix: /var/spool/postfix/maildrop
+2025-09-09T11:40:28.178037+00:00 mail postfix/postfix-script[1190]: warning: not owned by group postdrop: /var/spool/postfix/public
+2025-09-09T11:40:28.182712+00:00 mail postfix/postfix-script[1191]: warning: not owned by group postdrop: /var/spool/postfix/maildrop
+2025-09-09T11:40:28.193873+00:00 mail postfix/postfix-script[1195]: starting the Postfix mail system
+2025-09-09T11:40:28.200979+00:00 mail postfix/master[1196]: fatal: bind: private/smtpd: Operation not supported
+2025-09-09T11:40:28.558983+00:00 mail amavis[1153]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:28.559030+00:00 mail amavis[1153]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:28.572929+00:00 mail amavis[1153]: (!)Net::Server: 2025/09/09-11:40:28 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:30.100305+00:00 mail amavis[1214]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:30.100352+00:00 mail amavis[1214]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:30.115279+00:00 mail amavis[1214]: (!)Net::Server: 2025/09/09-11:40:30 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:31.631373+00:00 mail amavis[1232]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:31.631417+00:00 mail amavis[1232]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:31.643650+00:00 mail amavis[1232]: (!)Net::Server: 2025/09/09-11:40:31 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:33.159721+00:00 mail amavis[1246]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:33.159771+00:00 mail amavis[1246]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:33.174878+00:00 mail amavis[1246]: (!)Net::Server: 2025/09/09-11:40:33 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:33.392155+00:00 mail postfix/postfix-script[1312]: warning: not owned by root: /var/spool/postfix/.
+2025-09-09T11:40:33.396757+00:00 mail postfix/postfix-script[1313]: warning: not owned by root: /var/spool/postfix/pid
+2025-09-09T11:40:33.402465+00:00 mail postfix/postfix-script[1316]: warning: group or other writable: /var/spool/postfix/.
+2025-09-09T11:40:33.406506+00:00 mail postfix/postfix-script[1317]: warning: group or other writable: /var/spool/postfix/pid
+2025-09-09T11:40:33.419255+00:00 mail postfix/postfix-script[1327]: warning: not owned by postfix: /var/lib/postfix/.
+2025-09-09T11:40:33.424472+00:00 mail postfix/postfix-script[1328]: warning: not owned by postfix: /var/lib/postfix/./master.lock
+2025-09-09T11:40:33.430631+00:00 mail postfix/postfix-script[1330]: warning: group or other writable: /var/lib/postfix/.
+2025-09-09T11:40:33.436480+00:00 mail postfix/postfix-script[1331]: warning: group or other writable: /var/lib/postfix/./master.lock
+2025-09-09T11:40:33.450472+00:00 mail postfix/postfix-script[1336]: warning: not owned by postfix: /var/spool/postfix/active
+2025-09-09T11:40:33.456347+00:00 mail postfix/postfix-script[1337]: warning: not owned by postfix: /var/spool/postfix/bounce
+2025-09-09T11:40:33.461959+00:00 mail postfix/postfix-script[1338]: warning: not owned by postfix: /var/spool/postfix/corrupt
+2025-09-09T11:40:33.466801+00:00 mail postfix/postfix-script[1339]: warning: not owned by postfix: /var/spool/postfix/defer
+2025-09-09T11:40:33.472597+00:00 mail postfix/postfix-script[1340]: warning: not owned by postfix: /var/spool/postfix/deferred
+2025-09-09T11:40:33.478125+00:00 mail postfix/postfix-script[1341]: warning: not owned by postfix: /var/spool/postfix/flush
+2025-09-09T11:40:33.483250+00:00 mail postfix/postfix-script[1342]: warning: not owned by postfix: /var/spool/postfix/hold
+2025-09-09T11:40:33.489121+00:00 mail postfix/postfix-script[1343]: warning: not owned by postfix: /var/spool/postfix/incoming
+2025-09-09T11:40:33.495060+00:00 mail postfix/postfix-script[1344]: warning: not owned by postfix: /var/spool/postfix/private
+2025-09-09T11:40:33.500405+00:00 mail postfix/postfix-script[1345]: warning: not owned by postfix: /var/spool/postfix/public
+2025-09-09T11:40:33.505629+00:00 mail postfix/postfix-script[1346]: warning: not owned by postfix: /var/spool/postfix/saved
+2025-09-09T11:40:33.510516+00:00 mail postfix/postfix-script[1347]: warning: not owned by postfix: /var/spool/postfix/trace
+2025-09-09T11:40:33.517653+00:00 mail postfix/postfix-script[1349]: warning: not owned by postfix: /var/spool/postfix/maildrop
+2025-09-09T11:40:33.523441+00:00 mail postfix/postfix-script[1351]: warning: not owned by group postdrop: /var/spool/postfix/public
+2025-09-09T11:40:33.527010+00:00 mail postfix/postfix-script[1352]: warning: not owned by group postdrop: /var/spool/postfix/maildrop
+2025-09-09T11:40:33.536132+00:00 mail postfix/postfix-script[1356]: starting the Postfix mail system
+2025-09-09T11:40:33.542976+00:00 mail postfix/master[1357]: fatal: bind: private/smtpd: Operation not supported
+2025-09-09T11:40:33.869735+00:00 mail amavis[1314]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:33.869783+00:00 mail amavis[1314]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:33.883599+00:00 mail amavis[1314]: (!)Net::Server: 2025/09/09-11:40:33 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:34.383065+00:00 mail amavis[1371]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:34.383110+00:00 mail amavis[1371]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:34.397900+00:00 mail amavis[1371]: (!)Net::Server: 2025/09/09-11:40:34 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:36.966621+00:00 mail amavis[1393]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:36.966669+00:00 mail amavis[1393]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:36.980155+00:00 mail amavis[1393]: (!)Net::Server: 2025/09/09-11:40:36 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:38.546391+00:00 mail amavis[1407]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:38.546439+00:00 mail amavis[1407]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:38.560648+00:00 mail amavis[1407]: (!)Net::Server: 2025/09/09-11:40:38 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:39.815037+00:00 mail amavis[1425]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:39.815092+00:00 mail amavis[1425]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:39.829203+00:00 mail amavis[1425]: (!)Net::Server: 2025/09/09-11:40:39 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:40.076520+00:00 mail postfix/postfix-script[1487]: warning: not owned by root: /var/spool/postfix/.
+2025-09-09T11:40:40.081365+00:00 mail postfix/postfix-script[1488]: warning: not owned by root: /var/spool/postfix/pid
+2025-09-09T11:40:40.086187+00:00 mail postfix/postfix-script[1491]: warning: group or other writable: /var/spool/postfix/.
+2025-09-09T11:40:40.089791+00:00 mail postfix/postfix-script[1492]: warning: group or other writable: /var/spool/postfix/pid
+2025-09-09T11:40:40.100694+00:00 mail postfix/postfix-script[1502]: warning: not owned by postfix: /var/lib/postfix/.
+2025-09-09T11:40:40.106030+00:00 mail postfix/postfix-script[1503]: warning: not owned by postfix: /var/lib/postfix/./master.lock
+2025-09-09T11:40:40.111784+00:00 mail postfix/postfix-script[1505]: warning: group or other writable: /var/lib/postfix/.
+2025-09-09T11:40:40.116307+00:00 mail postfix/postfix-script[1506]: warning: group or other writable: /var/lib/postfix/./master.lock
+2025-09-09T11:40:40.130947+00:00 mail postfix/postfix-script[1511]: warning: not owned by postfix: /var/spool/postfix/active
+2025-09-09T11:40:40.136477+00:00 mail postfix/postfix-script[1512]: warning: not owned by postfix: /var/spool/postfix/bounce
+2025-09-09T11:40:40.142177+00:00 mail postfix/postfix-script[1513]: warning: not owned by postfix: /var/spool/postfix/corrupt
+2025-09-09T11:40:40.147333+00:00 mail postfix/postfix-script[1514]: warning: not owned by postfix: /var/spool/postfix/defer
+2025-09-09T11:40:40.152350+00:00 mail postfix/postfix-script[1515]: warning: not owned by postfix: /var/spool/postfix/deferred
+2025-09-09T11:40:40.157295+00:00 mail postfix/postfix-script[1516]: warning: not owned by postfix: /var/spool/postfix/flush
+2025-09-09T11:40:40.162579+00:00 mail postfix/postfix-script[1517]: warning: not owned by postfix: /var/spool/postfix/hold
+2025-09-09T11:40:40.168373+00:00 mail postfix/postfix-script[1518]: warning: not owned by postfix: /var/spool/postfix/incoming
+2025-09-09T11:40:40.173821+00:00 mail postfix/postfix-script[1519]: warning: not owned by postfix: /var/spool/postfix/private
+2025-09-09T11:40:40.178932+00:00 mail postfix/postfix-script[1520]: warning: not owned by postfix: /var/spool/postfix/public
+2025-09-09T11:40:40.183747+00:00 mail postfix/postfix-script[1521]: warning: not owned by postfix: /var/spool/postfix/saved
+2025-09-09T11:40:40.188701+00:00 mail postfix/postfix-script[1522]: warning: not owned by postfix: /var/spool/postfix/trace
+2025-09-09T11:40:40.195977+00:00 mail postfix/postfix-script[1524]: warning: not owned by postfix: /var/spool/postfix/maildrop
+2025-09-09T11:40:40.201814+00:00 mail postfix/postfix-script[1526]: warning: not owned by group postdrop: /var/spool/postfix/public
+2025-09-09T11:40:40.205497+00:00 mail postfix/postfix-script[1527]: warning: not owned by group postdrop: /var/spool/postfix/maildrop
+2025-09-09T11:40:40.214309+00:00 mail postfix/postfix-script[1531]: starting the Postfix mail system
+2025-09-09T11:40:40.220941+00:00 mail postfix/master[1532]: fatal: bind: private/smtpd: Operation not supported
+2025-09-09T11:40:40.540412+00:00 mail amavis[1489]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:40.540456+00:00 mail amavis[1489]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:40.552831+00:00 mail amavis[1489]: (!)Net::Server: 2025/09/09-11:40:40 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:42.100238+00:00 mail amavis[1550]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:42.100284+00:00 mail amavis[1550]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:42.113093+00:00 mail amavis[1550]: (!)Net::Server: 2025/09/09-11:40:42 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:43.601529+00:00 mail amavis[1568]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:43.601586+00:00 mail amavis[1568]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:43.615055+00:00 mail amavis[1568]: (!)Net::Server: 2025/09/09-11:40:43 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:45.093489+00:00 mail amavis[1586]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:45.093533+00:00 mail amavis[1586]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:45.106285+00:00 mail amavis[1586]: (!)Net::Server: 2025/09/09-11:40:45 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:45.383132+00:00 mail postfix/postfix-script[1648]: warning: not owned by root: /var/spool/postfix/.
+2025-09-09T11:40:45.390177+00:00 mail postfix/postfix-script[1649]: warning: not owned by root: /var/spool/postfix/pid
+2025-09-09T11:40:45.395091+00:00 mail postfix/postfix-script[1652]: warning: group or other writable: /var/spool/postfix/.
+2025-09-09T11:40:45.400542+00:00 mail postfix/postfix-script[1653]: warning: group or other writable: /var/spool/postfix/pid
+2025-09-09T11:40:45.415977+00:00 mail postfix/postfix-script[1663]: warning: not owned by postfix: /var/lib/postfix/.
+2025-09-09T11:40:45.422321+00:00 mail postfix/postfix-script[1664]: warning: not owned by postfix: /var/lib/postfix/./master.lock
+2025-09-09T11:40:45.429457+00:00 mail postfix/postfix-script[1666]: warning: group or other writable: /var/lib/postfix/.
+2025-09-09T11:40:45.434871+00:00 mail postfix/postfix-script[1667]: warning: group or other writable: /var/lib/postfix/./master.lock
+2025-09-09T11:40:45.452570+00:00 mail postfix/postfix-script[1672]: warning: not owned by postfix: /var/spool/postfix/active
+2025-09-09T11:40:45.458620+00:00 mail postfix/postfix-script[1673]: warning: not owned by postfix: /var/spool/postfix/bounce
+2025-09-09T11:40:45.464027+00:00 mail postfix/postfix-script[1674]: warning: not owned by postfix: /var/spool/postfix/corrupt
+2025-09-09T11:40:45.469534+00:00 mail postfix/postfix-script[1675]: warning: not owned by postfix: /var/spool/postfix/defer
+2025-09-09T11:40:45.475657+00:00 mail postfix/postfix-script[1676]: warning: not owned by postfix: /var/spool/postfix/deferred
+2025-09-09T11:40:45.481290+00:00 mail postfix/postfix-script[1677]: warning: not owned by postfix: /var/spool/postfix/flush
+2025-09-09T11:40:45.486680+00:00 mail postfix/postfix-script[1678]: warning: not owned by postfix: /var/spool/postfix/hold
+2025-09-09T11:40:45.492364+00:00 mail postfix/postfix-script[1679]: warning: not owned by postfix: /var/spool/postfix/incoming
+2025-09-09T11:40:45.498164+00:00 mail postfix/postfix-script[1680]: warning: not owned by postfix: /var/spool/postfix/private
+2025-09-09T11:40:45.504897+00:00 mail postfix/postfix-script[1681]: warning: not owned by postfix: /var/spool/postfix/public
+2025-09-09T11:40:45.510472+00:00 mail postfix/postfix-script[1682]: warning: not owned by postfix: /var/spool/postfix/saved
+2025-09-09T11:40:45.515581+00:00 mail postfix/postfix-script[1683]: warning: not owned by postfix: /var/spool/postfix/trace
+2025-09-09T11:40:45.522503+00:00 mail postfix/postfix-script[1685]: warning: not owned by postfix: /var/spool/postfix/maildrop
+2025-09-09T11:40:45.528296+00:00 mail postfix/postfix-script[1687]: warning: not owned by group postdrop: /var/spool/postfix/public
+2025-09-09T11:40:45.532489+00:00 mail postfix/postfix-script[1688]: warning: not owned by group postdrop: /var/spool/postfix/maildrop
+2025-09-09T11:40:45.543359+00:00 mail postfix/postfix-script[1692]: starting the Postfix mail system
+2025-09-09T11:40:45.550568+00:00 mail postfix/master[1693]: fatal: bind: private/smtpd: Operation not supported
+2025-09-09T11:40:45.921402+00:00 mail amavis[1650]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:45.921483+00:00 mail amavis[1650]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:45.934989+00:00 mail amavis[1650]: (!)Net::Server: 2025/09/09-11:40:45 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:47.468830+00:00 mail amavis[1711]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:47.468873+00:00 mail amavis[1711]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:47.481631+00:00 mail amavis[1711]: (!)Net::Server: 2025/09/09-11:40:47 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:48.961105+00:00 mail amavis[1739]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:48.961148+00:00 mail amavis[1739]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:48.975476+00:00 mail amavis[1739]: (!)Net::Server: 2025/09/09-11:40:48 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:50.383830+00:00 mail amavis[1753]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:50.383879+00:00 mail amavis[1753]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:50.397263+00:00 mail amavis[1753]: (!)Net::Server: 2025/09/09-11:40:50 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:50.592863+00:00 mail postfix/postfix-script[1820]: warning: not owned by root: /var/spool/postfix/.
+2025-09-09T11:40:50.596771+00:00 mail postfix/postfix-script[1821]: warning: not owned by root: /var/spool/postfix/pid
+2025-09-09T11:40:50.604242+00:00 mail postfix/postfix-script[1824]: warning: group or other writable: /var/spool/postfix/.
+2025-09-09T11:40:50.607735+00:00 mail postfix/postfix-script[1825]: warning: group or other writable: /var/spool/postfix/pid
+2025-09-09T11:40:50.617933+00:00 mail postfix/postfix-script[1835]: warning: not owned by postfix: /var/lib/postfix/.
+2025-09-09T11:40:50.622783+00:00 mail postfix/postfix-script[1836]: warning: not owned by postfix: /var/lib/postfix/./master.lock
+2025-09-09T11:40:50.628758+00:00 mail postfix/postfix-script[1838]: warning: group or other writable: /var/lib/postfix/.
+2025-09-09T11:40:50.634035+00:00 mail postfix/postfix-script[1839]: warning: group or other writable: /var/lib/postfix/./master.lock
+2025-09-09T11:40:50.647507+00:00 mail postfix/postfix-script[1844]: warning: not owned by postfix: /var/spool/postfix/active
+2025-09-09T11:40:50.652435+00:00 mail postfix/postfix-script[1845]: warning: not owned by postfix: /var/spool/postfix/bounce
+2025-09-09T11:40:50.657953+00:00 mail postfix/postfix-script[1846]: warning: not owned by postfix: /var/spool/postfix/corrupt
+2025-09-09T11:40:50.663445+00:00 mail postfix/postfix-script[1847]: warning: not owned by postfix: /var/spool/postfix/defer
+2025-09-09T11:40:50.668405+00:00 mail postfix/postfix-script[1848]: warning: not owned by postfix: /var/spool/postfix/deferred
+2025-09-09T11:40:50.673110+00:00 mail postfix/postfix-script[1849]: warning: not owned by postfix: /var/spool/postfix/flush
+2025-09-09T11:40:50.677808+00:00 mail postfix/postfix-script[1850]: warning: not owned by postfix: /var/spool/postfix/hold
+2025-09-09T11:40:50.682782+00:00 mail postfix/postfix-script[1851]: warning: not owned by postfix: /var/spool/postfix/incoming
+2025-09-09T11:40:50.688212+00:00 mail postfix/postfix-script[1852]: warning: not owned by postfix: /var/spool/postfix/private
+2025-09-09T11:40:50.693701+00:00 mail postfix/postfix-script[1853]: warning: not owned by postfix: /var/spool/postfix/public
+2025-09-09T11:40:50.698453+00:00 mail postfix/postfix-script[1854]: warning: not owned by postfix: /var/spool/postfix/saved
+2025-09-09T11:40:50.703504+00:00 mail postfix/postfix-script[1855]: warning: not owned by postfix: /var/spool/postfix/trace
+2025-09-09T11:40:50.709587+00:00 mail postfix/postfix-script[1857]: warning: not owned by postfix: /var/spool/postfix/maildrop
+2025-09-09T11:40:50.714114+00:00 mail postfix/postfix-script[1859]: warning: not owned by group postdrop: /var/spool/postfix/public
+2025-09-09T11:40:50.718099+00:00 mail postfix/postfix-script[1860]: warning: not owned by group postdrop: /var/spool/postfix/maildrop
+2025-09-09T11:40:50.727665+00:00 mail postfix/postfix-script[1864]: starting the Postfix mail system
+2025-09-09T11:40:50.733865+00:00 mail postfix/master[1865]: fatal: bind: private/smtpd: Operation not supported
+2025-09-09T11:40:51.035202+00:00 mail amavis[1822]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:51.035246+00:00 mail amavis[1822]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:51.048152+00:00 mail amavis[1822]: (!)Net::Server: 2025/09/09-11:40:51 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:52.500596+00:00 mail amavis[1879]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:52.500641+00:00 mail amavis[1879]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:52.513207+00:00 mail amavis[1879]: (!)Net::Server: 2025/09/09-11:40:52 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:53.954133+00:00 mail amavis[1897]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:53.954178+00:00 mail amavis[1897]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:53.967592+00:00 mail amavis[1897]: (!)Net::Server: 2025/09/09-11:40:53 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:55.420527+00:00 mail amavis[1915]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:55.420574+00:00 mail amavis[1915]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:55.433957+00:00 mail amavis[1915]: (!)Net::Server: 2025/09/09-11:40:55 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:55.640876+00:00 mail postfix/postfix-script[1977]: warning: not owned by root: /var/spool/postfix/.
+2025-09-09T11:40:55.644167+00:00 mail postfix/postfix-script[1978]: warning: not owned by root: /var/spool/postfix/pid
+2025-09-09T11:40:55.648582+00:00 mail postfix/postfix-script[1981]: warning: group or other writable: /var/spool/postfix/.
+2025-09-09T11:40:55.652378+00:00 mail postfix/postfix-script[1982]: warning: group or other writable: /var/spool/postfix/pid
+2025-09-09T11:40:55.664716+00:00 mail postfix/postfix-script[1992]: warning: not owned by postfix: /var/lib/postfix/.
+2025-09-09T11:40:55.669312+00:00 mail postfix/postfix-script[1993]: warning: not owned by postfix: /var/lib/postfix/./master.lock
+2025-09-09T11:40:55.674066+00:00 mail postfix/postfix-script[1995]: warning: group or other writable: /var/lib/postfix/.
+2025-09-09T11:40:55.678524+00:00 mail postfix/postfix-script[1996]: warning: group or other writable: /var/lib/postfix/./master.lock
+2025-09-09T11:40:55.693542+00:00 mail postfix/postfix-script[2001]: warning: not owned by postfix: /var/spool/postfix/active
+2025-09-09T11:40:55.698386+00:00 mail postfix/postfix-script[2002]: warning: not owned by postfix: /var/spool/postfix/bounce
+2025-09-09T11:40:55.703385+00:00 mail postfix/postfix-script[2003]: warning: not owned by postfix: /var/spool/postfix/corrupt
+2025-09-09T11:40:55.708326+00:00 mail postfix/postfix-script[2004]: warning: not owned by postfix: /var/spool/postfix/defer
+2025-09-09T11:40:55.713150+00:00 mail postfix/postfix-script[2005]: warning: not owned by postfix: /var/spool/postfix/deferred
+2025-09-09T11:40:55.718410+00:00 mail postfix/postfix-script[2006]: warning: not owned by postfix: /var/spool/postfix/flush
+2025-09-09T11:40:55.724018+00:00 mail postfix/postfix-script[2007]: warning: not owned by postfix: /var/spool/postfix/hold
+2025-09-09T11:40:55.728938+00:00 mail postfix/postfix-script[2008]: warning: not owned by postfix: /var/spool/postfix/incoming
+2025-09-09T11:40:55.733726+00:00 mail postfix/postfix-script[2009]: warning: not owned by postfix: /var/spool/postfix/private
+2025-09-09T11:40:55.739120+00:00 mail postfix/postfix-script[2010]: warning: not owned by postfix: /var/spool/postfix/public
+2025-09-09T11:40:55.743878+00:00 mail postfix/postfix-script[2011]: warning: not owned by postfix: /var/spool/postfix/saved
+2025-09-09T11:40:55.749229+00:00 mail postfix/postfix-script[2012]: warning: not owned by postfix: /var/spool/postfix/trace
+2025-09-09T11:40:55.756467+00:00 mail postfix/postfix-script[2014]: warning: not owned by postfix: /var/spool/postfix/maildrop
+2025-09-09T11:40:55.761176+00:00 mail postfix/postfix-script[2016]: warning: not owned by group postdrop: /var/spool/postfix/public
+2025-09-09T11:40:55.764497+00:00 mail postfix/postfix-script[2017]: warning: not owned by group postdrop: /var/spool/postfix/maildrop
+2025-09-09T11:40:55.773041+00:00 mail postfix/postfix-script[2021]: starting the Postfix mail system
+2025-09-09T11:40:55.779861+00:00 mail postfix/master[2022]: fatal: bind: private/smtpd: Operation not supported
+2025-09-09T11:40:56.077347+00:00 mail amavis[1979]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:56.077390+00:00 mail amavis[1979]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:56.091128+00:00 mail amavis[1979]: (!)Net::Server: 2025/09/09-11:40:56 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:57.517985+00:00 mail amavis[2040]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:57.518036+00:00 mail amavis[2040]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:57.534380+00:00 mail amavis[2040]: (!)Net::Server: 2025/09/09-11:40:57 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:40:58.980323+00:00 mail amavis[2058]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:40:58.980369+00:00 mail amavis[2058]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:40:58.992914+00:00 mail amavis[2058]: (!)Net::Server: 2025/09/09-11:40:58 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:00.442787+00:00 mail amavis[2072]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:00.442862+00:00 mail amavis[2072]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:00.457477+00:00 mail amavis[2072]: (!)Net::Server: 2025/09/09-11:41:00 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:00.942147+00:00 mail amavis[2090]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:00.942194+00:00 mail amavis[2090]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:00.955664+00:00 mail amavis[2090]: (!)Net::Server: 2025/09/09-11:41:00 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:01.157957+00:00 mail postfix/postfix-script[2152]: warning: not owned by root: /var/spool/postfix/.
+2025-09-09T11:41:01.161589+00:00 mail postfix/postfix-script[2153]: warning: not owned by root: /var/spool/postfix/pid
+2025-09-09T11:41:01.166089+00:00 mail postfix/postfix-script[2156]: warning: group or other writable: /var/spool/postfix/.
+2025-09-09T11:41:01.169770+00:00 mail postfix/postfix-script[2157]: warning: group or other writable: /var/spool/postfix/pid
+2025-09-09T11:41:01.182910+00:00 mail postfix/postfix-script[2167]: warning: not owned by postfix: /var/lib/postfix/.
+2025-09-09T11:41:01.187815+00:00 mail postfix/postfix-script[2168]: warning: not owned by postfix: /var/lib/postfix/./master.lock
+2025-09-09T11:41:01.192948+00:00 mail postfix/postfix-script[2170]: warning: group or other writable: /var/lib/postfix/.
+2025-09-09T11:41:01.197729+00:00 mail postfix/postfix-script[2171]: warning: group or other writable: /var/lib/postfix/./master.lock
+2025-09-09T11:41:01.214292+00:00 mail postfix/postfix-script[2176]: warning: not owned by postfix: /var/spool/postfix/active
+2025-09-09T11:41:01.219650+00:00 mail postfix/postfix-script[2177]: warning: not owned by postfix: /var/spool/postfix/bounce
+2025-09-09T11:41:01.224737+00:00 mail postfix/postfix-script[2178]: warning: not owned by postfix: /var/spool/postfix/corrupt
+2025-09-09T11:41:01.229745+00:00 mail postfix/postfix-script[2179]: warning: not owned by postfix: /var/spool/postfix/defer
+2025-09-09T11:41:01.235084+00:00 mail postfix/postfix-script[2180]: warning: not owned by postfix: /var/spool/postfix/deferred
+2025-09-09T11:41:01.240532+00:00 mail postfix/postfix-script[2181]: warning: not owned by postfix: /var/spool/postfix/flush
+2025-09-09T11:41:01.245431+00:00 mail postfix/postfix-script[2182]: warning: not owned by postfix: /var/spool/postfix/hold
+2025-09-09T11:41:01.251714+00:00 mail postfix/postfix-script[2183]: warning: not owned by postfix: /var/spool/postfix/incoming
+2025-09-09T11:41:01.256906+00:00 mail postfix/postfix-script[2184]: warning: not owned by postfix: /var/spool/postfix/private
+2025-09-09T11:41:01.262355+00:00 mail postfix/postfix-script[2185]: warning: not owned by postfix: /var/spool/postfix/public
+2025-09-09T11:41:01.268501+00:00 mail postfix/postfix-script[2186]: warning: not owned by postfix: /var/spool/postfix/saved
+2025-09-09T11:41:01.273940+00:00 mail postfix/postfix-script[2187]: warning: not owned by postfix: /var/spool/postfix/trace
+2025-09-09T11:41:01.280792+00:00 mail postfix/postfix-script[2189]: warning: not owned by postfix: /var/spool/postfix/maildrop
+2025-09-09T11:41:01.285788+00:00 mail postfix/postfix-script[2191]: warning: not owned by group postdrop: /var/spool/postfix/public
+2025-09-09T11:41:01.289717+00:00 mail postfix/postfix-script[2192]: warning: not owned by group postdrop: /var/spool/postfix/maildrop
+2025-09-09T11:41:01.299998+00:00 mail postfix/postfix-script[2196]: starting the Postfix mail system
+2025-09-09T11:41:01.307084+00:00 mail postfix/master[2197]: fatal: bind: private/smtpd: Operation not supported
+2025-09-09T11:41:01.598990+00:00 mail amavis[2154]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:01.599043+00:00 mail amavis[2154]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:01.611920+00:00 mail amavis[2154]: (!)Net::Server: 2025/09/09-11:41:01 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:03.057909+00:00 mail amavis[2215]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:03.057956+00:00 mail amavis[2215]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:03.070902+00:00 mail amavis[2215]: (!)Net::Server: 2025/09/09-11:41:03 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:04.541966+00:00 mail amavis[2229]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:04.542014+00:00 mail amavis[2229]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:04.563783+00:00 mail amavis[2229]: (!)Net::Server: 2025/09/09-11:41:04 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:06.000680+00:00 mail amavis[2247]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:06.000726+00:00 mail amavis[2247]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:06.014201+00:00 mail amavis[2247]: (!)Net::Server: 2025/09/09-11:41:06 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:06.208724+00:00 mail postfix/postfix-script[2309]: warning: not owned by root: /var/spool/postfix/.
+2025-09-09T11:41:06.212881+00:00 mail postfix/postfix-script[2310]: warning: not owned by root: /var/spool/postfix/pid
+2025-09-09T11:41:06.217205+00:00 mail postfix/postfix-script[2313]: warning: group or other writable: /var/spool/postfix/.
+2025-09-09T11:41:06.220564+00:00 mail postfix/postfix-script[2314]: warning: group or other writable: /var/spool/postfix/pid
+2025-09-09T11:41:06.231091+00:00 mail postfix/postfix-script[2324]: warning: not owned by postfix: /var/lib/postfix/.
+2025-09-09T11:41:06.235645+00:00 mail postfix/postfix-script[2325]: warning: not owned by postfix: /var/lib/postfix/./master.lock
+2025-09-09T11:41:06.242679+00:00 mail postfix/postfix-script[2327]: warning: group or other writable: /var/lib/postfix/.
+2025-09-09T11:41:06.247463+00:00 mail postfix/postfix-script[2328]: warning: group or other writable: /var/lib/postfix/./master.lock
+2025-09-09T11:41:06.261532+00:00 mail postfix/postfix-script[2333]: warning: not owned by postfix: /var/spool/postfix/active
+2025-09-09T11:41:06.266500+00:00 mail postfix/postfix-script[2334]: warning: not owned by postfix: /var/spool/postfix/bounce
+2025-09-09T11:41:06.272829+00:00 mail postfix/postfix-script[2335]: warning: not owned by postfix: /var/spool/postfix/corrupt
+2025-09-09T11:41:06.277683+00:00 mail postfix/postfix-script[2336]: warning: not owned by postfix: /var/spool/postfix/defer
+2025-09-09T11:41:06.282267+00:00 mail postfix/postfix-script[2337]: warning: not owned by postfix: /var/spool/postfix/deferred
+2025-09-09T11:41:06.287056+00:00 mail postfix/postfix-script[2338]: warning: not owned by postfix: /var/spool/postfix/flush
+2025-09-09T11:41:06.291716+00:00 mail postfix/postfix-script[2339]: warning: not owned by postfix: /var/spool/postfix/hold
+2025-09-09T11:41:06.296486+00:00 mail postfix/postfix-script[2340]: warning: not owned by postfix: /var/spool/postfix/incoming
+2025-09-09T11:41:06.302296+00:00 mail postfix/postfix-script[2341]: warning: not owned by postfix: /var/spool/postfix/private
+2025-09-09T11:41:06.307191+00:00 mail postfix/postfix-script[2342]: warning: not owned by postfix: /var/spool/postfix/public
+2025-09-09T11:41:06.311840+00:00 mail postfix/postfix-script[2343]: warning: not owned by postfix: /var/spool/postfix/saved
+2025-09-09T11:41:06.316618+00:00 mail postfix/postfix-script[2344]: warning: not owned by postfix: /var/spool/postfix/trace
+2025-09-09T11:41:06.322741+00:00 mail postfix/postfix-script[2346]: warning: not owned by postfix: /var/spool/postfix/maildrop
+2025-09-09T11:41:06.327957+00:00 mail postfix/postfix-script[2348]: warning: not owned by group postdrop: /var/spool/postfix/public
+2025-09-09T11:41:06.332234+00:00 mail postfix/postfix-script[2349]: warning: not owned by group postdrop: /var/spool/postfix/maildrop
+2025-09-09T11:41:06.340853+00:00 mail postfix/postfix-script[2353]: starting the Postfix mail system
+2025-09-09T11:41:06.347222+00:00 mail postfix/master[2354]: fatal: bind: private/smtpd: Operation not supported
+2025-09-09T11:41:07.192406+00:00 mail amavis[2311]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:07.192454+00:00 mail amavis[2311]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:07.209677+00:00 mail amavis[2311]: (!)Net::Server: 2025/09/09-11:41:07 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:09.275444+00:00 mail amavis[2372]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:09.275495+00:00 mail amavis[2372]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:09.294532+00:00 mail amavis[2372]: (!)Net::Server: 2025/09/09-11:41:09 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:10.751390+00:00 mail amavis[2390]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:10.751451+00:00 mail amavis[2390]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:10.765111+00:00 mail amavis[2390]: (!)Net::Server: 2025/09/09-11:41:10 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:12.221992+00:00 mail amavis[2419]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:12.222035+00:00 mail amavis[2419]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:12.236918+00:00 mail amavis[2419]: (!)Net::Server: 2025/09/09-11:41:12 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:12.432505+00:00 mail postfix/postfix-script[2481]: warning: not owned by root: /var/spool/postfix/.
+2025-09-09T11:41:12.436424+00:00 mail postfix/postfix-script[2482]: warning: not owned by root: /var/spool/postfix/pid
+2025-09-09T11:41:12.441417+00:00 mail postfix/postfix-script[2485]: warning: group or other writable: /var/spool/postfix/.
+2025-09-09T11:41:12.444928+00:00 mail postfix/postfix-script[2486]: warning: group or other writable: /var/spool/postfix/pid
+2025-09-09T11:41:12.455498+00:00 mail postfix/postfix-script[2496]: warning: not owned by postfix: /var/lib/postfix/.
+2025-09-09T11:41:12.459995+00:00 mail postfix/postfix-script[2497]: warning: not owned by postfix: /var/lib/postfix/./master.lock
+2025-09-09T11:41:12.465255+00:00 mail postfix/postfix-script[2499]: warning: group or other writable: /var/lib/postfix/.
+2025-09-09T11:41:12.470780+00:00 mail postfix/postfix-script[2500]: warning: group or other writable: /var/lib/postfix/./master.lock
+2025-09-09T11:41:12.485562+00:00 mail postfix/postfix-script[2505]: warning: not owned by postfix: /var/spool/postfix/active
+2025-09-09T11:41:12.490268+00:00 mail postfix/postfix-script[2506]: warning: not owned by postfix: /var/spool/postfix/bounce
+2025-09-09T11:41:12.495067+00:00 mail postfix/postfix-script[2507]: warning: not owned by postfix: /var/spool/postfix/corrupt
+2025-09-09T11:41:12.501061+00:00 mail postfix/postfix-script[2508]: warning: not owned by postfix: /var/spool/postfix/defer
+2025-09-09T11:41:12.505884+00:00 mail postfix/postfix-script[2509]: warning: not owned by postfix: /var/spool/postfix/deferred
+2025-09-09T11:41:12.510839+00:00 mail postfix/postfix-script[2510]: warning: not owned by postfix: /var/spool/postfix/flush
+2025-09-09T11:41:12.515587+00:00 mail postfix/postfix-script[2511]: warning: not owned by postfix: /var/spool/postfix/hold
+2025-09-09T11:41:12.520679+00:00 mail postfix/postfix-script[2512]: warning: not owned by postfix: /var/spool/postfix/incoming
+2025-09-09T11:41:12.525815+00:00 mail postfix/postfix-script[2513]: warning: not owned by postfix: /var/spool/postfix/private
+2025-09-09T11:41:12.532002+00:00 mail postfix/postfix-script[2514]: warning: not owned by postfix: /var/spool/postfix/public
+2025-09-09T11:41:12.536754+00:00 mail postfix/postfix-script[2515]: warning: not owned by postfix: /var/spool/postfix/saved
+2025-09-09T11:41:12.541433+00:00 mail postfix/postfix-script[2516]: warning: not owned by postfix: /var/spool/postfix/trace
+2025-09-09T11:41:12.547653+00:00 mail postfix/postfix-script[2518]: warning: not owned by postfix: /var/spool/postfix/maildrop
+2025-09-09T11:41:12.552148+00:00 mail postfix/postfix-script[2520]: warning: not owned by group postdrop: /var/spool/postfix/public
+2025-09-09T11:41:12.555902+00:00 mail postfix/postfix-script[2521]: warning: not owned by group postdrop: /var/spool/postfix/maildrop
+2025-09-09T11:41:12.566519+00:00 mail postfix/postfix-script[2525]: starting the Postfix mail system
+2025-09-09T11:41:12.573694+00:00 mail postfix/master[2526]: fatal: bind: private/smtpd: Operation not supported
+2025-09-09T11:41:12.928168+00:00 mail amavis[2483]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:12.928214+00:00 mail amavis[2483]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:12.944159+00:00 mail amavis[2483]: (!)Net::Server: 2025/09/09-11:41:12 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:14.414350+00:00 mail amavis[2544]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:14.414391+00:00 mail amavis[2544]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:14.427284+00:00 mail amavis[2544]: (!)Net::Server: 2025/09/09-11:41:14 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:15.870699+00:00 mail amavis[2558]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:15.870743+00:00 mail amavis[2558]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:15.884637+00:00 mail amavis[2558]: (!)Net::Server: 2025/09/09-11:41:15 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:17.320388+00:00 mail amavis[2576]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:17.320445+00:00 mail amavis[2576]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:17.333622+00:00 mail amavis[2576]: (!)Net::Server: 2025/09/09-11:41:17 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:17.550074+00:00 mail postfix/postfix-script[2638]: warning: not owned by root: /var/spool/postfix/.
+2025-09-09T11:41:17.555010+00:00 mail postfix/postfix-script[2640]: warning: not owned by root: /var/spool/postfix/pid
+2025-09-09T11:41:17.559630+00:00 mail postfix/postfix-script[2642]: warning: group or other writable: /var/spool/postfix/.
+2025-09-09T11:41:17.563694+00:00 mail postfix/postfix-script[2643]: warning: group or other writable: /var/spool/postfix/pid
+2025-09-09T11:41:17.574442+00:00 mail postfix/postfix-script[2653]: warning: not owned by postfix: /var/lib/postfix/.
+2025-09-09T11:41:17.579028+00:00 mail postfix/postfix-script[2654]: warning: not owned by postfix: /var/lib/postfix/./master.lock
+2025-09-09T11:41:17.583838+00:00 mail postfix/postfix-script[2656]: warning: group or other writable: /var/lib/postfix/.
+2025-09-09T11:41:17.588299+00:00 mail postfix/postfix-script[2657]: warning: group or other writable: /var/lib/postfix/./master.lock
+2025-09-09T11:41:17.603290+00:00 mail postfix/postfix-script[2662]: warning: not owned by postfix: /var/spool/postfix/active
+2025-09-09T11:41:17.608638+00:00 mail postfix/postfix-script[2663]: warning: not owned by postfix: /var/spool/postfix/bounce
+2025-09-09T11:41:17.613402+00:00 mail postfix/postfix-script[2664]: warning: not owned by postfix: /var/spool/postfix/corrupt
+2025-09-09T11:41:17.618171+00:00 mail postfix/postfix-script[2665]: warning: not owned by postfix: /var/spool/postfix/defer
+2025-09-09T11:41:17.624649+00:00 mail postfix/postfix-script[2666]: warning: not owned by postfix: /var/spool/postfix/deferred
+2025-09-09T11:41:17.629666+00:00 mail postfix/postfix-script[2667]: warning: not owned by postfix: /var/spool/postfix/flush
+2025-09-09T11:41:17.634516+00:00 mail postfix/postfix-script[2668]: warning: not owned by postfix: /var/spool/postfix/hold
+2025-09-09T11:41:17.639506+00:00 mail postfix/postfix-script[2669]: warning: not owned by postfix: /var/spool/postfix/incoming
+2025-09-09T11:41:17.644187+00:00 mail postfix/postfix-script[2670]: warning: not owned by postfix: /var/spool/postfix/private
+2025-09-09T11:41:17.648718+00:00 mail postfix/postfix-script[2671]: warning: not owned by postfix: /var/spool/postfix/public
+2025-09-09T11:41:17.655046+00:00 mail postfix/postfix-script[2672]: warning: not owned by postfix: /var/spool/postfix/saved
+2025-09-09T11:41:17.659900+00:00 mail postfix/postfix-script[2673]: warning: not owned by postfix: /var/spool/postfix/trace
+2025-09-09T11:41:17.665903+00:00 mail postfix/postfix-script[2675]: warning: not owned by postfix: /var/spool/postfix/maildrop
+2025-09-09T11:41:17.670803+00:00 mail postfix/postfix-script[2677]: warning: not owned by group postdrop: /var/spool/postfix/public
+2025-09-09T11:41:17.674117+00:00 mail postfix/postfix-script[2678]: warning: not owned by group postdrop: /var/spool/postfix/maildrop
+2025-09-09T11:41:17.684359+00:00 mail postfix/postfix-script[2682]: starting the Postfix mail system
+2025-09-09T11:41:17.690929+00:00 mail postfix/master[2683]: fatal: bind: private/smtpd: Operation not supported
+2025-09-09T11:41:17.994111+00:00 mail amavis[2639]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:17.994163+00:00 mail amavis[2639]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:18.007308+00:00 mail amavis[2639]: (!)Net::Server: 2025/09/09-11:41:18 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:19.437075+00:00 mail amavis[2701]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:19.437125+00:00 mail amavis[2701]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:19.449683+00:00 mail amavis[2701]: (!)Net::Server: 2025/09/09-11:41:19 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:20.926999+00:00 mail amavis[2719]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:20.927046+00:00 mail amavis[2719]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:20.941913+00:00 mail amavis[2719]: (!)Net::Server: 2025/09/09-11:41:20 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:22.411110+00:00 mail amavis[2737]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:22.411177+00:00 mail amavis[2737]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:22.425285+00:00 mail amavis[2737]: (!)Net::Server: 2025/09/09-11:41:22 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:22.620252+00:00 mail postfix/postfix-script[2799]: warning: not owned by root: /var/spool/postfix/.
+2025-09-09T11:41:22.623924+00:00 mail postfix/postfix-script[2800]: warning: not owned by root: /var/spool/postfix/pid
+2025-09-09T11:41:22.628943+00:00 mail postfix/postfix-script[2803]: warning: group or other writable: /var/spool/postfix/.
+2025-09-09T11:41:22.632555+00:00 mail postfix/postfix-script[2804]: warning: group or other writable: /var/spool/postfix/pid
+2025-09-09T11:41:22.643025+00:00 mail postfix/postfix-script[2814]: warning: not owned by postfix: /var/lib/postfix/.
+2025-09-09T11:41:22.647493+00:00 mail postfix/postfix-script[2815]: warning: not owned by postfix: /var/lib/postfix/./master.lock
+2025-09-09T11:41:22.652652+00:00 mail postfix/postfix-script[2817]: warning: group or other writable: /var/lib/postfix/.
+2025-09-09T11:41:22.657920+00:00 mail postfix/postfix-script[2818]: warning: group or other writable: /var/lib/postfix/./master.lock
+2025-09-09T11:41:22.670743+00:00 mail postfix/postfix-script[2823]: warning: not owned by postfix: /var/spool/postfix/active
+2025-09-09T11:41:22.675469+00:00 mail postfix/postfix-script[2824]: warning: not owned by postfix: /var/spool/postfix/bounce
+2025-09-09T11:41:22.680469+00:00 mail postfix/postfix-script[2825]: warning: not owned by postfix: /var/spool/postfix/corrupt
+2025-09-09T11:41:22.686043+00:00 mail postfix/postfix-script[2826]: warning: not owned by postfix: /var/spool/postfix/defer
+2025-09-09T11:41:22.691392+00:00 mail postfix/postfix-script[2827]: warning: not owned by postfix: /var/spool/postfix/deferred
+2025-09-09T11:41:22.696321+00:00 mail postfix/postfix-script[2828]: warning: not owned by postfix: /var/spool/postfix/flush
+2025-09-09T11:41:22.701143+00:00 mail postfix/postfix-script[2829]: warning: not owned by postfix: /var/spool/postfix/hold
+2025-09-09T11:41:22.705950+00:00 mail postfix/postfix-script[2830]: warning: not owned by postfix: /var/spool/postfix/incoming
+2025-09-09T11:41:22.710669+00:00 mail postfix/postfix-script[2831]: warning: not owned by postfix: /var/spool/postfix/private
+2025-09-09T11:41:22.715904+00:00 mail postfix/postfix-script[2832]: warning: not owned by postfix: /var/spool/postfix/public
+2025-09-09T11:41:22.721205+00:00 mail postfix/postfix-script[2833]: warning: not owned by postfix: /var/spool/postfix/saved
+2025-09-09T11:41:22.725865+00:00 mail postfix/postfix-script[2834]: warning: not owned by postfix: /var/spool/postfix/trace
+2025-09-09T11:41:22.731906+00:00 mail postfix/postfix-script[2836]: warning: not owned by postfix: /var/spool/postfix/maildrop
+2025-09-09T11:41:22.736686+00:00 mail postfix/postfix-script[2838]: warning: not owned by group postdrop: /var/spool/postfix/public
+2025-09-09T11:41:22.740123+00:00 mail postfix/postfix-script[2839]: warning: not owned by group postdrop: /var/spool/postfix/maildrop
+2025-09-09T11:41:22.749799+00:00 mail postfix/postfix-script[2843]: starting the Postfix mail system
+2025-09-09T11:41:22.756079+00:00 mail postfix/master[2844]: fatal: bind: private/smtpd: Operation not supported
+2025-09-09T11:41:23.055689+00:00 mail amavis[2801]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:23.055735+00:00 mail amavis[2801]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:23.068436+00:00 mail amavis[2801]: (!)Net::Server: 2025/09/09-11:41:23 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:24.516390+00:00 mail amavis[2862]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:24.516436+00:00 mail amavis[2862]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:24.530065+00:00 mail amavis[2862]: (!)Net::Server: 2025/09/09-11:41:24 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:25.965691+00:00 mail amavis[2876]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:25.965775+00:00 mail amavis[2876]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:25.979123+00:00 mail amavis[2876]: (!)Net::Server: 2025/09/09-11:41:25 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:27.474160+00:00 mail amavis[2894]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:27.474218+00:00 mail amavis[2894]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:27.491524+00:00 mail amavis[2894]: (!)Net::Server: 2025/09/09-11:41:27 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:27.706439+00:00 mail postfix/postfix-script[2956]: warning: not owned by root: /var/spool/postfix/.
+2025-09-09T11:41:27.711618+00:00 mail postfix/postfix-script[2957]: warning: not owned by root: /var/spool/postfix/pid
+2025-09-09T11:41:27.718588+00:00 mail postfix/postfix-script[2960]: warning: group or other writable: /var/spool/postfix/.
+2025-09-09T11:41:27.724235+00:00 mail postfix/postfix-script[2961]: warning: group or other writable: /var/spool/postfix/pid
+2025-09-09T11:41:27.739206+00:00 mail postfix/postfix-script[2971]: warning: not owned by postfix: /var/lib/postfix/.
+2025-09-09T11:41:27.745488+00:00 mail postfix/postfix-script[2972]: warning: not owned by postfix: /var/lib/postfix/./master.lock
+2025-09-09T11:41:27.752317+00:00 mail postfix/postfix-script[2974]: warning: group or other writable: /var/lib/postfix/.
+2025-09-09T11:41:27.758533+00:00 mail postfix/postfix-script[2975]: warning: group or other writable: /var/lib/postfix/./master.lock
+2025-09-09T11:41:27.774790+00:00 mail postfix/postfix-script[2980]: warning: not owned by postfix: /var/spool/postfix/active
+2025-09-09T11:41:27.780899+00:00 mail postfix/postfix-script[2981]: warning: not owned by postfix: /var/spool/postfix/bounce
+2025-09-09T11:41:27.787458+00:00 mail postfix/postfix-script[2982]: warning: not owned by postfix: /var/spool/postfix/corrupt
+2025-09-09T11:41:27.793199+00:00 mail postfix/postfix-script[2983]: warning: not owned by postfix: /var/spool/postfix/defer
+2025-09-09T11:41:27.799001+00:00 mail postfix/postfix-script[2984]: warning: not owned by postfix: /var/spool/postfix/deferred
+2025-09-09T11:41:27.805246+00:00 mail postfix/postfix-script[2985]: warning: not owned by postfix: /var/spool/postfix/flush
+2025-09-09T11:41:27.811695+00:00 mail postfix/postfix-script[2986]: warning: not owned by postfix: /var/spool/postfix/hold
+2025-09-09T11:41:27.817738+00:00 mail postfix/postfix-script[2987]: warning: not owned by postfix: /var/spool/postfix/incoming
+2025-09-09T11:41:27.823408+00:00 mail postfix/postfix-script[2988]: warning: not owned by postfix: /var/spool/postfix/private
+2025-09-09T11:41:27.828546+00:00 mail postfix/postfix-script[2989]: warning: not owned by postfix: /var/spool/postfix/public
+2025-09-09T11:41:27.834551+00:00 mail postfix/postfix-script[2990]: warning: not owned by postfix: /var/spool/postfix/saved
+2025-09-09T11:41:27.840439+00:00 mail postfix/postfix-script[2991]: warning: not owned by postfix: /var/spool/postfix/trace
+2025-09-09T11:41:27.847920+00:00 mail postfix/postfix-script[2993]: warning: not owned by postfix: /var/spool/postfix/maildrop
+2025-09-09T11:41:27.852984+00:00 mail postfix/postfix-script[2995]: warning: not owned by group postdrop: /var/spool/postfix/public
+2025-09-09T11:41:27.856733+00:00 mail postfix/postfix-script[2996]: warning: not owned by group postdrop: /var/spool/postfix/maildrop
+2025-09-09T11:41:27.866653+00:00 mail postfix/postfix-script[3000]: starting the Postfix mail system
+2025-09-09T11:41:27.874133+00:00 mail postfix/master[3001]: fatal: bind: private/smtpd: Operation not supported
+2025-09-09T11:41:28.176814+00:00 mail amavis[2958]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:28.176864+00:00 mail amavis[2958]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:28.189901+00:00 mail amavis[2958]: (!)Net::Server: 2025/09/09-11:41:28 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:29.617931+00:00 mail amavis[3019]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:29.617981+00:00 mail amavis[3019]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:29.631365+00:00 mail amavis[3019]: (!)Net::Server: 2025/09/09-11:41:29 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:31.057369+00:00 mail amavis[3037]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:31.057456+00:00 mail amavis[3037]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:31.070637+00:00 mail amavis[3037]: (!)Net::Server: 2025/09/09-11:41:31 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:32.506538+00:00 mail amavis[3055]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:32.506584+00:00 mail amavis[3055]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:32.523042+00:00 mail amavis[3055]: (!)Net::Server: 2025/09/09-11:41:32 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:32.736317+00:00 mail postfix/postfix-script[3117]: warning: not owned by root: /var/spool/postfix/.
+2025-09-09T11:41:32.739749+00:00 mail postfix/postfix-script[3118]: warning: not owned by root: /var/spool/postfix/pid
+2025-09-09T11:41:32.746841+00:00 mail postfix/postfix-script[3121]: warning: group or other writable: /var/spool/postfix/.
+2025-09-09T11:41:32.751064+00:00 mail postfix/postfix-script[3122]: warning: group or other writable: /var/spool/postfix/pid
+2025-09-09T11:41:32.769135+00:00 mail postfix/postfix-script[3132]: warning: not owned by postfix: /var/lib/postfix/.
+2025-09-09T11:41:32.776296+00:00 mail postfix/postfix-script[3133]: warning: not owned by postfix: /var/lib/postfix/./master.lock
+2025-09-09T11:41:32.785147+00:00 mail postfix/postfix-script[3135]: warning: group or other writable: /var/lib/postfix/.
+2025-09-09T11:41:32.791979+00:00 mail postfix/postfix-script[3136]: warning: group or other writable: /var/lib/postfix/./master.lock
+2025-09-09T11:41:32.817873+00:00 mail postfix/postfix-script[3141]: warning: not owned by postfix: /var/spool/postfix/active
+2025-09-09T11:41:32.822638+00:00 mail postfix/postfix-script[3142]: warning: not owned by postfix: /var/spool/postfix/bounce
+2025-09-09T11:41:32.827124+00:00 mail postfix/postfix-script[3143]: warning: not owned by postfix: /var/spool/postfix/corrupt
+2025-09-09T11:41:32.831577+00:00 mail postfix/postfix-script[3144]: warning: not owned by postfix: /var/spool/postfix/defer
+2025-09-09T11:41:32.836522+00:00 mail postfix/postfix-script[3145]: warning: not owned by postfix: /var/spool/postfix/deferred
+2025-09-09T11:41:32.841670+00:00 mail postfix/postfix-script[3146]: warning: not owned by postfix: /var/spool/postfix/flush
+2025-09-09T11:41:32.846292+00:00 mail postfix/postfix-script[3147]: warning: not owned by postfix: /var/spool/postfix/hold
+2025-09-09T11:41:32.850895+00:00 mail postfix/postfix-script[3148]: warning: not owned by postfix: /var/spool/postfix/incoming
+2025-09-09T11:41:32.855478+00:00 mail postfix/postfix-script[3149]: warning: not owned by postfix: /var/spool/postfix/private
+2025-09-09T11:41:32.859945+00:00 mail postfix/postfix-script[3150]: warning: not owned by postfix: /var/spool/postfix/public
+2025-09-09T11:41:32.864783+00:00 mail postfix/postfix-script[3151]: warning: not owned by postfix: /var/spool/postfix/saved
+2025-09-09T11:41:32.870715+00:00 mail postfix/postfix-script[3152]: warning: not owned by postfix: /var/spool/postfix/trace
+2025-09-09T11:41:32.876654+00:00 mail postfix/postfix-script[3154]: warning: not owned by postfix: /var/spool/postfix/maildrop
+2025-09-09T11:41:32.881279+00:00 mail postfix/postfix-script[3156]: warning: not owned by group postdrop: /var/spool/postfix/public
+2025-09-09T11:41:32.884717+00:00 mail postfix/postfix-script[3157]: warning: not owned by group postdrop: /var/spool/postfix/maildrop
+2025-09-09T11:41:32.892533+00:00 mail postfix/postfix-script[3161]: starting the Postfix mail system
+2025-09-09T11:41:32.899757+00:00 mail postfix/master[3162]: fatal: bind: private/smtpd: Operation not supported
+2025-09-09T11:41:33.201376+00:00 mail amavis[3119]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:33.201428+00:00 mail amavis[3119]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:33.213799+00:00 mail amavis[3119]: (!)Net::Server: 2025/09/09-11:41:33 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:34.691697+00:00 mail amavis[3180]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:34.691742+00:00 mail amavis[3180]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:34.709139+00:00 mail amavis[3180]: (!)Net::Server: 2025/09/09-11:41:34 Can't connect to UNIX socket at file /var/lib/amavis/amavisd.sock [Operation not supported]\n  at line 66 in file /usr/share/perl5/Net/Server/Proto/UNIX.pm
+2025-09-09T11:41:41.104661+00:00 mail dovecot: master: Dovecot v2.3.19.1 (9b53102964) starting up for imap, lmtp, pop3 (core dumps disabled)
+2025-09-09T11:41:41.730579+00:00 mail opendkim[834]: OpenDKIM Filter v2.11.0 starting (args: -f)
+2025-09-09T11:41:41.900374+00:00 mail opendmarc[843]: OpenDMARC Filter v1.4.2 starting (args: -f -p inet:8893@localhost -P /var/run/opendmarc/opendmarc.pid)
+2025-09-09T11:41:41.900401+00:00 mail opendmarc[843]: additional trusted authentication services: mail.layer8.ag
+2025-09-09T11:41:42.322094+00:00 mail postfix/postfix-script[946]: starting the Postfix mail system
+2025-09-09T11:41:42.332471+00:00 mail postfix/master[947]: daemon started -- version 3.7.11, configuration /etc/postfix
+2025-09-09T11:41:42.893158+00:00 mail amavis[950]: starting. /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:41:42.893201+00:00 mail amavis[950]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:41:42.906441+00:00 mail amavis[950]: Net::Server: Group Not Defined.  Defaulting to EGID '999 999'
+2025-09-09T11:41:42.906488+00:00 mail amavis[950]: Net::Server: User Not Defined.  Defaulting to EUID '999'
+2025-09-09T11:41:42.912724+00:00 mail amavis[950]: No ext program for   .zoo, tried: zoo
+2025-09-09T11:41:42.912923+00:00 mail amavis[950]: No ext program for   .doc, tried: ripole
+2025-09-09T11:41:42.913691+00:00 mail amavis[950]: No ext program for   .zst, tried: unzstd
+2025-09-09T11:41:42.913738+00:00 mail amavis[950]: No decoder for       .F   
+2025-09-09T11:41:42.913747+00:00 mail amavis[950]: No decoder for       .doc 
+2025-09-09T11:41:42.913753+00:00 mail amavis[950]: No decoder for       .zoo 
+2025-09-09T11:41:42.913760+00:00 mail amavis[950]: No decoder for       .zst 
+2025-09-09T11:41:42.913779+00:00 mail amavis[950]: Using primary internal av scanner code for ClamAV-clamd
+2025-09-09T11:41:42.916293+00:00 mail amavis[950]: Found secondary av scanner ClamAV-clamscan at /usr/bin/clamscan
+2025-09-09T11:46:22.294783+00:00 mail postfix/postfix-script[2308]: refreshing the Postfix mail system
+2025-09-09T11:46:22.300062+00:00 mail postfix/master[947]: reload -- version 3.7.11, configuration /etc/postfix
+2025-09-09T11:46:22.304988+00:00 mail dovecot: master: Warning: SIGHUP received - reloading configuration
+2025-09-09T11:46:22.450151+00:00 mail amavis[950]: (!)Net::Server: 2025/09/09-11:46:22 Re-exec server during HUP
+2025-09-09T11:46:22.706186+00:00 mail amavis[950]: starting. (warm) /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:46:22.706231+00:00 mail amavis[950]: perl=5.036000, user=999, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:46:22.718385+00:00 mail amavis[950]: Net::Server: Group Not Defined.  Defaulting to EGID '999 999'
+2025-09-09T11:46:22.718433+00:00 mail amavis[950]: Net::Server: User Not Defined.  Defaulting to EUID '999'
+2025-09-09T11:46:22.723370+00:00 mail amavis[950]: No ext program for   .zoo, tried: zoo
+2025-09-09T11:46:22.723425+00:00 mail amavis[950]: No ext program for   .doc, tried: ripole
+2025-09-09T11:46:22.723576+00:00 mail amavis[950]: No ext program for   .zst, tried: unzstd
+2025-09-09T11:46:22.723611+00:00 mail amavis[950]: No decoder for       .F   
+2025-09-09T11:46:22.723638+00:00 mail amavis[950]: No decoder for       .doc 
+2025-09-09T11:46:22.723664+00:00 mail amavis[950]: No decoder for       .zoo 
+2025-09-09T11:46:22.723704+00:00 mail amavis[950]: No decoder for       .zst 
+2025-09-09T11:46:22.723750+00:00 mail amavis[950]: Using primary internal av scanner code for ClamAV-clamd
+2025-09-09T11:46:22.724223+00:00 mail amavis[950]: Found secondary av scanner ClamAV-clamscan at /usr/bin/clamscan
+2025-09-09T11:46:43.312983+00:00 mail postfix/postfix-script[2651]: refreshing the Postfix mail system
+2025-09-09T11:46:43.317383+00:00 mail postfix/master[947]: reload -- version 3.7.11, configuration /etc/postfix
+2025-09-09T11:46:43.334464+00:00 mail dovecot: master: Warning: SIGHUP received - reloading configuration
+2025-09-09T11:46:43.468403+00:00 mail amavis[950]: (!)Net::Server: 2025/09/09-11:46:43 Re-exec server during HUP
+2025-09-09T11:46:43.718411+00:00 mail amavis[950]: starting. (warm) /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:46:43.718455+00:00 mail amavis[950]: perl=5.036000, user=999, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:46:43.730137+00:00 mail amavis[950]: Net::Server: Group Not Defined.  Defaulting to EGID '999 999'
+2025-09-09T11:46:43.730191+00:00 mail amavis[950]: Net::Server: User Not Defined.  Defaulting to EUID '999'
+2025-09-09T11:46:43.735294+00:00 mail amavis[950]: No ext program for   .zoo, tried: zoo
+2025-09-09T11:46:43.735351+00:00 mail amavis[950]: No ext program for   .doc, tried: ripole
+2025-09-09T11:46:43.735498+00:00 mail amavis[950]: No ext program for   .zst, tried: unzstd
+2025-09-09T11:46:43.735534+00:00 mail amavis[950]: No decoder for       .F   
+2025-09-09T11:46:43.735543+00:00 mail amavis[950]: No decoder for       .doc 
+2025-09-09T11:46:43.735570+00:00 mail amavis[950]: No decoder for       .zoo 
+2025-09-09T11:46:43.735578+00:00 mail amavis[950]: No decoder for       .zst 
+2025-09-09T11:46:43.735592+00:00 mail amavis[950]: Using primary internal av scanner code for ClamAV-clamd
+2025-09-09T11:46:43.736081+00:00 mail amavis[950]: Found secondary av scanner ClamAV-clamscan at /usr/bin/clamscan
+2025-09-09T11:46:46.128089+00:00 mail postfix/postfix-script[2922]: refreshing the Postfix mail system
+2025-09-09T11:46:46.132259+00:00 mail postfix/master[947]: reload -- version 3.7.11, configuration /etc/postfix
+2025-09-09T11:46:46.150429+00:00 mail dovecot: master: Warning: SIGHUP received - reloading configuration
+2025-09-09T11:46:46.284694+00:00 mail amavis[950]: (!)Net::Server: 2025/09/09-11:46:46 Re-exec server during HUP
+2025-09-09T11:46:46.530685+00:00 mail amavis[950]: starting. (warm) /usr/sbin/amavisd at mail.layer8.ag amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2025-09-09T11:46:46.530743+00:00 mail amavis[950]: perl=5.036000, user=999, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2025-09-09T11:46:46.542880+00:00 mail amavis[950]: Net::Server: Group Not Defined.  Defaulting to EGID '999 999'
+2025-09-09T11:46:46.542925+00:00 mail amavis[950]: Net::Server: User Not Defined.  Defaulting to EUID '999'
+2025-09-09T11:46:46.547761+00:00 mail amavis[950]: No ext program for   .zoo, tried: zoo
+2025-09-09T11:46:46.547813+00:00 mail amavis[950]: No ext program for   .doc, tried: ripole
+2025-09-09T11:46:46.547956+00:00 mail amavis[950]: No ext program for   .zst, tried: unzstd
+2025-09-09T11:46:46.547989+00:00 mail amavis[950]: No decoder for       .F   
+2025-09-09T11:46:46.548000+00:00 mail amavis[950]: No decoder for       .doc 
+2025-09-09T11:46:46.548034+00:00 mail amavis[950]: No decoder for       .zoo 
+2025-09-09T11:46:46.548060+00:00 mail amavis[950]: No decoder for       .zst 
+2025-09-09T11:46:46.548076+00:00 mail amavis[950]: Using primary internal av scanner code for ClamAV-clamd
+2025-09-09T11:46:46.548707+00:00 mail amavis[950]: Found secondary av scanner ClamAV-clamscan at /usr/bin/clamscan
+2025-09-09T11:47:17.361122+00:00 mail postfix/pickup[2927]: 582206A405: uid=0 from=<root>
+2025-09-09T11:47:17.366340+00:00 mail postfix/cleanup[3074]: 582206A405: message-id=<20250909114717.582206A405@mail.layer8.ag>
+2025-09-09T11:47:17.367075+00:00 mail opendkim[834]: 582206A405: localhost [127.0.0.1] not internal
+2025-09-09T11:47:17.367093+00:00 mail opendkim[834]: 582206A405: not authenticated
+2025-09-09T11:47:17.368106+00:00 mail opendkim[834]: 582206A405: no signature data
+2025-09-09T11:47:17.412414+00:00 mail postfix/qmgr[2928]: 582206A405: from=<root@mail.layer8.ag>, size=373, nrcpt=1 (queue active)
+2025-09-09T11:47:17.438602+00:00 mail dovecot: lmtp(3077): Connect from local
+2025-09-09T11:47:17.572422+00:00 mail dovecot: lmtp(petrovich@layer8.ag)<3077><Df8hGsUTwGgFDAAAOnVOhw>: Error: sieve: msgid=<20250909114717.582206A405@mail.layer8.ag>: failed to store into mailbox 'INBOX': Mailbox was deleted under us
+2025-09-09T11:47:17.572456+00:00 mail dovecot: lmtp(petrovich@layer8.ag)<3077><Df8hGsUTwGgFDAAAOnVOhw>: Error: sieve: Execution of script /usr/lib/dovecot/sieve-global/after/spam_to_junk.sieve failed with unsuccessful implicit keep
+2025-09-09T11:47:17.573540+00:00 mail dovecot: lmtp(3077): Disconnect from local: Logged out (state=READY)
+2025-09-09T11:47:17.621865+00:00 mail postfix/lmtp[3076]: 582206A405: to=<petrovich@layer8.ag>, relay=mail.layer8.ag[/var/run/dovecot/lmtp], delay=0.26, delays=0.1/0.01/0.02/0.13, dsn=4.2.0, status=deferred (host mail.layer8.ag[/var/run/dovecot/lmtp] said: 451 4.2.0 <petrovich@layer8.ag> Mailbox was deleted under us (in reply to end of DATA command))
+2025-09-09T11:47:58.397825+00:00 mail postfix/sendmail[3201]: -A option ignored
+2025-09-09T11:47:58.430466+00:00 mail postfix/pickup[2927]: 690D96A40F: uid=0 from=<root>
+2025-09-09T11:47:58.431837+00:00 mail postfix/cleanup[3074]: 690D96A40F: message-id=<20250909114758.690D96A40F@mail.layer8.ag>
+2025-09-09T11:47:58.432672+00:00 mail opendkim[834]: 690D96A40F: localhost [127.0.0.1] not internal
+2025-09-09T11:47:58.432695+00:00 mail opendkim[834]: 690D96A40F: not authenticated
+2025-09-09T11:47:58.434004+00:00 mail opendkim[834]: 690D96A40F: no signature data
+2025-09-09T11:47:58.463107+00:00 mail postfix/qmgr[2928]: 690D96A40F: from=<root@mail.layer8.ag>, size=373, nrcpt=1 (queue active)
+2025-09-09T11:47:58.464244+00:00 mail dovecot: lmtp(3077): Connect from local
+2025-09-09T11:47:58.643533+00:00 mail dovecot: lmtp(petrovich@layer8.ag)<3077><AKmkG+4TwGgFDAAAOnVOhw>: Error: lmtp-server: conn unix:pid=3076,uid=105 [2]: rcpt petrovich@layer8.ag: Mailbox INBOX: fstat(/var/mail/layer8.ag/petrovich/dovecot-uidlist.tmp) failed: No such file or directory
+2025-09-09T11:47:58.665064+00:00 mail dovecot: lmtp(petrovich@layer8.ag)<3077><AKmkG+4TwGgFDAAAOnVOhw>: Error: lmtp-server: conn unix:pid=3076,uid=105 [2]: rcpt petrovich@layer8.ag: Mailbox INBOX: fstat(/var/mail/layer8.ag/petrovich/dovecot-uidlist.tmp) failed: No such file or directory
+2025-09-09T11:47:58.669183+00:00 mail dovecot: lmtp(petrovich@layer8.ag)<3077><AKmkG+4TwGgFDAAAOnVOhw>: Panic: file maildir-save.c: line 757 (maildir_save_sync_index): assertion failed: (first_uid != 0)
+2025-09-09T11:47:58.674481+00:00 mail dovecot: lmtp(petrovich@layer8.ag)<3077><AKmkG+4TwGgFDAAAOnVOhw>: Error: Raw backtrace: #0 t_askpass[0x7d57c86b7be0] -> #1 backtrace_append[0x7d57c86b7e50] -> #2 backtrace_get[0x7d57c86b7fe0] -> #3 execvp_const[0x7d57c86c31d0] -> #4 i_syslog_fatal_handler[0x7d57c86c3b40] -> #5 i_panic[0x7d57c86190d4] -> #6 [unw_get_proc_name() failed: -10] -> #7 index_thread_mailbox_opened[0x7d57c8875d50] -> #8 mail_index_transaction_commit_full[0x7d57c88908e0] -> #9 index_transaction_commit[0x7d57c88762e0] -> #10 [unw_get_proc_name() failed: -10] -> #11 mailbox_list_index_status_sync_deinit[0x7d57c8851330] -> #12 quota_transaction_commit[0x7d57c7e2ae60] -> #13 mailbox_transaction_commit_get_changes[0x7d57c87f3660] -> #14 mailbox_transaction_commit[0x7d57c87f37a0] -> #15 sieve_act_redirect_add_to_result[0x7d57c7be8900] -> #16 sieve_code_mark_specific[0x7d57c7bdd7f0] -> #17 sieve_result_execute[0x7d57c7be0490] -> #18 sieve_multiscript_finish[0x7d57c7bf0c90] -> #19 [unw_get_proc_name() failed: -10] -> #20 mail_deliver[0x7d57c8905740] -> #21 lmtp_local_default_deliver[0x607028c0f0e0] -> #22 lmtp_local_data[0x607028c106f0] -> #23 client_default_cmd_data[0x607028c12630] -> #24 cmd_data_continue[0x607028c0e970] -> #25 pwrite_full[0x7d57c8703420] -> #26 io_loop_call_io[0x7d57c86daeb0] -> #27 io_loop_handler_run_internal[0x7d57c86dcbb0] -> #28 io_loop_handler_run[0x7d57c86dcd40] -> #29 io_loop_run[0x7d57c86dcf10] -> #30 master_service_run[0x7d57c864d1c0] -> #31 main[0x607028c0e010] -> #32 __libc_init_first[0x7d57c84061d0] -> #33 __libc_start_main[0x7d57c8406280] -> #34 _start[0x607028c0e370]
+2025-09-09T11:47:58.676592+00:00 mail dovecot: lmtp(petrovich@layer8.ag)<3077><AKmkG+4TwGgFDAAAOnVOhw>: Fatal: master: service(lmtp): child 3077 killed with signal 6 (core dumps disabled - https://dovecot.org/bugreport.html#coredumps)
+2025-09-09T11:47:58.706302+00:00 mail postfix/lmtp[3076]: 690D96A40F: to=<petrovich@layer8.ag>, relay=mail.layer8.ag[/var/run/dovecot/lmtp], delay=0.28, delays=0.06/0/0/0.21, dsn=4.4.2, status=deferred (lost connection with mail.layer8.ag[/var/run/dovecot/lmtp] while sending end of data -- message may be sent more than once)
+2025-09-09T11:47:58.740091+00:00 mail postfix/cleanup[3074]: B47C56A413: message-id=<20250909114758.B47C56A413@mail.layer8.ag>
+2025-09-09T11:47:58.769438+00:00 mail postfix/bounce[3211]: 690D96A40F: sender delivery status notification: B47C56A413
+2025-09-09T11:47:58.769564+00:00 mail postfix/qmgr[2928]: B47C56A413: from=<>, size=2303, nrcpt=1 (queue active)
+2025-09-09T11:47:58.775426+00:00 mail postfix/cleanup[3074]: BD2516A415: message-id=<20250909114758.B47C56A413@mail.layer8.ag>
+2025-09-09T11:47:58.804472+00:00 mail postfix/local[3212]: B47C56A413: to=<root@mail.layer8.ag>, relay=local, delay=0.07, delays=0.03/0/0/0.03, dsn=2.0.0, status=sent (forwarded as BD2516A415)
+2025-09-09T11:47:58.804559+00:00 mail postfix/qmgr[2928]: BD2516A415: from=<>, size=2444, nrcpt=1 (queue active)
+2025-09-09T11:47:58.804761+00:00 mail postfix/qmgr[2928]: B47C56A413: removed
+2025-09-09T11:47:58.813233+00:00 mail dovecot: lmtp(3213): Connect from local
+2025-09-09T11:47:58.905770+00:00 mail dovecot: lmtp(boss@layer8.ag)<3213><AwN3MO4TwGiNDAAAOnVOhw>: Error: sieve: msgid=<20250909114758.B47C56A413@mail.layer8.ag>: failed to store into mailbox 'INBOX': Mailbox was deleted under us
+2025-09-09T11:47:58.905805+00:00 mail dovecot: lmtp(boss@layer8.ag)<3213><AwN3MO4TwGiNDAAAOnVOhw>: Error: sieve: Execution of script /usr/lib/dovecot/sieve-global/after/spam_to_junk.sieve failed with unsuccessful implicit keep
+2025-09-09T11:47:58.906596+00:00 mail dovecot: lmtp(3213): Disconnect from local: Logged out (state=READY)
+2025-09-09T11:47:58.936269+00:00 mail postfix/lmtp[3076]: BD2516A415: to=<boss@layer8.ag>, orig_to=<root@mail.layer8.ag>, relay=mail.layer8.ag[/var/run/dovecot/lmtp], delay=0.13, delays=0.03/0/0.01/0.09, dsn=4.2.0, status=deferred (host mail.layer8.ag[/var/run/dovecot/lmtp] said: 451 4.2.0 <boss@layer8.ag> Mailbox was deleted under us (in reply to end of DATA command))

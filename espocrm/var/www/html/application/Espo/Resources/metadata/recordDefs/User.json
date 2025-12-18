@@ -1,0 +1,40 @@
+{
+    "massActions": {
+        "update": {
+            "implementationClassName": "Espo\\Classes\\MassAction\\User\\MassUpdate"
+        },
+        "delete": {
+            "implementationClassName": "Espo\\Classes\\MassAction\\User\\MassDelete"
+        }
+    },
+    "mandatoryAttributeList": [
+        "isActive",
+        "userName",
+        "type"
+    ],
+    "createInputFilterClassNameList": [
+        "Espo\\Classes\\Record\\User\\InputFilter"
+    ],
+    "updateInputFilterClassNameList": [
+        "Espo\\Classes\\Record\\User\\InputFilter"
+    ],
+    "outputFilterClassNameList": [
+        "Espo\\Classes\\Record\\User\\OutputFilter"
+    ],
+    "readLoaderClassNameList": [
+        "Espo\\Classes\\FieldProcessing\\User\\LastAccessLoader"
+    ],
+    "beforeCreateHookClassNameList": [
+        "Espo\\Classes\\RecordHooks\\User\\BeforeCreate"
+    ],
+    "beforeUpdateHookClassNameList": [
+        "Espo\\Classes\\RecordHooks\\User\\BeforeUpdate"
+    ],
+    "afterUpdateHookClassNameList": [
+        "Espo\\Classes\\RecordHooks\\User\\AfterUpdate"
+    ],
+    "beforeDeleteHookClassNameList": [
+        "Espo\\Classes\\RecordHooks\\User\\BeforeDelete"
+    ],
+    "deletedRestorerClassName": "Espo\\Classes\\Record\\User\\DeletedRestorer"
+}

@@ -1,0 +1,47 @@
+{
+    "controller": "controllers/record",
+    "acl": "crm:acl/mass-email",
+    "recordViews": {
+        "detail": "crm:views/mass-email/record/detail",
+        "edit": "crm:views/mass-email/record/edit",
+        "editQuick": "crm:views/mass-email/record/edit-small"
+    },
+    "views": {
+        "detail": "crm:views/mass-email/detail"
+    },
+    "defaultSidePanel": {
+        "edit": false,
+        "editSmall": false
+    },
+    "menu": {
+        "list": {
+            "dropdown": [
+                {
+                    "labelTranslation": "Global.scopeNamesPlural.EmailQueueItem",
+                    "link": "#EmailQueueItem",
+                    "accessDataList": [
+                        {
+                            "isAdminOnly": true
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "filterList": [
+        {
+            "name":"actual"
+        },
+        {
+            "name":"complete",
+            "style": "success"
+        }
+    ],
+    "relationshipPanels": {
+        "queueItems": {
+            "unlinkDisabled": true,
+            "viewDisabled": true,
+            "editDisabled": true
+        }
+    }
+}

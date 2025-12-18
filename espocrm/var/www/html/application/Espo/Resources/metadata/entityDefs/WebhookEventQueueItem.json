@@ -1,0 +1,43 @@
+{
+    "fields": {
+        "number": {
+            "type": "autoincrement",
+            "dbType": "bigint"
+        },
+        "event": {
+            "type": "varchar",
+            "maxLength": 100,
+            "required": true,
+            "view": "views/webhook/fields/event"
+        },
+        "target": {
+            "type": "linkParent"
+        },
+        "user": {
+            "type": "link"
+        },
+        "data": {
+            "type": "jsonObject"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "isProcessed": {
+            "type": "bool"
+        }
+    },
+    "links": {
+        "target": {
+            "type": "belongsToParent"
+        },
+        "user": {
+            "type": "belongsTo",
+            "entity": "User"
+        }
+    },
+    "collection": {
+        "orderBy": "number",
+        "order": "desc"
+    }
+}

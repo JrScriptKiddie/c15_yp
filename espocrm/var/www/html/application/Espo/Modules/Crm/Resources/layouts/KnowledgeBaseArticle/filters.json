@@ -1,0 +1,13 @@
+[
+    "createdAt",
+    "createdBy",
+    "modifiedAt",
+    "expirationDate",
+    "language",
+    "type",
+    "status",
+    "portals",
+    "publishDate",
+    "assignedUser",
+    "teams"
+]

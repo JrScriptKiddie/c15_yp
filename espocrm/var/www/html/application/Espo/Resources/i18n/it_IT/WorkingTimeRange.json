@@ -1,0 +1,31 @@
+{
+  "labels": {
+    "Calendars": "Calendari",
+    "Create WorkingTimeRange": "Crea Eccezione"
+  },
+  "fields": {
+    "timeRanges": "Orario",
+    "dateStart": "Data Inizio",
+    "dateEnd": "Data Fine",
+    "type": "Tipo",
+    "calendars": "Calendari",
+    "users": "Utenti"
+  },
+  "links": {
+    "calendars": "Calendari",
+    "users": "Utenti"
+  },
+  "options": {
+    "type": {
+      "Non-working": "Non lavorativo",
+      "Working": "Lavorativo"
+    }
+  },
+  "presetFilters": {
+    "actual": "Attivo"
+  },
+  "tooltips": {
+    "calendars": "Calendari a cui applicare l'eccezione. L'eccezione sarà applicata a tutti gli utenti dei calendari selezionati.\n\nLasciare il campo vuoto se si desidera applicare l'eccezione solo a utenti specifici.",
+    "users": "Utenti specifici a cui applicare l'eccezione."
+  }
+}

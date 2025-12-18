@@ -1,0 +1,20 @@
+{
+    "massActions": {
+        "delete": {
+            "allowed": true
+        }
+    },
+    "mandatoryAttributeList": [
+        "customUrl",
+        "customId"
+    ],
+    "createInputFilterClassNameList": [
+        "Espo\\Classes\\Record\\Portal\\InputFilter"
+    ],
+    "updateInputFilterClassNameList": [
+        "Espo\\Classes\\Record\\Portal\\InputFilter"
+    ],
+    "afterUpdateHookClassNameList": [
+        "Espo\\Classes\\RecordHooks\\Portal\\AfterUpdate"
+    ]
+}

@@ -1,0 +1,43 @@
+{
+  "fields": {
+    "name": "Nom",
+    "body": "Corps de texte",
+    "entityType": "Type de Fonctionnalité",
+    "header": "Entête",
+    "footer": "Pied de page",
+    "leftMargin": "Marge gauche",
+    "topMargin": "Marge du haut",
+    "rightMargin": "Marge droite",
+    "bottomMargin": "Marge du bas",
+    "printFooter": "Imprimer les pieds de page",
+    "footerPosition": "Position des pieds de page",
+    "pageOrientation": "Orientation de la page",
+    "pageFormat": "Format de papier",
+    "fontFace": "Police de caractère",
+    "pageWidth": "Largeur de page (mm)",
+    "pageHeight": "Hauteur de la page (mm)",
+    "headerPosition": "Position de l'entête",
+    "printHeader": "Impression de l'entête",
+    "title": "Titre"
+  },
+  "labels": {
+    "Create Template": "Créer un modèle"
+  },
+  "tooltips": {
+    "footer": "Utiliser {pageNumber} pour indiquer le numéro de la page.",
+    "variables": "Copiez-collez le code court dans l'entête, le corps ou le pieds de le page."
+  },
+  "options": {
+    "pageOrientation": {
+      "Landscape": "Paysage"
+    },
+    "placeholders": {
+      "today": "La date d'aujourd'hui)",
+      "now": "Maintenant (date-heure)",
+      "pagebreak": "Saut de page"
+    },
+    "pageFormat": {
+      "Custom": "Douane"
+    }
+  }
+}

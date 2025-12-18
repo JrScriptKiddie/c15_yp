@@ -1,0 +1,119 @@
+{
+    "controller": "controllers/record",
+    "recordViews": {
+        "detail": "crm:views/case/record/detail"
+    },
+    "detailActionList": [
+        {
+            "name": "close",
+            "label": "Close",
+            "handler": "crm:handlers/case/detail-actions",
+            "actionFunction": "close",
+            "checkVisibilityFunction": "isCloseAvailable"
+        },
+        {
+            "name": "reject",
+            "label": "Reject",
+            "handler": "crm:handlers/case/detail-actions",
+            "actionFunction": "reject",
+            "checkVisibilityFunction": "isRejectAvailable"
+        }
+    ],
+    "sidePanels": {
+        "detail": [
+            {
+                "name": "activities",
+                "reference": "activities",
+                "view": "crm:views/case/record/panels/activities"
+            },
+            {
+                "name": "history",
+                "reference": "history"
+            },
+            {
+                "name": "tasks",
+                "reference": "tasks"
+            }
+        ],
+        "detailSmall": [
+            {
+                "name": "activities",
+                "reference": "activities",
+                "view": "crm:views/case/record/panels/activities"
+            },
+            {
+                "name": "history",
+                "reference": "history"
+            },
+            {
+                "name": "tasks",
+                "reference": "tasks"
+            }
+        ]
+    },
+    "bottomPanels": {
+        "detail": [
+            {
+                "name": "activities",
+                "reference": "activities",
+                "view": "crm:views/case/record/panels/activities",
+                "disabled": true
+            },
+            {
+                "name": "history",
+                "reference": "history",
+                "disabled": true
+            }
+        ]
+    },
+    "filterList": [
+        {
+            "name":"open"
+        },
+        {
+            "name":"closed",
+            "style": "success"
+        }
+    ],
+    "relationshipPanels": {
+        "articles": {
+            "createDisabled": true,
+            "editDisabled": true,
+            "removeDisabled": true,
+            "rowActionList": [
+                "sendInEmail"
+            ]
+        },
+        "contacts": {
+            "createAttributeMap": {
+                "accountId": "accountId",
+                "accountName": "accountName"
+            },
+            "selectHandler": "handlers/select-related/same-account-many"
+        },
+        "contact": {
+            "createAttributeMap": {
+                "accountId": "accountId",
+                "accountName": "accountName"
+            },
+            "selectHandler": "handlers/select-related/same-account-many"
+        }
+    },
+    "boolFilterList": ["onlyMy"],
+    "selectDefaultFilters": {
+        "filter": "open"
+    },
+    "allowInternalNotes": true,
+    "additionalLayouts": {
+        "detailPortal": {
+            "type": "detail"
+        },
+        "detailSmallPortal": {
+            "type": "detail"
+        },
+        "listPortal": {
+            "type": "list"
+        }
+    },
+    "iconClass": "fas fa-briefcase"
+}

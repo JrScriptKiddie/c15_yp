@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "name": "Jméno",
+    "roles": "Role",
+    "positionList": "Seznam pozic"
+  },
+  "links": {
+    "users": "Uživatelé"
+  },
+  "labels": {
+    "Create Team": "Vytvořit tým"
+  }
+}

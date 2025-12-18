@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "notSortable": "Neřaditelné",
+    "align": "Zarovnání"
+  },
+  "options": {
+    "align": {
+      "left": "Vlevo",
+      "right": "Vpravo"
+    }
+  }
+}

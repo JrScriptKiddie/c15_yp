@@ -1,0 +1,13 @@
+{
+    "primaryFilterClassNameMap": {
+        "portalUsers": "Espo\\Modules\\Crm\\Classes\\Select\\Contact\\PrimaryFilters\\PortalUsers",
+        "notPortalUsers": "Espo\\Modules\\Crm\\Classes\\Select\\Contact\\PrimaryFilters\\NotPortalUsers",
+        "accountActive": "Espo\\Modules\\Crm\\Classes\\Select\\Contact\\PrimaryFilters\\AccountActive"
+    },
+    "accessControlFilterClassNameMap": {
+        "portalOnlyContact": "Espo\\Modules\\Crm\\Classes\\Select\\Contact\\AccessControlFilters\\PortalOnlyContact"
+    },
+    "selectAttributesDependencyMap": {
+        "accountId": ["accountIsInactive"]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "entity": true,
+    "layouts": false,
+    "tab": true,
+    "acl": true,
+    "aclActionList": ["read"],
+    "aclLevelList": ["all", "team", "no"],
+    "importable": true,
+    "customizable": false,
+    "preserveAuditLog": true
+}

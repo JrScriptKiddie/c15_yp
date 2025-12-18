@@ -1,0 +1,16 @@
+{
+  "links": {
+    "users": "Utilisateurs"
+  },
+  "labels": {
+    "Access": "Accès",
+    "Create PortalRole": "Créer un rôle Portail",
+    "Scope Level": "Niveau de vision"
+  },
+  "fields": {
+    "exportPermission": "Permission d'exportation",
+    "massUpdatePermission": "Autorisation de mise à jour en masse",
+    "data": "Donnée",
+    "fieldData": "Champ Data"
+  }
+}

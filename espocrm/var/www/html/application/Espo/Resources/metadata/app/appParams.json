@@ -1,0 +1,11 @@
+{
+    "templateEntityTypeList": {
+        "className": "Espo\\Classes\\AppParams\\TemplateEntityTypeList"
+    },
+    "extensions": {
+        "className": "Espo\\Classes\\AppParams\\Extensions"
+    },
+    "addressCountryData": {
+        "className": "Espo\\Classes\\AppParams\\AddressCountryData"
+    }
+}

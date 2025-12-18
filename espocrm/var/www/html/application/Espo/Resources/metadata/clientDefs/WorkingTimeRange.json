@@ -1,0 +1,22 @@
+{
+    "controller": "controllers/record",
+    "viewSetupHandlers": {
+        "record/edit": ["handlers/working-time-range"]
+    },
+    "mergeDisabled": true,
+    "massUpdateDisabled": true,
+    "menu": {
+        "list": {
+            "buttons": [
+                {
+                    "name": "calendars",
+                    "label": "Calendars",
+                    "link": "#WorkingTimeCalendar"
+                }
+            ]
+        }
+    },
+    "filterList": [
+        "actual"
+    ]
+}

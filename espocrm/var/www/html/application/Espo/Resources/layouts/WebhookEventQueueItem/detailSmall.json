@@ -1,0 +1,17 @@
+[
+    {
+        "rows": [
+            [
+                {"name": "event"},
+                {"name": "isProcessed"}
+            ],
+            [
+                {"name": "target"},
+                {"name": "user"}
+            ],
+            [
+                {"name": "data"}
+            ]
+        ]
+    }
+]

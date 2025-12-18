@@ -1,0 +1,34 @@
+{
+    "controller": "controllers/record",
+    "searchPanelDisabled": true,
+    "recordViews": {
+        "detail": "views/lead-capture/record/detail",
+        "list": "views/lead-capture/record/list"
+    },
+    "sidePanels": {
+        "detail": [
+            {
+                "name": "request",
+                "label": "Request",
+                "isForm": true,
+                "view": "views/lead-capture/record/panels/request",
+                "notRefreshable": true
+            },
+            {
+                "name": "form",
+                "label": "Web Form",
+                "isForm": true,
+                "view": "views/lead-capture/record/panels/form",
+                "notRefreshable": true
+            }
+        ]
+    },
+    "relationshipPanels": {
+        "logRecords": {
+            "rowActionsView": "views/record/row-actions/view-and-remove",
+            "layout": "listForLeadCapture",
+            "select": false,
+            "create": false
+        }
+    }
+}

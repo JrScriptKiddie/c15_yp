@@ -1,0 +1,109 @@
+{
+    "controller": "controllers/record",
+    "aclPortal": "crm:acl-portal/contact",
+    "views": {
+        "detail": "crm:views/contact/detail"
+    },
+    "recordViews": {
+        "detail": "crm:views/contact/record/detail",
+        "detailQuick": "crm:views/contact/record/detail-small"
+    },
+    "sidePanels": {
+        "detail": [
+            {
+                "name": "activities",
+                "reference": "activities"
+            },
+            {
+                "name": "history",
+                "reference": "history"
+            },
+            {
+                "name": "tasks",
+                "reference": "tasks"
+            }
+        ],
+        "detailSmall": [
+            {
+                "name": "activities",
+                "reference": "activities"
+            },
+            {
+                "name": "history",
+                "reference": "history"
+            },
+            {
+                "name": "tasks",
+                "reference": "tasks"
+            }
+        ]
+    },
+    "bottomPanels": {
+        "detail": [
+            {
+                "name": "activities",
+                "reference": "activities",
+                "disabled": true
+            },
+            {
+                "name": "history",
+                "reference": "history",
+                "disabled": true
+            }
+        ]
+    },
+    "relationshipPanels": {
+        "campaignLogRecords": {
+            "rowActionsView": "views/record/row-actions/empty",
+            "select": false,
+            "create": false
+        },
+        "opportunities": {
+            "layout": "listForContact",
+            "createAttributeMap": {
+                "accountId": "accountId",
+                "accountName": "accountName",
+                "id": "contactId",
+                "name": "contactName"
+            },
+            "selectHandler": "handlers/select-related/same-account"
+        },
+        "cases": {
+            "createAttributeMap": {
+                "accountId": "accountId",
+                "accountName": "accountName",
+                "id": "contactId",
+                "name": "contactName"
+            },
+            "selectHandler": "handlers/select-related/same-account"
+        },
+        "targetLists": {
+            "create": false,
+            "rowActionsView": "crm:views/record/row-actions/relationship-target",
+            "layout": "listForTarget",
+            "view": "crm:views/record/panels/target-lists"
+        },
+        "meetings": {
+            "createHandler": "handlers/create-related/set-parent"
+        },
+        "calls": {
+            "createHandler": "handlers/create-related/set-parent"
+        }
+    },
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "additionalLayouts": {
+        "detailConvert": {
+            "type": "detail"
+        },
+        "listForAccount": {
+            "type": "listSmall"
+        }
+    },
+    "filterList": [
+        "portalUsers"
+    ],
+    "color": "#a4c5e0",
+    "iconClass": "fas fa-id-badge"
+}

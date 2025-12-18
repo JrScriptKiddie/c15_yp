@@ -1,0 +1,31 @@
+{
+  "labels": {
+    "Calendars": "Kalendoriai",
+    "Create WorkingTimeRange": "Sukurti išimtį"
+  },
+  "fields": {
+    "timeRanges": "Tvarkaraštis",
+    "dateStart": "Data Pradžia",
+    "dateEnd": "Data Pabaiga",
+    "type": "Tipas",
+    "calendars": "Kalendoriai",
+    "users": "Vartotojai"
+  },
+  "links": {
+    "calendars": "Kalendoriai",
+    "users": "Vartotojai"
+  },
+  "options": {
+    "type": {
+      "Non-working": "Neveikiantis",
+      "Working": "Dirbama"
+    }
+  },
+  "presetFilters": {
+    "actual": "Tikrasis"
+  },
+  "tooltips": {
+    "calendars": "Kalendoriai, kuriems taikoma išimtis. Išimtis bus taikoma visiems pasirinktų kalendorių naudotojams.\n\nPalikite lauką tuščią, jei išimtis turi būti taikoma tik konkretiems naudotojams.",
+    "users": "Konkretūs naudotojai, kuriems taikoma išimtis."
+  }
+}

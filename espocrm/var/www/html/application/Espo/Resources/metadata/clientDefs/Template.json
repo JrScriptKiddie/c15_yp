@@ -1,0 +1,15 @@
+{
+    "controller": "controllers/record",
+    "recordViews": {
+        "detail": "views/template/record/detail",
+        "edit": "views/template/record/edit"
+    },
+    "mergeDisabled": true,
+    "filterList": [
+        "active"
+    ],
+    "selectDefaultFilters": {
+        "filter": "active"
+    },
+    "iconClass": "fas fa-file-pdf"
+}

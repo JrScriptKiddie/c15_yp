@@ -1,0 +1,30 @@
+{
+  "labels": {
+    "Calendars": "Kalenders",
+    "Create WorkingTimeRange": "Uitzondering maken"
+  },
+  "fields": {
+    "timeRanges": "Schema",
+    "dateStart": "Datum begin",
+    "dateEnd": "Datum einde",
+    "calendars": "Kalenders",
+    "users": "Gebruikers"
+  },
+  "links": {
+    "calendars": "Kalenders",
+    "users": "Gebruikers"
+  },
+  "options": {
+    "type": {
+      "Non-working": "Geen werktijd",
+      "Working": "Werktijd"
+    }
+  },
+  "presetFilters": {
+    "actual": "Actueel"
+  },
+  "tooltips": {
+    "calendars": "Kalenders om de uitzondering op toe te passen. De uitzondering wordt toegepast op alle gebruikers van de geselecteerde kalenders.\n\nLaat het veld leeg als je de uitzondering alleen wilt toepassen op specifieke gebruikers.",
+    "users": "Specifieke gebruikers om de uitzondering op toe te passen."
+  }
+}

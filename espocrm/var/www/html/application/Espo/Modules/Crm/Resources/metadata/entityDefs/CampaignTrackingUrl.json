@@ -1,0 +1,79 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true
+        },
+        "url": {
+            "type": "url",
+            "tooltip": true
+        },
+        "urlToUse": {
+            "type": "varchar",
+            "notStorable": true,
+            "orderDisabled": true,
+            "readOnly": true,
+            "copyToClipboard": true
+        },
+        "campaign": {
+            "type": "link",
+            "readOnlyAfterCreate": true
+        },
+        "action": {
+            "type": "enum",
+            "options": [
+                "Redirect",
+                "Show Message"
+            ],
+            "default": "Redirect",
+            "maxLength": 12
+        },
+        "message": {
+            "type": "text",
+            "tooltip": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true,
+            "fieldManagerParamList": [
+                "useNumericFormat"
+            ]
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "fieldManagerParamList": []
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true,
+            "fieldManagerParamList": [
+                "useNumericFormat"
+            ]
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "fieldManagerParamList": []
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "campaign": {
+            "type": "belongsTo",
+            "entity": "Campaign",
+            "foreign": "trackingUrls"
+        }
+    },
+    "collection": {
+        "orderBy": "name",
+        "order": "asc"
+    }
+}

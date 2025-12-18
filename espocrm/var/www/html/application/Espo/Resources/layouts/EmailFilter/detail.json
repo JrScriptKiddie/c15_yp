@@ -1,0 +1,41 @@
+[
+    {
+        "rows": [
+            [
+                {"name": "name"}, {"name": "isGlobal"}
+            ],
+            [
+                {"name": "parent"}, false
+            ]
+        ]
+    },
+    {
+        "rows": [
+            [
+                {"name": "from"}, {"name": "to"}
+            ],
+            [
+                {"name": "subject"}
+            ],
+            [
+                {"name": "bodyContains"}
+            ],
+            [
+                {"name": "bodyContainsAll"}
+            ]
+        ]
+    },
+    {
+        "rows": [
+            [
+                {"name": "action"}, {"name": "markAsRead"}
+            ],
+            [
+                {"name": "emailFolder"}, {"name": "skipNotification"}
+            ],
+            [
+                {"name": "groupEmailFolder"}, false
+            ]
+        ]
+    }
+]

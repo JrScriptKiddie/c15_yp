@@ -1,0 +1,115 @@
+{
+    "fields": {
+        "smtpUsername": {
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "and",
+                        "value": [
+                            {
+                                "type": "isTrue",
+                                "attribute": "useSmtp"
+                            },
+                            {
+                                "type": "isTrue",
+                                "attribute": "smtpAuth"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "fetchSince": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "isTrue",
+                        "attribute": "useImap"
+                    }
+                ]
+            },
+            "readOnly": {
+                "conditionGroup": [
+                    {
+                        "type": "isNotEmpty",
+                        "attribute": "fetchData"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "isTrue",
+                        "attribute": "useImap"
+                    }
+                ]
+            }
+        },
+        "isSystem": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "isNotEmpty",
+                        "attribute": "id"
+                    }
+                ]
+            }
+        },
+        "replyEmailTemplate": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "isTrue",
+                        "attribute": "reply"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "isTrue",
+                        "attribute": "reply"
+                    }
+                ]
+            }
+        },
+        "replyFromAddress": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "isTrue",
+                        "attribute": "reply"
+                    }
+                ]
+            }
+        },
+        "replyFromName": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "isTrue",
+                        "attribute": "reply"
+                    }
+                ]
+            }
+        },
+        "sentFolder": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "isTrue",
+                        "attribute": "storeSentEmails"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "isTrue",
+                        "attribute": "storeSentEmails"
+                    }
+                ]
+            }
+        }
+    }
+}

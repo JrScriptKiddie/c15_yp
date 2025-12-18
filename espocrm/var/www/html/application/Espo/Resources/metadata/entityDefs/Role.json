@@ -1,0 +1,157 @@
+{
+    "fields": {
+        "name": {
+            "maxLength": 150,
+            "required": true,
+            "type": "varchar",
+            "pattern": "$noBadCharacters"
+        },
+        "info": {
+            "type": "base",
+            "orderDisabled": true,
+            "notStorable": true,
+            "readOnly": true,
+            "view": "views/role/fields/info"
+        },
+        "assignmentPermission": {
+            "type": "enum",
+            "options": ["not-set", "all", "team", "no"],
+            "default": "not-set",
+            "tooltip": true,
+            "translation": "Role.options.levelList",
+            "view": "views/role/fields/permission",
+            "audited": true
+        },
+        "userPermission": {
+            "type": "enum",
+            "options": ["not-set", "all", "team", "no"],
+            "default": "not-set",
+            "tooltip": true,
+            "translation": "Role.options.levelList",
+            "view": "views/role/fields/permission",
+            "audited": true
+        },
+        "messagePermission": {
+            "type": "enum",
+            "options": ["not-set", "all", "team", "no"],
+            "default": "not-set",
+            "tooltip": true,
+            "translation": "Role.options.levelList",
+            "view": "views/role/fields/permission",
+            "audited": true
+        },
+        "portalPermission": {
+            "type": "enum",
+            "options": ["not-set", "yes", "no"],
+            "default": "not-set",
+            "tooltip": true,
+            "translation": "Role.options.levelList",
+            "view": "views/role/fields/permission",
+            "audited": true
+        },
+        "groupEmailAccountPermission": {
+            "type": "enum",
+            "options": ["not-set", "all", "team", "no"],
+            "default": "not-set",
+            "tooltip": true,
+            "translation": "Role.options.levelList",
+            "view": "views/role/fields/permission",
+            "audited": true
+        },
+        "exportPermission": {
+            "type": "enum",
+            "options": ["not-set", "yes", "no"],
+            "default": "not-set",
+            "tooltip": true,
+            "translation": "Role.options.levelList",
+            "view": "views/role/fields/permission",
+            "audited": true
+        },
+        "massUpdatePermission": {
+            "type": "enum",
+            "options": ["not-set", "yes", "no"],
+            "default": "not-set",
+            "tooltip": true,
+            "translation": "Role.options.levelList",
+            "view": "views/role/fields/permission",
+            "audited": true
+        },
+        "dataPrivacyPermission": {
+            "type": "enum",
+            "options": ["not-set", "yes", "no"],
+            "default": "not-set",
+            "tooltip": true,
+            "translation": "Role.options.levelList",
+            "view": "views/role/fields/permission",
+            "audited": true
+        },
+        "followerManagementPermission": {
+            "type": "enum",
+            "options": ["not-set", "all", "team", "no"],
+            "default": "not-set",
+            "tooltip": true,
+            "translation": "Role.options.levelList",
+            "view": "views/role/fields/permission",
+            "audited": true
+        },
+        "auditPermission": {
+            "type": "enum",
+            "options": ["not-set", "yes", "no"],
+            "default": "not-set",
+            "tooltip": true,
+            "translation": "Role.options.levelList",
+            "view": "views/role/fields/permission",
+            "audited": true
+        },
+        "mentionPermission": {
+            "type": "enum",
+            "options": ["not-set", "all", "team", "no"],
+            "default": "not-set",
+            "tooltip": true,
+            "translation": "Role.options.levelList",
+            "view": "views/role/fields/permission",
+            "audited": true
+        },
+        "userCalendarPermission": {
+            "type": "enum",
+            "options": ["not-set", "all", "team", "no"],
+            "default": "not-set",
+            "tooltip": true,
+            "translation": "Role.options.levelList",
+            "view": "views/role/fields/permission",
+            "audited": true
+        },
+        "data": {
+            "type": "jsonObject",
+            "audited": true
+        },
+        "fieldData": {
+            "type": "jsonObject",
+            "audited": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        }
+    },
+    "links": {
+        "users": {
+            "type": "hasMany",
+            "entity": "User",
+            "foreign": "roles"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "foreign": "roles"
+        }
+    },
+    "collection": {
+        "orderBy": "name",
+        "order": "asc"
+    }
+}

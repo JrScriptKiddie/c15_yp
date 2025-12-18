@@ -1,0 +1,36 @@
+{
+  "fields": {
+    "name": "Ad",
+    "status": "Durum",
+    "job": "Görev",
+    "scheduling": "Zamanlama"
+  },
+  "links": {
+    "log": "Kayıt"
+  },
+  "labels": {
+    "Create ScheduledJob": "Zamanlanmış Görev Oluştur"
+  },
+  "options": {
+    "job": {
+      "Cleanup": "Temizle",
+      "CheckInboundEmails": "Gelen Epostaları Kontrol Et",
+      "CheckEmailAccounts": "Kişisel eposta hesaplarını kontrol et",
+      "SendEmailReminders": "Hatırlatıcı Eposta Gönder",
+      "AuthTokenControl": "Kimlik Doğrulama Simgesi Kontrolü",
+      "SendEmailNotifications": "Eposta Bildirimleri gönder",
+      "CheckNewVersion": "Yeni versiyon denetleme",
+      "ProcessWebhookQueue": "Web Oltası Kuyruğunu İşlet"
+    },
+    "cronSetup": {
+      "linux": "Not: Espo'nun planlanmış işleri çalıştırabilmesi için şu kodları crontab dosyasına ekleyin:",
+      "mac": "Not: Espo'nun planlanmış işleri çalıştırabilmesi için şu kodları crontab dosyasına ekleyin:",
+      "windows": "Not: Espo'nun planlanmış işleri Windows Scheduled Task ile kullanabilmesi için şu kodlarla bir BATCH dosyası oluşturun:",
+      "default": "Not: Bu komutu CronTab'a ekleyin:"
+    },
+    "status": {
+      "Active": "Etkin",
+      "Inactive": "Pasif"
+    }
+  }
+}

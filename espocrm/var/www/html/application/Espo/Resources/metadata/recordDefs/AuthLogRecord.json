@@ -1,0 +1,9 @@
+{
+    "massActions": {
+        "delete": {
+            "allowed": true
+        }
+    },
+    "actionHistoryDisabled": true,
+    "forceSelectAllAttributes": true
+}
