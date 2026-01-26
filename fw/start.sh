@@ -42,17 +42,12 @@ echo "Adding default route via ${SUBNET_UPLINK}.1 on eth_uplink"
 ip route add default via $SUBNET_UPLINK.1 dev eth_uplink || true
 ip route add 10.11.0.0/16 via $SUBNET_DMZ.$VPN_SRV_IP
 
-nft flush table inet fw || true
-nft flush chain ip nat PREROUTING || true
-nft flush chain ip nat POSTROUTING || true
 # Load nftables rules
 nft -f /etc/nftables.conf
 
-#!/bin/bash
-
 #Скрипт выполняет первичную конфиуграцию SSHD и создает пользователя для ansible
 set -euo pipefail
-
+echo "[fw] SSHD Configure started"
 # SSH setup (avoid noisy errors if config dir missing)
 mkdir -p /etc/ssh /run/sshd
 if [ ! -f /etc/ssh/sshd_config ]; then
@@ -73,6 +68,7 @@ sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin no/' /etc/ssh/sshd_config || tru
 ssh-keygen -A >/dev/null 2>&1 || true
 
 # Add ansible user
+echo "[fw] Add ansible user"
 if ! id -u svc_ib_admin >/dev/null 2>&1; then
   useradd -m -s /bin/bash svc_ib_admin && echo "svc_ib_admin:${SVC_IB_ADMIN_PASSWORD}" | chpasswd
 fi
@@ -83,5 +79,47 @@ chmod 0440 /etc/sudoers.d/91-svc_ib_admin
 mkdir -p /run/sshd
 chmod 755 /run/sshd
 
+echo "[fw] Starting Suricata configuration..."
+
+ALL_SUBNETS=$(env | grep '^SUBNET_' | cut -d= -f2 | sed 's/$/.0\/24/' | paste -sd "," -)
+
+echo "[fw] Detected networks for HOME_NET: $ALL_SUBNETS"
+
+if [ -z "$ALL_SUBNETS" ]; then
+    echo "[fw] ERROR: No SUBNET_* variables found! Using 192.168.0.0/16 as fallback."
+    ALL_SUBNETS="192.168.0.0/16"
+fi
+
+sed "s|\${SURICATA_HOME_NET}|$ALL_SUBNETS|g" /etc/suricata/suricata.yaml.template> /etc/suricata/suricata.yaml
+
+IFACES_CONF=$(mktemp)
+
+for IFACE in eth_uplink eth_dev eth_users eth_dmz eth_servers eth_admin eth_infosec; do
+  if ip link show "$IFACE" >/dev/null 2>&1; then
+    echo "[fw] Adding $IFACE to Suricata config"
+    
+    cat <<EOF >> "$IFACES_CONF"
+  - interface: $IFACE
+    cluster-id: $(( $RANDOM % 90 + 10 ))
+    cluster-type: cluster_flow
+    defrag: yes
+EOF
+    ethtool -K "$IFACE" gro off lro off tso off gso off || true
+  fi
+done
+
+
+sed -i '/# INTERFACES_PLACEHOLDER/r '"$IFACES_CONF" /etc/suricata/suricata.yaml
+
+rm "$IFACES_CONF"
+
+suricata -T -c /etc/suricata/suricata.yaml || echo "[fw] Suricata config test failed!"
+cp /var/lib/suricata/rules/suricata.rules /etc/suricata/suricata.rules
+echo "[fw] configure rsyslog"
+echo "local5.* @192.168.3.88:514" >> /etc/rsyslog.conf
+rsyslogd -f /etc/rsyslog.conf &
+suricata -c /etc/suricata/suricata.yaml -s /etc/suricata/suricata.rules -D &
+
 # Keep running
+echo "[fw] Start SSHD"
 exec /usr/sbin/sshd -D
