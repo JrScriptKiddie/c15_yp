@@ -721,10 +721,10 @@ services:
     domainname: layer8.ag
     cap_add: [ "NET_ADMIN" ]
     environment:
-      - SSL_TYPE=none
-      - ENABLE_SPAMASSASSIN=0
-      - ENABLE_CLAMAV=0
-      - ONE_DIR=1
+      - SSL_TYPE: none
+      - ENABLE_SPAMASSASSIN: 0
+      - ENABLE_CLAMAV: 0
+      - ONE_DIR: 1
       - GATEWAY_IP: ${SUBNET_SERVERS}.254
     networks:
       servers_net:
@@ -738,9 +738,9 @@ services:
     ports:
       - "8085:80"
     environment:
-      - ROUNDCUBEMAIL_DB_TYPE=sqlite
-      - ROUNDCUBEMAIL_DEFAULT_HOST=srv_mail
-      - ROUNDCUBEMAIL_SMTP_SERVER=srv_mail
+      - ROUNDCUBEMAIL_DB_TYPE: sqlite
+      - ROUNDCUBEMAIL_DEFAULT_HOST: srv_mail
+      - ROUNDCUBEMAIL_SMTP_SERVER: srv_mail
     networks:
       servers_net:
         ipv4_address: ${SUBNET_SERVERS}.${SRV_RC_IP}
@@ -756,8 +756,8 @@ services:
     domainname: evil.com
     cap_add: [ "NET_ADMIN" ]
     environment:
-      - SSL_TYPE=none
-      - ENABLE_SPAMASSASSIN=0
+      - SSL_TYPE: none
+      - ENABLE_SPAMASSASSIN: 0
       - GATEWAY_IP: ${SUBNET_UPLINK}.254
     networks:
       uplink_net:
@@ -771,9 +771,9 @@ services:
     ports:
       - "8086:80"
     environment:
-      - ROUNDCUBEMAIL_DB_TYPE=sqlite
-      - ROUNDCUBEMAIL_DEFAULT_HOST=pc_attacker_mail
-      - ROUNDCUBEMAIL_SMTP_SERVER=pc_attacker_mail
+      - ROUNDCUBEMAIL_DB_TYPE: sqlite
+      - ROUNDCUBEMAIL_DEFAULT_HOST: pc_attacker_mail
+      - ROUNDCUBEMAIL_SMTP_SERVER: pc_attacker_mail
     networks:
       uplink_net:
         ipv4_address: ${SUBNET_UPLINK}.${EXT_RC_IP}
