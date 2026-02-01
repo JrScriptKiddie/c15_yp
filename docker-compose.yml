@@ -720,12 +720,19 @@ services:
     hostname: mail.layer8.ag
     domainname: layer8.ag
     cap_add: [ "NET_ADMIN" ]
+    # Позволяет серверу видеть атакующего по имени без DNS
+    extra_hosts:
+      - "mail.evil.com:172.56.200.180"
     environment:
-      - SSL_TYPE: none
-      - ENABLE_SPAMASSASSIN: 0
-      - ENABLE_CLAMAV: 0
-      - ONE_DIR: 1
-      - GATEWAY_IP: ${SUBNET_SERVERS}.254
+      - SSL_TYPE=none
+      - ENABLE_SPAMASSASSIN=0
+      - ENABLE_CLAMAV=0
+      - ONE_DIR=1
+      - GATEWAY_IP=${SUBNET_SERVERS}.254
+    volumes:
+      - ./mail/internal/postfix-accounts.cf:/tmp/docker-mailserver/postfix-accounts.cf:ro
+      - ./mail/internal/data:/var/mail
+      - ./mail/internal/state:/var/mail-state
     networks:
       servers_net:
         ipv4_address: ${SUBNET_SERVERS}.${SRV_MAIL_IP}
@@ -736,29 +743,35 @@ services:
     image: roundcube/roundcubemail:latest
     container_name: srv_roundcube
     ports:
-      - "8085:80"
+      - "${RC_PORT_INTERNAL}:80"
     environment:
-      - ROUNDCUBEMAIL_DB_TYPE: sqlite
-      - ROUNDCUBEMAIL_DEFAULT_HOST: srv_mail
-      - ROUNDCUBEMAIL_SMTP_SERVER: srv_mail
+      - ROUNDCUBEMAIL_DB_TYPE=sqlite
+      - ROUNDCUBEMAIL_DEFAULT_HOST=srv_mail
+      - ROUNDCUBEMAIL_SMTP_SERVER=srv_mail
     networks:
       servers_net:
         ipv4_address: ${SUBNET_SERVERS}.${SRV_RC_IP}
     depends_on:
       - srv_mail
-    dns:
-      - ${SUBNET_SERVERS}.${DNS_SRV_IP}
 
+  # --- ВНЕШНИЙ ПОЧТОВЫЙ СТЕК (Атакующий evil.com) ---
   pc_attacker_mail:
     image: mailserver/docker-mailserver:latest
     container_name: pc_attacker_mail
     hostname: mail.evil.com
     domainname: evil.com
     cap_add: [ "NET_ADMIN" ]
+    # Позволяет атакующему видеть корпоративный сервер по имени
+    extra_hosts:
+      - "mail.layer8.ag:192.168.1.50"
     environment:
-      - SSL_TYPE: none
-      - ENABLE_SPAMASSASSIN: 0
-      - GATEWAY_IP: ${SUBNET_UPLINK}.254
+      - SSL_TYPE=none
+      - ENABLE_SPAMASSASSIN=0
+      - GATEWAY_IP=${SUBNET_UPLINK}.254
+    volumes:
+      - ./mail/attacker/postfix-accounts.cf:/tmp/docker-mailserver/postfix-accounts.cf:ro
+      - ./mail/attacker/data:/var/mail
+      - ./mail/attacker/state:/var/mail-state
     networks:
       uplink_net:
         ipv4_address: ${SUBNET_UPLINK}.${EXT_MAIL_IP}
@@ -769,18 +782,14 @@ services:
     image: roundcube/roundcubemail:latest
     container_name: pc_attacker_rc
     ports:
-      - "8086:80"
+      - "${RC_PORT_EXTERNAL}:80"
     environment:
-      - ROUNDCUBEMAIL_DB_TYPE: sqlite
-      - ROUNDCUBEMAIL_DEFAULT_HOST: pc_attacker_mail
-      - ROUNDCUBEMAIL_SMTP_SERVER: pc_attacker_mail
+      - ROUNDCUBEMAIL_DB_TYPE=sqlite
+      - ROUNDCUBEMAIL_DEFAULT_HOST=pc_attacker_mail
+      - ROUNDCUBEMAIL_SMTP_SERVER=pc_attacker_mail
     networks:
       uplink_net:
         ipv4_address: ${SUBNET_UPLINK}.${EXT_RC_IP}
-    depends_on:
-      - pc_attacker_mail
-    dns:
-      - ${SUBNET_SERVERS}.${DNS_SRV_IP}
 
 networks:
   uplink_net:
