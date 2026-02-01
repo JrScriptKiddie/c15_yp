@@ -729,7 +729,7 @@ services:
       - ONE_DIR=1
       - GATEWAY_IP=${SUBNET_SERVERS}.254
     volumes:
-      - ./mail/internal/postfix-accounts.cf:/tmp/docker-mailserver/postfix-accounts.cf:ro
+      - ./mail/internal/postfix-accounts.cf:/tmp/docker-mailserver/postfix-accounts.cf
       - ./mail/internal/data:/var/mail
       - ./mail/internal/state:/var/mail-state
     networks:
@@ -767,7 +767,7 @@ services:
       - ONE_DIR=1
       - GATEWAY_IP=${SUBNET_UPLINK}.254
     volumes:
-      - ./mail/attacker/postfix-accounts.cf:/tmp/docker-mailserver/postfix-accounts.cf:ro
+      - ./mail/attacker/postfix-accounts.cf:/tmp/docker-mailserver/postfix-accounts.cf
       - ./mail/attacker/data:/var/mail
       - ./mail/attacker/state:/var/mail-state
     networks:
