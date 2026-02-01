@@ -714,6 +714,74 @@ services:
     dns:
       - ${SUBNET_SERVERS}.${DNS_SRV_IP}
 
+  srv_mail:
+    image: mailserver/docker-mailserver:latest
+    container_name: srv_mail
+    hostname: mail.layer8.ag
+    domainname: layer8.ag
+    cap_add: [ "NET_ADMIN" ]
+    environment:
+      - SSL_TYPE=none
+      - ENABLE_SPAMASSASSIN=0
+      - ENABLE_CLAMAV=0
+      - ONE_DIR=1
+      - GATEWAY_IP: ${SUBNET_SERVERS}.254
+    networks:
+      servers_net:
+        ipv4_address: ${SUBNET_SERVERS}.${SRV_MAIL_IP}
+    dns:
+      - ${SUBNET_SERVERS}.${DNS_SRV_IP}
+
+  srv_roundcube:
+    image: roundcube/roundcubemail:latest
+    container_name: srv_roundcube
+    ports:
+      - "8085:80"
+    environment:
+      - ROUNDCUBEMAIL_DB_TYPE=sqlite
+      - ROUNDCUBEMAIL_DEFAULT_HOST=srv_mail
+      - ROUNDCUBEMAIL_SMTP_SERVER=srv_mail
+    networks:
+      servers_net:
+        ipv4_address: ${SUBNET_SERVERS}.${SRV_RC_IP}
+    depends_on:
+      - srv_mail
+    dns:
+      - ${SUBNET_SERVERS}.${DNS_SRV_IP}
+
+  pc_attacker_mail:
+    image: mailserver/docker-mailserver:latest
+    container_name: pc_attacker_mail
+    hostname: mail.evil.com
+    domainname: evil.com
+    cap_add: [ "NET_ADMIN" ]
+    environment:
+      - SSL_TYPE=none
+      - ENABLE_SPAMASSASSIN=0
+      - GATEWAY_IP: ${SUBNET_UPLINK}.254
+    networks:
+      uplink_net:
+        ipv4_address: ${SUBNET_UPLINK}.${EXT_MAIL_IP}
+    dns:
+      - ${SUBNET_SERVERS}.${DNS_SRV_IP}
+
+  pc_attacker_rc:
+    image: roundcube/roundcubemail:latest
+    container_name: pc_attacker_rc
+    ports:
+      - "8086:80"
+    environment:
+      - ROUNDCUBEMAIL_DB_TYPE=sqlite
+      - ROUNDCUBEMAIL_DEFAULT_HOST=pc_attacker_mail
+      - ROUNDCUBEMAIL_SMTP_SERVER=pc_attacker_mail
+    networks:
+      uplink_net:
+        ipv4_address: ${SUBNET_UPLINK}.${EXT_RC_IP}
+    depends_on:
+      - pc_attacker_mail
+    dns:
+      - ${SUBNET_SERVERS}.${DNS_SRV_IP}
+
 networks:
   uplink_net:
     name: uplink_net
