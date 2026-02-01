@@ -720,11 +720,10 @@ services:
     hostname: mail.layer8.ag
     domainname: layer8.ag
     cap_add: [ "NET_ADMIN" ]
-    # Позволяет серверу видеть атакующего по имени без DNS
     extra_hosts:
       - "mail.evil.com:172.56.200.180"
     environment:
-      - SSL_TYPE=none
+      - TLS_LEVEL=plaintext
       - ENABLE_SPAMASSASSIN=0
       - ENABLE_CLAMAV=0
       - ONE_DIR=1
@@ -754,19 +753,18 @@ services:
     depends_on:
       - srv_mail
 
-  # --- ВНЕШНИЙ ПОЧТОВЫЙ СТЕК (Атакующий evil.com) ---
   pc_attacker_mail:
     image: mailserver/docker-mailserver:latest
     container_name: pc_attacker_mail
     hostname: mail.evil.com
     domainname: evil.com
     cap_add: [ "NET_ADMIN" ]
-    # Позволяет атакующему видеть корпоративный сервер по имени
     extra_hosts:
       - "mail.layer8.ag:192.168.1.50"
     environment:
-      - SSL_TYPE=none
+      - TLS_LEVEL=plaintext
       - ENABLE_SPAMASSASSIN=0
+      - ONE_DIR=1
       - GATEWAY_IP=${SUBNET_UPLINK}.254
     volumes:
       - ./mail/attacker/postfix-accounts.cf:/tmp/docker-mailserver/postfix-accounts.cf:ro
