@@ -1,6 +1,6 @@
-$ORIGIN layer8.ag.
+$ORIGIN localhostdevelopment.ag.
 $TTL 300
-@   IN SOA ns.layer8.ag. admin.layer8.ag. (
+@   IN SOA ns.localhostdevelopment.ag. admin.localhostdevelopment.ag. (
         2025091001 ; Serial
         3600       ; Refresh
         900        ; Retry
@@ -8,7 +8,7 @@ $TTL 300
         300 )      ; Minimum
 
 ; NS
-@         IN NS ns.layer8.ag.
+@         IN NS ns.localhostdevelopment.ag.
 
 ; APEX and hosts
 ;@         IN A 192.168.4.35

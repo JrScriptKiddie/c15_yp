@@ -192,39 +192,39 @@
 2025/12/13 10:00:17 wazuh-modulesd:vulnerability-scanner: INFO: Initiating update feed process.
 2025/12/13 10:00:20 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
 2025/12/13 10:00:20 wazuh-remoted: INFO: (1410): Reading authentication keys file.
-2025/12/13 10:19:10 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:19:10 wazuh-authd: INFO: Agent key generated for 'srv_ldap.layer8.ag' (requested by any)
+2025/12/13 10:19:10 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:19:10 wazuh-authd: INFO: Agent key generated for 'srv_ldap.localhostdevelopment.ag' (requested by any)
 2025/12/13 10:19:15 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
 2025/12/13 10:19:15 wazuh-remoted: INFO: (1410): Reading authentication keys file.
-2025/12/13 10:21:03 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:21:03 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
-2025/12/13 10:21:08 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:21:08 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
-2025/12/13 10:21:18 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:21:18 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
-2025/12/13 10:21:33 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:21:33 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
-2025/12/13 10:21:53 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:21:53 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
-2025/12/13 10:22:18 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:22:18 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
-2025/12/13 10:22:48 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:22:48 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
-2025/12/13 10:23:23 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:23:23 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
-2025/12/13 10:24:02 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:24:02 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:21:03 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:21:03 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:21:08 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:21:08 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:21:18 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:21:18 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:21:33 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:21:33 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:21:53 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:21:53 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:22:18 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:22:18 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:22:48 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:22:48 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:23:23 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:23:23 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:24:02 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:24:02 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 10:24:29 wazuh-modulesd:vulnerability-scanner: INFO: Triggered a re-scan after content update.
 2025/12/13 10:24:29 wazuh-modulesd:vulnerability-scanner: INFO: Feed update process completed.
 2025/12/13 10:24:37 wazuh-modulesd:vulnerability-scanner: INFO: Initiating update feed process.
-2025/12/13 10:24:47 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:24:47 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
-2025/12/13 10:25:37 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:25:37 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
-2025/12/13 10:26:32 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:26:32 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
-2025/12/13 10:27:31 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:27:31 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:24:47 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:24:47 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:25:37 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:25:37 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:26:32 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:26:32 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:27:31 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:27:31 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 10:28:20 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
 2025/12/13 10:28:20 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
 2025/12/13 10:28:20 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
@@ -598,8 +598,8 @@
 2025/12/13 10:29:30 :router: INFO: Registering POST endpoint: /v1/agents/sync
 2025/12/13 10:29:30 :router: INFO: Registering POST endpoint: /v1/agents/restartinfo
 2025/12/13 10:29:30 :router: INFO: API started successfully
-2025/12/13 10:29:30 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:29:31 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:29:30 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:29:31 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 10:29:31 wazuh-execd: INFO: Started (pid: 488).
 2025/12/13 10:29:32 wazuh-syscheckd: INFO: Started (pid: 513).
 2025/12/13 10:29:32 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
@@ -972,8 +972,8 @@
 2025/12/13 10:30:30 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
 2025/12/13 10:30:30 wazuh-syscheckd: INFO: FIM sync module started.
 2025/12/13 10:30:30 wazuh-remoted: INFO: Started (pid: 677). Listening on port 1514/TCP (secure).
-2025/12/13 10:30:30 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:30:30 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:30:30 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:30:30 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 10:30:30 wazuh-remoted: INFO: (1410): Reading authentication keys file.
 2025/12/13 10:30:31 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
 2025/12/13 10:30:31 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
@@ -1296,8 +1296,8 @@
 2025/12/13 10:31:29 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
 2025/12/13 10:31:30 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
 2025/12/13 10:31:30 wazuh-syscheckd: INFO: FIM sync module started.
-2025/12/13 10:31:30 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:31:30 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:31:30 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:31:30 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 10:31:30 wazuh-remoted: INFO: Started (pid: 536). Listening on port 1514/TCP (secure).
 2025/12/13 10:31:30 wazuh-analysisd: INFO: Total rules enabled: '8452'
 2025/12/13 10:31:30 wazuh-analysisd: INFO: Started (pid: 500).
@@ -1673,8 +1673,8 @@
 2025/12/13 10:32:29 logger-helper: INFO: InventoryHarvesterFacade module started.
 2025/12/13 10:32:29 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-services-srv_wazuh_manager.
 2025/12/13 10:32:29 wazuh-modulesd:vulnerability-scanner: INFO: Vulnerability scanner module started.
-2025/12/13 10:32:29 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:32:29 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:32:29 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:32:29 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 10:32:30 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
 2025/12/13 10:32:30 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
 2025/12/13 10:32:30 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
@@ -2757,8 +2757,8 @@
 2025/12/13 10:35:28 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
 2025/12/13 10:35:28 wazuh-syscheckd: INFO: FIM sync module started.
 2025/12/13 10:35:28 wazuh-remoted: INFO: Started (pid: 668). Listening on port 1514/TCP (secure).
-2025/12/13 10:35:28 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:35:28 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:35:28 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:35:28 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 10:35:29 wazuh-remoted: INFO: (1410): Reading authentication keys file.
 2025/12/13 10:35:29 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
 2025/12/13 10:35:29 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
@@ -4220,8 +4220,8 @@
 2025/12/13 10:39:27 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
 2025/12/13 10:39:27 wazuh-analysisd: INFO: (7200): Logtest started
 2025/12/13 10:39:27 wazuh-analysisd: INFO: EPS limit disabled
-2025/12/13 10:39:27 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:39:27 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:39:27 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:39:27 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 10:39:27 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
 2025/12/13 10:39:27 wazuh-syscheckd: INFO: FIM sync module started.
 2025/12/13 10:39:28 wazuh-remoted: INFO: Started (pid: 671). Listening on port 1514/TCP (secure).
@@ -4496,8 +4496,8 @@
 2025/12/13 10:40:26 :router: INFO: Registering POST endpoint: /v1/agents/sync
 2025/12/13 10:40:26 :router: INFO: Registering POST endpoint: /v1/agents/restartinfo
 2025/12/13 10:40:26 :router: INFO: API started successfully
-2025/12/13 10:40:27 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:40:27 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:40:27 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:40:27 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 10:40:27 wazuh-execd: INFO: Started (pid: 488).
 2025/12/13 10:40:28 wazuh-syscheckd: INFO: Started (pid: 513).
 2025/12/13 10:40:28 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
@@ -6029,8 +6029,8 @@
 2025/12/13 10:44:25 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-packages-srv_wazuh_manager.
 2025/12/13 10:44:25 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-vulnerabilities-srv_wazuh_manager.
 2025/12/13 10:44:25 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-system-srv_wazuh_manager.
-2025/12/13 10:44:25 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:44:25 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:44:25 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:44:25 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 10:44:25 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-processes-srv_wazuh_manager.
 2025/12/13 10:44:26 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-ports-srv_wazuh_manager.
 2025/12/13 10:44:26 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-hotfixes-srv_wazuh_manager.
@@ -7130,8 +7130,8 @@
 2025/12/13 10:47:23 wazuh-analysisd: INFO: (7200): Logtest started
 2025/12/13 10:47:23 wazuh-analysisd: INFO: EPS limit disabled
 2025/12/13 10:47:24 wazuh-remoted: INFO: (1410): Reading authentication keys file.
-2025/12/13 10:47:24 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:47:24 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:47:24 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:47:24 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 10:47:24 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
 2025/12/13 10:47:24 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
 2025/12/13 10:47:24 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
@@ -8883,8 +8883,8 @@
 2025/12/13 10:52:21 :router: INFO: Registering POST endpoint: /v1/agents/restartinfo
 2025/12/13 10:52:21 :router: INFO: API started successfully
 2025/12/13 10:52:21 wazuh-execd: INFO: Started (pid: 488).
-2025/12/13 10:52:22 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:52:22 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:52:22 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:52:22 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 10:52:22 wazuh-analysisd: INFO: Total rules enabled: '8452'
 2025/12/13 10:52:22 wazuh-analysisd: INFO: Started (pid: 500).
 2025/12/13 10:52:22 wazuh-syscheckd: INFO: Started (pid: 513).
@@ -10048,8 +10048,8 @@
 2025/12/13 10:55:21 wazuh-analysisd: INFO: (7200): Logtest started
 2025/12/13 10:55:21 wazuh-analysisd: INFO: EPS limit disabled
 2025/12/13 10:55:21 wazuh-remoted: INFO: (1410): Reading authentication keys file.
-2025/12/13 10:55:21 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:55:21 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:55:21 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:55:21 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 10:55:21 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
 2025/12/13 10:55:22 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
 2025/12/13 10:55:22 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
@@ -10429,8 +10429,8 @@
 2025/12/13 10:56:20 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-networks-srv_wazuh_manager.
 2025/12/13 10:56:20 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-users-srv_wazuh_manager.
 2025/12/13 10:56:20 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-groups-srv_wazuh_manager.
-2025/12/13 10:56:20 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:56:20 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:56:20 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:56:20 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 10:56:20 wazuh-modulesd:vulnerability-scanner: INFO: Vulnerability scanner module started.
 2025/12/13 10:56:20 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-browser-extensions-srv_wazuh_manager.
 2025/12/13 10:56:21 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
@@ -11514,8 +11514,8 @@
 2025/12/13 10:59:19 wazuh-analysisd: INFO: EPS limit disabled
 2025/12/13 10:59:19 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
 2025/12/13 10:59:19 wazuh-syscheckd: INFO: FIM sync module started.
-2025/12/13 10:59:19 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 10:59:19 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 10:59:19 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 10:59:19 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 10:59:19 wazuh-remoted: INFO: Started (pid: 674). Listening on port 1514/TCP (secure).
 2025/12/13 10:59:20 wazuh-remoted: INFO: (1410): Reading authentication keys file.
 2025/12/13 10:59:20 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
@@ -12919,8 +12919,8 @@
 2025/12/13 11:03:18 :router: INFO: Registering POST endpoint: /v1/agents/restartinfo
 2025/12/13 11:03:18 :router: INFO: API started successfully
 2025/12/13 11:03:19 wazuh-execd: INFO: Started (pid: 488).
-2025/12/13 11:03:19 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 11:03:19 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 11:03:19 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 11:03:19 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 11:03:19 wazuh-syscheckd: INFO: Started (pid: 510).
 2025/12/13 11:03:19 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
 2025/12/13 11:03:19 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
@@ -13581,8 +13581,8 @@
 2025/12/13 11:05:17 wazuh-syscheckd: INFO: FIM sync module started.
 2025/12/13 11:05:18 wazuh-remoted: INFO: Started (pid: 671). Listening on port 1514/TCP (secure).
 2025/12/13 11:05:18 wazuh-remoted: INFO: (1410): Reading authentication keys file.
-2025/12/13 11:05:18 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 11:05:18 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 11:05:18 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 11:05:18 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 11:05:19 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
 2025/12/13 11:05:19 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
 2025/12/13 11:05:19 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
@@ -13962,8 +13962,8 @@
 2025/12/13 11:06:18 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-groups-srv_wazuh_manager.
 2025/12/13 11:06:18 wazuh-modulesd:vulnerability-scanner: INFO: Vulnerability scanner module started.
 2025/12/13 11:06:18 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-browser-extensions-srv_wazuh_manager.
-2025/12/13 11:06:18 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 11:06:18 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 11:06:18 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 11:06:18 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 11:06:18 logger-helper: INFO: InventoryHarvesterFacade module started.
 2025/12/13 11:06:18 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-services-srv_wazuh_manager.
 2025/12/13 11:06:18 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
@@ -14268,8 +14268,8 @@
 2025/12/13 11:07:17 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-packages-srv_wazuh_manager.
 2025/12/13 11:07:17 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-vulnerabilities-srv_wazuh_manager.
 2025/12/13 11:07:18 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-system-srv_wazuh_manager.
-2025/12/13 11:07:18 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 11:07:18 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 11:07:18 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 11:07:18 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 11:07:18 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-processes-srv_wazuh_manager.
 2025/12/13 11:07:19 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
 2025/12/13 11:07:19 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
@@ -14584,8 +14584,8 @@
 2025/12/13 11:08:17 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-system-srv_wazuh_manager.
 2025/12/13 11:08:17 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-vulnerabilities-srv_wazuh_manager.
 2025/12/13 11:08:17 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-processes-srv_wazuh_manager.
-2025/12/13 11:08:17 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 11:08:17 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 11:08:17 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 11:08:17 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 11:08:18 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-ports-srv_wazuh_manager.
 2025/12/13 11:08:18 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-hotfixes-srv_wazuh_manager.
 2025/12/13 11:08:18 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-hardware-srv_wazuh_manager.
@@ -15648,8 +15648,8 @@
 2025/12/13 11:11:15 :router: INFO: Registering POST endpoint: /v1/agents/restartinfo
 2025/12/13 11:11:15 :router: INFO: API started successfully
 2025/12/13 11:11:16 wazuh-execd: INFO: Started (pid: 491).
-2025/12/13 11:11:16 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 11:11:16 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 11:11:16 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 11:11:16 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 11:11:17 wazuh-syscheckd: INFO: Started (pid: 520).
 2025/12/13 11:11:17 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
 2025/12/13 11:11:17 wazuh-analysisd: INFO: Total rules enabled: '8452'
@@ -16051,8 +16051,8 @@
 2025/12/13 11:12:15 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-system-srv_wazuh_manager.
 2025/12/13 11:12:16 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-vulnerabilities-srv_wazuh_manager.
 2025/12/13 11:12:16 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-processes-srv_wazuh_manager.
-2025/12/13 11:12:16 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 11:12:16 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 11:12:16 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 11:12:16 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 11:12:16 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-ports-srv_wazuh_manager.
 2025/12/13 11:12:17 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-hotfixes-srv_wazuh_manager.
 2025/12/13 11:12:17 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-hardware-srv_wazuh_manager.
@@ -17131,8 +17131,8 @@
 2025/12/13 11:15:14 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
 2025/12/13 11:15:15 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
 2025/12/13 11:15:15 wazuh-syscheckd: INFO: FIM sync module started.
-2025/12/13 11:15:15 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 11:15:15 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 11:15:15 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 11:15:15 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 11:15:15 wazuh-analysisd: INFO: Total rules enabled: '8452'
 2025/12/13 11:15:15 wazuh-analysisd: INFO: Started (pid: 503).
 2025/12/13 11:15:15 wazuh-remoted: INFO: Started (pid: 553). Listening on port 1514/TCP (secure).
@@ -17508,8 +17508,8 @@
 2025/12/13 11:16:14 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-hotfixes-srv_wazuh_manager.
 2025/12/13 11:16:14 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-hardware-srv_wazuh_manager.
 2025/12/13 11:16:15 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-protocols-srv_wazuh_manager.
-2025/12/13 11:16:15 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 11:16:15 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 11:16:15 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 11:16:15 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 11:16:15 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-interfaces-srv_wazuh_manager.
 2025/12/13 11:16:15 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-networks-srv_wazuh_manager.
 2025/12/13 11:16:15 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-users-srv_wazuh_manager.
@@ -18561,8 +18561,8 @@
 2025/12/13 11:19:12 :router: INFO: Registering POST endpoint: /v1/agents/restartinfo
 2025/12/13 11:19:12 :router: INFO: API started successfully
 2025/12/13 11:19:13 wazuh-execd: INFO: Started (pid: 488).
-2025/12/13 11:19:14 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 11:19:14 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
+2025/12/13 11:19:14 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 11:19:14 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '014' has not been disconnected long enough to be replaced.
 2025/12/13 11:19:14 wazuh-analysisd: INFO: Total rules enabled: '8452'
 2025/12/13 11:19:14 wazuh-analysisd: INFO: Started (pid: 500).
 2025/12/13 11:19:14 wazuh-syscheckd: INFO: Started (pid: 513).
@@ -18960,9 +18960,9 @@
 2025/12/13 11:20:13 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-packages-srv_wazuh_manager.
 2025/12/13 11:20:13 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-system-srv_wazuh_manager.
 2025/12/13 11:20:13 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-vulnerabilities-srv_wazuh_manager.
-2025/12/13 11:20:13 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 11:20:13 wazuh-authd: INFO: Duplicate name. Removing old agent 'srv_ldap.layer8.ag' (id '014').
-2025/12/13 11:20:13 wazuh-authd: INFO: Agent key generated for 'srv_ldap.layer8.ag' (requested by any)
+2025/12/13 11:20:13 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 11:20:13 wazuh-authd: INFO: Duplicate name. Removing old agent 'srv_ldap.localhostdevelopment.ag' (id '014').
+2025/12/13 11:20:13 wazuh-authd: INFO: Agent key generated for 'srv_ldap.localhostdevelopment.ag' (requested by any)
 2025/12/13 11:20:13 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-processes-srv_wazuh_manager.
 2025/12/13 11:20:14 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-ports-srv_wazuh_manager.
 2025/12/13 11:20:14 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-hotfixes-srv_wazuh_manager.
@@ -23808,8 +23808,8 @@
 2025/12/13 11:33:57 wazuh-authd: WARNING: Duplicate name 'srv_users', rejecting enrollment. Agent '012' has not been disconnected long enough to be replaced.
 2025/12/13 11:33:57 wazuh-authd: INFO: Received request for a new agent (srv_bastion_ib) from: 192.168.3.78
 2025/12/13 11:33:57 wazuh-authd: WARNING: Duplicate name 'srv_bastion_ib', rejecting enrollment. Agent '013' has not been disconnected long enough to be replaced.
-2025/12/13 11:33:57 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 11:33:57 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 11:33:57 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 11:33:57 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
 2025/12/13 11:33:58 wazuh-execd: INFO: Started (pid: 491).
 2025/12/13 11:33:58 wazuh-syscheckd: INFO: Started (pid: 513).
 2025/12/13 11:33:58 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
@@ -25478,8 +25478,8 @@
 2025/12/13 11:38:40 wazuh-analysisd: INFO: (7200): Logtest started
 2025/12/13 11:38:40 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
 2025/12/13 11:38:40 wazuh-analysisd: INFO: EPS limit disabled
-2025/12/13 11:38:40 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 11:38:40 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 11:38:40 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 11:38:40 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
 2025/12/13 11:38:40 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
 2025/12/13 11:38:40 wazuh-syscheckd: INFO: FIM sync module started.
 2025/12/13 11:38:41 wazuh-remoted: INFO: Started (pid: 671). Listening on port 1514/TCP (secure).
@@ -26458,8 +26458,8 @@
 2025/12/13 11:41:28 wazuh-syscheckd: INFO: FIM sync module started.
 2025/12/13 11:41:28 wazuh-authd: INFO: Received request for a new agent (srv_bastion_ib) from: 192.168.3.78
 2025/12/13 11:41:28 wazuh-authd: WARNING: Duplicate name 'srv_bastion_ib', rejecting enrollment. Agent '013' has not been disconnected long enough to be replaced.
-2025/12/13 11:41:28 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 11:41:28 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 11:41:28 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 11:41:28 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
 2025/12/13 11:41:28 wazuh-authd: INFO: Received request for a new agent (srv_users) from: 192.168.2.78
 2025/12/13 11:41:28 wazuh-authd: WARNING: Duplicate name 'srv_users', rejecting enrollment. Agent '012' has not been disconnected long enough to be replaced.
 2025/12/13 11:41:29 wazuh-remoted: INFO: Started (pid: 671). Listening on port 1514/TCP (secure).
@@ -30619,8 +30619,8 @@
 2025/12/13 11:52:53 wazuh-execd: INFO: Started (pid: 491).
 2025/12/13 11:52:54 wazuh-authd: INFO: Received request for a new agent (srv_bastion_ib) from: 192.168.3.78
 2025/12/13 11:52:54 wazuh-authd: WARNING: Duplicate name 'srv_bastion_ib', rejecting enrollment. Agent '013' has not been disconnected long enough to be replaced.
-2025/12/13 11:52:54 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 11:52:54 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 11:52:54 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 11:52:54 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
 2025/12/13 11:52:54 wazuh-authd: INFO: Received request for a new agent (srv_users) from: 192.168.2.78
 2025/12/13 11:52:54 wazuh-authd: WARNING: Duplicate name 'srv_users', rejecting enrollment. Agent '012' has not been disconnected long enough to be replaced.
 2025/12/13 11:52:54 wazuh-syscheckd: INFO: Started (pid: 520).
@@ -31312,8 +31312,8 @@
 2025/12/13 11:54:46 wazuh-analysisd: INFO: EPS limit disabled
 2025/12/13 11:54:47 wazuh-authd: INFO: Received request for a new agent (srv_bastion_ib) from: 192.168.3.78
 2025/12/13 11:54:47 wazuh-authd: WARNING: Duplicate name 'srv_bastion_ib', rejecting enrollment. Agent '013' has not been disconnected long enough to be replaced.
-2025/12/13 11:54:47 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 11:54:47 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 11:54:47 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 11:54:47 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
 2025/12/13 11:54:47 wazuh-authd: INFO: Received request for a new agent (srv_users) from: 192.168.2.78
 2025/12/13 11:54:47 wazuh-authd: WARNING: Duplicate name 'srv_users', rejecting enrollment. Agent '012' has not been disconnected long enough to be replaced.
 2025/12/13 11:54:47 wazuh-remoted: INFO: Started (pid: 590). Listening on port 1514/TCP (secure).
@@ -31955,8 +31955,8 @@
 2025/12/13 11:56:40 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
 2025/12/13 11:56:40 wazuh-authd: INFO: Received request for a new agent (srv_bastion_ib) from: 192.168.3.78
 2025/12/13 11:56:40 wazuh-authd: WARNING: Duplicate name 'srv_bastion_ib', rejecting enrollment. Agent '013' has not been disconnected long enough to be replaced.
-2025/12/13 11:56:40 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 11:56:40 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 11:56:40 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 11:56:40 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
 2025/12/13 11:56:40 wazuh-authd: INFO: Received request for a new agent (srv_users) from: 192.168.2.78
 2025/12/13 11:56:40 wazuh-authd: WARNING: Duplicate name 'srv_users', rejecting enrollment. Agent '012' has not been disconnected long enough to be replaced.
 2025/12/13 11:56:40 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
@@ -32909,72 +32909,72 @@
 2025/12/13 13:45:26 wazuh-remoted: INFO: (1410): Reading authentication keys file.
 2025/12/13 14:04:56 wazuh-modulesd:syscollector: INFO: Starting evaluation.
 2025/12/13 14:05:03 wazuh-modulesd:syscollector: INFO: Evaluation finished.
-2025/12/13 14:21:08 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:21:08 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:21:13 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:21:13 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:21:23 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:21:23 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:21:38 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:21:38 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:21:58 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:21:58 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:22:23 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:22:23 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:22:52 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:22:52 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:23:10 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:23:10 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:23:15 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:23:15 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:23:25 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:23:25 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:23:39 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:23:39 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:23:59 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:23:59 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:24:24 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:24:24 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:24:54 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:24:54 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:25:29 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:25:29 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:26:09 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:26:09 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:21:08 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:21:08 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:21:13 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:21:13 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:21:23 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:21:23 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:21:38 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:21:38 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:21:58 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:21:58 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:22:23 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:22:23 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:22:52 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:22:52 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:23:10 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:23:10 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:23:15 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:23:15 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:23:25 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:23:25 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:23:39 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:23:39 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:23:59 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:23:59 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:24:24 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:24:24 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:24:54 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:24:54 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:25:29 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:25:29 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:26:09 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:26:09 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
 2025/12/13 14:26:34 wazuh-modulesd:router: INFO: Loaded router module.
 2025/12/13 14:26:34 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
 2025/12/13 14:26:34 wazuh-modulesd:inventory-harvester: INFO: Loaded Inventory harvester module.
-2025/12/13 14:26:53 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:26:53 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:27:43 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:27:43 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:28:41 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:28:41 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:28:46 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:28:46 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:28:56 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:28:56 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:29:11 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:29:11 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:29:31 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:29:31 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:29:56 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:29:56 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:30:26 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:30:26 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:31:01 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:31:01 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:31:40 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:31:40 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:32:25 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:32:25 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:33:15 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:33:15 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
-2025/12/13 14:33:35 wazuh-authd: INFO: Agent '015' (srv_ldap.layer8.ag) deleted (requested locally)
+2025/12/13 14:26:53 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:26:53 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:27:43 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:27:43 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:28:41 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:28:41 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:28:46 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:28:46 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:28:56 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:28:56 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:29:11 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:29:11 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:29:31 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:29:31 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:29:56 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:29:56 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:30:26 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:30:26 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:31:01 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:31:01 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:31:40 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:31:40 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:32:25 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:32:25 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:33:15 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:33:15 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '015' has not been disconnected long enough to be replaced.
+2025/12/13 14:33:35 wazuh-authd: INFO: Agent '015' (srv_ldap.localhostdevelopment.ag) deleted (requested locally)
 2025/12/13 14:33:40 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
 2025/12/13 14:33:40 wazuh-remoted: INFO: (1410): Reading authentication keys file.
-2025/12/13 14:34:10 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/13 14:34:10 wazuh-authd: INFO: Agent key generated for 'srv_ldap.layer8.ag' (requested by any)
+2025/12/13 14:34:10 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/13 14:34:10 wazuh-authd: INFO: Agent key generated for 'srv_ldap.localhostdevelopment.ag' (requested by any)
 2025/12/13 14:34:20 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
 2025/12/13 14:34:20 wazuh-remoted: INFO: (1410): Reading authentication keys file.
 2025/12/13 15:04:54 wazuh-analysisd: WARNING: (7612): Rule ID '92509' is duplicated. Only the first occurrence will be considered.

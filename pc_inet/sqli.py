@@ -44,7 +44,7 @@ def main():
     parser.add_argument(
         "-d",
         "--domain",
-        default="layer8.ag/api/v1/resume",
+        default="localhostdevelopment.ag/api/v1/resume",
         help="Домен или хост без схемы (например, example.com/path/to/app)"
     )
     parser.add_argument(

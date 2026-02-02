@@ -321,38 +321,38 @@
 2025/12/16 00:44:12 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 00:44:13 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 00:44:13 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 00:44:39 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:44:39 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
-2025/12/16 00:44:44 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:44:44 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
-2025/12/16 00:44:54 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:44:54 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:44:39 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:44:39 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:44:44 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:44:44 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:44:54 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:44:54 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:45:05 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:45:05 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
-2025/12/16 00:45:08 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:45:08 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:45:08 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:45:08 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:45:09 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 00:45:09 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 00:45:11 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 00:45:11 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 00:45:28 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:45:28 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
-2025/12/16 00:45:52 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:45:52 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:45:28 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:45:28 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:45:52 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:45:52 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:46:02 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:46:02 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
 2025/12/16 00:46:07 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 00:46:07 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 00:46:08 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 00:46:08 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 00:46:20 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:46:20 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:46:20 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:46:20 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:46:41 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:46:41 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
 2025/12/16 00:46:46 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:46:46 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
-2025/12/16 00:46:54 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:46:54 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:46:54 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:46:54 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:46:56 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:46:56 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
 2025/12/16 00:47:04 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
@@ -363,16 +363,16 @@
 2025/12/16 00:47:10 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
 2025/12/16 00:47:28 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:47:28 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
-2025/12/16 00:47:31 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:47:31 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:47:31 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:47:31 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:47:53 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:47:53 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
 2025/12/16 00:48:01 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 00:48:01 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 00:48:03 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 00:48:03 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 00:48:15 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:48:15 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:48:15 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:48:15 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:48:22 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:48:22 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
 2025/12/16 00:48:54 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
@@ -381,36 +381,36 @@
 2025/12/16 00:48:59 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 00:49:00 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 00:49:00 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 00:49:02 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:49:02 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:49:02 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:49:02 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:49:33 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:49:33 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
-2025/12/16 00:49:55 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:49:55 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:49:55 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:49:55 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:49:56 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 00:49:56 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 00:49:57 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 00:49:57 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
 2025/12/16 00:50:17 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:50:17 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
-2025/12/16 00:50:52 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:50:52 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:50:52 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:50:52 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:50:54 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 00:50:54 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 00:50:55 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 00:50:55 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
 2025/12/16 00:51:04 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:51:04 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
-2025/12/16 00:51:50 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:51:50 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:51:50 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:51:50 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:51:51 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 00:51:51 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 00:51:52 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 00:51:52 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
 2025/12/16 00:51:57 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:51:57 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
-2025/12/16 00:52:47 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:52:47 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:52:47 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:52:47 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:52:48 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 00:52:48 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 00:52:50 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
@@ -423,8 +423,8 @@
 2025/12/16 00:53:31 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
 2025/12/16 00:53:41 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:53:41 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
-2025/12/16 00:53:44 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:53:44 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:53:44 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:53:44 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:53:46 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 00:53:46 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 00:53:47 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
@@ -435,16 +435,16 @@
 2025/12/16 00:54:13 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
 2025/12/16 00:54:38 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:54:38 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
-2025/12/16 00:54:42 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:54:42 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:54:42 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:54:42 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:54:43 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 00:54:43 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 00:54:44 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 00:54:44 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
 2025/12/16 00:55:07 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:55:07 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
-2025/12/16 00:55:39 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:55:39 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:55:39 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:55:39 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:55:39 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:55:39 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
 2025/12/16 00:55:40 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
@@ -453,8 +453,8 @@
 2025/12/16 00:55:42 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
 2025/12/16 00:56:18 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:56:18 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
-2025/12/16 00:56:36 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:56:36 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:56:36 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:56:36 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:56:38 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 00:56:38 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 00:56:39 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
@@ -465,8 +465,8 @@
 2025/12/16 00:57:25 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
 2025/12/16 00:57:30 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:57:30 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
-2025/12/16 00:57:34 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:57:34 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:57:34 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:57:34 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:57:35 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 00:57:35 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 00:57:36 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
@@ -477,8 +477,8 @@
 2025/12/16 00:57:53 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
 2025/12/16 00:58:12 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:58:12 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
-2025/12/16 00:58:31 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:58:31 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:58:31 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:58:31 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:58:32 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 00:58:32 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 00:58:34 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
@@ -487,8 +487,8 @@
 2025/12/16 00:58:36 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
 2025/12/16 00:59:04 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 00:59:04 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
-2025/12/16 00:59:28 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 00:59:28 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 00:59:28 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 00:59:28 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 00:59:30 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 00:59:30 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 00:59:31 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
@@ -497,8 +497,8 @@
 2025/12/16 00:59:38 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
 2025/12/16 01:00:17 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:00:17 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
-2025/12/16 01:00:26 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:00:26 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:00:26 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:00:26 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:00:27 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:00:27 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:00:31 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
@@ -507,56 +507,56 @@
 2025/12/16 01:00:44 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
 2025/12/16 01:00:49 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:00:49 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '024' has not been disconnected long enough to be replaced.
-2025/12/16 01:01:23 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:01:23 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:01:23 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:01:23 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:01:25 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:01:25 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:01:28 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:01:28 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:02:21 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:02:21 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:02:21 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:02:21 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:02:22 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:02:22 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:02:25 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:02:25 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:03:18 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:03:18 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:03:18 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:03:18 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:03:19 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:03:19 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:03:23 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:03:23 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:04:15 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:04:15 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:04:15 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:04:15 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:04:17 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:04:17 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:04:20 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:04:20 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:05:13 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:05:13 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:05:13 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:05:13 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:05:14 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:05:14 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:05:17 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:05:17 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:06:10 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:06:10 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:06:10 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:06:10 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:06:11 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:06:11 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:06:15 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:06:15 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:07:07 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:07:07 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:07:07 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:07:07 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:07:09 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:07:09 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:07:12 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:07:12 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:08:05 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:08:05 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:08:05 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:08:05 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:08:06 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:08:06 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:08:09 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:08:10 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:09:02 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:09:02 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:09:02 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:09:02 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:09:04 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:09:04 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:09:07 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
@@ -566,26 +566,26 @@
 2025/12/16 01:09:07 wazuh-authd: INFO: Agent key generated for 'srv_waf' (requested by any)
 2025/12/16 01:09:13 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
 2025/12/16 01:09:13 wazuh-remoted: INFO: (1410): Reading authentication keys file.
-2025/12/16 01:10:00 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:10:00 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:10:00 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:10:00 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:10:01 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:10:01 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:10:04 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:10:04 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:10:57 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:10:57 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:10:57 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:10:57 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:10:58 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:10:58 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:11:02 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:11:02 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:11:54 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:11:54 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:11:54 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:11:54 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:11:56 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:11:56 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:11:59 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:11:59 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:12:52 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:12:52 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:12:52 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:12:52 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:12:53 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:12:53 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:12:56 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
@@ -596,8 +596,8 @@
 2025/12/16 01:13:26 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' can't be replaced since it is not disconnected.
 2025/12/16 01:13:36 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:13:36 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' can't be replaced since it is not disconnected.
-2025/12/16 01:13:49 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:13:49 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:13:49 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:13:49 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:13:50 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:13:50 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' can't be replaced since it is not disconnected.
 2025/12/16 01:13:50 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
@@ -608,8 +608,8 @@
 2025/12/16 01:14:10 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' can't be replaced since it is not disconnected.
 2025/12/16 01:14:33 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:14:33 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' can't be replaced since it is not disconnected.
-2025/12/16 01:14:47 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:14:47 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:14:47 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:14:47 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:14:48 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:14:48 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:14:51 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
@@ -618,112 +618,112 @@
 2025/12/16 01:15:02 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' can't be replaced since it is not disconnected.
 2025/12/16 01:15:36 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:15:36 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' can't be replaced since it is not disconnected.
-2025/12/16 01:15:44 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:15:44 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:15:44 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:15:44 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:15:45 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:15:45 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:15:49 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:15:49 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
 2025/12/16 01:16:13 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:16:13 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' can't be replaced since it is not disconnected.
-2025/12/16 01:16:41 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:16:41 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:16:41 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:16:41 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:16:43 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:16:43 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:16:46 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:16:46 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
 2025/12/16 01:16:57 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:16:57 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' can't be replaced since it is not disconnected.
-2025/12/16 01:17:39 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:17:39 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:17:39 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:17:39 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:17:40 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:17:40 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:17:43 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:17:43 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
 2025/12/16 01:17:44 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:17:44 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' can't be replaced since it is not disconnected.
-2025/12/16 01:18:36 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:18:36 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:18:36 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:18:36 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:18:37 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:18:37 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' can't be replaced since it is not disconnected.
 2025/12/16 01:18:37 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:18:37 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:18:41 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:18:41 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:19:33 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:19:33 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:19:33 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:19:33 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:19:34 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:19:34 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' can't be replaced since it is not disconnected.
 2025/12/16 01:19:35 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:19:35 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:19:38 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:19:38 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:20:31 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:20:31 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:20:31 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:20:31 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:20:32 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:20:32 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' can't be replaced since it is not disconnected.
 2025/12/16 01:20:32 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:20:32 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:20:36 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:20:36 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:21:28 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:21:28 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:21:28 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:21:28 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:21:29 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:21:29 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' can't be replaced since it is not disconnected.
 2025/12/16 01:21:30 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:21:30 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:21:33 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:21:33 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:22:26 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:22:26 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:22:26 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:22:26 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:22:26 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:22:26 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' can't be replaced since it is not disconnected.
 2025/12/16 01:22:27 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:22:27 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:22:30 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:22:30 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:23:23 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:23:23 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:23:23 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:23:23 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:23:24 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:23:24 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' can't be replaced since it is not disconnected.
 2025/12/16 01:23:24 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:23:24 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:23:28 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:23:28 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:24:20 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:24:20 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:24:20 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:24:20 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:24:21 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:24:21 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' can't be replaced since it is not disconnected.
 2025/12/16 01:24:22 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:24:22 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:24:25 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:24:25 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:25:18 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:25:18 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:25:18 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:25:18 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:25:18 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:25:18 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' can't be replaced since it is not disconnected.
 2025/12/16 01:25:19 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:25:19 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:25:22 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:25:22 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:26:15 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:26:15 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:26:15 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:26:15 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:26:16 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:26:16 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' has not been disconnected long enough to be replaced.
 2025/12/16 01:26:16 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:26:16 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:26:20 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:26:20 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:27:13 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:27:13 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:27:13 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:27:13 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:27:13 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:27:13 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' has not been disconnected long enough to be replaced.
 2025/12/16 01:27:14 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
 2025/12/16 01:27:14 wazuh-authd: WARNING: Duplicate name 'srv_bastion_mgmt', rejecting enrollment. Agent '018' has not been disconnected long enough to be replaced.
 2025/12/16 01:27:17 wazuh-authd: INFO: Received request for a new agent (srv_dev) from: 192.168.6.78
 2025/12/16 01:27:17 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
-2025/12/16 01:28:10 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:28:10 wazuh-authd: WARNING: Duplicate name 'srv_ldap.layer8.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
+2025/12/16 01:28:10 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:28:10 wazuh-authd: WARNING: Duplicate name 'srv_ldap.localhostdevelopment.ag', rejecting enrollment. Agent '020' has not been disconnected long enough to be replaced.
 2025/12/16 01:28:11 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
 2025/12/16 01:28:11 wazuh-authd: WARNING: Duplicate name 'srv_waf', rejecting enrollment. Agent '025' has not been disconnected long enough to be replaced.
 2025/12/16 01:28:11 wazuh-authd: INFO: Received request for a new agent (srv_bastion_mgmt) from: 192.168.5.78
@@ -732,9 +732,9 @@
 2025/12/16 01:28:15 wazuh-authd: WARNING: Duplicate name 'srv_dev', rejecting enrollment. Agent '016' has not been disconnected long enough to be replaced.
 2025/12/16 01:28:29 wazuh-modulesd:syscollector: INFO: Starting evaluation.
 2025/12/16 01:28:34 wazuh-modulesd:syscollector: INFO: Evaluation finished.
-2025/12/16 01:29:07 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 01:29:07 wazuh-authd: INFO: Duplicate name. Removing old agent 'srv_ldap.layer8.ag' (id '020').
-2025/12/16 01:29:07 wazuh-authd: INFO: Agent key generated for 'srv_ldap.layer8.ag' (requested by any)
+2025/12/16 01:29:07 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 01:29:07 wazuh-authd: INFO: Duplicate name. Removing old agent 'srv_ldap.localhostdevelopment.ag' (id '020').
+2025/12/16 01:29:07 wazuh-authd: INFO: Agent key generated for 'srv_ldap.localhostdevelopment.ag' (requested by any)
 2025/12/16 01:29:08 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
 2025/12/16 01:29:08 wazuh-remoted: INFO: (1410): Reading authentication keys file.
 2025/12/16 01:29:08 wazuh-authd: INFO: Received request for a new agent (srv_waf) from: 192.168.4.35
@@ -2784,11 +2784,11 @@
 2025/12/16 13:05:48 wazuh-modulesd:syscollector: INFO: Evaluation finished.
 2025/12/16 14:05:49 wazuh-modulesd:syscollector: INFO: Starting evaluation.
 2025/12/16 14:05:56 wazuh-modulesd:syscollector: INFO: Evaluation finished.
-2025/12/16 14:49:43 wazuh-authd: INFO: Agent '026' (srv_ldap.layer8.ag) deleted (requested locally)
+2025/12/16 14:49:43 wazuh-authd: INFO: Agent '026' (srv_ldap.localhostdevelopment.ag) deleted (requested locally)
 2025/12/16 14:49:51 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
 2025/12/16 14:49:51 wazuh-remoted: INFO: (1410): Reading authentication keys file.
-2025/12/16 14:50:14 wazuh-authd: INFO: Received request for a new agent (srv_ldap.layer8.ag) from: 192.168.1.199
-2025/12/16 14:50:14 wazuh-authd: INFO: Agent key generated for 'srv_ldap.layer8.ag' (requested by any)
+2025/12/16 14:50:14 wazuh-authd: INFO: Received request for a new agent (srv_ldap.localhostdevelopment.ag) from: 192.168.1.199
+2025/12/16 14:50:14 wazuh-authd: INFO: Agent key generated for 'srv_ldap.localhostdevelopment.ag' (requested by any)
 2025/12/16 14:50:20 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
 2025/12/16 14:50:20 wazuh-remoted: INFO: (1410): Reading authentication keys file.
 2025/12/16 14:50:39 wazuh-authd: INFO: Agent '005' (srv_mgmt) deleted (requested locally)

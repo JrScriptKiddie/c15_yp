@@ -57,7 +57,7 @@ services:
       ESPOCRM_DATABASE_NAME: espocrm
       ESPOCRM_ADMIN_USERNAME: admin
       ESPOCRM_ADMIN_PASSWORD: password
-      ESPOCRM_SITE_URL: crm.layer8.ag:80
+      ESPOCRM_SITE_URL: crm.localhostdevelopment.ag:80
       ESPOCRM_CONFIG_USE_WEB_SOCKET: false
       WAZUH_MANAGER_IP: ${SUBNET_INFOSEC}.${WAZUH_SRV_IP}     
       GATEWAY_IP: ${SUBNET_SERVERS}.254       
@@ -103,12 +103,12 @@ services:
   srv_ldap:
     build: ./srv_ldap
     container_name: srv_ldap
-    hostname: srv_ldap.layer8.ag
+    hostname: srv_ldap.localhostdevelopment.ag
     cap_add: [ "NET_ADMIN" ]    
     environment:
-      LDAP_ORGANISATION: Layer8Agency
-      LDAP_DOMAIN: layer8.ag
-      LDAP_BASE_DN: dc=layer8,dc=ag
+      LDAP_ORGANISATION: localhostdevelopmentAgency
+      LDAP_DOMAIN: localhostdevelopment.ag
+      LDAP_BASE_DN: dc=localhostdevelopment,dc=ag
       LDAP_PPOLICY_ENABLED: true
       LDAP_ADMIN_PASSWORD: ${LDAP_ADMIN_PASSWORD}
       LDAP_CONFIG_PASSWORD: admin
@@ -130,7 +130,7 @@ services:
         ipv4_address: ${SUBNET_SERVERS}.${LDAP_SRV_IP}
     restart: always
     healthcheck:
-      test: ["CMD", "bash", "-c", "ldapsearch -x -H ldap://127.0.0.1 -D cn=admin,dc=layer8,dc=ag -w ${LDAP_ADMIN_PASSWORD} -b dc=layer8,dc=ag >/dev/null 2>&1"]
+      test: ["CMD", "bash", "-c", "ldapsearch -x -H ldap://127.0.0.1 -D cn=admin,dc=localhostdevelopment,dc=ag -w ${LDAP_ADMIN_PASSWORD} -b dc=localhostdevelopment,dc=ag >/dev/null 2>&1"]
       interval: 30s
       timeout: 10s
       retries: 5
@@ -170,7 +170,7 @@ services:
         ipv4_address: ${SUBNET_SERVERS}.${DNS_SRV_IP}
     volumes:
       - ./srv_dns/Corefile:/etc/coredns/Corefile:ro
-      - ./srv_dns/layer8.ag.db:/etc/coredns/layer8.ag.db:ro
+      - ./srv_dns/localhostdevelopment.ag.db:/etc/coredns/localhostdevelopment.ag.db:ro
     dns: ["1.1.1.1", "8.8.8.8"]
     environment:
       GATEWAY_IP: ${SUBNET_SERVERS}.254
@@ -566,8 +566,8 @@ services:
       MODSEC_AUDIT_LOG: /var/log/modsec_audit.log      
       MODSEC_AUDIT_ENGINE: on
       LOGLEVEL: warn
-      SERVER_ADMIN: admin@layer8.ag
-      #SERVER_NAME: layer8.ag
+      SERVER_ADMIN: admin@localhostdevelopment.ag
+      #SERVER_NAME: localhostdevelopment.ag
       MODSEC_RULE_ENGINE: on
       MODSEC_REQ_BODY_ACCESS: on
       MODSEC_REQ_BODY_LIMIT: 13107200
@@ -716,8 +716,8 @@ services:
   srv_mail:
     image: mailserver/docker-mailserver:latest
     container_name: srv_mail
-    hostname: mail.layer8.ag
-    domainname: layer8.ag
+    hostname: mail.localhostdevelopment.ag
+    domainname: localhostdevelopment.ag
     cap_add: [ "NET_ADMIN" ]
     extra_hosts:
       - "mail.evil.com:172.56.200.180"
@@ -758,8 +758,8 @@ services:
     hostname: mail.evil.com
     domainname: evil.com
     extra_hosts:
-      - "mail.layer8.ag:${SUBNET_UPLINK}.254"
-      - "layer8.ag:${SUBNET_UPLINK}.254"
+      - "mail.localhostdevelopment.ag:${SUBNET_UPLINK}.254"
+      - "localhostdevelopment.ag:${SUBNET_UPLINK}.254"
     environment:
       - TLS_LEVEL=plaintext
       - ENABLE_SPAMASSASSIN=0
