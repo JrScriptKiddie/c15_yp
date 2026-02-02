@@ -330,7 +330,7 @@ return [
   ],
   'cacheTimestamp' => 1765863717,
   'microtime' => 1765863717.468541,
-  'siteUrl' => 'http://crm.layer8.ag',
+  'siteUrl' => 'http://crm.localhostdevelopment.ag',
   'fullTextSearchMinLength' => 4,
   'appTimestamp' => 1764763054,
   'latestVersion' => '9.2.5',
