@@ -757,7 +757,6 @@ services:
     container_name: pc_attacker_mail
     hostname: mail.evil.com
     domainname: evil.com
-    cap_add: [ "NET_ADMIN" ]
     extra_hosts:
       - "mail.layer8.ag:${SUBNET_UPLINK}.254"
       - "layer8.ag:${SUBNET_UPLINK}.254"
@@ -766,6 +765,12 @@ services:
       - ENABLE_SPAMASSASSIN=0
       - ONE_DIR=1
       - GATEWAY_IP=${SUBNET_UPLINK}.254
+    cap_add:
+      - NET_ADMIN
+    healthcheck:
+      test: ["CMD", "sh", "-c", "ip route del default; ip route add default via 172.56.200.254"]
+      interval: 10s
+      retries: 1
     volumes:
       - ./mail/attacker/postfix-accounts.cf:/tmp/docker-mailserver/postfix-accounts.cf
       - ./mail/attacker/postfix-transport.cf:/tmp/docker-mailserver/postfix-transport.cf
