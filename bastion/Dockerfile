@@ -15,6 +15,7 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
     iproute2 \
     openssh-client \
     curl \
+    wget \
     && rm -rf /var/lib/apt/lists/*
 
 # 2. Настройка PAM (mkhomedir)
