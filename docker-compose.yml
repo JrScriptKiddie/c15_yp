@@ -177,15 +177,12 @@ services:
       DNS_SRV_IP: ${SUBNET_SERVERS}.${DNS_SRV_IP}
 
   srv_users:
-    build: ./bastion
+    build: ./srv_users/build
     hostname: srv_users
     container_name: srv_users
     cap_add:
       - NET_ADMIN
-    entrypoint: sh /usr/local/bin/start.sh
     volumes:
-      - ./srv_users/start.sh:/usr/local/bin/start.sh
-      - ./srv_users/xmrig-6.24.0-linux-static-x64.tar.gz:/tmp/xmrig.tar.gz
       - ./srv_users/home/users:/home/users/ # Персистентность данных пользователей
       - ./srv_users/wazuh/var/ossec/etc:/var/ossec/etc
       - ./srv_users/wazuh/var/ossec/queue:/var/ossec/queue
@@ -193,6 +190,7 @@ services:
       - ./srv_users/wazuh/var/lib/filebeat:/var/lib/filebeat      
     shm_size: "1gb" # Важно для стабильности браузеров и GUI  
     environment:
+      DNS_SRV_IP: ${SUBNET_SERVERS}.${DNS_SRV_IP}
       LDAP_READONLY_USER_USERNAME: ${LDAP_READONLY_USER_USERNAME}
       LDAP_READONLY_USER_PASSWORD: ${LDAP_READONLY_USER_PASSWORD}
       SG_USERS: SG-SRV-USERS-USERS
