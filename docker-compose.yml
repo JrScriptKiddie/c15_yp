@@ -459,6 +459,7 @@ services:
       LEAFWIKI_PORT: 80
       LEAFWIKI_JWT_SECRET: ${LEAFWIKI_JWT_SECRET}
       LEAFWIKI_ADMIN_PASSWORD: ${LEAFWIKI_ADMIN_PASSWORD}
+      LEAFWIKI_ALLOW_INSECURE: true      
       GATEWAY_IP: ${SUBNET_SERVERS}.254
     volumes:
       - ./srv_leafwiki/data:/app/data
