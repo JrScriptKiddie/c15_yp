@@ -1,41 +1,42 @@
 FROM ubuntu:22.04
 
+# Отключаем интерактивные окна при установке
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
-      nginx \
-      openssh-server \
-      openssh-client \
-      libnss-ldapd \
-      libpam-ldapd \
-      nslcd \
-      nscd \
-      ldap-utils \
-      rsyslog \
-      iproute2 \
-      sudo \
-      bash \
-      curl \
-      ca-certificates && \
-    apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y \
+    nginx \
+    php-fpm \
+    php-mysql \
+    php-gd \
+    php-zip \
+    php-curl \
+    php-mbstring \
+    php-xml \
+    php-intl \
+    curl \
+    unzip \
+    && rm -rf /var/lib/apt/lists/*
 
-# 2. Настройка PAM (mkhomedir)
-RUN echo "session required pam_mkhomedir.so skel=/etc/skel umask=0077" >> /etc/pam.d/common-session
+# Копируем архив с сайтом и секрет для api
+COPY wp.tar.gz /tmp/wp.tar.gz
+COPY secret.txt /tmp/secret.txt 
 
-# 3. Копируем конфиги
-COPY nslcd.conf /etc/nslcd.conf
+# Настраиваем папки
+RUN mkdir -p /var/www/wordpress /var/www/other /run/php
 
-# ВАЖНО: nslcd запускается от пользователя nslcd, он должен уметь читать конфиг!
-# Меняем владельца на root:nslcd и права на 640
-RUN chown root:nslcd /etc/nslcd.conf && chmod 640 /etc/nslcd.conf
+# Распаковка WP
+RUN tar -xzf /tmp/wp.tar.gz -C /var/www/wordpress --strip-components=1 && \
+    chown -R www-data:www-data /var/www/wordpress
 
-# 4. Настраиваем nsswitch
-RUN sed -i 's/passwd:         files/passwd:         files ldap/' /etc/nsswitch.conf && \
-    sed -i 's/group:          files/group:          files ldap/' /etc/nsswitch.conf && \
-    sed -i 's/shadow:         files/shadow:         files ldap/' /etc/nsswitch.conf
+# Копируем файлы api для порта 8080
+COPY index.html /var/www/other/index.html 
+COPY api.php /var/www/other/api.php
 
-COPY start.sh /start.sh
-RUN chmod +x /start.sh
+# Конфиги
+COPY default.conf /etc/nginx/sites-available/default
+COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+RUN chmod +x /usr/local/bin/entrypoint.sh
 
-CMD ["/start.sh"]
+EXPOSE 80 8080
+
+ENTRYPOINT ["entrypoint.sh"]

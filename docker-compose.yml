@@ -717,7 +717,7 @@ services:
   srv_mail:
     image: mailserver/docker-mailserver:latest
     container_name: srv_mail
-    hostname: mail.localhostdevelopment.ag
+    hostname: mail.local.host
     cap_add: [ "NET_ADMIN" ]
     extra_hosts:
       - "mail.evil.com:172.56.200.180"
@@ -769,8 +769,8 @@ services:
     container_name: pc_attacker_mail
     hostname: mail.evil.com
     extra_hosts:
-      - "mail.localhostdevelopment.ag:${SUBNET_UPLINK}.254"
-      - "localhostdevelopment.ag:${SUBNET_UPLINK}.254"
+      - "mail.local.host:${SUBNET_UPLINK}.254"
+      - "local.host:${SUBNET_UPLINK}.254"
     environment:
       - TLS_LEVEL=plaintext
       - ENABLE_SPAMASSASSIN=0
